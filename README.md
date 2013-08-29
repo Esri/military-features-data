@@ -42,7 +42,7 @@ The ArcGIS Defense and Intelligence Military Features Data repository is a set o
 
 ## Contributing
 
-* Anyone and everyone is welcome to contribute.
+Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
 
 ## Licensing
 
