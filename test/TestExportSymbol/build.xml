@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+
+<project name="ExportSymbol" basedir="." default="build">
+
+  <property name="version" value="0.1"/>
+
+<!-- IMPORTANT: Change property below if your AGS Runtime install is not at default location -->
+<!-- -or- you need to change the version, e.g. : C:\Program Files (x86)\ArcGIS SDKs\java10.2 -->
+  <property name="dir.arcgis.jars" value="C:\Program Files (x86)\ArcGIS SDKs\java10.1.1\sdk\jars"/>
+<!-- IMPORTANT: Check path above -->
+
+  <property name="dir.src" value="src"/>
+  <property name="dir.build" value="bin"/>
+  <property name="dir.dist" value="dist"/>
+  <property name="version.runtime" value="10.1.1" />
+
+  <path id="project.classpath">
+    <pathelement location="${dir.dist}\ExportSymbol.jar"/>
+    <pathelement location="${dir.arcgis.jars}\ArcGIS_Runtime_Java.jar"/>
+    <pathelement location="${dir.arcgis.jars}\ArcGIS_Runtime_Java_Toolkit.jar"/>
+    <pathelement location="${dir.arcgis.jars}\apache-mime4j.jar"/>
+    <pathelement location="${dir.arcgis.jars}\commons-codec.jar"/>
+    <pathelement location="${dir.arcgis.jars}\commons-logging.jar"/>
+    <pathelement location="${dir.arcgis.jars}\gluegen-rt.jar"/>
+    <pathelement location="${dir.arcgis.jars}\gluegen-rt-natives-windows-i586.jar"/>
+    <pathelement location="${dir.arcgis.jars}\httpclient.jar"/>
+    <pathelement location="${dir.arcgis.jars}\httpcore.jar"/>
+    <pathelement location="${dir.arcgis.jars}\httpmime.jar"/>
+    <pathelement location="${dir.arcgis.jars}\jackson-core-lgpl.jar"/>
+    <pathelement location="${dir.arcgis.jars}\jackson-mapper-lgpl.jar"/>
+    <pathelement location="${dir.arcgis.jars}\jogl.all.jar"/>
+    <pathelement location="${dir.arcgis.jars}\jogl-all-natives-windows-i586.jar"/>
+    <pathelement location="${dir.arcgis.jars}\json.jar"/>
+  </path>
+
+  <target name="build" depends="create,compile,jar,dist-files">
+  </target>
+
+  <target name="dist-files" depends="jar">
+    <!-- copy any additional dependent files here -->
+    <copy todir="${dir.dist}/lib">
+      <fileset dir="${dir.arcgis.jars}" />
+    </copy>
+  </target>
+  
+  <target name="compile" depends="create">
+    <javac srcdir="${dir.src}" classpathref="project.classpath" destdir="${dir.build}" includeantruntime="true" debug="${debug}" />
+  </target>
+
+  <target name="jar" depends="compile">
+    <pathconvert pathsep=" " property="project.classpath.string" refid="project.classpath">
+      <chainedmapper>
+        <flattenmapper/>
+        <filtermapper>
+          <replacestring from=" " to="%20"/>
+        </filtermapper>
+        <globmapper from="*" to="lib/*"/>
+      </chainedmapper>
+    </pathconvert>
+    <jar destfile="${dir.dist}/ExportSymbol.jar">
+      <fileset dir="${dir.build}" />
+      <manifest>
+        <attribute name="Main-Class" value="ExportSymbol" />
+        <attribute name="Class-Path" value="${project.classpath.string}" />
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="run" depends="jar">
+    <java classname="ExportSymbol" fork="true" failonerror="true">
+      <classpath refid="project.classpath"/>
+    </java>
+  </target>
+
+  <target name="create">
+    <mkdir dir="${dir.build}"/>
+    <mkdir dir="${dir.dist}"/>
+    <echo message="Creating: ${dir.build}" />
+    <echo message="Creating: ${dir.dist}" />
+  </target>
+
+  <target name="clean">
+    <delete>
+      <fileset dir="." includes="*png"/>
+    </delete> 
+    <delete dir="${dir.build}" />
+    <delete dir="${dir.dist}" />
+    <echo message="Cleaning: {All pngs}" />
+    <echo message="Cleaning: ${dir.build}" />
+    <echo message="Cleaning: ${dir.dist}" />
+  </target>
+
+</project>
