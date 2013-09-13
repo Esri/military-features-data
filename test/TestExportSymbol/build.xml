@@ -2,17 +2,27 @@
 
 <project name="ExportSymbol" basedir="." default="build">
 
-  <property name="version" value="0.1"/>
+<import file="./versions.xml"/>
 
-<!-- IMPORTANT: Change property below if your AGS Runtime install is not at default location -->
-<!-- -or- you need to change the version, e.g. : C:\Program Files (x86)\ArcGIS SDKs\java10.2 -->
-  <property name="dir.arcgis.jars" value="C:\Program Files (x86)\ArcGIS SDKs\java10.1.1\sdk\jars"/>
-<!-- IMPORTANT: Check path above -->
+
+
+<target name="set_variables" depends="set_version_variables">
+
+    
+
+  <!-- NOTE: these are set in versions.xml -->
+    
+  <!-- ${dir.agsruntimejavasdk} and ${version.runtime}"  -->
+
+  
+
+  <property name="dir.arcgis.jars" value="${dir.agsruntimejavasdk}/sdk/jars"/>	
+
+  <property name="version" value="0.1"/>
 
   <property name="dir.src" value="src"/>
   <property name="dir.build" value="bin"/>
   <property name="dir.dist" value="dist"/>
-  <property name="version.runtime" value="10.1.1" />
 
   <path id="project.classpath">
     <pathelement location="${dir.dist}\ExportSymbol.jar"/>
@@ -32,8 +42,9 @@
     <pathelement location="${dir.arcgis.jars}\jogl-all-natives-windows-i586.jar"/>
     <pathelement location="${dir.arcgis.jars}\json.jar"/>
   </path>
+</target>
 
-  <target name="build" depends="create,compile,jar,dist-files">
+  <target name="build" depends="set_variables,create,compile,jar,dist-files">
   </target>
 
   <target name="dist-files" depends="jar">
@@ -72,14 +83,14 @@
     </java>
   </target>
 
-  <target name="create">
+  <target name="create" depends="set_variables">
     <mkdir dir="${dir.build}"/>
     <mkdir dir="${dir.dist}"/>
     <echo message="Creating: ${dir.build}" />
     <echo message="Creating: ${dir.dist}" />
   </target>
 
-  <target name="clean">
+  <target name="clean" depends="set_variables">
     <delete>
       <fileset dir="." includes="*png"/>
     </delete> 
