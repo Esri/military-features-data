@@ -6,6 +6,7 @@ This test application uses ArcGIS Runtime and sqlite4java to export all dictiona
 
 * Uses the ArcGIS Runtime to export an image of a symbol using the name or symbol identification code (SIDC) 
 * Exports all symbols to quickly verify a symbol set
+* Exports all symbols of a particular geometry type (point, line, area)
 
 ## Requirements
 
@@ -18,7 +19,7 @@ This test application uses ArcGIS Runtime and sqlite4java to export all dictiona
 
 * This project depends on the Google Code SQLite Java Wrapper project: [sqlite4java](https://code.google.com/p/sqlite4java) 
     * To install this dependency:
-    * Download the install/zip for this project (this has been test with sqlite4java-282.zip )
+    * Download the install/zip for this project (this has been tested on Windows with sqlite4java-282.zip )
     * Copy the jar and dll files for your platform to TestExportSymbolsAll\lib
     * For example, for windows, these files should be in folder TestExportSymbolsAll\lib 
         * sqlite4java-win32-x64.dll
