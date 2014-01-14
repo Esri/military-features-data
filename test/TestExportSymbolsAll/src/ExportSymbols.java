@@ -35,6 +35,7 @@ import com.esri.runtime.ArcGISRuntime;
  * A command line utility for exporting sets of ArcGIS Runtime Military/Dictionary Symbols
  * 
  * Usage: 
+ * java -jar ExportSymbols.jar [(symbol name/id),"ALL"] [Standard:("2525", "APP6")]
  * java -jar ExportSymbols.jar [(symbol name/id),"ALL"] [Type:("Point","Line","Area")]
  * java -jar ExportSymbols.jar [(symbol name/id),"ALL"] [Type:("Point" "Line" "Area")] {Standard:("2525", "APP6")} 
  * java -jar ExportSymbols.jar [(symbol name/id),"FILE"] [Filename with SIDCs/Names)] {Standard:("2525", "APP6")} 
@@ -44,7 +45,7 @@ import com.esri.runtime.ArcGISRuntime;
  * Example:
  * If using version built with the provided ant build.xml:
  * java -classpath dist -jar dist/ExportSymbols.jar "SFGPUCI-----USG"
- * java -classpath dist -jar dist/ExportSymbols.jar ALL
+ * java -classpath dist -jar dist/ExportSymbols.jar ALL APP6
  * java -classpath dist -jar dist/ExportSymbols.jar ALL POINT
  * java -classpath dist -jar dist/ExportSymbols.jar ALL LINE APP6
  * java -classpath dist -jar dist/ExportSymbols.jar FILE MyListOfSIDCs.txt
@@ -76,10 +77,25 @@ public class ExportSymbols {
 		} else if (args.length == 1) {			
 			sidc = args[0];
 			allFlag = args[0];
-		} else if (args.length == 2) {						
-			allFlag = args[0].toUpperCase();
-			geometryType = args[1].toUpperCase();
-			readFromFileName = args[1];
+		} else if (args.length == 2) {
+			
+			String arg0 = args[0].toUpperCase();
+			
+			sidc = arg0;
+			allFlag = arg0;
+			
+			String arg1 = args[1].toUpperCase();
+			
+			// then a standard has been set in arg1, don't look for geometry type
+			if (arg1.contains("APP") || arg1.contains("2525")) {
+				if (arg1.contains("APP"))
+					standard = "APP6";
+			}
+			else {
+				geometryType = arg1;			
+				readFromFileName = args[1];
+			}
+			
 		} else if (args.length == 3) {						
 			allFlag = args[0].toUpperCase();
 			geometryType = args[1].toUpperCase();
@@ -165,9 +181,13 @@ public class ExportSymbols {
 	        		
 	        		String[] columns = line.split(",");
 	        		
-	        		String nameOrSidc = columns[0];
+	        		if (columns.length > 0)
+	        		{
+	        			String nameOrSidc = columns[0];
 	        		
-	        		export(sd, nameOrSidc);	
+	        			if (!nameOrSidc.isEmpty())
+	        				export(sd, nameOrSidc);
+	        		}
 	        	}
 	        }       
         
@@ -193,7 +213,7 @@ public class ExportSymbols {
 			
 		if (!dbFile.exists()) {			
 			// Just in case accidentally run from dist folder...
-			dbFileLocation = "../../../data/mil2525c/dictionary/mil2525c.dat";
+			dbFileLocation = "../" + dbFileLocation;
 			dbFile = new File(dbFileLocation);
 			
 			// TODO: Just use the one from the Runtime install/deploy if we
