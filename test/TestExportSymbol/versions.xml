@@ -27,7 +27,7 @@
 	<condition property="PresentNextVersion">
 	  <isset property="env.ARCGISRUNTIMESDKJAVA_10_2_1"/>
 	</condition>
-	<property name="dir_agsruntimejava_current_release" value="${env.ARCGISRUNTIMESDKJAVA_10_2_1}"/>
+	<property name="dir_agsruntimejava_next_release" value="${env.ARCGISRUNTIMESDKJAVA_10_2_1}"/>
 </target>
 
 <target name="checkCurrentVersion">
@@ -46,7 +46,7 @@
  
 <target name="setvariablesNextVersion" depends="checkNextVersion" if="PresentNextVersion">
 	<echo message="Next version of ArcGIS detected."/>
-	<property name="dir.agsruntimejavasdk" value="${dir_agsruntimejava_current_release}"/>
+	<property name="dir.agsruntimejavasdk" value="${dir_agsruntimejava_next_release}"/>
 	<property name="version.runtime" value="${version.runtime_next_release}"/>
 </target>
 
