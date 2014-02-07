@@ -1,4 +1,7 @@
-# Mil2525C Style File Data Errors pre-10.2.2,,,,,,,
+# Mil2525C Style File Data Errors pre-10.2.2
+# File: Mil2525CErrorsPre10.2.2.csv
+# SIDC Issue Notes
+#
 SFGPEVCTL-*****,1,Does not display,Symbol Dictionary,Could Not Repro,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.SMAL,S*G*EVCTL-*****,SMALL/LIGHT BOX TRAILER
 SHGPEVCTL-*****,1,Does not display,Symbol Dictionary,Could Not Repro,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.SMAL,S*G*EVCTL-*****,SMALL/LIGHT BOX TRAILER
 SNGPEVCTL-*****,1,Does not display,Symbol Dictionary,Could Not Repro,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.SMAL,S*G*EVCTL-*****,SMALL/LIGHT BOX TRAILER

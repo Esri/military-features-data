@@ -1,6 +1,7 @@
-File: App6B-Probs.csv,,
-# SIDC,Issue,Notes
-#Incorrect Lengths,,
+# File: App6B-Probs.csv
+# SIDC Issue Notes
+#
+# Incorrect Lengths
 GFCPBYCG-------,"Extra 'P' in SIDC, should be G*CPBYCG-------",
 SFUPWM---------,length = 16,
 SHUPWM---------,length = 16,
@@ -30,22 +31,22 @@ GHCPBWDTF------,length = 16,
 GNCPBWDTF------,length = 16,
 GUCPBWDTF------,length = 16,
 GFCPBOAEF------,length = 14,
-W-A-OS---------,length = 21,"BLSN: "":"" should be "";"""
+W-A-OS---------,length = 21,"BLSN: ":" should be ";"
 W-A-PSS--------,length = 14,
-SUGPUCEC-------,length = 15,"""V"" should be ""U"" in affiliation (char 2)"
-"# Need ""P"" in 4th Char",,
-GHCPMGLBGK-----,"Needs ""P""",
-GHCPMGLBGS-----,"Needs ""P""",
-GFCPMGLBGF-----,"Needs ""P""",
-GFCPMOLDY------,"Needs ""P""",
-GHCPMOLDT------,"Needs ""P""",
-GNCPMOLDY------,"Needs ""P""",
-GUCPMOLDY------,"Needs ""P""",
-GFCPMOLDO------,"Needs ""P""",
-GHCPMOLDR------,"Needs ""P""",
-GNCPMOLDO------,"Needs ""P""",
-GUCPMOLDO------,"Needs ""P""",
-"# ""*""'s in ID",,
+SUGPUCEC-------,length = 15,"V" should be "U" in affiliation (char 2)"
+# Need "P" in 4th Char
+GHCPMGLBGK-----,"Needs "P",
+GHCPMGLBGS-----,"Needs "P",
+GFCPMGLBGF-----,"Needs "P",
+GFCPMOLDY------,"Needs "P",
+GHCPMOLDT------,"Needs "P",
+GNCPMOLDY------,"Needs "P",
+GUCPMOLDY------,"Needs "P",
+GFCPMOLDO------,"Needs "P",
+GHCPMOLDR------,"Needs "P",
+GNCPMOLDO------,"Needs "P",
+GUCPMOLDO------,"Needs "P",
+# "*"'s in ID
 SFGPEWAH--*****,Air Defence Gun Heavy F,SFGPEWAH-
 SHGPEWAH--*****,Air Defence Gun Heavy H,SHGPEWAH-
 SNGPEWAH--*****,Air Defence Gun Heavy N,SNGPEWAH-
