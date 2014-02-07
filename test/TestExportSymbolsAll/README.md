@@ -25,6 +25,7 @@ This test application uses ArcGIS Runtime and sqlite4java to export all dictiona
         * sqlite4java-win32-x64.dll
         * sqlite4java-win32-x86.dll
         * sqlite4java.jar
+    * For simplicity, the pre-built Windows binaries/dependencies have been included in this repo. 
 * To build and run:
     * Open Command Prompt>
     * > cd military-features-data\test\TestExportSymbolsAll
@@ -33,3 +34,19 @@ This test application uses ArcGIS Runtime and sqlite4java to export all dictiona
         * This example export all area symbols
         * >java -classpath dist -jar dist/ExportSymbols.jar all area
     * NOTE: Some configurations may require that the location of the sqlite4java native binaries (.dll/.so) be added to the path, see the sqlite4java for more information
+
+## License
+
+Copyright 2013-2014 Esri
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+
+Portions of this code use third-party libraries:
+
+Google Code SQLite Java Wrapper project is also governed by the Apache License,  Version 2.0. For more information see the project at [sqlite4java](https://code.google.com/p/sqlite4java)

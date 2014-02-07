@@ -11,6 +11,10 @@ arc.dir
 *-sav.*
 *Copy.*
 *-master
+*.orig
+*.original
+*.mdb
+*.sav
 
 #############
 ## Python
