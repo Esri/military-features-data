@@ -8,12 +8,12 @@
 
 <property environment="env"/>
 
-<echo message="ARCGISRUNTIMESDKJAVA_10_2_1 is set to = ${env.ARCGISRUNTIMESDKJAVA_10_2_1}"/> 
+<echo message="ARCGISRUNTIMESDKJAVA_10_2_2 is set to = ${env.ARCGISRUNTIMESDKJAVA_10_2_2}"/> 
 <echo message="ARCGISRUNTIMESDKJAVA_10_2 is set to = ${env.ARCGISRUNTIMESDKJAVA_10_2}"/>
 <echo message="ARCGISRUNTIMESDKJAVA_10_1_1 is set to = ${env.ARCGISRUNTIMESDKJAVA_10_1_1}"/>  	
 
-<!-- Set these to the default locations of ArcGIS/ArcPy for the next version (ex. 10.2.1): -->
-<property name="version.runtime_next_release" value="10.2.1"/> 
+<!-- Set these to the default locations of ArcGIS/ArcPy for the next version (ex. 10.2.2): -->
+<property name="version.runtime_next_release" value="10.2.2"/> 
 
 <!-- Set these to the default locations of ArcGIS/ArcPy for the current version (ex. 10.2): -->
 <property name="version.runtime_current_release" value="10.2"/>
@@ -25,9 +25,9 @@
 
 <target name="checkNextVersion">
 	<condition property="PresentNextVersion">
-	  <isset property="env.ARCGISRUNTIMESDKJAVA_10_2_1"/>
+	  <isset property="env.ARCGISRUNTIMESDKJAVA_10_2_2"/>
 	</condition>
-	<property name="dir_agsruntimejava_next_release" value="${env.ARCGISRUNTIMESDKJAVA_10_2_1}"/>
+	<property name="dir_agsruntimejava_next_release" value="${env.ARCGISRUNTIMESDKJAVA_10_2_2}"/>
 </target>
 
 <target name="checkCurrentVersion">

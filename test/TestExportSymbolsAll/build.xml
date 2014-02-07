@@ -96,6 +96,7 @@
   <target name="clean" depends="set_variables">
     <delete>
       <fileset dir="." includes="*png"/>
+      <fileset dir="dist" includes="*png"/>
     </delete> 
     <delete dir="${dir.build}" />
     <delete dir="${dir.dist}" />

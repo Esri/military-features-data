@@ -1,0 +1,135 @@
+File: App6B-Probs.csv,,
+# SIDC,Issue,Notes
+#Incorrect Lengths,,
+GFCPBYCG-------,"Extra 'P' in SIDC, should be G*CPBYCG-------",
+SFUPWM---------,length = 16,
+SHUPWM---------,length = 16,
+SNUPWM---------,length = 16,
+SUUPWM---------,length = 16,
+SFGPEWAH-------,length = 14,
+SHGPEWAH-------,length = 14,
+SNGPEWAH-------,length = 14,
+SUGPEWAH-------,length = 14,
+SFGPEVEE-------,length = 13,
+SHGPEVEE-------,length = 13,
+SNGPEVEE-------,length = 13,
+SUGPEVEE-------,length = 13,
+SNGPUUMRSS-----,length = 14,
+SNGPUUMRSS-----,length = 14,
+SFGPUU---------,length = 14,
+SHGPUU---------,length = 14,
+SNGPUU---------,length = 14,
+SUGPUU---------,length = 14,
+GFCPBWF--------,length = 14,
+GFCPBWDP-------,length = 16,Space in middle
+GHCPBWDP-------,length = 16,Space in middle
+GNCPBWDP-------,length = 16,Space in middle
+GUCPBWDP-------,length = 16,Space in middle
+GFCPBWDTF------,length = 16,
+GHCPBWDTF------,length = 16,
+GNCPBWDTF------,length = 16,
+GUCPBWDTF------,length = 16,
+GFCPBOAEF------,length = 14,
+W-A-OS---------,length = 21,"BLSN: "":"" should be "";"""
+W-A-PSS--------,length = 14,
+SUGPUCEC-------,length = 15,"""V"" should be ""U"" in affiliation (char 2)"
+"# Need ""P"" in 4th Char",,
+GHCPMGLBGK-----,"Needs ""P""",
+GHCPMGLBGS-----,"Needs ""P""",
+GFCPMGLBGF-----,"Needs ""P""",
+GFCPMOLDY------,"Needs ""P""",
+GHCPMOLDT------,"Needs ""P""",
+GNCPMOLDY------,"Needs ""P""",
+GUCPMOLDY------,"Needs ""P""",
+GFCPMOLDO------,"Needs ""P""",
+GHCPMOLDR------,"Needs ""P""",
+GNCPMOLDO------,"Needs ""P""",
+GUCPMOLDO------,"Needs ""P""",
+"# ""*""'s in ID",,
+SFGPEWAH--*****,Air Defence Gun Heavy F,SFGPEWAH-
+SHGPEWAH--*****,Air Defence Gun Heavy H,SHGPEWAH-
+SNGPEWAH--*****,Air Defence Gun Heavy N,SNGPEWAH-
+SUGPEWAH--*****,Air Defence Gun Heavy U,SUGPEWAH-
+SFGPEVEE--*****,Multi-Functional Earthmover/Digger F,SFGPEVEE**
+SHGPEVEE--*****,Multi-Functional Earthmover/Digger H,SHGPEVEE**
+SNGPEVEE--*****,Multi-Functional Earthmover/Digger N,SNGPEVEE**
+SUGPEVEE--*****,Multi-Functional Earthmover/Digger U,SUGPEVEE**
+SNGPUUMRSS*****,Military Intelligence Surveillance Sensor SCM N,SNGPUMRSS*
+SFGPUS----*****,Supply Materiel (Stock) F,SFGPUS**--
+SHGPUS----*****,Supply Materiel (Stock) H,SHGPUS**--
+SNGPUS----*****,Supply Materiel (Stock) N,SNGPUS**--
+SUGPUS----*****,Supply Materiel (Stock) U,SUGPUS**--
+GFCPBWF---*****,Nuclear Detonations Friendly Planned or On-Order F,GFCABWF--
+GFCPBOGB--*****,General Obstacle Belt,G*CPBOGB--
+GFCPBOGL--*****,General Obstacle Line,G*CPBOGL--
+GFCPBOGZ--*****,General Obstacle Zone,G*CPBOGZ--
+GFCPBOA---*****,Abatis,G*CPBOA---
+GFCPBOATO-*****,Antitank Ditch Complete,G*CPBOATO-
+GFCPBOATM-*****,Antitank Ditch Reinforced with Antitank Mines,G*CPBOATM-
+GFCPBOATW-*****,Antitank Wall,G*CPBOATW-
+GFCPBOAIL-*****,Minefield - Antipersonnel Mines,G*CPBOAIL-
+GFCPBOAIN-*****,Minefield - Antitank,G*CPBOAIN-
+GFCPBOAIG-*****,Minefield - Antitank with Gap,G*CPBOAIG-
+GFCPBOAIC-*****,Minefield - Completed,G*CPBOAIC-
+GFCPBOAV--*****,Minefield - Executed Volcano,G*CPBOAV--
+GFCPBOAIP-*****,Minefield - Planned,G*CABOAIP-
+GFCPBOAIH-*****,Minefield - Antipersonnel Reinforced with Scatterable with Self-Destruct,G*C*BOAIH-
+W*A*CC----*****,Clear Sky,W*A*CC----
+W*A*CS----*****,Scattered Sky,W*A*CS----
+W*A*CB----*****,Broken Sky,W*A*CB----
+W*A*CW----*****,Overcast with Breaks,W*A*CW----
+W*A*CO----*****,Overcast Coverage,W*A*CO----
+W*A*CP----*****,Sky Obscured Or Partially Obscured,W*A*CP----
+W*A*ICL---*****,Light Clear Icing,W*A*ICL---
+W*A*ICM---*****,Moderate Clear Icing,W*A*ICM---
+W*A*TS----*****,Severe Clear Icing,W*A*TS----
+W*A*IRL---*****,Light Rime Icing,W*A*IRL---
+W*A*IRM---*****,Moderate Rime Icing,W*A*IRM---
+W*A*IRS---*****,Severe Rime Icing,W*A*IRS---
+W*A*IML---*****,Light Mixed Icing,W*A*IML---
+W*A*IMM---*****,Moderate Mixed Icing,W*A*IMM---
+W*A*IMS---*****,Severe Mixed Icing,W*A*IMS---
+W*A*OS----*****,Blowing Snow (BLSN),BLSN: W*A*
+W*A*OF----*****,Fog-sky Obscured,W*A*OF----
+W*A*OFF---*****,Freezing Fog (FZFG),W*A*OFF---
+W*A*OT----*****,Dust or Sand Storm,W*A*OT----
+W*A*OD----*****,Dust Devil,W*A*OD----
+W*A*OK----*****,Smoke,W*A*OK----
+W*A*OH----*****,Haze,W*A*OH----
+W*A*OB----*****,Blowing Dust Or Sand,W*A*OB----
+W*A*PR----*****,Rain (RA),W*A*PR----
+W*A*PRS---*****,Rain Showers-light,W*A*PRS---
+W*A*PRF---*****,Freezing Rain-moderate Heavy,W*A*PRF---
+W*A*PRD---*****,Drizzle (DZ),W*A*PRD---
+W*A*PRDF--*****,Freezing Drizzle (FZDZ),W*A*PRDF--
+W*A*PS----*****,Snow (SN),W*A*PS----
+W*A*PSS---*****,Snow Showers,W*A*PSS---
+W*A*PSG---*****,Snow Grains (SG),W*A*PSG---
+W*A*PH----*****,Hail APP6,W*A*PH----
+W*A*PI----*****,Ice Pellets (IP),W*A*PI----
+W*A*PC----*****,Ice Crystals (IC),W*A*PC----
+W*A*PL----*****,Low Pressure Centre,W*A*PL----
+W*A*PH----*****,High Pressure Centre,W*A*PH----
+W*A*ST----*****,Thunderstorm (TS),W*A*ST----
+W*A*STR---*****,Placeholder Thunderstorm and Rain,W*A*STR---
+W*A*STF---*****,Funnel Cloud (tornado Waterspout),W*A*STF---
+W*A*STL---*****,Lightning,W*A*STL---
+W*A*SST---*****,Tropical Storm,W*A*SST---
+W*A*SSH---*****,Hurricane Typhoon,W*A*SSH---
+W*A*TL----*****,Light Turbulence,W*A*TL----
+W*A*TS----*****,Severe Turbulence,W*A*TS----
+W*A*TM----*****,Moderate Turbulence,W*A*TM----
+W*A*TE----*****,Extreme Turbulence,W*A*TE----
+W*A*W-----*****,Placeholder Wind Barb,W*A*W-----
+W*A*PFC---*****,Cold Front,W*A*PFC---
+W*A*FI----*****,Instrument Ceiling,W*A*FI----
+W*A*WJ----*****,Jet Stream,W*A*WJ----
+W*A*PFO---*****,Occluded Front,W*A*PFO---
+W*A*PXR---*****,Placeholder Ridge Line,W*A*PXR---
+W*A*PXS---*****,Placeholder Squall Line,W*A*PXS---
+W*A*PXT---*****,Placeholder Trough Line,W*A*PXT---
+W*A*PFS---*****,Stationary Front,W*A*PFS---
+W*A*PFCU--*****,Upper Cold Front,W*A*PFCU--
+W*A*PFWU--*****,Upper Warm Front,W*A*PFWU--
+W*A*FV----*****,Visual Ceiling,***********BAD REP RULE********
+W*A*PFW---*****,Warm Front,W*A*PFW---
