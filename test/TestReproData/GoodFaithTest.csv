@@ -1,0 +1,172 @@
+# A good faith test of 2525 Symbol Cases 
+# Using Various Appendices and Modfiers
+
+# Basic Symbol and Frame
+SFGPUCI--------
+
+# All Frames (Position 2)
+SPGPUCI--------
+SUGPUCI--------
+SAGPUCI--------
+SFGPUCI--------
+SNGPUCI--------
+SSGPUCI--------
+SHGPUCI--------
+SGGPUCI--------
+SWGPUCI--------
+SMGPUCI--------
+SDGPUCI--------
+SLGPUCI--------
+SJGPUCI--------
+SKGPUCI--------
+
+# All Status (Position 4)
+SFGPUCI--------
+SFGAUCI--------
+SFGCUCI--------
+SFGDUCI--------
+SFGXUCI--------
+SFGFUCI--------
+
+# Some Test Modifiers (Position 11)
+SFGPUCI---A----
+SFGPUCI---B----
+SFGPUCI---C----
+SFGPUCI---D----
+SFGPUCI---E----
+SFGPUCI---F----
+SFGPUCI---G----
+SFGPUCI---H----
+SFGPUCI---MO---
+SFGPUCI---MY---
+SFGPUCI---NS---
+SFGPUCI---NL---
+
+# Echeclon (Position 12) 
+SFGPUCI----A---
+SFGPUCI----B---
+SFGPUCI----C---
+SFGPUCI----D---
+SFGPUCI----E---
+SFGPUCI----F---
+SFGPUCI----G---
+SFGPUCI----H---
+SFGPUCI----I---
+SFGPUCI----J---
+SFGPUCI----K---
+SFGPUCI----L---
+SFGPUCI----M---
+SFGPUCI----N---
+SFGPUUM----D---
+
+# Position 11 and 12 (Echelon+Modifer)
+SFGPUCI---AA---
+SFGPUCI---AE---
+SFGPUCI---BF---
+SFGPUCI---CG---
+SFGPUCI---DH---
+SFGPUCI---EI---
+SFGPUCI---FC---
+SFGPUCI---GD---
+SFGPUCI---HB---,HB in 11 and 12 should be FD Installation
+
+# Some Test Appendix A (Each Battle Dimension)
+# Space
+SFPPS----------
+# Air
+SFAPMFF--------
+# Ground Equipment
+SFGPEVAL-------
+# Ground Units
+SFGPUCIL-------
+# Ground Installation
+SFGPIU----H----
+# Sea Surface
+SFSPXR---------
+# Sub Surface
+SFUPSN---------
+# SOF
+SFFPGP---------
+
+# Some Test Appendix B 
+GFGPDPT-------X
+GFMPNF--------X
+GFMPNDP-------X
+GFOPED--------X
+# Some sample lines
+GFFPLCC-------X,Coordinated Fire Line F
+GFMPOS--------X,Abatis
+GFMPOT--------X,Trip Wire
+GFMPOWA-------X,Wire Obstacle Double Apron Fence
+GFMPOWCD------X,Wire Obstacle Double Strand Concertina
+GFMPOWCS------X,Wire Obstacle Single Concertina
+GFMPOWCT------X,Wire Obstacle Triple Strand Concertina
+GFMPOWD-------X,Wire Obstacle Double Fence
+GFMPOWH-------X,Wire Obstacle High Wire Fence
+GFMPOWL-------X,Wire Obstacle Low Wire Fence
+GFTPA---------X,Task - Follow and Assume F
+GFTPAS--------X,Task - Follow and Support F
+GFTPB---------X,Task - Block F
+GFTPC---------X,Task - Canalize F
+GFTPE---------X,Task - Isolate F
+GFGPALS-------X,Standard Use Army Aircraft Flight Route F
+GFGPALU-------X,Unmanned Aircraft Route F
+GFGPDLF-------X,Forward Edge of Battle Area F
+#Some Sample Areas
+GHFPACNC------X,No-Fire Area H
+GFFPACRC------X,Restrictive Fire Area F
+GFFPAZXR------X,Call For Fire Zone F
+GFGADAB-------X,Battle Position Planned F
+GFGPAAF-------X,Forward Area Air Defense Engagement Zone F
+GFGPAAF-------X,Short-range Air Defense Engagement Zone F
+GFGPAAH-------X,High Density Airspace Control Zone F
+GFGPAAM-------X,Missile Engagement Zone F
+
+# Some Test Appendix C 
+WOS-ISC---P----
+WAS-GNM---P----
+# Appendix C Lines
+WA-DPFW----L---,Warm Front
+WO-DL-RA---L---,Restricted Area
+# Appendix C Areas
+WO-DHPMD----A--,Drydock
+WO-DL-MA----A--,Maritime Area
+WO-DL-O-----A--,Operator-defined Limit
+WO-DL-SA----A--,Swept Area
+WO-DL-TA----A--,Training Area
+WO-DMCC-----A--,Submerged Crib
+WO-DMOA-----A--,Oil/Gas Rig Field
+
+# Some Test Appendix D
+IFPPSRU--------
+IFGPSRAT-------
+
+# Some Test Appendix E
+OFIPR----------
+OFVPB----------
+
+# Some Test Appendix G
+EFOPA----------
+EFFPJA----H----
+
+# Symbols from SampleMessagesCOA
+GFGPOAO-------X
+GFGPOAK-------X
+GFGPGLB----F--X
+GFGPGLP----H--X
+GFGPOLT-------X
+GFGPOLAV------X
+GFGPOLAGM-----X
+GFGPOLKGM-----X
+GFGPOLAGM--F--X
+GFGPDLF----E--X
+GFGPDLF-------X
+GFGPOLKGS-----X
+GFMPORC-------X
+GFMPOWCD------X
+GFGPGLB----H--X
+GFGPOPP-------X
+OHGP-----------
+SFGPUH-----E---
+SFGPUCF----F---
+SFGPUCRRL--E---
