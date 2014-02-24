@@ -12,6 +12,9 @@ arc.dir
 *Copy.*
 *-master
 *.png
+build-*/
+VALIDATED_IMAGES/
+*.autosave
 
 #############
 ## Python
