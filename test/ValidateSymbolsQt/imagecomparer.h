@@ -22,11 +22,13 @@ class ImageComparer
 public:
   ImageComparer();
   ImageComparer(QString generatedImagesFolderIn, QString validatedImagesFolderIn,
-                QString mismatchedImagesFolderIn);
+                QString mismatchedImagesFolderIn, QString standardIn);
 
   void SetGeneratedImagesFolder(QString folderIn);
   void SetValidatedImagesFolder(QString folderIn);
   void SetMismatchedImagesFolder(QString folderIn);
+
+  void SetStandard(QString standardIn);
 
   bool ValidateRequiredFolders();
 
@@ -37,6 +39,7 @@ private:
   QString generatedImagesFolder;
   QString validatedImagesFolder;
   QString mismatchedImagesFolder;
+  QString standard;
 
   void compareImages(QString image1, QString image2);
 

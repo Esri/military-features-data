@@ -39,26 +39,27 @@ using namespace std;
 // Param 4 :
 //   FileName - a supplied csv file name, SymbolId must be 1st entry in comma-delimited list
 //
-// Note: to run from the command line, you will need the following software:
+// Note: to run this app from the command line,
+// You will need the following software:
 // 1. QT SDK
-// 2. ArcGIS for Runtime Qt SDK
-//
+// 2. ArcGIS for Runtime Qt SDK (or a deployment)
 // And the following in your %path%:
-// 1. %QTDIR%\bin
+// 1. %QTDIR%\bin (and QTDIR set)
 // 2. %ARCGISRUNTIMESDKQt_10_2_2%\arcgisruntime10.2.2\client64
 //
 
-void usage()
-{
-  cout << "USAGE: ValidateSymbols [GENERATE | VALIDATE | VALIDATE_ONLY] [Standard:{2525 | APP6}] "
-       << "{ALL | FILE | SymbolIdCode} {Filename}";
-}
+void usage();
+void removeFilesFromPreviousRun(QString folderToCleanse);
 
 int main(int argc, char *argv[])
 {
+  // IMPORTANT/TODO: Make sure these folders are what you want to use as output/input
+  // for your run, and change them if not:
   const QString GENERATED_IMAGES_FOLDER = "GENERATED_IMAGES";
-  const QString VALIDATED_IMAGES_FOLDER = "VALIDATED_IMAGES";
+  const QString VALIDATED_IMAGES_FOLDER_2525 = "VALIDATED_IMAGES_2525";
+  const QString VALIDATED_IMAGES_FOLDER_APP6 = "VALIDATED_IMAGES_APP6";
   const QString MISMATCHED_COMPARED_IMAGES_FOLDER = "MISMATCHED_IMAGES";
+  QString ValidatedImagesFolder; // this will be set to either 2525 or APP6 one
 
   QCoreApplication a(argc, argv);
 
@@ -77,7 +78,7 @@ int main(int argc, char *argv[])
     usage();
 
     // TODO: we may want to just exit, but for now run with the above defaults
-    // (it will just export 1 SIDC)
+    // (it will just export 1 SIDC), this will allow an easy sanity check of configuration
     // exit(-1);
   }
 
@@ -112,6 +113,19 @@ int main(int argc, char *argv[])
       optionalFile = arg4;
   }
 
+  SymbolDictionaryType dictionaryType = SymbolDictionaryType::Mil2525C;
+
+  if (standard.contains("APP6"))
+  {
+    dictionaryType = SymbolDictionaryType::App6B;
+    ValidatedImagesFolder = VALIDATED_IMAGES_FOLDER_APP6;
+  }
+  else // 2525
+  {
+    dictionaryType = SymbolDictionaryType::Mil2525C;
+    ValidatedImagesFolder = VALIDATED_IMAGES_FOLDER_2525;
+  }
+
   cout << "Running with Parameters: " << endl;
   cout << "        Command: " << qPrintable(command) << endl;
   cout << "       Standard: " << qPrintable(standard) << endl;
@@ -123,14 +137,10 @@ int main(int argc, char *argv[])
 
   if ((command == "GENERATE") || (command == "VALIDATE"))
   {
-    SymbolExporter exporter;
+    removeFilesFromPreviousRun(GENERATED_IMAGES_FOLDER);
 
-    if (standard.contains("APP6"))
-      exporter.SetSymbolDictionaryType(SymbolDictionaryType::App6B);
-    else
-      exporter.SetSymbolDictionaryType(SymbolDictionaryType::Mil2525C);
+    SymbolExporter exporter(dictionaryType, GENERATED_IMAGES_FOLDER);
 
-    exporter.SetOutputFolder(GENERATED_IMAGES_FOLDER);
     if (filterBy == "ALL")
     {
       exporter.ExportAll();
@@ -148,14 +158,16 @@ int main(int argc, char *argv[])
 
   if ((command == "VALIDATE") || (command == "VALIDATE_ONLY"))
   {
-    ImageComparer comparer(GENERATED_IMAGES_FOLDER, VALIDATED_IMAGES_FOLDER,
-                           MISMATCHED_COMPARED_IMAGES_FOLDER);
+    removeFilesFromPreviousRun(MISMATCHED_COMPARED_IMAGES_FOLDER);
+
+    ImageComparer comparer(GENERATED_IMAGES_FOLDER, ValidatedImagesFolder,
+                           MISMATCHED_COMPARED_IMAGES_FOLDER, standard);
 
     if (!comparer.ValidateRequiredFolders())
     {
       cout << "Can't contine, required input folders do not exist, CHECK FOLDERS:" << endl;
       cout << "GENERATED_IMAGES_FOLDER: " << qPrintable(GENERATED_IMAGES_FOLDER) << endl;
-      cout << "VALIDATED_IMAGES_FOLDER: " << qPrintable(VALIDATED_IMAGES_FOLDER) << endl;
+      cout << "VALIDATED_IMAGES_FOLDER: " << qPrintable(ValidatedImagesFolder) << endl;
       cout << "MISMATCHED_COMPARED_IMAGES_FOLDER: " << qPrintable(MISMATCHED_COMPARED_IMAGES_FOLDER) << endl;
 
       exit(-1);
@@ -165,4 +177,45 @@ int main(int argc, char *argv[])
   }
 
 }
+
+void usage()
+{
+  cout << "USAGE: ValidateSymbols [GENERATE | VALIDATE | VALIDATE_ONLY] [Standard:{2525 | APP6}] "
+       << "{ALL | FILE | SymbolIdCode} {Filename}";
+}
+
+void removeFilesFromPreviousRun(QString folderToCleanse)
+{
+  QDir outputDir(folderToCleanse);
+
+  if (!outputDir.exists()) // !exists, nothing to do
+    return;
+
+  // TODO: decide if we really want to empty folders/files from previous runs
+  // (so the folders only have output from this run)
+  // If you would like to change this behaviour (for testing for instance),
+  // change the setting below
+  const bool REMOVE_FILES_FROM_PREVIOUS_RUN = true;
+  const bool VERBOSE_DELETE = true; // print every file deleted
+
+  if (!REMOVE_FILES_FROM_PREVIOUS_RUN)
+    return;
+
+  if (VERBOSE_DELETE)
+    cout << "Deleting files from previous run from folder: " <<
+          qPrintable(folderToCleanse) << endl;
+
+  outputDir.setNameFilters(QStringList() << "*.png"); // <-- only does ".png"
+  outputDir.setFilter(QDir::Files);
+  QStringList previousRunFilesToDelete = outputDir.entryList();
+
+  foreach (QString deleteFile, previousRunFilesToDelete)
+  {
+    if (VERBOSE_DELETE)
+      cout << "  Deleting file: " << qPrintable(deleteFile) << endl;
+
+    outputDir.remove(deleteFile);
+  }
+}
+
 

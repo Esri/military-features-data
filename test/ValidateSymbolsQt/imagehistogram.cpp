@@ -33,13 +33,17 @@ ImageHistogram::MATCH ImageHistogram::CompareTo(ImageHistogram* other, double* c
 
   int maxPossibleError = 256*256;
 
-  if (difference < (maxPossibleError * 0.025)) // < ~1200 - same
+  if (difference < (maxPossibleError * 0.001))      // < 60 - exact
   {
-     match = PROBABLE_MATCH;
+    match = EXACT_MATCH;
+  }
+  else if (difference < (maxPossibleError * 0.025))      // < ~1200 - same
+  {
+    match = PROBABLE_MATCH;
   }
   else if (difference < (maxPossibleError * 0.045)) // 1200-2400 - possibly different
   {
-     match = POSSIBLE_MATCH;
+    match = POSSIBLE_MATCH;
   }
   else // > 2400 - different
   {
@@ -74,8 +78,11 @@ void ImageHistogram::calculateHistogram()
       valueAlpha = qAlpha(value);
 
       if ((valueR == 255) && (valueG == 255) && (valueB == 255) ||
-          (valueAlpha == 0))
-        continue; // Don't count whites or transparents (background colors in our case)
+          (valueAlpha == 0)) // we may also need to play with this alpha value check, e.g. < 128
+        // TICKY: Don't count whites or transparents (background colors in our case)
+        // NOTE: this will affect the correctness if an image really has white in it
+        // since whites are ignored (a few of the mil symbols do have some white center icons)
+        continue;
 
       mapR[valueR] = mapR.value(valueR) + 1;
       mapG[valueG] = mapG.value(valueG) + 1;

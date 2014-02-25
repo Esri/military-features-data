@@ -27,17 +27,29 @@ QString dictionaryPathAndFileApp6B = "/ArcGISRuntime10.2.2/resources/symbols/app
 QString dictionaryPathAndFile2525C = "/ArcGISRuntime10.2.2/resources/symbols/mil2525c/mil2525c.dat";
 
 SymbolExporter::SymbolExporter()
-{  
-  dictionaryType     = SymbolDictionaryType::Mil2525C;
-  outputFolder       = "ExportedImages";
-  exportSizeInPixels = 256;
-  dictionaryInitialized = false;
-  enableVerbose = true;
+{
+  setDefaults();
+  SetSymbolDictionaryType(SymbolDictionaryType::Mil2525C);
+  SetOutputFolder("ExportedImages");
+
+}
+
+SymbolExporter::SymbolExporter(SymbolDictionaryType dictionaryTypeIn, QString outputFolderIn)
+{
+  setDefaults();
+  SetSymbolDictionaryType(dictionaryTypeIn);
+  SetOutputFolder(outputFolderIn);
 }
 
 SymbolExporter::~SymbolExporter()
 {
+}
 
+void SymbolExporter::setDefaults()
+{
+  exportSizeInPixels = 256;
+  dictionaryInitialized = false;
+  enableVerbose = true;
 }
 
 void SymbolExporter::SetSymbolDictionaryType(SymbolDictionaryType dictionaryTypeIn)
@@ -145,7 +157,7 @@ void SymbolExporter::ExportFromFile(QString fileName)
 
   if (!csvFile.open(QIODevice::ReadOnly | QIODevice::Text))
   {
-    cout << "CSV File open FAILED: " << qPrintable(fileName);
+    cout << "****----> CSV File open FAILED: " << qPrintable(fileName);
     return;
   }
 

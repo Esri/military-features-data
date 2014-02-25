@@ -26,7 +26,7 @@ class ImageHistogram
 {
 public:
 
-  enum MATCH {PROBABLE_MATCH=0, POSSIBLE_MATCH=1, MATCH_FAILED=2};
+  enum MATCH { EXACT_MATCH=0, PROBABLE_MATCH=1, POSSIBLE_MATCH=2, MATCH_FAILED=3 };
 
   ImageHistogram(const QImage imageIn);
 

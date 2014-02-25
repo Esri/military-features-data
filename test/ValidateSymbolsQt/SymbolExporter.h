@@ -23,13 +23,13 @@ using namespace EsriRuntimeQt;
  * @brief Works with AGS Runtime to export dictionary images
  *        Options include export all dictionary entries, entries from a file,
  *        or single entry/image
- *
  */
 class SymbolExporter
 {
 public:
 
   SymbolExporter();
+  SymbolExporter(SymbolDictionaryType dictionaryTypeIn, QString outputFolderIn);
   ~SymbolExporter();
 
   void SetSymbolDictionaryType(SymbolDictionaryType dictionaryTypeIn);
@@ -42,6 +42,7 @@ public:
 
 private:
 
+  void setDefaults();
   QString getValidFilename(QString name);
   void getDictionary();
 

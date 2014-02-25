@@ -25,17 +25,23 @@ ImageComparer::ImageComparer()
 }
 
 ImageComparer::ImageComparer(QString generatedImagesFolderIn, QString validatedImagesFolderIn,
-              QString mismatchedImagesFolderIn)
+              QString mismatchedImagesFolderIn, QString standardIn)
 {
   SetGeneratedImagesFolder(generatedImagesFolderIn);
   SetValidatedImagesFolder(validatedImagesFolderIn);
   SetMismatchedImagesFolder(mismatchedImagesFolderIn);
+  SetStandard(standardIn);
 }
 
 bool ImageComparer::ValidateRequiredFolders()
 {
   return (QFileInfo(generatedImagesFolder).exists() && QFileInfo(validatedImagesFolder).exists()
           && QFileInfo(mismatchedImagesFolder).exists());
+}
+
+void ImageComparer::SetStandard(QString standardIn)
+{
+  standard = standardIn;
 }
 
 void ImageComparer::SetGeneratedImagesFolder(QString folderIn)
@@ -56,42 +62,46 @@ void ImageComparer::SetMismatchedImagesFolder(QString folderIn)
 
   if (!outputDir.exists()) // create if !exists
     outputDir.mkpath(".");
-  else
-  {
-    // TODO: decide if we want to empty this folder before we run
-    // so the folder only has output from this run
-  }
 }
 
 void ImageComparer::CompareImageFolders()
 {
-  cout.precision(3);
+  cout.precision(3); // set the output precision for the percent confidence
 
   QDir validatedImagesDir(validatedImagesFolder);
 
   QDir generatedImagesDir(generatedImagesFolder);
+  generatedImagesDir.setNameFilters(QStringList() << "*.png"); // <-- only does ".png"
   QStringList generatedImagesFiles = generatedImagesDir.entryList(QDir::Files);
 
   foreach (QString imageFile, generatedImagesFiles)
   {
+    // get the corresponding file name in the validated images folder
+    // IMPORTANT: assumes it will have the same/exact file name as the one we want to compare
     QString validatedImage = validatedImagesDir.path() + QDir::separator() + imageFile;
+
     QString compareImage   = generatedImagesDir.path() + QDir::separator() + imageFile;
 
     compareImages(validatedImage, compareImage);
+
+    // TODO: maybe add counter here, so you can see that it is doing something...
   }
 
 }
 
 /**
 * @brief ImageComparer::compareImages compares 2 images to determine if there is a match
+*        Just outputs the results to standard out
 * @param validatedImage the truth/validated image
 * @param compareImage the image to compare
 */
-void ImageComparer::compareImages(QString validatedImage /*validated image*/,
-                                  QString compareImage /*compare image*/)
+void ImageComparer::compareImages(QString validatedImage,
+                                  QString compareImage)
 {
   QFileInfo fileInfoValidatedFile(validatedImage);
   QFileInfo fileInfoCompareFile(compareImage);
+
+  // TODO: we may want to change this output to a better-formatted .csv output
 
   if (!fileInfoValidatedFile.exists())
   {
@@ -104,7 +114,7 @@ void ImageComparer::compareImages(QString validatedImage /*validated image*/,
     return;
   }
 
-  // they both exist so compare
+  // they both exist so compare with ImageHistogram
   QImage qimageValidated(validatedImage);
   ImageHistogram ih(qimageValidated);
 
@@ -116,49 +126,59 @@ void ImageComparer::compareImages(QString validatedImage /*validated image*/,
 
   double confidenceAsPercent = confidence * 100.0;
 
-  if (match == ImageHistogram::PROBABLE_MATCH)
+  if (match == ImageHistogram::EXACT_MATCH)
   {
     // TODO: after testing, comment out the match lines, so we only see the fails
+    // cout << "EXACT_MATCH : " << qPrintable(compareImage) << " : Confidence : "
+    //     << confidenceAsPercent  << "%" << endl;
+    return;
+  }
+
+  if (match == ImageHistogram::PROBABLE_MATCH)
+  {
+    // TODO: If you want to see the non-exact matches, then uncomment out this:
     // cout << "PROBABLE_MATCH : " << qPrintable(compareImage) << " : Confidence : "
     //     << confidenceAsPercent  << "%" << endl;
+    return;
   }
+
+  // else if we are here the match definitely failed...
+
+  cout << "MATCH FAILED : " << qPrintable(compareImage) << " : ";
+
+  if (match == ImageHistogram::POSSIBLE_MATCH)
+    cout << "POSSIBLE MATCH";
   else
-  {
-    cout << "MATCH FAILED : " << qPrintable(compareImage) << " : ";
+    cout << "NO MATCH";
 
-    if (match == ImageHistogram::POSSIBLE_MATCH)
-      cout << "POSSIBLE MATCH";
-    else
-      cout << "NO MATCH";
+  cout << " : Confidence : " << confidenceAsPercent << "%";
 
-    cout << " : Confidence : " << confidenceAsPercent << "%";
+  cout << " : Standard : " << qPrintable(standard);
 
-    //////////////////////////////////////////////////////////
-    // Copy the mismatched files to the "mismatched folder"
-    QString image1FileNameNoExtOnly(fileInfoValidatedFile.baseName());
+  //////////////////////////////////////////////////////////
+  // Copy the mismatched files to the "mismatched folder"
+  QString image1FileNameNoExtOnly(fileInfoValidatedFile.baseName());
 
-    QDir mismatchedImagesDir(mismatchedImagesFolder);
+  QDir mismatchedImagesDir(mismatchedImagesFolder);
 
-    // change the image name to add "_VALIDATED." ex. "ImageName_VALIDATED.png"
-    QString newValidatedImageFileName = mismatchedImagesDir.path() + QDir::separator()
-        + image1FileNameNoExtOnly + "_VALIDATED." + fileInfoValidatedFile.completeSuffix();
+  // change the image name to add "_VALIDATED." ex. "ImageName_VALIDATED.png"
+  QString newValidatedImageFileName = mismatchedImagesDir.path() + QDir::separator()
+      + image1FileNameNoExtOnly + "_VALIDATED." + fileInfoValidatedFile.completeSuffix();
 
-    QString image2FileNameOnly(fileInfoCompareFile.fileName());
-    QString mismatchedImageFileName = mismatchedImagesDir.path() + QDir::separator() + image2FileNameOnly;
+  QString image2FileNameOnly(fileInfoCompareFile.fileName());
+  QString mismatchedImageFileName = mismatchedImagesDir.path() + QDir::separator() + image2FileNameOnly;
 
-    if (QFile::exists(mismatchedImageFileName))
-        QFile::remove(mismatchedImageFileName);
+  if (QFile::exists(mismatchedImageFileName))
+      QFile::remove(mismatchedImageFileName);
 
-    if (QFile::exists(newValidatedImageFileName))
-        QFile::remove(newValidatedImageFileName);
+  if (QFile::exists(newValidatedImageFileName))
+      QFile::remove(newValidatedImageFileName);
 
-    // Copy both files to "mismatched folder"
-    QFile::copy(validatedImage, newValidatedImageFileName); // validated image with fname + _VALIDATED
-    QFile::copy(compareImage, mismatchedImageFileName);   // mismatched image
-    //
-    //////////////////////////////////////////////////////////
+  // Copy both files to "mismatched folder"
+  QFile::copy(validatedImage, newValidatedImageFileName); // validated image with fname + _VALIDATED
+  QFile::copy(compareImage, mismatchedImageFileName);   // mismatched image
+  //
+  //////////////////////////////////////////////////////////
 
-    cout << endl;
-  }
-
+  cout << endl;
 }
