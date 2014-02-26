@@ -14,7 +14,7 @@
  */
 
 #include "SymbolExporter.h"
-#include "ImageComparer.h"
+#include "imagecomparer.h"
 #include <QApplication>
 #include "ArcGISRuntime.h"
 #include <iostream>

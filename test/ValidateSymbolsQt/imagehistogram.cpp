@@ -77,7 +77,7 @@ void ImageHistogram::calculateHistogram()
       valueB = qBlue(value);
       valueAlpha = qAlpha(value);
 
-      if ((valueR == 255) && (valueG == 255) && (valueB == 255) ||
+      if (((valueR == 255) && (valueG == 255) && (valueB == 255)) ||
           (valueAlpha == 0)) // we may also need to play with this alpha value check, e.g. < 128
         // TICKY: Don't count whites or transparents (background colors in our case)
         // NOTE: this will affect the correctness if an image really has white in it

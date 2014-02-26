@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!-- 
+ Build.xml
+ Description: Ant script used to fetch and unzip dependent data from ArcGIS Online
+ Requirements: Internet connectivity, Java JRE, Ant
+ -->
+
+<project name="DataDownloadAndConfiguration" basedir="." default="config">
+
+  <!-- templatehome = military-features-data\test\ValidateSymbolsQt -->
+  <property name="dir.zipdir" value="./downloaded_data" />
+  <property name="dir.datadir" value="./VALIDATED_IMAGE_DATA" />
+
+  <target name="config" depends="make_dirs,get_data">
+    <echo message="Gets All Dependent Data used by this template from ArcGIS Online" />
+  </target>
+
+  <!-- Create necessary folder structure (Github will not create empty folders) -->
+  <target name="make_dirs">
+    <mkdir dir="${dir.zipdir}"/>
+    <echo message="Creating: ${dir.zipdir}" />  
+    <mkdir dir="${dir.datadir}"/>
+    <echo message="Creating: ${dir.datadir}" />    
+  </target>
+
+  <target name="get_data">
+  <!-- Get test data -->
+   
+    <!-- VALIDATED_IMAGES_2525C -->
+    <echo message="Downloading: VALIDATED_IMAGES_2525C"/>
+    <get src="http://www.arcgis.com/sharing/rest/content/items/6e35554cfcde44a88ede4e75428591bf/data"
+      dest="${dir.zipdir}/VALIDATED_IMAGES_2525C.zip" 
+      verbose="true"
+      usetimestamp="true"/>
+    <echo message="Unzipping VALIDATED_IMAGES_2525C" />
+    <unzip src="${dir.zipdir}/VALIDATED_IMAGES_2525C.zip"
+         dest="${dir.datadir}"/>
+    
+    <!-- VALIDATED_IMAGES_APP6B -->
+    <echo message="Downloading: VALIDATED_IMAGES_APP6B"/>
+    <get src="http://www.arcgis.com/sharing/rest/content/items/1381455d98cb4fa0b0280e93aedf1cf9/data"
+      dest="${dir.zipdir}/VALIDATED_IMAGES_APP6B.zip" 
+      verbose="true"
+      usetimestamp="true"/>
+    <echo message="Unzipping VALIDATED_IMAGES_APP6B" />
+    <unzip src="${dir.zipdir}/VALIDATED_IMAGES_APP6B.zip"
+         dest="${dir.datadir}"/>
+  
+  </target>
+  
+  <!-- Delete All Data Folders and Datasets -->
+  <!-- Normally only for testing from a clean configuration -->
+  <target name="clean">
+
+    <echo message="Warning: deleting data dirs (only do this if you mean it)" />
+    <echo message="Deleting path: ${dir.zipdir}" />
+    <delete dir="${dir.zipdir}" />
+    <echo message="Deleting path: ${dir.datadir}" />
+    <delete dir="${dir.datadir}" />
+
+  </target>
+  
+</project>

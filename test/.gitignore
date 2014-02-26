@@ -13,8 +13,13 @@ arc.dir
 *-master
 *.png
 build-*/
-VALIDATED_IMAGES/
+VALIDATED_IMAGE*
+downloaded_data/
+VALIDATED_IMAGE_DATA/
+VALIDATED_IMAGES_2525/
+VALIDATED_IMAGES_APP6/
 *.autosave
+Makefile*
 
 #############
 ## Python

@@ -184,12 +184,19 @@ void SymbolExporter::ExportAll()
 {
   getDictionary();
 
-  // IMPORTANT: Requires either QtSDK to be installed or the data provider deployed with app
+  // IMPORTANT: Requires either QtSDK to be installed -or-
+  // the qtsqlite data provider deployed with app (plugins folder, qt.conf, etc.)
   QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
   db.setDatabaseName(dictionaryPathAndFile);
   bool opened = db.open();
 
-  cout << "databaseName = " << qPrintable(dictionaryPathAndFile) << ", Opened = " << opened << endl;
+  cout << "Running with dictionary/databaseName: " << qPrintable(dictionaryPathAndFile) << endl;
+
+  if (!opened)
+  {
+    cout << "****----> DatabaseName open FAILED, check path - can't continue, exiting..." << endl;
+    return;
+  }
 
   QSqlQuery query(QString("SELECT Name,SymbolId FROM SymbolInfo"), db);
   QHash<QString, QString> sidc2Name;
