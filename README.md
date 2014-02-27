@@ -12,28 +12,55 @@ The ArcGIS Defense and Intelligence Military Features Data repository is a set o
 * Provides symbology style files for displaying and creating military symbology in ArcGIS Desktop
 * Provides additional derived data products for use in ArcGIS Runtime
 
+## Sections
+
+* [Requirements](#requirements)
+* [Instructions](#instructions)
+* [Resources](#resources)
+* [Issues](#issues)
+* [Contributing](#contributing)
+* [Licensing](#licensing)
+
 ## Requirements
 
 * ArcGIS Desktop 10.1 (or later) 
+    * If using the Style and Layer Files
+* ArcGIS Runtime 10.2 (or later)
+    * If using the Symbol Dictionary Files
 
 ## Instructions
 
 ### General Help
+
 [New to Github? Get started here.](http://htmlpreview.github.com/?https://github.com/Esri/esri.github.com/blob/master/help/esri-getting-to-know-github.html)
 
-### Getting Started
+### Using the Source Data
+
 * Download the repository
-* Update the local ArcGIS Military Style Files to the latest versions from the repository.
+* If using the source data with ArcGIS Desktop...
+    * Update the local ArcGIS Military Style Files to the latest versions from the repository.
     * Navigate to the folders
-        *  military-features-data\data\mil2525c\stylefiles
-        *  military-features-data\data\app6b\stylefiles
-    * Update/copy all of the .style files from each folder into your ArcGIS Desktop Style folder (overwrite if necessary)
+        *  [military-features-data\data\mil2525c\stylefiles](./data/mil2525c/stylefiles)
+        *  [military-features-data\data\app6b\stylefiles](./data/app6b/stylefiles)
+    * Update/copy all of the .style files from each folder into your ArcGIS Desktop Style folder (overwrite if necessary - you may want to create a backup of these files before this step)
     * For example, copy the style files from above location into this Desktop Folder:
     	* {ArcGIS Install Location}\ArcGIS\Desktop10.X\Styles
-* Create symbology using the ArcGIS Style Manager or open the provided layer packages to create military features
+    * Create symbology using the ArcGIS Style Manager or open the provided layer packages to create military features
+* If using the source data with ArcGIS Runtime...
+    * Update the local ArcGIS symbol dictionary files with the versions from the repository.
+    * Navigate to the folders
+        *  [military-features-data\data\mil2525c\dictionary](./data/mil2525c/dictionary)
+        *  [military-features-data\data\app6b\dictionary](./data/app6b/dictionary)
+    * Update/copy the files from each folder into your ArcGIS Runtime folder (overwrite if necessary - you may want to create a backup of these files before this step)
+
+### Running the Test and Verification Applications
+
+* There are several applications provided to verify/validate the correctness of this data.
+* For more information, see the instructions in the [test](./test) folder.
 
 ## Resources
 
+* Learned more about Esri's [Solutions Templates](http://solutions.arcgis.com/)
 * Learn more about Esri's [ArcGIS for Defense maps and apps](http://resources.arcgis.com/en/communities/defense-and-intelligence/).
 
 ## Issues
@@ -46,7 +73,7 @@ Esri welcomes contributions from anyone and everyone. Please see our [guidelines
 
 ## Licensing
 
-Copyright 2013 Esri
+Copyright 2013-2014 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
