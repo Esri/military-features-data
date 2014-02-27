@@ -127,13 +127,27 @@ int main(int argc, char *argv[])
   }
 
   cout << "Running with Parameters: " << endl;
-  cout << "        Command: " << qPrintable(command) << endl;
-  cout << "       Standard: " << qPrintable(standard) << endl;
-  cout << "       FilterBy: " << qPrintable(filterBy) << endl;
+  cout << "                Command: " << qPrintable(command) << endl;
+  cout << "               Standard: " << qPrintable(standard) << endl;
+  cout << "               FilterBy: " << qPrintable(filterBy) << endl;
+  cout << "        ValidatedImages: " << qPrintable(ValidatedImagesFolder) << endl;
   if (optionalFile.length() > 0)
-    cout << "           File: " << qPrintable(optionalFile) << endl;
+    cout << "                   File: " << qPrintable(optionalFile) << endl;
   if (symbolNameOrId.length() > 0)
-    cout << "           SIDC: " << qPrintable(symbolNameOrId) << endl;
+    cout << "                   SIDC: " << qPrintable(symbolNameOrId) << endl;
+  cout << endl;
+
+  if ((command == "VALIDATE") || (command == "VALIDATE_ONLY"))
+  {
+    // just verify the required input folder exists before we run for 5 minutes...
+    QDir checkDir(ValidatedImagesFolder);
+
+    if (!checkDir.exists()) // !exists, nothing to do
+    {
+      cout << "****---> REQUIRED INPUT FOLDER NOT FOUND: ValidatedImages: " << qPrintable(ValidatedImagesFolder) << endl;
+      exit(-1);
+    }
+  }
 
   if ((command == "GENERATE") || (command == "VALIDATE"))
   {

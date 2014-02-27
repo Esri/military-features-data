@@ -33,7 +33,10 @@ This is a command line application that may be used to
 * Check your development environment is properly configured for the ArcGIS Runtime SDK for Qt; some items of note:
     * Ensure the configuration file, ex. `esri_runtime_qt_10_2.prf` has been installed
         * Copied from` {ARCGISRUNTIMESDKQT}\sdk\ideintegration\esri_runtime_qt_10_2.prf to {QTDIR}\mkspecs\features\esri_runtime_qt_10_2.prf` 
-    * (Linux only) Initialize runtime. From a Command Prompt> `> . {RuntimeSDKHome}/init_sdk_qt64.sh`
+    * (Linux only) Initialize runtime. From a Command Prompt:
+        * (Bash) `> . {RuntimeSDKHome}/init_sdk_qt64.sh`   -or- 
+        * (csh) `> source {RuntimeSDKHome}/init_sdk_qt64.csh` 
+    * For more detailed information on Runtime for Qt setup, see the [ArcGIS Runtime for Qt post-install setup steps](https://developers.arcgis.com/qt/guide/integration-with-qt-creator.htm)
 * Open and build the project `ValidateSymbolsQt`  in Qt Creator
     * Note: if you are not using the latest version of the Runtime SDK, you may need to edit the .pro file for each project
     * Change the line `CONFIG += esri_runtime_qt_10_2_2` to match the version of your Runtime SDK.
@@ -63,8 +66,9 @@ This is a command line application that may be used to
 
 ### Running
 
+* Open a command prompt, `> cd {path-to-Validate-Symbols-executable}`
 * From the command line, run the application with the desired parameters, e.g. 
-    *  ValidateSymbols.exe VALIDATE 2525 ALL 
+    * `> ValidateSymbols.exe VALIDATE 2525 ALL`
         *  This will export all 2525 images and validate them against the images in the folder `VALIDATED_IMAGES_2525`
 *  The available command-line parameters include
     * Parameter 1 : Command
