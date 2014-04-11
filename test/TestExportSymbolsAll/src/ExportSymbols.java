@@ -142,7 +142,7 @@ public class ExportSymbols {
 	}
 
 	public static void Usage() {
-        System.out.println("Usage: java -jar ExportSymbols.jar [(symbol name/id) or \"ALL\"] [Type:(\"Point\" \"Line\" \"Area\")] {Standard:(\"2525\", \"APP6\")} ");
+        System.out.println("Usage: java -jar ExportSymbols.jar [(symbol name/id) or \"FILE\" or \"ALL\"] [CSV-Filename or Type:(\"Point\" \"Line\" \"Area\")] {Standard:(\"2525\", \"APP6\")} ");
 	}
 	
 	public static boolean isValidSymbol(MilitarySymbol symbol) {
