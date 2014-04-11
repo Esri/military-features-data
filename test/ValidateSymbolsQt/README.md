@@ -1,8 +1,8 @@
 # ValidateSymbolsQt
 
-This is a validation/test application that may be used to verify the Military Features Data repository. 
+This is a validation/test application that may be used to automate the verification of the Military Features Data repository. 
 
-![Image of Military Features Data](ScreenShot.jpg)
+![Image of ValidateSymbolsQt](ScreenShot.jpg)
 
 ## Features
 
@@ -10,7 +10,7 @@ This is a command line application that may be used to
 
 * Create exported 2525 or APP6 symbol image files using the ArcGIS Runtime for Qt
 * Export all symbol images from the ArcGIS Runtime symbol dictionary file
-* Automatically compare those created images to existing validated images
+* Automatically compare those created images to existing validated images (using Histogram Equalization/Comparison)
 * Create a list and folder of images that fail to match
 
 ## Sections
@@ -41,7 +41,7 @@ This is a command line application that may be used to
         * (csh) `source {RuntimeSDKHome}/init_sdk_qt64.csh` 
     * For more detailed information on Runtime for Qt setup, see the [ArcGIS Runtime for Qt post-install setup steps](https://developers.arcgis.com/qt/guide/integration-with-qt-creator.htm)
 * Open and build the project `ValidateSymbolsQt`  in Qt Creator
-    * Note: if you using a different version of the Runtime SDK, you may need to edit the .pro file for the project
+    * Note: if you are using a different version of the Runtime SDK, you may need to edit the .pro file for the project
     * Change the line `CONFIG += esri_runtime_qt_10_2_2` to match the version of your Runtime SDK.
 
 ### Verifying Your Run Configuration
@@ -142,5 +142,5 @@ limitations under the License.
 
 A copy of the license is available in the repository's license.txt file.
 
-[](Esri Tags: ArcGIS Defense and Intelligence Military Feature Military Features 2525 APP6)
+[](Esri Tags: ArcGIS Defense and Intelligence Military Feature Military Features 2525 APP6 Qt)
 [](Esri Language: C++)
