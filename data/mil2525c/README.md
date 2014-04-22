@@ -1,7 +1,7 @@
 Military Features Data Usage, Tips, and Tricks for MIL-STD-2525C
 =========================================
 
-#Purpose 
+# Purpose 
 
 The purpose of this document is to quickly and easily capture and clarify any unique usage issues that users of this data have encountered. Also to provide some supplemental information to the existing help documentation for Military Features and its associated data stored in this repo. 
 
@@ -72,5 +72,3 @@ The files in the [messagetypes](./messagetypes) folder are the configuration fil
 
     * [PositionReport.json](./messagetypes/PositionReport.json)
         * "symbolScaleFactor" : 1.0  ==> "symbolScaleFactor" : 2.0 (doubles the size)
-
-
