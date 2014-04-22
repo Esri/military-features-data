@@ -2,7 +2,7 @@
 
 The ArcGIS Defense and Intelligence Military Features Data repository is a set of data and test applications for use in ArcGIS Desktop and ArcGIS Runtime. This data is used to create features for planning, operations and intelligence domains based on military symbology specifications such as MIL-STD-2525C and APP-6(B).
 
-![Image of Military Features Data](ScreenShot.png "military-features-data")
+![Image of Military Features Data](ScreenShot.png)
 
 ## Features
 
