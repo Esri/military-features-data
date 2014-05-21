@@ -60,6 +60,12 @@ The ArcGIS Defense and Intelligence Military Features Data repository is a set o
 
 ## Resources
 
+* [ArcGIS Military Features Help Documentation](http://resources.arcgis.com/en/help/main/10.1/index.html#//000n0000000p000000)
+* Military Features Blog Posts 
+    * [Quick Introduction](http://blogs.esri.com/esri/arcgis/2011/02/18/a-quick-introduction-to-text-modifiers-for-unit-equipment-and-installation-features/)
+    * [Creating New Symbols](http://blogs.esri.com/esri/arcgis/2011/02/04/representing-c2-tactical-symbols-in-arcgis-as-uei-features/)
+    * [Symbol ID Codes](http://blogs.esri.com/esri/arcgis/2010/05/19/military-features-and-symbol-id-codes/)
+    * [Direction Indicator](http://blogs.esri.com/esri/arcgis/2011/04/01/creating-a-direction-of-movement-graphic-modifier/)
 * Learned more about Esri's [Solutions Templates](http://solutions.arcgis.com/)
 * Learn more about Esri's [ArcGIS for Defense maps and apps](http://resources.arcgis.com/en/communities/defense-and-intelligence/).
 
