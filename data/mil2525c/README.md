@@ -69,6 +69,9 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | zmin | X | Altitude/Depth | Minimum altitude for aviation tactical graphics. |
 
 
+Note: Detailed label field decriptions with graphics are also shown in [this Military Features Blog Post](http://blogs.esri.com/esri/arcgis/2011/02/04/representing-c2-tactical-symbols-in-arcgis-as-uei-features/)
+    
+
 ## Line Area Point Order Exceptions
 
 The control measure line/area symbols that have unique point ordering and/or transformation rules defined in 2525C are captured in the symbol dictionary table "LnAExceptions." Use this table to determine at a glance which symbols have these special drawing rules. If you do not require these rules/transformations, you may be able to edit/modify this table to meet your specific needs. More information on these exception lines/areas can be found [documented here](http://resources.arcgis.com/en/help/main/10.1/index.html#/Creating_features_using_the_geometry_in_a_standard_message/000n0000006v000000/).
