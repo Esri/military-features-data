@@ -135,29 +135,17 @@ S*G*EVCOH------,S * G * EV CO H- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.OBTRK.LRG,
 S*G*EVCOL------,S * G * EV CO L- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.OBTRK.PU,Pickup Open-Bed Truck,
 S*G*EVCOM------,S * G * EV CO M- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.OBTRK.SMAL,Small Open-Bed Truck,
 S*G*EVCT-------,S * G * EV CT -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL,Tractor Trailer Truck With Box Trailer,
-S*G*EVCTH------,S * G * EV CT H- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL.LRG,Large/Heavy Box Trailer Tractor Trailer 
-
-Truck,
+S*G*EVCTH------,S * G * EV CT H- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL.LRG,Large/Heavy Box Trailer Tractor Trailer Truck,
 S*G*EVCTM------,S * G * EV CT M- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL.MDM,Medium Box Trailer Tractor Trailer Truck,
-S*G*EVCTL------,S * G * EV CT L- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL.SMAL,Small/Light Box Trailer Tractor Trailer 
-
-Truck,
+S*G*EVCTL------,S * G * EV CT L- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL.SMAL,Small/Light Box Trailer Tractor Trailer Truck,
 S*G*EVCF-------,S * G * EV CF -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF,Tractor Trailer Truck With Flatbed Trailer,
-S*G*EVCFH------,S * G * EV CF H- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.LRG,Large/Heavy Flatbed Trailer Tractor 
-
-Trailer Truck,
-S*G*EVCFM------,S * G * EV CF M- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.MDM,Medium Flatbed Trailer Tractor Trailer 
-
-Truck,
-S*G*EVCFL------,S * G * EV CF L- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.SMAL,Small/Light Flatbed Trailer Tractor 
-
-Trailer Truck,
+S*G*EVCFH------,S * G * EV CF H- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.LRG,Large/Heavy Flatbed Trailer Tractor Trailer Truck,
+S*G*EVCFM------,S * G * EV CF M- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.MDM,Medium Flatbed Trailer Tractor Trailer Truck,
+S*G*EVCFL------,S * G * EV CF L- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.SMAL,Small/Light Flatbed Trailer Tractor Trailer Truck,
 S*G*EVCU-------,S * G * EV CU -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH,Utility Vehicle,
 S*G*EVCUH------,S * G * EV CU H- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.LBOX,Large Box Truck Utility Vehicle,
 S*G*EVCUM------,S * G * EV CU M- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.SBOX,Small Box Truck Utility Vehicle,
-S*G*EVCUL------,S * G * EV CU L- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.SUV,Sport Utility Vehicle (Suv) Utility 
-
-Vehicle,
+S*G*EVCUL------,S * G * EV CU L- ** ** *,WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.SUV,Sport Utility Vehicle (Suv) Utility Vehicle,
 S*G*EVE--------,S * G * EV E- -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.ENGVEH,Engineer Vehicle,
 S*G*EVER-------,S * G * EV ER -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.ENGVEH.ARMERV,Armored Engineer Recon Vehicle (Aerv),
 S*G*EVES-------,S * G * EV ES -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.ENGVEH.AST,Armored Assault,
@@ -176,9 +164,7 @@ S*G*EVEMV------,S * G * EV EM V- ** ** *,WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MLVEH.ARMC
 S*G*EVEML------,S * G * EV EM L- ** ** *,WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MLVEH.TRKMV,Truck Mounted With Volcano,
 S*G*EVS--------,S * G * EV S- -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.MSLSPT,Missile Support Vehicle,
 S*G*EVSC-------,S * G * EV SC -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.MSLSPT.CRN,Missile Support Vehicle Crane/Loading Device,
-S*G*EVSP-------,S * G * EV SP -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.MSLSPT.PLNT,Missile Support Vehicle Propellant 
-
-Transporter,
+S*G*EVSP-------,S * G * EV SP -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.MSLSPT.PLNT,Missile Support Vehicle Propellant Transporter,
 S*G*EVST-------,S * G * EV ST -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.MSLSPT.TLDR,Missile Support Vehicle Transloader,
 S*G*EVSR-------,S * G * EV SR -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.MSLSPT.TPTR,Missile Support Vehicle Transporter,
 S*G*EVSW-------,S * G * EV SW -- ** ** *,WAR.GRDTRK.EQT.GRDVEH.MSLSPT.WH,Missile Support Vehicle Warhead Transporter,
@@ -250,24 +236,16 @@ S*G*EWXM-------,S * G * EW XM -- ** ** *,WAR.GRDTRK.EQT.WPN.MRL.MDM,Multiple Roc
 S*G*EWM--------,S * G * EW M- -- ** ** *,WAR.GRDTRK.EQT.WPN.MSLL,Missile Launcher,
 S*G*EWMA-------,S * G * EW MA -- ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD,Air Defense (Ad) Missile Launcher,
 S*G*EWMAI------,S * G * EW MA I- ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR,Intermediate Range Ad Missile Launcher,
-S*G*EWMAIE-----,S * G * EW MA IE ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR.TELAR,Transporter Erector Launcher And Radar 
-
-(Telar),
+S*G*EWMAIE-----,S * G * EW MA IE ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR.TELAR,Transporter Erector Launcher And Radar (Telar),
 S*G*EWMAIR-----,S * G * EW MA IR ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR.TLAR,Transporter Launcher And Radar (Tlar),
 S*G*EWMAL------,S * G * EW MA L- ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR,Long Range Ad Missile Launcher,
-S*G*EWMALE-----,S * G * EW MA LE ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR.TELAR,Transporter Erector Launcher And Radar 
-
-(Telar),
+S*G*EWMALE-----,S * G * EW MA LE ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR.TELAR,Transporter Erector Launcher And Radar (Telar),
 S*G*EWMALR-----,S * G * EW MA LR ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR.TLAR,Transporter Launcher And Radar (Tlar),
 S*G*EWMAS------,S * G * EW MA S- ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.SHTR,Short Range Ad Missile Launcher,
-S*G*EWMASE-----,S * G * EW MA SE ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.SHTR.TELAR,Transporter Erector Launcher And Radar 
-
-(Telar),
+S*G*EWMASE-----,S * G * EW MA SE ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.SHTR.TELAR,Transporter Erector Launcher And Radar (Telar),
 S*G*EWMASR-----,S * G * EW MA SR ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.SHTR.TLAR,Transporter Launcher And Radar (Tlar),
 S*G*EWMAT------,S * G * EW MA T- ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT,Ad Missile Launcher Theater,
-S*G*EWMATE-----,S * G * EW MA TE ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT.TELAR,Transporter Erector Launcher And Radar 
-
-(Telar),
+S*G*EWMATE-----,S * G * EW MA TE ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT.TELAR,Transporter Erector Launcher And Radar (Telar),
 S*G*EWMATR-----,S * G * EW MA TR ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT.TLAR,Transporter Launcher And Radar (Tlar),
 S*G*EWMT-------,S * G * EW MT -- ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.AT,Missile Launcher Antitank (At),
 S*G*EWMTH------,S * G * EW MT H- ** ** *,WAR.GRDTRK.EQT.WPN.MSLL.AT.HVY,Missile Launcher At Heavy,
@@ -397,9 +375,7 @@ S*G*UCVS-------,S * G * UC VS -- ** ** *,WAR.GRDTRK.UNT.CBT.AVN.SAR,Search And R
 S*G*UCVU-------,S * G * UC VU -- ** ** *,WAR.GRDTRK.UNT.CBT.AVN.UA,Unmanned Aircraft,
 S*G*UCVUF------,S * G * UC VU F- ** ** *,WAR.GRDTRK.UNT.CBT.AVN.UA.FIXD,Unmanned Aircraft Fixed Wing,
 S*G*UCVUR------,S * G * UC VU R- ** ** *,WAR.GRDTRK.UNT.CBT.AVN.UA.ROT,Unmanned Aircraft Rotary Wing,
-S*G*UCVV-------,S * G * UC VV -- ** ** *,WAR.GRDTRK.UNT.CBT.AVN.VSTOL,Vertical And/Or Short Takeoff And Landing Aircraft 
-
-(V/Stol),
+S*G*UCVV-------,S * G * UC VV -- ** ** *,WAR.GRDTRK.UNT.CBT.AVN.VSTOL,Vertical And/Or Short Takeoff And Landing Aircraft (V/Stol),
 S*G*UCE--------,S * G * UC E- -- ** ** *,WAR.GRDTRK.UNT.CBT.ENG,Engineer,
 S*G*UCEC-------,S * G * UC EC -- ** ** *,WAR.GRDTRK.UNT.CBT.ENG.CBT,Engineer Combat,
 S*G*UCECS------,S * G * UC EC S- ** ** *,WAR.GRDTRK.UNT.CBT.ENG.CBT.AAST,Engineer Combat Air Assault,
@@ -498,9 +474,7 @@ S*G*UCRX-------,S * G * UC RX -- ** ** *,WAR.GRDTRK.UNT.CBT.RECON.LRS,Reconnaiss
 S*G*UCRR-------,S * G * UC RR -- ** ** *,WAR.GRDTRK.UNT.CBT.RECON.MAR,Reconnaissance Marine,
 S*G*UCRRD------,S * G * UC RR D- ** ** *,WAR.GRDTRK.UNT.CBT.RECON.MAR.DIV,Reconnaissance Marine Division,
 S*G*UCRRF------,S * G * UC RR F- ** ** *,WAR.GRDTRK.UNT.CBT.RECON.MAR.FOR,Reconnaissance Marine Force,
-S*G*UCRRL------,S * G * UC RR L- ** ** *,WAR.GRDTRK.UNT.CBT.RECON.MAR.LAR,Reconnaissance Marine Light Armored 
-
-Reconnaissnace (Lar),
+S*G*UCRRL------,S * G * UC RR L- ** ** *,WAR.GRDTRK.UNT.CBT.RECON.MAR.LAR,Reconnaissance Marine Light Armored Reconnaissnace (Lar),
 S*G*UCRO-------,S * G * UC RO -- ** ** *,WAR.GRDTRK.UNT.CBT.RECON.MNT,Reconnaissance Mountain,
 S*G*UU---------,S * G * UU -- -- ** ** *,WAR.GRDTRK.UNT.CS,Combat Support,
 S*G*UUA--------,S * G * UU A- -- ** ** *,WAR.GRDTRK.UNT.CS.CBRN,Combat Support Cbrn,
@@ -509,9 +483,7 @@ S*G*UUABR------,S * G * UU AB R- ** ** *,WAR.GRDTRK.UNT.CS.CBRN.BIO.RECEQP,Recon
 S*G*UUAC-------,S * G * UU AC -- ** ** *,WAR.GRDTRK.UNT.CS.CBRN.CML,Chemical,
 S*G*UUACR------,S * G * UU AC R- ** ** *,WAR.GRDTRK.UNT.CS.CBRN.CML.RECON,Chemical Recon,
 S*G*UUACRW-----,S * G * UU AC RW ** ** *,WAR.GRDTRK.UNT.CS.CBRN.CML.RECON.WARMVH,Chemical Wheeled Armored Vehicle,
-S*G*UUACRS-----,S * G * UU AC RS ** ** *,WAR.GRDTRK.UNT.CS.CBRN.CML.RECON.WAVS,Chemical Wheeled Armored Vehicle 
-
-Reconnaissance Surveillance,
+S*G*UUACRS-----,S * G * UU AC RS ** ** *,WAR.GRDTRK.UNT.CS.CBRN.CML.RECON.WAVS,Chemical Wheeled Armored Vehicle Reconnaissance Surveillance,
 S*G*UUACS------,S * G * UU AC S- ** ** *,WAR.GRDTRK.UNT.CS.CBRN.CML.SMK,Smoke,
 S*G*UUACSA-----,S * G * UU AC SA ** ** *,WAR.GRDTRK.UNT.CS.CBRN.CML.SMK.ARM,Armor Smoke,
 S*G*UUACSM-----,S * G * UU AC SM ** ** *,WAR.GRDTRK.UNT.CS.CBRN.CML.SMK.MOT,Motorized Smoke,
@@ -554,9 +526,7 @@ S*G*UUS--------,S * G * UU S- -- ** ** *,WAR.GRDTRK.UNT.CS.SIGUNT,Signal Unit,
 S*G*UUSA-------,S * G * UU SA -- ** ** *,WAR.GRDTRK.UNT.CS.SIGUNT.ARA,Area,
 S*G*UUSO-------,S * G * UU SO -- ** ** *,WAR.GRDTRK.UNT.CS.SIGUNT.CMDOPN,Command Operations,
 S*G*UUSC-------,S * G * UU SC -- ** ** *,WAR.GRDTRK.UNT.CS.SIGUNT.COMCP,Communication Configured Package,
-S*G*UUSCL------,S * G * UU SC L- ** ** *,WAR.GRDTRK.UNT.CS.SIGUNT.COMCP.LCCP,Large Communication Configured Package 
-
-(Lccp),
+S*G*UUSCL------,S * G * UU SC L- ** ** *,WAR.GRDTRK.UNT.CS.SIGUNT.COMCP.LCCP,Large Communication Configured Package (Lccp),
 S*G*UUSX-------,S * G * UU SX -- ** ** *,WAR.GRDTRK.UNT.CS.SIGUNT.ECRG,Electronic Ranging,
 S*G*UUSF-------,S * G * UU SF -- ** ** *,WAR.GRDTRK.UNT.CS.SIGUNT.FWDCOM,Forward Communications,
 S*G*UUSM-------,S * G * UU SM -- ** ** *,WAR.GRDTRK.UNT.CS.SIGUNT.MSE,Multiple Subscriber Element,
@@ -598,9 +568,7 @@ S*G*USAPB------,S * G * US AP B- ** ** *,WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.BRCT,Pu
 S*G*USAPBC-----,S * G * US AP BC ** ** *,WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.BRCT.CRP,Public Affairs Broadcast Corps,
 S*G*USAPBT-----,S * G * US AP BT ** ** *,WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.BRCT.THT,Public Affairs Broadcast Theater,
 S*G*USAPC------,S * G * US AP C- ** ** *,WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.CRP,Public Affairs Corps,
-S*G*USAPM------,S * G * US AP M- ** ** *,WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.JIB,Public Affairs Joint Information Bureau 
-
-(Jib),
+S*G*USAPM------,S * G * US AP M- ** ** *,WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.JIB,Public Affairs Joint Information Bureau (Jib),
 S*G*USAPMC-----,S * G * US AP MC ** ** *,WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.JIB.CRP,Public Affairs Jib Corps,
 S*G*USAPMT-----,S * G * US AP MT ** ** *,WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.JIB.THT,Public Affairs Jib Theater,
 S*G*USAPT------,S * G * US AP T- ** ** *,WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.THT,Public Affairs Theater,
@@ -1135,9 +1103,7 @@ WA-DBAFG----A--,W A - D BA FG -- -- A- -,METOC.AMPHC.BDAWTH.FG,Fog,pg
 WA-DBAFP----A--,W A - D BA FP -- -- A- -,METOC.AMPHC.BDAWTH.FZPPN,Freezing-Frozen Precipitation,pg
 WA-DBAI-----A--,W A - D BA I- -- -- A- -,METOC.AMPHC.BDAWTH.ICG,Icing,pg
 WA-DBAIF----A--,W A - D BA IF -- -- A- -,METOC.AMPHC.BDAWTH.IFR,Instrument Flight Rule (Ifr),pg
-WA-DBALPNC--A--,W A - D BA LP NC -- A- -,METOC.AMPHC.BDAWTH.LPNCI,Liquid Precipitation - Non-Convective Continuous Or 
-
-Intermittent,pg
+WA-DBALPNC--A--,W A - D BA LP NC -- A- -,METOC.AMPHC.BDAWTH.LPNCI,Liquid Precipitation - Non-Convective Continuous Or Intermittent,pg
 WA-DBALPC---A--,W A - D BA LP C- -- A- -,METOC.AMPHC.BDAWTH.LPNCI.LPC,Liquid Precipitation - Convective,pg
 WA-DBAMV----A--,W A - D BA MV -- -- A- -,METOC.AMPHC.BDAWTH.MVFR,Marginal Visual Flight Rule (Mvfr),pg
 WA-DBAFF----A--,W A - D BA FF -- -- A- -,METOC.AMPHC.BDAWTH.ODFF,Operator-Defined Freeform,pg
@@ -1196,50 +1162,24 @@ WAS-PC----P----,W A S - PC -- -- P- -- -,METOC.AMPHC.PRS.LOWCTR.CYC,Cyclone Cent
 WAS-PLT---P----,W A S - PL T- -- P- -- -,METOC.AMPHC.PRS.LOWCTR.TROPLW,Tropopause Low,
 WAS-GNDEWCP----,W A S - GN DE WC P- -- -,METOC.AMPHC.STOG.WOSMIC.EXTDWC,Extremely Dry With Cracks,
 WAS-GNG-TIP----,W A S - GN G- TI P- -- -,METOC.AMPHC.STOG.WOSMIC.GLZGRD,Glaze (Thin Ice) On Ground,
-WAS-GNLDN-P----,W A S - GN LD N- P- -- -,METOC.AMPHC.STOG.WOSMIC.LDNCGC,Loose Dry Dust Or Sand Not Covering Ground 
-
-Completely,
-WAS-GNLDMCP----,W A S - GN LD MC P- -- -,METOC.AMPHC.STOG.WOSMIC.MLDCGC,Moderate/Thick Loose Dry Dust Or Sand Covering 
-
-Ground Completely,
-WAS-GND-NCP----,W A S - GN D- NC P- -- -,METOC.AMPHC.STOG.WOSMIC.SUFDRY,Surface Dry Without Cracks Or Appreciable Dust Or 
-
-Loose Sand,
+WAS-GNLDN-P----,W A S - GN LD N- P- -- -,METOC.AMPHC.STOG.WOSMIC.LDNCGC,Loose Dry Dust Or Sand Not Covering Ground Completely,
+WAS-GNLDMCP----,W A S - GN LD MC P- -- -,METOC.AMPHC.STOG.WOSMIC.MLDCGC,Moderate/Thick Loose Dry Dust Or Sand Covering Ground Completely,
+WAS-GND-NCP----,W A S - GN D- NC P- -- -,METOC.AMPHC.STOG.WOSMIC.SUFDRY,Surface Dry Without Cracks Or Appreciable Dust Or Loose Sand,
 WAS-GNFL--P----,W A S - GN FL -- P- -- -,METOC.AMPHC.STOG.WOSMIC.SUFFLD,Surface Flooded,
 WAS-GNFZ--P----,W A S - GN FZ -- P- -- -,METOC.AMPHC.STOG.WOSMIC.SUFFZN,Surface Frozen,
 WAS-GNM---P----,W A S - GN M- -- P- -- -,METOC.AMPHC.STOG.WOSMIC.SUFMST,Surface Moist,
-WAS-GNW-SWP----,W A S - GN W- SW P- -- -,METOC.AMPHC.STOG.WOSMIC.SUFWET,Surface Wet  Standing Water In Small Or Large 
-
-Pools,
-WAS-GNLDTCP----,W A S - GN LD TC P- -- -,METOC.AMPHC.STOG.WOSMIC.TLDCGC,Thin Loose Dry Dust Or Sand Covering Ground 
-
-Completely,
-WAS-GSSCH-P----,W A S - GS SC H- P- -- -,METOC.AMPHC.STOG.WSMIC.CSNALH,Compact Or Wet Snow (With Or Without Ice) Covering 
-
-At Least One-Half Ground  But Ground Not Completely Covered,
-WAS-GSSCL-P----,W A S - GS SC L- P- -- -,METOC.AMPHC.STOG.WSMIC.CWSNLH,Compact Or Wet Snow (With Or Without Ice) Covering 
-
-Less Than One-Half Of Ground,
-WAS-GSSCCEP----,W A S - GS SC CE P- -- -,METOC.AMPHC.STOG.WSMIC.ELCSCG,Even Layer Of Compact Or Wet Snow Covering Ground 
-
-Completely,
-WAS-GSSLCEP----,W A S - GS SL CE P- -- -,METOC.AMPHC.STOG.WSMIC.ELDSCG,Even Layer Of Loose Dry Snow Covering Ground 
-
-Completely,
-WAS-GSSLH-P----,W A S - GS SL H- P- -- -,METOC.AMPHC.STOG.WSMIC.LDSALH,Loose Dry Snow Covering At Least One-Half Ground  
-
-But Ground Not Completely Covered,
-WAS-GSSLL-P----,W A S - GS SL L- P- -- -,METOC.AMPHC.STOG.WSMIC.LDSNLH,Loose Dry Snow Covering Less Than One-Half Of 
-
-Ground,
+WAS-GNW-SWP----,W A S - GN W- SW P- -- -,METOC.AMPHC.STOG.WOSMIC.SUFWET,Surface Wet  Standing Water In Small Or Large Pools,
+WAS-GNLDTCP----,W A S - GN LD TC P- -- -,METOC.AMPHC.STOG.WOSMIC.TLDCGC,Thin Loose Dry Dust Or Sand Covering Ground Completely,
+WAS-GSSCH-P----,W A S - GS SC H- P- -- -,METOC.AMPHC.STOG.WSMIC.CSNALH,Compact Or Wet Snow (With Or Without Ice) Covering At Least One-Half Ground  But Ground Not Completely Covered,
+WAS-GSSCL-P----,W A S - GS SC L- P- -- -,METOC.AMPHC.STOG.WSMIC.CWSNLH,Compact Or Wet Snow (With Or Without Ice) Covering Less Than One-Half Of Ground,
+WAS-GSSCCEP----,W A S - GS SC CE P- -- -,METOC.AMPHC.STOG.WSMIC.ELCSCG,Even Layer Of Compact Or Wet Snow Covering Ground Completely,
+WAS-GSSLCEP----,W A S - GS SL CE P- -- -,METOC.AMPHC.STOG.WSMIC.ELDSCG,Even Layer Of Loose Dry Snow Covering Ground Completely,
+WAS-GSSLH-P----,W A S - GS SL H- P- -- -,METOC.AMPHC.STOG.WSMIC.LDSALH,Loose Dry Snow Covering At Least One-Half Ground But Ground Not Completely Covered,
+WAS-GSSLL-P----,W A S - GS SL L- P- -- -,METOC.AMPHC.STOG.WSMIC.LDSNLH,Loose Dry Snow Covering Less Than One-Half Of Ground,
 WAS-GSI---P----,W A S - GS I- -- P- -- -,METOC.AMPHC.STOG.WSMIC.PDMIC,Predominately Ice Covered,
 WAS-GSSDC-P----,W A S - GS SD C- P- -- -,METOC.AMPHC.STOG.WSMIC.SCGC,Snow Covering Ground Completely; Deep Drifts,
-WAS-GSSCCUP----,W A S - GS SC CU P- -- -,METOC.AMPHC.STOG.WSMIC.ULCSCG,Uneven Layer Of Compact Or Wet Snow Covering 
-
-Ground Completely,
-WAS-GSSLCUP----,W A S - GS SL CU P- -- -,METOC.AMPHC.STOG.WSMIC.ULDSCG,Uneven Layer Of Loose Dry Snow Covering Ground 
-
-Completely,
+WAS-GSSCCUP----,W A S - GS SC CU P- -- -,METOC.AMPHC.STOG.WSMIC.ULCSCG,Uneven Layer Of Compact Or Wet Snow Covering Ground Completely,
+WAS-GSSLCUP----,W A S - GS SL CU P- -- -,METOC.AMPHC.STOG.WSMIC.ULDSCG,Uneven Layer Of Loose Dry Snow Covering Ground Completely,
 WAS-TE----P----,W A S - TE -- -- P- -- -,METOC.AMPHC.TRB.EXT,Turbulence - Extreme,
 WAS-TL----P----,W A S - TL -- -- P- -- -,METOC.AMPHC.TRB.LIT,Turbulence - Light,
 WAS-T-MW--P----,W A S - T- MW -- P- -- -,METOC.AMPHC.TRB.MNTWAV,Mountain Waves,
@@ -1311,9 +1251,7 @@ WAS-WST-SQP----,W A S - WS T- SQ P- -- -,METOC.AMPHC.WTH.STMS.SQL,Squall,
 WAS-WST-NPP----,W A S - WS T- NP P- -- -,METOC.AMPHC.WTH.STMS.TS,Thunderstorm - No Precipitation,
 WAS-WSTHR-P----,W A S - WS TH R- P- -- -,METOC.AMPHC.WTH.STMS.TSHVNH,Thunderstorm Heavy With Rain-Snow - No Hail,
 WAS-WSTHH-P----,W A S - WS TH H- P- -- -,METOC.AMPHC.WTH.STMS.TSHVWH,Thunderstorm Heavy - With Hail,
-WAS-WSTMR-P----,W A S - WS TM R- P- -- -,METOC.AMPHC.WTH.STMS.TSLMNH,Thunderstorm Light To Moderate With Rain/Snow - No 
-
-Hail,
+WAS-WSTMR-P----,W A S - WS TM R- P- -- -,METOC.AMPHC.WTH.STMS.TSLMNH,Thunderstorm Light To Moderate With Rain/Snow - No Hail,
 WAS-WSTMH-P----,W A S - WS TM H- P- -- -,METOC.AMPHC.WTH.STMS.TSLMWH,Thunderstorm Light To Moderate - With Hail,
 WAS-WSTSH-P----,W A S - WS TS H- P- -- -,METOC.AMPHC.WTH.TPLSYS.HC,Hurricane-Typhoon,
 WAS-WSTSD-P----,W A S - WS TS D- P- -- -,METOC.AMPHC.WTH.TPLSYS.TROPDN,Tropical Depression,
@@ -1682,9 +1620,7 @@ G*G*DPO---****X,G * G * DP O- -- ** ** X,TACGRP.C2GM.DEF.PNT.OBSPST,Observation 
 G*G*DPON--****X,G * G * DP ON -- ** ** X,TACGRP.C2GM.DEF.PNT.OBSPST.CBRNOP,Cbrn Observation Post (Dismounted),
 G*G*DPOC--****X,G * G * DP OC -- ** ** X,TACGRP.C2GM.DEF.PNT.OBSPST.CBTPST,Combat Outpost,
 G*G*DPOF--****X,G * G * DP OF -- ** ** X,TACGRP.C2GM.DEF.PNT.OBSPST.FWDOP,Forward Observer Position,
-G*G*DPOR--****X,G * G * DP OR -- ** ** X,TACGRP.C2GM.DEF.PNT.OBSPST.RECON,Observation Post Occupied By Dismounted Scouts 
-
-Or Reconnaissance,
+G*G*DPOR--****X,G * G * DP OR -- ** ** X,TACGRP.C2GM.DEF.PNT.OBSPST.RECON,Observation Post Occupied By Dismounted Scouts Or Reconnaissance,
 G*G*DPOS--****X,G * G * DP OS -- ** ** X,TACGRP.C2GM.DEF.PNT.OBSPST.SOP,Sensor Outpost/Listening Post (Op/Lp),
 G*G*DPT---****X,G * G * DP T- -- ** ** X,TACGRP.C2GM.DEF.PNT.TGTREF,Target Reference Point (Trp),
 G*G*GAA---****X,G * G * GA A- -- ** ** X,TACGRP.C2GM.GNL.ARS.ABYARA,Assembly Area,pg
@@ -1769,9 +1705,7 @@ G*G*GPCS--****X,G * G * GP CS -- ** ** X,TACGRP.C2GM.GNL.PNT.SCTL.SUW,Suw Contro
 G*G*GPCU--****X,G * G * GP CU -- ** ** X,TACGRP.C2GM.GNL.PNT.SCTL.USV,Unmanned Surface Vehicle (Usv) Control Station,
 G*G*GPCUA-****X,G * G * GP CU A- ** ** X,TACGRP.C2GM.GNL.PNT.SCTL.USV.ASW,Usv - Antisubmarine Warfare Control Station,
 G*G*GPCUM-****X,G * G * GP CU M- ** ** X,TACGRP.C2GM.GNL.PNT.SCTL.USV.MIW,Usv - Mine Warfare Control Station,
-G*G*GPCUR-****X,G * G * GP CU R- ** ** X,TACGRP.C2GM.GNL.PNT.SCTL.USV.RMV,Remote Multimission Vehicle (Rmv) Usv Control 
-
-Station,
+G*G*GPCUR-****X,G * G * GP CU R- ** ** X,TACGRP.C2GM.GNL.PNT.SCTL.USV.RMV,Remote Multimission Vehicle (Rmv) Usv Control Station,
 G*G*GPCUS-****X,G * G * GP CU S- ** ** X,TACGRP.C2GM.GNL.PNT.SCTL.USV.SUW,Usv - Surface Warfare Control Station,
 G*G*GPB---****X,G * G * GP B- -- ** ** X,TACGRP.C2GM.GNL.PNT.UCTL,Subsurface Control Station,
 G*G*GPBS--****X,G * G * GP BS -- ** ** X,TACGRP.C2GM.GNL.PNT.UCTL.SBSTN,Submarine Control Station,
@@ -1785,17 +1719,11 @@ G*G*GPUYA-****X,G * G * GP UY A- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.ANM,Anm,
 G*G*GPUYT-****X,G * G * GP UY T- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.ATAC,Atac,
 G*G*GPUYB-****X,G * G * GP UY B- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.BT,Bathythermograph Transmitting (Bt),
 G*G*GPUYC-****X,G * G * GP UY C- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.CASS,Command Active Sonobuoy System (Cass),
-G*G*GPUYS-****X,G * G * GP UY S- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.DICASS,Directional Command Active Sonobuoy System 
-
-(Dicass),
-G*G*GPUYD-****X,G * G * GP UY D- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.DIFAR,Directional Frequency Analyzing And Recording 
-
-(Difar),
+G*G*GPUYS-****X,G * G * GP UY S- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.DICASS,Directional Command Active Sonobuoy System (Dicass),
+G*G*GPUYD-****X,G * G * GP UY D- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.DIFAR,Directional Frequency Analyzing And Recording (Difar),
 G*G*GPUYX------,G * G * GP UY X- ** ** *,TACGRP.C2GM.GNL.PNT.USW.SNBY.EXP,Sonobuoy-Expired,
 G*G*GPUYK-****X,G * G * GP UY K- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.KGP,Kingpin,
-G*G*GPUYL-****X,G * G * GP UY L- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.LOFAR,Low Frequency Analyzing And Recording 
-
-(Lofar),
+G*G*GPUYL-****X,G * G * GP UY L- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.LOFAR,Low Frequency Analyzing And Recording (Lofar),
 G*G*GPUYP-****X,G * G * GP UY P- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.PTNCTR,Pattern Center,
 G*G*GPUYR-****X,G * G * GP UY R- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.RO,Range Only (Ro),
 G*G*GPUYV-****X,G * G * GP UY V- ** ** X,TACGRP.C2GM.GNL.PNT.USW.SNBY.VLAD,Vertical Line Array Difar (Vlad),
@@ -1929,12 +1857,8 @@ G*F*AKBR--****X,G * F* AK BR -- ** ** X,TACGRP.FSUPP.ARS.KLBOX.BLUE.RTG,Blue Kil
 G*F*AKPC--****X,G * F* AK PC -- ** ** X,TACGRP.FSUPP.ARS.KLBOX.PURPLE.CIRCLR,Purple Kill Box  Circular,pg
 G*F*AKPI--****X,G * F* AK PI -- ** ** X,TACGRP.FSUPP.ARS.KLBOX.PURPLE.IRR,Purple Kill Box  Irregular,pg
 G*F*AKPR--****X,G * F* AK PR -- ** ** X,TACGRP.FSUPP.ARS.KLBOX.PURPLE.RTG,Purple Kill Box  Rectangular,pg
-G*F*AZII--****X,G * F* AZ II -- ** ** X,TACGRP.FSUPP.ARS.TGTAQZ.ATIZ.IRR,Artillery Target Intelligence (Ati) Zone  
-
-Irregular,pg
-G*F*AZIR--****X,G * F* AZ IR -- ** ** X,TACGRP.FSUPP.ARS.TGTAQZ.ATIZ.RTG,Artillery Target Intelligence (Ati) Zone  
-
-Rectangular,pg
+G*F*AZII--****X,G * F* AZ II -- ** ** X,TACGRP.FSUPP.ARS.TGTAQZ.ATIZ.IRR,Artillery Target Intelligence (Ati) Zone Irregular,pg
+G*F*AZIR--****X,G * F* AZ IR -- ** ** X,TACGRP.FSUPP.ARS.TGTAQZ.ATIZ.RTG,Artillery Target Intelligence (Ati) Zone Rectangular,pg
 G*F*AZXI--****X,G * F* AZ XI -- ** ** X,TACGRP.FSUPP.ARS.TGTAQZ.CFFZ.IRR,Call For Fire Zone (Cffz)  Irregular,pg
 G*F*AZXR--****X,G * F* AZ XR -- ** ** X,TACGRP.FSUPP.ARS.TGTAQZ.CFFZ.RTG,Call For Fire Zone (Cffz)  Rectangular,pg
 G*F*AZFI--****X,G * F* AZ FI -- ** ** X,TACGRP.FSUPP.ARS.TGTAQZ.CFZ.IRR,Critical Friendly Zone (Cfz)  Irregular,pg
@@ -1980,15 +1904,9 @@ G*M*OADC--****X,G * M* OA DC -- ** ** X,TACGRP.MOBSU.OBST.ATO.ATD.ATDC,Complete 
 G*M*OADU--****X,G * M* OA DU -- ** ** X,TACGRP.MOBSU.OBST.ATO.ATD.ATDUC,Under Construction (Antitank Obstacles),pl
 G*M*OAR---****X,G * M* OA R- -- ** ** X,TACGRP.MOBSU.OBST.ATO.ATDATM,Antitank Ditch Reinforced With Antitank Mines,pl
 G*M*OAW---****X,G * M* OA W- -- ** ** X,TACGRP.MOBSU.OBST.ATO.ATW,Antitank Wall,pl
-G*M*OAOF--****X,G * M* OA OF -- ** ** X,TACGRP.MOBSU.OBST.ATO.TDTSM.FIXPFD,Fixed And Prefabricated (Antitank Obstacles: 
-
-Tetrahedrons  Dragons Teeth And Other Similar Obstacles),pt
-G*M*OAOM--****X,G * M* OA OM -- ** ** X,TACGRP.MOBSU.OBST.ATO.TDTSM.MVB,Moveable (Antitank Obstacles: Tetrahedrons  
-
-Dragons Teeth And Other Similar Obstacles),pt
-G*M*OAOP--****X,G * M* OA OP -- ** ** X,TACGRP.MOBSU.OBST.ATO.TDTSM.MVBPFD,Moveable And Prefabricated (Antitank 
-
-Obstacles: Tetrahedrons  Dragons Teeth And Other Similar Obstacles),pt
+G*M*OAOF--****X,G * M* OA OF -- ** ** X,TACGRP.MOBSU.OBST.ATO.TDTSM.FIXPFD,Fixed And Prefabricated (Antitank Obstacles: Tetrahedrons  Dragons Teeth And Other Similar Obstacles),pt
+G*M*OAOM--****X,G * M* OA OM -- ** ** X,TACGRP.MOBSU.OBST.ATO.TDTSM.MVB,Moveable (Antitank Obstacles: Tetrahedrons Dragons Teeth And Other Similar Obstacles),pt
+G*M*OAOP--****X,G * M* OA OP -- ** ** X,TACGRP.MOBSU.OBST.ATO.TDTSM.MVBPFD,Moveable And Prefabricated (Antitank Obstacles: Tetrahedrons  Dragons Teeth And Other Similar Obstacles),pt
 G*M*OHTH--****X,G * M* OH TH -- ** ** X,TACGRP.MOBSU.OBST.AVN.TWR.HIGH,High (Overhead Wire/Power Line),pt
 G*M*OHTL--****X,G * M* OH TL -- ** ** X,TACGRP.MOBSU.OBST.AVN.TWR.LOW,Low (Overhead Wire/Power Line),pt
 G*M*OB----****X,G * M* OB -- -- ** ** X,TACGRP.MOBSU.OBST.BBY,Booby Trap,pt
@@ -2012,9 +1930,7 @@ G*M*OEB---****X,G * M* OE B- -- ** ** X,TACGRP.MOBSU.OBST.OBSEFT.BLK,Block,pl
 G*M*OED---****X,G * M* OE D- -- ** ** X,TACGRP.MOBSU.OBST.OBSEFT.DRT,Disrupt,pl
 G*M*OEF---****X,G * M* OE F- -- ** ** X,TACGRP.MOBSU.OBST.OBSEFT.FIX,Fix,pl
 G*M*OET---****X,G * M* OE T- -- ** ** X,TACGRP.MOBSU.OBST.OBSEFT.TUR,Turn,pl
-G*M*ORA---****X,G * M* OR A- -- ** ** X,TACGRP.MOBSU.OBST.RCBB.ABP,Explosives  State Of Readiness 2 (Armed-But 
-
-Passable),pl
+G*M*ORA---****X,G * M* OR A- -- ** ** X,TACGRP.MOBSU.OBST.RCBB.ABP,Explosives  State Of Readiness 2 (Armed-But Passable),pl
 G*M*ORC---****X,G * M* OR C- -- ** ** X,TACGRP.MOBSU.OBST.RCBB.EXCD,Roadblock Complete (Executed),pl
 G*M*ORP---****X,G * M* OR P- -- ** ** X,TACGRP.MOBSU.OBST.RCBB.PLND,Planned,pl
 G*M*ORS---****X,G * M* OR S- -- ** ** X,TACGRP.MOBSU.OBST.RCBB.SAFE,Explosives  State Of Readiness 1 (Safe),pl
