@@ -96,5 +96,5 @@ limitations under the License.
 A copy of the license is available in the repository's
 [license.txt](license.txt) file.
 
-[](Esri Tags: ArcGIS Defense Intelligence Military Features 2525 APP6 2525C APP6B)
+[](Esri Tags: ArcGIS Defense Intelligence Military Features 2525 APP6 2525C APP6B ArcGISSolutions)
 [](Esri Language: Java)
