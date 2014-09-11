@@ -117,7 +117,7 @@ namespace SidcSymbolViewer
             msg.Add("_action", "update");
             msg.Add("_wkid", "3857");
             msg.Add("sic", sic);
-            msg.Add("UniqueDesignation", "1");
+            msg.Add("uniquedesignation", sic);
 
             SymbolProperties code = null;
 
