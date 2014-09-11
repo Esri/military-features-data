@@ -1,23 +1,39 @@
-Military Features Data Usage, Tips, and Tricks for MIL-STD-2525C
+Military Features Data 
 =========================================
 
 # Purpose 
 
-The purpose of this document is to quickly and easily capture and clarify any unique usage issues that users of this data have encountered. Also to provide some supplemental information to the existing help documentation for Military Features and its associated data stored in this repo. 
-
-For a starting point, see the [ArcGIS Military Features Help Documentation](http://resources.arcgis.com/en/help/main/10.1/index.html#//000n0000000p000000)
-
+This folder contains the Military Features Data for this version of the standard (MIL-STD-2525C).  For more information on Military Features and as a starting point, see the [ArcGIS Military Features Help Documentation](http://resources.arcgis.com/en/help/main/10.1/index.html#//000n0000000p000000)
 
 # Sections
 
-* [Using the Symbol Dictionary](#using-the-symbol-dictionary)
-* [Using the Message Type Files](#using-the-message-type-files)
+* [Military Features Data Provided](#military-features-data-provided)
+* [Using Military Features in ArcGIS Runtime](#using-military--features-in-arcgis-runtime)
+    * [Using the Symbol Dictionary](#using-the-symbol-dictionary)
+    * [Modifier (Label) fields](#modifier-label-fields)
+    * [Using the Message Type Files](#using-the-message-type-files)
 
-# Using the Symbol Dictionary
+# Military Features Data Provided
+
+* ArcGIS Desktop
+    * [lpks](./lpks) - Military Features schema and sample data
+    * [stylefiles](./stylefiles) (and serverstylefiles) - Military Features symbols
+* ArcGIS Runtime
+    * [dictionary](./dictionary) - Military Features symbol dictionary
+    * [messagetypes](./messagetypes) - Message Processor files
+* ArcGIS Professional
+    * [stylxfiles](./stylxfiles)
+* Other support data
+
+# Using Military Features in ArcGIS Runtime
+
+The purpose of this section is to quickly capture and clarify any unique usage issues that users of this data have encountered. It provides some usage and supplemental information as well as tips and tricks for using this data.
+
+## Using the Symbol Dictionary
 
 The symbol dictionary file is generated directly from Military Features feature classes. Some tips for using the symbol dictionary file are included in this section. The symbol dictionary file is [here](./dictionary).
 
-## Viewing the Symbol Dictionary File
+### Viewing the Symbol Dictionary File
 
 You may view the symbol dictionary file with any SQLite viewer. *Note: some viewers have difficulties showing multi-line text data such as the label drawing rules so you should pick a viewer that supports this if you need to view the label rules.*
 
@@ -28,7 +44,7 @@ While in general we strongly discourage editing the symbol dictionary database f
 Example: Suppose you would like to replace the `Friendly Blue` icons with `Lime Green` ones, you might run an update query: 
 `UPDATE SymbolInfo SET Json = REPLACE(Json, '128,224,255,255', '224,255,128,255') WHERE (Json LIKE '%128,224,255,255%')`
 
-## Modifier (Label) fields
+## Modifier (Label) Fields
 
 The symbol dictionary allows users to set various modifier fields to add labels around a symbol. For example, developers using ArcGIS Runtime's [MessageProcessor](https://developers.arcgis.com/java/api-reference/com/esri/core/symbol/advanced/MessageProcessor.html) can call [Message.setProperty(String, String)](https://developers.arcgis.com/java/api-reference/com/esri/core/symbol/advanced/Message.html#setProperty(java.lang.String, java.lang.Object)) to set labels for the symbol.
 
@@ -39,7 +55,7 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 
 | Property Name | 2525C Field ID | 2525C Field Title | Notes |
 | ------------- | -------------- | ----------------- | ----- |
-| additionalinfo2 | H | Additional Information 2 | Used in the Convoys and Airspace Coordination Area tactical graphics. |
+| additionalinfo2 | H2 | Additional Information 2 | Used in the Convoys and Airspace Coordination Area tactical graphics. |
 | additionalinformation | H | Additional Information | |
 | combateffectiveness | K | Combat Effectiveness | |
 | commonidentifier | AF | Common Identifier | |
@@ -60,7 +76,7 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | staffcomment | G | Staff Comments | |
 | type | V | Type | |
 | uniquedesignation | T | Unique Designation | |
-| uniquedesignation2 | T | Unique Designation 2 | Used as an additional field for Fire Support Lines tactical graphics. |
+| uniquedesignation2 | T2 | Unique Designation 2 | Used as an additional field for Fire Support Lines tactical graphics. |
 | x | Y | Location | Longitude in degrees. |
 | y | Y | Location | Latitude in degrees. |
 | z | X | Altitude/Depth | |
@@ -68,7 +84,7 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | zmin | X | Altitude/Depth | Minimum altitude for aviation tactical graphics. |
 
 
-Note: Detailed label field decriptions with graphics are also shown in [this Military Features Blog Post](http://blogs.esri.com/esri/arcgis/2011/02/04/representing-c2-tactical-symbols-in-arcgis-as-uei-features/)
+Note: Detailed label field descriptions with graphics are also shown in [this Military Features Blog Post](http://blogs.esri.com/esri/arcgis/2011/02/04/representing-c2-tactical-symbols-in-arcgis-as-uei-features/)
     
 
 ## Line Area Point Order Exceptions
@@ -79,7 +95,7 @@ If you view the table "LnAExceptions" ([see above](#viewing-the-symbol-dictionar
 
 To modify this table (after you re-consult the [warning here](#editing-the-symbol-dictionary-file)), in a SQLite viewer/editor of your choice, edit either the "Significant8Chars" column to change the symbol ID, the "GCT" column to change the transformation rule (for instance to "GCT_POLYLINE" to disable a special transformation), or remove the row(s) altogether (ex: `delete from LnAExceptions where 1` = delete all rows, but doesn't remove the table). 
 
-# Using the Message Type Files
+## Using the Message Type Files
 
 The files in the [messagetypes](./messagetypes) folder are the configuration files used by the Runtime Message Processor to process messages. You may modify these files to meet your particular needs. For example, you can increase the value of "symbolScaleFactor" to enlarge the symbols on the map. 
 

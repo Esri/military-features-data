@@ -1,13 +1,13 @@
-Military Features Data Usage, Tips, and Tricks for APP-6(B)
+Military Features Data - APP-6(B)
 =========================================
 
 #Purpose 
 
-The purpose of this document is to quickly and easily capture and clarify any unique usage issues that users of this data have encountered. Also to provide some supplemental information to the existing help documentation for Military Features and its associated data stored in this repo. 
+This folder contains the Military Features Data for this version of the standard (APP-6(B))
 
 For a starting point, see the [ArcGIS Military Features Help Documentation](http://resources.arcgis.com/en/help/main/10.1/index.html#//000n0000000p000000)
 
-IMPORTANT NOTE: Most of this information is common to 2525C and APP6. Please first view the [Usage, Tips, & Tricks information in the 2525C folder](../mil2525c). Only the information unique to APP6 will be listed in this file.
+IMPORTANT NOTE: This information is common to 2525C and APP6. Please first view the [Military Features Data in the 2525C folder](../mil2525c). Only the information unique to APP6 will be listed in this file.
 
 # Sections
 
