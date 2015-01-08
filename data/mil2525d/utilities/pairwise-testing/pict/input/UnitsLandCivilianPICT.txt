@@ -1,0 +1,13 @@
+#Units feature class, subtype 11, land civilian unit/organization#
+symbolset: 11
+identity: 0,1,2,3,4,5,6
+context: 0,1,2
+entity: 110000,110100,110200,110300,110400,110500,110600,110700,110800,110900,111000
+modifier1: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+modifier2: 1
+reinforced: 0,1,2
+credibility: 1,2,3,4,5,6
+reliability: A,B,C,D,E,F
+combateffectiveness: A,B,C,D
+indicator: 0,1,2,3,4,5,6,7
+echelon: 11,12,13,14,15,16,17,18,21,22,23,24,25,26

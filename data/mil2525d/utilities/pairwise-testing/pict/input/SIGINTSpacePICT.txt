@@ -1,0 +1,9 @@
+#SIGINT feature class, subtype 50, space#
+symbolset: 50
+identity: 0,1,2,3,4,5,6
+context: 0,1,2
+mobility: M,S,U
+credibility: 1,2,3,4,5,6
+reliability: A,B,C,D,E,F
+entity: 110100,110200,110300
+modifier1: 14,15,21,24,25,26,27,28,29,30,31,32,33,34,36,39,42,43,44,45,49,50,51,53,54,55,58,61,62,63,64
