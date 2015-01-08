@@ -1,0 +1,12 @@
+#Air feature class, subtype code 2, air missile)#
+symbolset: 2
+context: 0,1,2
+reinforced: 0,1,2
+credibility: 1,2,3,4,5,6
+reliability: A,B,C,D,E,F
+identity: 0,1,2,3,4,5,6
+entity: 110000
+modifier1: 1,2,3,4,5,6,7,8
+modifier2: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+operationalcondition: 0,1,2,3,4,5
+indicator: 0,1,2,3

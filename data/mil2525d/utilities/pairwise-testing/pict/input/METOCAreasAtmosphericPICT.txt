@@ -1,0 +1,3 @@
+#METOC feature class, subtype code 45, atmospheric#
+symbolset: 45
+entity: 162004,170100,170200,170300,170400,170500,170501,170600,170700,170800,170900,171000

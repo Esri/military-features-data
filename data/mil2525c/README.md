@@ -1,9 +1,9 @@
-Military Features Data 
+Military Features Data - MIL-STD-2525C ("Charlie")
 =========================================
 
 # Purpose 
 
-This folder contains the Military Features Data for this version of the standard (MIL-STD-2525C).  For more information on Military Features and as a starting point, see the [ArcGIS Military Features Help Documentation](http://resources.arcgis.com/en/help/main/10.1/index.html#//000n0000000p000000)
+This folder contains the Military Features Data for the **MIL-STD-2525C** ("Charlie") version of the standard.  For more information on Military Features and as a starting point, see the [ArcGIS Military Features Help Documentation](http://resources.arcgis.com/en/help/main/10.1/index.html#//000n0000000p000000). For more information on the standard, see the [official standard documents](http://www.assistdocs.com/search/document_details.cfm?ident_number=114934)
 
 # Sections
 
