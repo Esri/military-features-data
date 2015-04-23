@@ -75,3 +75,5 @@
         * Verify symbols and associated meta data
 * Finally, update [the .stylx file in this repo](../../core_data/stylxfiles)
  
+## Manage 2525D Styles ##
+The C# solution found under the manage-2525d-styles folder is a Windows form-based application that helps simplify  and automate execution of most of the above process work flow.  Please refer to its [documentation](./manage-2525d-styles/README.md) for more information.
