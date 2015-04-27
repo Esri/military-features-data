@@ -26,7 +26,7 @@ using System.Diagnostics;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace manage_2525d_styles
+namespace Manage2525DStyles
 {
     public partial class frmMain : Form
     {
@@ -50,16 +50,19 @@ namespace manage_2525d_styles
         private const string _strScratchTemplateStylx = "\\mil2525d.stylx";
         private const string _strMergeBatch = ".\\MergeStylx.bat";
 
-        private string _strMyHome = "C:\\Users\\andy750\\Documents\\GitHub\\manage-2525d-styles";
-        private string _strMyMFD = "C:\\Users\\andy750\\Documents\\GitHub\\military-features-data";
-        private string _strMyJMSML = "C:\\Users\\andy750\\Documents\\GitHub\\joint-military-symbology-xml";
-        private string _strMySymbols = "C:\\Symbols\\MIL_STD_2525D_Symbols";
-        private string _strMyInkscape = "C:\\Inkscape\\inkscape.com";
-        private string _strMyCSVtoStyle = "C:\\Users\\andy750\\Documents\\GitHub\\military-features-data\\data\\mil2525d\\utilities\\style-utilities\\style-file-utilities\\csv2ArcGISStyleDeployment";
-        private string _strMySQLite = "C:\\SQLite3\\sqlite3.exe";
-        private string _strMyStylx = "C:\\Users\\andy750\\Documents\\ArcGIS\\Projects\\MyProject\\Military-2525Delta-All-Icons.stylx";
-        private string _strMyPro = "C:\\Program Files\\ArcGIS\\Pro\\bin\\ArcGISPro.exe";
-        private string _strMyProject = "C:\\Users\\andy750\\Documents\\ArcGIS\\Projects\\MyProject\\MyProject.aprx";
+        // Example values for these strings are here for instructionsl purposes only.  The XML config file now handles
+        // these values for the user.
+
+        private string _strMyHome; // = "C:\\Users\\andy750\\Documents\\GitHub\\manage-2525d-styles";
+        private string _strMyMFD; // = "C:\\Users\\andy750\\Documents\\GitHub\\military-features-data";
+        private string _strMyJMSML; // = "C:\\Users\\andy750\\Documents\\GitHub\\joint-military-symbology-xml";
+        private string _strMySymbols; // = "C:\\Symbols\\MIL_STD_2525D_Symbols";
+        private string _strMyInkscape; // = "C:\\Inkscape\\inkscape.com";
+        private string _strMyCSVtoStyle; // = "C:\\Users\\andy750\\Documents\\GitHub\\military-features-data\\data\\mil2525d\\utilities\\style-utilities\\style-file-utilities\\csv2ArcGISStyleDeployment";
+        private string _strMySQLite; // = "C:\\SQLite3\\sqlite3.exe";
+        private string _strMyStylx; // = "C:\\Users\\andy750\\Documents\\ArcGIS\\Projects\\MyProject\\Military-2525Delta-All-Icons.stylx";
+        private string _strMyPro; // = "C:\\Program Files\\ArcGIS\\Pro\\bin\\ArcGISPro.exe";
+        private string _strMyProject; // = "C:\\Users\\andy750\\Documents\\ArcGIS\\Projects\\MyProject\\MyProject.aprx";
 
         private ManageStylesConfig _config;
 
@@ -71,6 +74,13 @@ namespace manage_2525d_styles
 
             toolStripProgressBar1.Style = ProgressBarStyle.Continuous;
             toolStripProgressBar1.MarqueeAnimationSpeed = 0;
+
+            // Initialize button color to provide some progress feedback
+
+            btnConvertGraphics.BackColor = Color.PaleGreen;
+            btnCreateStyle.BackColor = Color.IndianRed;
+            btnImportIntoPro .BackColor = Color.IndianRed;
+            btnMergeStylx.BackColor = Color.IndianRed;
 
             //
             // Deserialize the configuration xml to get the location of the needed data and tools
@@ -155,31 +165,37 @@ namespace manage_2525d_styles
 
             if (File.Exists(s))
             {
-                using (FileStream fs = new FileStream(s, FileMode.Open, FileAccess.Write))
+                // Deleting the existing config file, to work around a possible corruption issue
+
+                File.Delete(s);
+            }
+
+            // Now create a new config file
+
+            using (FileStream fs = new FileStream(s, FileMode.Create, FileAccess.Write))
+            {
+                if (fs.CanWrite)
                 {
-                    if (fs.CanWrite)
+                    try
                     {
-                        try
-                        {
-                            _config.Home = _strMyHome;
-                            _config.MilitaryFeaturesDataHome = _strMyMFD;
-                            _config.JMSMLHome = _strMyJMSML;
-                            _config.GraphicHome = _strMySymbols;
-                            _config.InkscapeHome = _strMyInkscape;
-                            _config.CSVtoStyleHome = _strMyCSVtoStyle;
-                            _config.SQLiteHome = _strMySQLite;
-                            _config.StylxHome = _strMyStylx;
-                            _config.ProHome = _strMyPro;
-                            _config.ProjectHome = _strMyProject;
+                        _config.Home = _strMyHome;
+                        _config.MilitaryFeaturesDataHome = _strMyMFD;
+                        _config.JMSMLHome = _strMyJMSML;
+                        _config.GraphicHome = _strMySymbols;
+                        _config.InkscapeHome = _strMyInkscape;
+                        _config.CSVtoStyleHome = _strMyCSVtoStyle;
+                        _config.SQLiteHome = _strMySQLite;
+                        _config.StylxHome = _strMyStylx;
+                        _config.ProHome = _strMyPro;
+                        _config.ProjectHome = _strMyProject;
 
-                            serializer.Serialize(fs, _config);
+                        serializer.Serialize(fs, _config);
 
-                            fs.Close();
-                        }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show(ex.Message);
-                        }
+                        fs.Close();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
                     }
                 }
             }
@@ -219,6 +235,9 @@ namespace manage_2525d_styles
         {
             // Set the location for working/scratch/output files
 
+            if (!Directory.Exists(_strMyHome))
+                _strMyHome = AppDomain.CurrentDomain.BaseDirectory;
+
             folderBrowserDialog1.SelectedPath = _strMyHome;
 
             DialogResult result = folderBrowserDialog1.ShowDialog();
@@ -230,6 +249,9 @@ namespace manage_2525d_styles
         private void btnMFD_Click(object sender, EventArgs e)
         {
             // Set the location of the Military Features Data repo
+
+            if (!Directory.Exists(_strMyMFD))
+                _strMyMFD = AppDomain.CurrentDomain.BaseDirectory;
 
             folderBrowserDialog1.SelectedPath = _strMyMFD;
             
@@ -243,6 +265,9 @@ namespace manage_2525d_styles
         {
             // Set the location of the JMSML repo
 
+            if (!Directory.Exists(_strMyJMSML))
+                _strMyJMSML = AppDomain.CurrentDomain.BaseDirectory;
+
             folderBrowserDialog1.SelectedPath = _strMyJMSML;
 
             DialogResult result = folderBrowserDialog1.ShowDialog();
@@ -254,6 +279,9 @@ namespace manage_2525d_styles
         private void btnGraphics_Click(object sender, EventArgs e)
         {
             // Set the spaceless path to the place where svg and emf files will be converted
+
+            if (!Directory.Exists(_strMySymbols))
+                _strMySymbols = AppDomain.CurrentDomain.BaseDirectory;
 
             folderBrowserDialog1.SelectedPath = _strMySymbols;
             txtGraphics.Text = folderBrowserDialog1.SelectedPath;
@@ -280,6 +308,9 @@ namespace manage_2525d_styles
         private void btnCSVtoStyle_Click(object sender, EventArgs e)
         {
             // Set the path to the CSV to Style creation project
+
+            if (!Directory.Exists(_strMyCSVtoStyle))
+                _strMyCSVtoStyle = AppDomain.CurrentDomain.BaseDirectory;
 
             folderBrowserDialog1.SelectedPath = _strMyCSVtoStyle;
             txtCSVtoStyle.Text = folderBrowserDialog1.SelectedPath;
@@ -677,6 +708,9 @@ namespace manage_2525d_styles
 
             _bw.DoWork -= ConvertGraphics;
             _bw.RunWorkerCompleted += ConvertGraphicsCompleted;
+
+            btnConvertGraphics.BackColor = Color.Khaki;
+            btnCreateStyle.BackColor = Color.PaleGreen;
         }
 
         private void CreateStylesCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -711,6 +745,9 @@ namespace manage_2525d_styles
 
                 comp.FileSystem.RenameFile(file, renamedFile);
             }
+
+            btnCreateStyle.BackColor = Color.Khaki;
+            btnImportIntoPro.BackColor = Color.PaleGreen;
         }
 
         private void MergeStylxCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -724,6 +761,8 @@ namespace manage_2525d_styles
 
             _bw.DoWork -= MergeStylx;
             _bw.RunWorkerCompleted -= MergeStylxCompleted;
+
+            btnMergeStylx.BackColor = Color.Khaki;
         }
 
         private void btnConvertGraphics_Click(object sender, EventArgs e)
@@ -795,6 +834,11 @@ namespace manage_2525d_styles
             proc.StartInfo = pStart;
 
             proc.Start();
+
+            btnMergeStylx.BackColor = Color.PaleGreen;
+            btnImportIntoPro.BackColor = Color.Khaki;
+
+            MessageBox.Show("Within ArcGIS Pro, use 'Insert>Import Style' to convert the newly created 'Military 2525Delta All.style' file to stylx.");
         }
 
         private void txtHome_TextChanged(object sender, EventArgs e)

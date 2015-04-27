@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace manage_2525d_styles.Properties {
+namespace Manage2525DStyles.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

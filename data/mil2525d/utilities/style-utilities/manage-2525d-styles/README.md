@@ -30,8 +30,6 @@ Strict dependence on the JMSML and Military Features Data repositories exist her
 * [Other Documentation](#documentation)
 * [Resources](#resources)
 * [Issues](#issues)
-* [Contributing](#contributing)
-* [Licensing](#licensing)
 
 ## Requirements
 
@@ -54,28 +52,28 @@ Strict dependence on the JMSML and Military Features Data repositories exist her
 ### Getting Started with the solution
 * Open and build the Visual Studio Solution at manage-military-styles.sln
 * Run the solution to see a form appear, which you can use to execute the aforementioned features.
-* The config.xml file in the solution's executable folder will be used to initialize the paths to all of the above required data and tools.  Specifically, when this application is run and the form first appears, enter or browse to the following locations (default locations from the config file will initialize the appropriate text boxes):
+* The manage2525d.config file in the solution's executable folder will be used to initialize the paths to all of the above required data and tools.  Specifically, when this application is run and the form first appears, enter or browse to the following locations (default locations from the config file will initialize the appropriate text boxes):
 
 	* **Manager Home** - The location of this local solution (a folder).
 	* **Military Features Data** - The location of your local military-features-data repository (a folder).
 	* **JMSML** - The location of your local joint-military-symbology-xml repository (a folder).
 	* **Graphics** - The location, devoid of spaces, of the folder on your machine where graphics will be copied and converted (a folder).
-	* **Inkscape** - The path, devoid of spaces, where your copy of Inkscape.com is installed (a file).
+	* **Inkscape** - The path, devoid of spaces, where your copy of **Inkscape.com** is installed (a file).
 	* **CSV to Style** - The location of your local copy of the CSV to Style generation application (a folder).
 	* **ArcGIS Pro** - The path to your installed instance of the ArcGIS Pro executable (a file).
-	* **Symbol Project** - The path to the ArcGIS Pro project (aprx) file you wish to open, when launching ArcGIS Pro.
+	* **Symbol Project** - The path to the ArcGIS Pro project (aprx) file you wish to open, when launching ArcGIS Pro (a file).
 	* **Stylx** - The path to the stylx file you created when you used ArcGIS Pro to import the style file for all icons/symbols (a file).
 	* **SQLite** - The path to your installed instance of SQLite (a file).
 
 General execution of the various steps of the stylx generation process is from left to right, on the main form, with each preceding step required to complete successfully before moving on to the next step.
 
-**1. Convert Graphics** - This automagically follows the procedures outlined [here](https://github.com/Esri/military-features-data/tree/master/data/mil2525d/utilities/style-utilities/image-conversion-utilities), first copying to your specified location all of the current JMSML SVG files, and then using Inkscape to convert those files to EMF.  When completed, Notepad is used to open up a log of the conversion process, so you can confirm its success.
+**1. Convert Graphics** - This automatically follows the procedures outlined [here](https://github.com/Esri/military-features-data/tree/master/data/mil2525d/utilities/style-utilities/image-conversion-utilities), first copying to your specified location all of the current JMSML SVG files, and then using Inkscape to convert those files to EMF.  When completed, Notepad is used to open up a log of the conversion process, so you can confirm its success.
 
-**2. Create Style Files** - This automagically follows the procedures outlined [here](https://github.com/Esri/military-features-data/tree/master/data/mil2525d/utilities/style-utilities/style-file-utilities), to modify a copy of the image name category tag CSV files in the JMSML samples folder.  It then repeatedly runs the standalone CSV-to-Style creation process, that uses the contents of the CSVs and the associated EMFs created in the previous step to build new ArcGIS Desktop (ArcMap) style files.  When completed, Notepad is used to open up a log of the creation process, so you can confirm its success.
+**2. Create Style Files** - This automatically follows the procedures outlined [here](https://github.com/Esri/military-features-data/tree/master/data/mil2525d/utilities/style-utilities/style-file-utilities), to modify a copy of the image name category tag CSV files in the JMSML samples folder.  It then repeatedly runs the standalone CSV-to-Style creation process, that uses the contents of the CSVs and the associated EMFs created in the previous step to build new ArcGIS Desktop (ArcMap) style files.  When completed, Notepad is used to open up a log of the creation process, so you can confirm its success.  The newly created style files are found in the **StyleOutputData** folder.
 
 **3. Import into Pro** - This quite simply starts up your instance of ArcGIS Pro, with the project file you specified.  Once ArcGIS Pro has started, you will need to use the desktop tools to import the **Military 2525Delta All.style** file into your project, which will convert it to an ArcGIS Pro stylx file.
 
-**4. Merge Stylx** - This automagically follows the procedures outlined [here](https://github.com/Esri/military-features-data/tree/master/data/mil2525d/utilities/style-utilities/merge-stylx-utilities) to modify a copy of the military features data SQLite script file, and then it uses that to merge the stylx file created in step three above (which contains points only) with the line, areas, and label information contained in the manually managed file [here](https://github.com/Esri/military-features-data/blob/master/data/mil2525d/core_data/stylxfiles/mil2525d-lines-areas-labels-base-template.stylx).  When completed, Notepad is used to open up a log of the merge process, so you can confirm its success.
+**4. Merge Stylx** - This automatically follows the procedures outlined [here](https://github.com/Esri/military-features-data/tree/master/data/mil2525d/utilities/style-utilities/merge-stylx-utilities) to modify a copy of the military features data SQLite script file, and then it uses that to merge the stylx file created in step three above (which contains points only) with the line, areas, and label information contained in the manually managed file [here](https://github.com/Esri/military-features-data/blob/master/data/mil2525d/core_data/stylxfiles/mil2525d-lines-areas-labels-base-template.stylx).  When completed, Notepad is used to open up a log of the merge process, so you can confirm its success.
 
 **Final Results** - When all four steps are successfully completed, you should find several finished style and one new stylx file in the StyleOutputData folder of this repository.
 
@@ -91,29 +89,3 @@ General execution of the various steps of the stylx generation process is from l
 ## Issues
 
 Find a bug or want to request a new feature?  Please let us know by submitting an issue.
-
-## Contributing
-
-Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
-
-## Licensing
-
-Copyright 2015 Esri
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-A copy of the license is available in the repository's
-[license.txt](license.txt) file.
-
-[](Esri Tags: ArcGIS Defense and Intelligence Joint Military Symbology XML ArcGISSolutions)
-[](Esri Language: XML)

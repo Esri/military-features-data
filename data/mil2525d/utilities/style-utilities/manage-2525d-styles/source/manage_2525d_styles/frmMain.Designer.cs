@@ -1,4 +1,4 @@
-﻿namespace manage_2525d_styles
+﻿namespace Manage2525DStyles
 {
     partial class frmMain
     {
@@ -153,9 +153,10 @@
             // 
             // btnConvertGraphics
             // 
-            this.btnConvertGraphics.Location = new System.Drawing.Point(64, 416);
+            this.btnConvertGraphics.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvertGraphics.Location = new System.Drawing.Point(52, 416);
             this.btnConvertGraphics.Name = "btnConvertGraphics";
-            this.btnConvertGraphics.Size = new System.Drawing.Size(154, 28);
+            this.btnConvertGraphics.Size = new System.Drawing.Size(167, 38);
             this.btnConvertGraphics.TabIndex = 9;
             this.btnConvertGraphics.Text = "1. Convert Graphics";
             this.btnConvertGraphics.UseVisualStyleBackColor = true;
@@ -212,9 +213,10 @@
             // 
             // btnCreateStyle
             // 
-            this.btnCreateStyle.Location = new System.Drawing.Point(268, 416);
+            this.btnCreateStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateStyle.Location = new System.Drawing.Point(260, 416);
             this.btnCreateStyle.Name = "btnCreateStyle";
-            this.btnCreateStyle.Size = new System.Drawing.Size(154, 28);
+            this.btnCreateStyle.Size = new System.Drawing.Size(167, 38);
             this.btnCreateStyle.TabIndex = 15;
             this.btnCreateStyle.Text = "2. Create Style Files";
             this.btnCreateStyle.UseVisualStyleBackColor = true;
@@ -303,9 +305,10 @@
             // 
             // btnMergeStylx
             // 
+            this.btnMergeStylx.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMergeStylx.Location = new System.Drawing.Point(676, 417);
             this.btnMergeStylx.Name = "btnMergeStylx";
-            this.btnMergeStylx.Size = new System.Drawing.Size(154, 27);
+            this.btnMergeStylx.Size = new System.Drawing.Size(167, 38);
             this.btnMergeStylx.TabIndex = 25;
             this.btnMergeStylx.Text = "4. Merge Stylx";
             this.btnMergeStylx.UseVisualStyleBackColor = true;
@@ -344,9 +347,10 @@
             // 
             // btnImportIntoPro
             // 
-            this.btnImportIntoPro.Location = new System.Drawing.Point(472, 417);
+            this.btnImportIntoPro.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImportIntoPro.Location = new System.Drawing.Point(468, 417);
             this.btnImportIntoPro.Name = "btnImportIntoPro";
-            this.btnImportIntoPro.Size = new System.Drawing.Size(154, 27);
+            this.btnImportIntoPro.Size = new System.Drawing.Size(167, 38);
             this.btnImportIntoPro.TabIndex = 29;
             this.btnImportIntoPro.Text = "3. Import into Pro";
             this.btnImportIntoPro.UseVisualStyleBackColor = true;

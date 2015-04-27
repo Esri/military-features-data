@@ -17,7 +17,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace manage_2525d_styles
+namespace Manage2525DStyles
 {
     static class Program
     {
