@@ -24,7 +24,7 @@ See the Component Sections for more information:
 
 ## Requirements
 
-* ArcGIS Professional 1.0+
+* ArcGIS Professional 1.1+
 * ArcGIS Runtime 10.3+
 * ArcGIS Desktop (10.1+) - only the .Style Files are compatible with Desktop 10.X
 

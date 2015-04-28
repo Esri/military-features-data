@@ -34,7 +34,7 @@ ALTER TABLE mil2525d_points.ITEMS ADD COLUMN LabelRules TEXT;
 /* Set the Key and Label Rules for the points version of the database (from Military-All-Icons.csv) */
 
 .mode csv
-.import {FULL-PATH-TO}/Military-All-Icons.csv NameJoin
+.import "{FULL-PATH-TO}/Military-All-Icons.csv" NameJoin
 
 /* Example: 
 .mode csv
