@@ -74,4 +74,3 @@
         * *Note: it may take 30-60 seconds to switch between the types*
         * Verify symbols and associated meta data
 * Finally, update [the .stylx file in this repo](../../core_data/stylxfiles)
- 
