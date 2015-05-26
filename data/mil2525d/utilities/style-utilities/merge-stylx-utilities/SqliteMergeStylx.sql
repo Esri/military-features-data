@@ -28,13 +28,13 @@ attach "C:/DefenseTemplates/Github/military-features-pro-data/source/utilities/m
 
 /* Add these required columns to points version of the database */
 /* TODO: Pro will eventually need to add these to the default stylx schema, so these commands may no longer be needed at some point */
-ALTER TABLE mil2525d_points.ITEMS ADD COLUMN Key TEXT;
+/*ALTER TABLE mil2525d_points.ITEMS ADD COLUMN Key TEXT; */
 ALTER TABLE mil2525d_points.ITEMS ADD COLUMN LabelRules TEXT; 
 
 /* Set the Key and Label Rules for the points version of the database (from Military-All-Icons.csv) */
 
 .mode csv
-.import {FULL-PATH-TO}/Military-All-Icons.csv NameJoin
+.import "{FULL-PATH-TO}/Military-All-Icons.csv" NameJoin
 
 /* Example: 
 .mode csv
@@ -94,6 +94,16 @@ insert into mil2525d.ITEMS (CLASS,CATEGORY,NAME,TAGS,CONTENT,Key,LabelRules)
     from mil2525d_points.ITEMS;
 
 detach mil2525d_points;
+
+/* Add version information */
+.mode csv
+.import "{FULL-PATH-TO}/versions.csv" meta
+
+/* Example: 
+.mode csv
+.import "C:/DefenseTemplates/Github/military-features-pro-data/source/utilities/merge-stylx-utilities/versions.csv" meta
+--> IMPORTANT/TRICKY NOTE: the import/attach commands require **forward** slashes (even on Windows)
+*/
 
 /* ensure mil2525d_points detached */
 .databases
