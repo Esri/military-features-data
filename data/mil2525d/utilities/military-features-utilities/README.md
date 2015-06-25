@@ -41,8 +41,9 @@ Importing the domain data:
     * You may also just download the files from the [`name_domains_values folder`](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/name_domains_values) in this repository
     * Note: although there are addition sample CSV files in this folder (ex. `*_Sample.csv`), the tools ignore these files using a file filter
 * **REQUIRED WORKAROUND**
-    * There is currently a bug in one of the [source csv files](https://github.com/Esri/joint-military-symbology-xml/blob/master/samples/name_domains_values/Coded_Domain_Land_Unit_Entities.csv#L193) - there are some string code entries in this file, but the imported domain codes are expected to be integers
-    * See https://github.com/Esri/joint-military-symbology-xml/issues/201 for the description of the issue and workaround
+    * There is currently an issue with one of the [source csv files - Coded_Domain_Land_Unit_Entities.csv](https://github.com/Esri/joint-military-symbology-xml/blob/master/samples/name_domains_values/Coded_Domain_Land_Unit_Entities.csv#L193) - there are some **string** entries in this file (containing "XXXX"), but the imported domain codes are expected to be integers
+    * These entries, currently the last four lines of Coded_Domain_Land_Unit_Entities.csv, will need to be manually edited/deleted in NotePad or other **text editor** (you should not use MS Excel because this may alter the format of the csv and data)
+    * See https://github.com/Esri/joint-military-symbology-xml/issues/201 for the full description of this issue and workaround
 * Run ArcGIS Pro
 * Navigate to the local location of the  [update-domain-toolbox GeoProcessing Toolbox](./update-domain-toolbox)
     * The toolbox should look similar to this
@@ -50,6 +51,9 @@ Importing the domain data:
 * Run the *Import or Replace All Domains (Military Features)* GP Tool
     * As the `Input Folder` select the `joint-military-symbology-xml/tree/master/samples/name_domains_values` folder
     * As the `Target Geodatabase` select the desired Military Features template geodatabase (usually the one [obtained from here](../../core_data/gdbs)) 
+        * IMPORTANT: The *Table To Domain* operation requires an exclusive schema lock on the geodatabase - therefore:
+        * You should **not** have this geodatabase open elsewhere (for example, added to the current map) while performing this operation.
+        * You must have full editing privileges (Update, Delete, etc.) to any feature class using this domain (mainly an issue if using SDE)
     * The GP Tool parameters will look similar to the following
 ![Image of Import Domains](./screenshots/ScreenShot.JPG)
 * When the tool runs successfully, open the geodatabase in design mode and verify that the domains have been updated with the new source data
