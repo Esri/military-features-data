@@ -30,6 +30,7 @@
     * `Military-All-Icons.csv`
     * to this folder (`military-features-pro-data\source\utilities\merge-stylx-utilities`)
 * Rename  `mil2525d-lines-areas-labels-base-template.stylx` to `mil2525d.stylx`
+* Edit the versions.csv file to update the version information that will be inserted into the completed stylx file
 * Launch the Sqlite editor/interpreter of your choice
 * Follow the SQL commands/steps in [SqliteMergeStylx.sql](./SqliteMergeStylx.sql)
     * Optionally you may edit this file to update the setting/string `{Full Path To}` to the local path and run this as an SQL script
