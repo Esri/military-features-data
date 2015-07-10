@@ -43,14 +43,19 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | ------------- | -------------- | --- | ----------------- | ----- |
 | additionalinformation  | H | H | Additional Information | |
 | additionalinformation2 | H | H | Additional Information 2 | Used in the Convoys and Airspace Coordination Area tactical graphics. |
+| azimuth | AN | AN | Azimuth | |
 | combateffectiveness | K | K | Combat Effectiveness | |
 | commonidentifier | AF | AF | Common Identifier | |
+| country | AS | AS | Country Code | |
 | credibility | J | J | Evaluation Rating | Credibility rating is second character of Evaluation Rating (J) field. |
 | datetimeexpired | W | W | Date-Time Group (DTG) | Second half of Date-Time Group (DTG) (W) field. |
 | datetimevalid | W | W | Date-Time Group (DTG) | First half of Date-Time Group (DTG) (W) field. |
 | distance | AM | | Distance | |
+| distance1 | AM | | Distance 2 | |
+| direction | Q | Q | Direction of Movement Indicator | |
 | equipmentteardowntime | AE | | Equipment Teardown Time | |
 | higherformation | M | M | Higher Formation | |
+| hostile | N | N | Hostile | |
 | idmode | P | P | IFF/SIF/AIS | |
 | platformtype | AD | AD | Platform Type | |
 | quantity | C | C | Quantity | |
@@ -60,11 +65,15 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | signatureequipment | L | L | Signature Equipment | |
 | speed | Z | Z | Speed | |
 | staffcomment | G | G | Staff Comments | |
+| targetdesignator | AP | AP | Target Designator |
 | type | V | V | Type | |
 | uniquedesignation | T | T | Unique Designation | |
 | uniquedesignation2 | T | | Unique Designation 2 | Used as an additional field for Fire Support Lines tactical graphics. |
 | x | Y | Y | Location | Longitude in degrees. |
+| x1 | Y | Y | Location | Longitude in degrees 2. |
 | y | Y | Y | Location | Latitude in degrees. |
+| y1 | Y | Y | Location | Latitude in degrees 2. |
 | z | X | X | Altitude/Depth | |
+| z1 | X | X | Altitude/Depth 2 | |
 | zmax | X | X | Altitude/Depth | Maximum altitude for aviation tactical graphics. |
 | zmin | X | X | Altitude/Depth | Minimum altitude for aviation tactical graphics. |
