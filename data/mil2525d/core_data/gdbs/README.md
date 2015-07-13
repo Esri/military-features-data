@@ -15,7 +15,7 @@ The following fields control the display of symbols.
 
 | Attribute Name | 2525 D Field ID | Data Type | Range of Values | Default Value/Meaning | Sample Name | Sample Value/Meaning | Explanatory Notes |
 | -------------- | --------- | --------- | --------------- | ----------- | -------------------- | ----------------- | ----------------- |
-| symbolset | A | short int | 00-99  | (per feature class) | "Air" | 01 ("air") | **REQUIRED** | 
+| symbolset | A/E/AC | short int | 00-99  | (per feature class) | "Air" | 01 ("air") | **REQUIRED** | 
 | entity  | A | long int | N/A | (per feature class) | "Military (Air) : Fixed-Wing" | "110100"  | **REQUIRED** |
 | modifier1 | A | long int | 00-99 | 00 (None) | "Mobility : Air Mobile/Air Assault" | Modifier "01" for Modifier 1 | Optional |
 | modifier2 | A | long int | 00-99 | 00 (None)  | "Close Range and Support : Casualty Staging" | Modifier "05" for Modifier 2 | Optional |
@@ -25,7 +25,6 @@ The following fields control the display of symbols.
 | context  | E | short int | 0-2 | 0 (Reality) | "Reality" | 0 ("reality") | Optional |
 | mobility | R | long int | 0,31-52 (None) | 0 | Rail  | Rail=36 |  Optional |
 | array | AG | long int | 0,61-62 | 0 (None) | Short Towed Array | Short Towed Array=61 | Optional |
-| installation | AC | | | | | | Not in Datamodel |
 | operationalcondition | AL | long int | 0-5 | 0 (Present) | Planned | Planned=1 | Optional |
 | sidc | | string/TEXT | string length(8 or 20) | N/A | "01100110" | SymbolSet:"Air"/"01" + Entity:"100110" | Optional-allows len=20 or len=8(identity=unknown) SIDC format |
 
