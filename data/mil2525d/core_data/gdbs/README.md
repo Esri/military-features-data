@@ -32,7 +32,7 @@ The following fields control the display of symbols.
 
 The following modifier fields are supported in [the current Pro Stylx and Runtime Symbol Dictionary](../stylxfiles). 
 
-To view the Label Rules and associations, view the symbol dictionary table "Label Rules." The following table lists the Modifier definitions from 2525C and 2525D and their corresponding attributes in the symbol dictionary.
+To view the Label Rules and associations, view the symbol dictionary table "Label Rules." The following table lists the Modifier definitions from 2525D and their corresponding attributes in the symbol dictionary.
 
 | Attribute Name | 2525 D Field ID | Field Title | Notes |
 | ------------- | --- | ----------------- | ----- |
