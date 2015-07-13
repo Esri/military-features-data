@@ -41,39 +41,36 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 
 | Attribute Name | 2525 D Field ID | Field Title | Notes |
 | ------------- | --- | ----------------- | ----- |
+| quantity | C | Quantity | |
+| reinforced | F | Reinforced or Reduced | |
+| staffcomment | G | Staff Comments | |
 | additionalinformation | H | Additional Information | |
 | additionalinformation2 | H | Additional Information 2 | Used in the Convoys and Airspace Coordination Area tactical graphics. |
-| azimuth | AN | Azimuth | |
-| combateffectiveness | K | Combat Effectiveness | |
-| commonidentifier | AF | Common Identifier | |
-| country | AS | Country Code | |
 | credibility | J | Evaluation Rating | Credibility rating is second character of Evaluation Rating (J) field. |
-| datetimeexpired | W | Date-Time Group (DTG) | Second half of Date-Time Group (DTG) (W) field. |
-| datetimevalid | W | Date-Time Group (DTG) | First half of Date-Time Group (DTG) (W) field. |
-| distance | AM | Distance | |
-| distance1 | AM1 | Distance 2 | |
-| direction | Q | Direction of Movement Indicator | |
-| equipmentteardowntime | AE | Equipment Teardown Time | |
+| reliability | J1 | Evaluation Rating | Reliability rating is first character of Evaluation Rating (J) field. |
+| combateffectiveness | K | Combat Effectiveness | |
+| signatureequipment | L | Signature Equipment | |
 | higherformation | M | Higher Formation | |
 | hostile | N | Hostile | |
 | idmode | P | IFF/SIF/AIS | |
-| platformtype | AD | Platform Type | |
-| quantity | C | Quantity | |
-| reinforced | F | Reinforced or Reduced | |
-| reliability | J | Evaluation Rating | Reliability rating is first character of Evaluation Rating (J) field. |
-| sigintmobility | R2 | SIGINT Mobility Indicator | |
-| signatureequipment | L | Signature Equipment | |
-| speed | Z | Speed | |
-| staffcomment | G | Staff Comments | |
-| targetdesignator | AP | Target Designator |
-| type | V | Type | |
+| direction | Q | Direction of Movement Indicator | |
 | uniquedesignation | T | Unique Designation | |
 | uniquedesignation2 | T1 | Unique Designation 2 | Used as an additional field for Fire Support Lines tactical graphics. |
+| type | V | Type | |
+| datetimevalid | W | Date-Time Group (DTG) | First half of Date-Time Group (DTG) (W) field. |
+| datetimeexpired | W1 | Date-Time Group (DTG) | Second half of Date-Time Group (DTG) (W) field. |
+| z | X | Altitude/Depth | Maximum altitude for aviation tactical graphics. |
+| z1 | X1 | Altitude/Depth 2 | Minimum altitude for aviation tactical graphics. |
 | x | Y | Location | Longitude in degrees. |
 | x1 | Y1 | Location | Longitude in degrees 2. |
 | y | Y | Location | Latitude in degrees. |
 | y1 | Y1 | Location | Latitude in degrees 2. |
-| z | X | Altitude/Depth | |
-| z1 | X1 | Altitude/Depth 2 | |
-| zmax | X | Altitude/Depth | Maximum altitude for aviation tactical graphics. |
-| zmin | X | Altitude/Depth | Minimum altitude for aviation tactical graphics. |
+| speed | Z | Speed | |
+| platformtype | AD | Platform Type | |
+| equipmentteardowntime | AE | Equipment Teardown Time | |
+| commonidentifier | AF | Common Identifier | |
+| distance | AM | Distance | |
+| distance1 | AM1 | Distance 2 | |
+| azimuth | AN | Azimuth | |
+| targetdesignator | AP | Target Designator |
+| country | AS | Country Code | |
