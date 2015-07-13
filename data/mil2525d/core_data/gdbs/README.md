@@ -15,20 +15,20 @@ The following fields control the display of symbols.
 
 | Attribute Name | 2525 D Field ID | Data Type | Range of Values | Default Value/Meaning | Sample Name | Sample Value/Meaning | Explanatory Notes |
 | -------------- | --------- | --------- | --------------- | ----------- | -------------------- | ----------------- | ----------------- |
-| identity | A | long int | 0-9 | 1 (Unknown) | "Friend" | 3 ("friend") | **REQUIRED** |
 | symbolset | A | short int | 00-99  | (per feature class) | "Air" | 01 ("air") | **REQUIRED** | 
 | entity  | A | long int | N/A | (per feature class) | "Military (Air) : Fixed-Wing" | "110100"  | **REQUIRED** |
-| context  | A | short int | 0-2 | 0 (Reality) | "Reality" | 0 ("reality") | Optional |
 | modifier1 | A | long int | 00-99 | 00 (None) | "Mobility : Air Mobile/Air Assault" | Modifier "01" for Modifier 1 | Optional |
 | modifier2 | A | long int | 00-99 | 00 (None)  | "Close Range and Support : Casualty Staging" | Modifier "05" for Modifier 2 | Optional |
 | echelon | B | long int | 0-26 | 0 (None) | Squad  | Squad=12 | Optional |
 | indicator | D/S/AB | long int | 0-7 | 0 (None) | Headquarters | Headquarters=2 | Optional (="HQ/TF/FD") |
-| frameshapemodifier | E | | | | | | |
+| frameshapemodifier | E | | | | | | Not in Datamodel |
+| identity | E | long int | 0-9 | 1 (Unknown) | "Friend" | 3 ("friend") | **REQUIRED** |
+| context  | E | short int | 0-2 | 0 (Reality) | "Reality" | 0 ("reality") | Optional |
 | mobility | R | long int | 0,31-52 (None) | 0 | Rail  | Rail=36 |  Optional |
 | array | AG | long int | 0,61-62 | 0 (None) | Short Towed Array | Short Towed Array=61 | Optional |
-| installation | AC | | | | | | |
+| installation | AC | | | | | | Not in Datamodel |
 | operationalcondition | AL | long int | 0-5 | 0 (Present) | Planned | Planned=1 | Optional |
-| engagement bar | AO | | | | | |
+| engagement bar | AO | | | | | Not in Datamodel |
 | sidc | | string/TEXT | string length(8 or 20) | N/A | "01100110" | SymbolSet:"Air"/"01" + Entity:"100110" | Optional-allows len=20 or len=8(identity=unknown) SIDC format |
 
 ## Text Amplifiers
@@ -73,6 +73,6 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | distance1 | AM1 | Distance 2 | |
 | azimuth | AN | Azimuth | |
 | targetdesignator | AP | Target Designator |
-| guardedunit | AQ | Guarded Unit | |
-| specialdesignator | AR | Special Designator | |
+| guardedunit | AQ | Guarded Unit | Not in Datamodel |
+| specialdesignator | AR | Special Designator | Not in Datamodel |
 | country | AS | Country Code | |
