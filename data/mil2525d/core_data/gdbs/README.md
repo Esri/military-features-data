@@ -65,7 +65,7 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | y | Y | Location | Latitude in degrees. |
 | y2 | Y1 | Location | Latitude in degrees 2. |
 | speed | Z | Speed | |
-| specialheadquarters | AA | Special C2 Headquarters | |
+| specialheadquarters | AA | Special C2 Headquarters | Not in Datamodel |
 | platformtype | AD | Platform Type | |
 | equipmentteardowntime | AE | Equipment Teardown Time | |
 | commonidentifier | AF | Common Identifier | |
