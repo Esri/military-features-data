@@ -21,11 +21,14 @@ The following fields control the display of symbols.
 | context  | A | short int | 0-2 | 0 (Reality) | "Reality" | 0 ("reality") | Optional |
 | modifier1 | A | long int | 00-99 | 00 (None) | "Mobility : Air Mobile/Air Assault" | Modifier "01" for Modifier 1 | Optional |
 | modifier2 | A | long int | 00-99 | 00 (None)  | "Close Range and Support : Casualty Staging" | Modifier "05" for Modifier 2 | Optional |
-| indicator | A | long int | 0-7 | 0 (None) | Headquarters | Headquarters=2 | Optional (="HQ/TF/FD") |
 | echelon | B | long int | 0-26 | 0 (None) | Squad  | Squad=12 | Optional |
+| indicator | D/S/AB | long int | 0-7 | 0 (None) | Headquarters | Headquarters=2 | Optional (="HQ/TF/FD") |
+| frameshapemodifier | E | | | | | | |
 | mobility | R | long int | 0,31-52 (None) | 0 | Rail  | Rail=36 |  Optional |
-| array | R | long int | 0,61-62 | 0 (None) | Short Towed Array | Short Towed Array=61 | Optional, Unsure of Field ID |
+| array | AG | long int | 0,61-62 | 0 (None) | Short Towed Array | Short Towed Array=61 | Optional |
+| installation | AC | | | | | | |
 | operationalcondition | AL | long int | 0-5 | 0 (Present) | Planned | Planned=1 | Optional |
+| engagement bar | AO | | | | | |
 | sidc | | string/TEXT | string length(8 or 20) | N/A | "01100110" | SymbolSet:"Air"/"01" + Entity:"100110" | Optional-allows len=20 or len=8(identity=unknown) SIDC format |
 
 ## Text Amplifiers
@@ -54,14 +57,15 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | uniquedesignation2 | T1 | Unique Designation 2 | Used as an additional field for Fire Support Lines tactical graphics. |
 | type | V | Type | |
 | datetimevalid | W | Date-Time Group (DTG) | First half of Date-Time Group (DTG) (W) field. |
-| datetimeexpired | W1 | Date-Time Group (DTG) | Second half of Date-Time Group (DTG) (W) field. |
+| datetimeexpired | W1 | Date-Time Group (DTG) | Second half of Date-Time Group (DTG) (W) field. Many systems use W1 as a trigger to delete symbol from map. |
 | z | X | Altitude/Depth | Maximum altitude for aviation tactical graphics. |
-| z1 | X1 | Altitude/Depth 2 | Minimum altitude for aviation tactical graphics. |
+| z2 | X1 | Altitude/Depth 2 | Minimum altitude for aviation tactical graphics. |
 | x | Y | Location | Longitude in degrees. |
-| x1 | Y1 | Location | Longitude in degrees 2. |
+| x2 | Y1 | Location | Longitude in degrees 2. |
 | y | Y | Location | Latitude in degrees. |
-| y1 | Y1 | Location | Latitude in degrees 2. |
+| y2 | Y1 | Location | Latitude in degrees 2. |
 | speed | Z | Speed | |
+| specialheadquarters | AA | Special C2 Headquarters | |
 | platformtype | AD | Platform Type | |
 | equipmentteardowntime | AE | Equipment Teardown Time | |
 | commonidentifier | AF | Common Identifier | |
@@ -69,4 +73,6 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | distance1 | AM1 | Distance 2 | |
 | azimuth | AN | Azimuth | |
 | targetdesignator | AP | Target Designator |
+| guardedunit | AQ | Guarded Unit | |
+| specialdesignator | AR | Special Designator | |
 | country | AS | Country Code | |
