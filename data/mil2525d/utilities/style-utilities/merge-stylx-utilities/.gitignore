@@ -1,5 +1,8 @@
 # Ignore these temp file used for the merge process
 Military-All-Icons.csv
+Military-ControlMeasures-Source-Points.csv
+Military-ControlMeasures-Source-Lines.csv
+Military-ControlMeasures-Source-Areas.csv
 *.stylx
 *.orig
 *.localversion
