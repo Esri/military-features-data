@@ -1,0 +1,5 @@
+# Ignore these temp file used for the merge process
+Military-All-Icons.csv
+*.stylx
+*.orig
+*.localversion

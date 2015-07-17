@@ -1,7 +1,7 @@
 /*
 Prerequisites: 
 1. 2 Versions of the .stylx files:
-  1. A Pro/Runtime stylx file with all of the 2525D Point Icons named : `mil2525d-points-only.stylx`
+  1. A Pro/Runtime stylx file with all of the 2525D Point Icons named : `mil2525d-points-to-add-keys-labels.stylx`
   2. A version of the .stylx that is edited and maintained in ArcGIS Pro: `mil2525d.stylx` 
      (This is the copied/renamed file: `mil2525d-lines-areas-labels-base-template.stylx`)
 2. A Sqlite Editor/Interpreter capable of executing SQL commands (ex. sqlite3.exe)
@@ -13,13 +13,12 @@ Prerequisites:
 /* Conversion Steps - Launch the Sqlite editor/interpreter of your choice */
 /* You may be able to run this as .sql script if you edit {Full Path To} to the local path */
 
-attach "{Full Path To}/mil2525d-points-only.stylx" as mil2525d_points;
-attach "{Full Path To}/mil2525d.stylx" as mil2525d;
+attach "{FULL-PATH-TO-MERGE-FOLDER-NO-BACKSLASHES}/mil2525d-points-to-add-keys-labels.stylx" as mil2525d_points;
+attach "{FULL-PATH-TO-MERGE-FOLDER-NO-BACKSLASHES}/mil2525d.stylx" as mil2525d;
 
 /* Example:
-attach "C:/DefenseTemplates/Github/military-features-pro-data/source/utilities/merge-stylx-utilities/mil2525d-points-only.stylx" as mil2525d_points;
-attach "C:/DefenseTemplates/Github/military-features-pro-data/source/utilities/merge-stylx-utilities/mil2525d.stylx" as mil2525d;
-
+attach "C:/Github/military-features-data/source/utilities/merge-stylx-utilities/mil2525d-points-to-add-keys-labels.stylx" as mil2525d_points;
+attach "C:/Github/military-features-data/source/utilities/merge-stylx-utilities/mil2525d.stylx" as mil2525d;
 --> IMPORTANT/TRICKY NOTE: the import/attach commands require **forward** slashes (even on Windows)
 */
 
@@ -28,18 +27,18 @@ attach "C:/DefenseTemplates/Github/military-features-pro-data/source/utilities/m
 
 /* Add these required columns to points version of the database */
 /* TODO: Pro will eventually need to add these to the default stylx schema, so these commands may no longer be needed at some point */
-/*ALTER TABLE mil2525d_points.ITEMS ADD COLUMN Key TEXT; */
+/* NOTE: This Column("Key") did get added at Pro 1.1 */
+/*ALTER TABLE mil2525d_points.ITEMS ADD COLUMN Key TEXT; */ 
+/* NOTE: Still need to add this one("LabelRules"): */
 ALTER TABLE mil2525d_points.ITEMS ADD COLUMN LabelRules TEXT; 
 
 /* Set the Key and Label Rules for the points version of the database (from Military-All-Icons.csv) */
 
 .mode csv
-.import "{FULL-PATH-TO}/Military-All-Icons.csv" NameJoin
+.import "{FULL-PATH-TO-MERGE-FOLDER-NO-BACKSLASHES}/Military-All-Icons.csv" NameJoin
 
 /* Example: 
-.mode csv
-.import "C:/DefenseTemplates/Github/military-features-pro-data/source/utilities/merge-stylx-utilities/Military-All-Icons.csv" NameJoin
-
+.import "C:/Github/military-features-data/source/utilities/merge-stylx-utilities/Military-All-Icons.csv" NameJoin
 --> IMPORTANT/TRICKY NOTE: the import/attach commands require **forward** slashes (even on Windows)
 */
 
@@ -97,11 +96,10 @@ detach mil2525d_points;
 
 /* Add version information */
 .mode csv
-.import "{FULL-PATH-TO}/versions.csv" meta
+.import "{FULL-PATH-TO-MERGE-FOLDER-NO-BACKSLASHES}/versions.csv" meta
 
 /* Example: 
-.mode csv
-.import "C:/DefenseTemplates/Github/military-features-pro-data/source/utilities/merge-stylx-utilities/versions.csv" meta
+.import "C:/Github/military-features-data/source/utilities/merge-stylx-utilities/versions.csv" meta
 --> IMPORTANT/TRICKY NOTE: the import/attach commands require **forward** slashes (even on Windows)
 */
 
@@ -111,5 +109,5 @@ detach mil2525d_points;
 /* clean up - really shouldn't be any (nothing was deleted), but just in case process changes */
 VACUUM;
 
-/* all done */
+/* all done - but make sure you check for errors! */
 .exit
