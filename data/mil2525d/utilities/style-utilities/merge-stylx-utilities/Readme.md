@@ -3,7 +3,7 @@
 ## Purpose
 
 * Merges:
-    * A version of the .stylx that is edited and maintain in ArcGIS Pro
+    * A version of the .stylx that is edited and maintained in ArcGIS Pro
     * See: [mil2525d-lines-areas-labels-base-template.stylx](https://github.com/ArcGIS/military-features-pro-data/blob/master/data/core_data/stylxfiles/mil2525d-lines-areas-labels-base-template.stylx)
 * -with-
     * A version of the .stylx file with the SVG/EMF marker/points-only icons. This version is normally automatically generated from SVG icon marker symbols and meta-data-tagged source data from the [joint-military-symbology-xml repository](https://github.com/Esri/joint-military-symbology-xml)
@@ -17,7 +17,9 @@
     * A version of the .stylx file with the SVG/EMF icons 
         * A Pro/Runtime stylx file with all of the 2525D Point Icons called `mil2525d-points-only.stylx`
         * This would have been created [by following the steps/readme here](../../utilities)
-        * If you don't already have this, you can create it by importing the .style file with this icons, ["Military 2525Delta All.style"](../../../core_data/stylefiles/Military%202525Delta%20All.style), into ArcGIS Pro and renaming the resulting file to `mil2525d-points-only.stylx` 
+        * If you don't already have this file, you can create one by (1) importing the 10.X **.style** file with these point icons into ArcGIS Pro and (2) renaming the resulting file to `mil2525d-points-only.stylx` - steps:
+            * Import the file ["Military 2525Delta All.style"](../../../core_data/stylefiles/Military%202525Delta%20All.style) into Pro (Note: this is a 10.X **style** file until you import it into Pro, after which time a **.stylx** file will be created)
+            * Rename `Military 2525Delta All.stylx` to `mil2525d-points-only.stylx`
     *  A version of the .stylx that is edited and maintained in ArcGIS Pro: [mil2525d-lines-areas-labels-base-template.stylx](../../../core_data/stylxfiles/mil2525d-lines-areas-labels-base-template.stylx)
         *  This version has Label Placement definitions, Point, Line, Polygon, and Text Symbols that are manually created and maintained in ArcGIS Pro
         *  This file is already included with this repo
@@ -35,6 +37,7 @@
     * Edit the versions.csv file to update the pertinent version information, this information will be inserted into the completed/merged mil2525d.stylx file
         * This file should now be current with the updated/desired version information: `...utilities\style-utilities\merge-stylx-utilities\versions.csv`
 * Edit the automated scripts to point to the paths/configuration of your local machine:
+    * Use a text editor of your choice, such as Notepad/Notepad++, to edit and save local versions of the following files
     * Edit the batch file: [AutomatedCopyandMerge.bat](./AutomatedCopyandMerge.bat), set/replace the following settings:
         * These settings read `{TODO_EDIT_THIS_PATH}` and are:
         * The local/cloned copy of the Joint Military Symbology repository: `SET LOCAL_JMSXML_REPO_CLONE=________`
@@ -42,7 +45,9 @@
         * Save the updated version of the batch file
     * Edit the SQLite script [SqliteMergeStylx.sql](./SqliteMergeStylx.sql) to provide the fully qualified local path to this folder (`...utilities/style-utilities/merge-stylx-utilities`) 
         * **IMPORTANT**: the SQLite engine `sqlite3.exe` will *not* recognize backslashes (`\` - MS-DOS paths) so forward slashes (`/` - Unix-style paths) must be used.
-        * Replace all instances (currently 4 instances) of `{FULL-PATH-TO-MERGE-FOLDER-NO-BACKSLASHES}` with the fully qualified local path to this folder: `....utilities/style-utilities/merge-stylx-utilities` being careful to use  forward slashes (`/`) rather than backslashes (`\`)
+        * Replace all instances (currently 4 instances) of `{FULL-PATH-TO-MERGE-FOLDER-NO-BACKSLASHES}` with the fully qualified local path to this folder: `....utilities/style-utilities/merge-stylx-utilities` being careful to
+            * Use  forward slashes (`/`) rather than backslashes (`\`)
+            * Scroll through the entire file to check for replacements, several instances are near the bottom, end of the file
         * Save the updated version of the .sql file
 * Run the automated script to merge the two stylx files - [AutomatedCopyandMerge.bat](./AutomatedCopyandMerge.bat)
     * After the batch file has run, verify that there are no errors in the output
