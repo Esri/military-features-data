@@ -6,3 +6,4 @@ Military-ControlMeasures-Source-Areas.csv
 *.stylx
 *.orig
 *.localversion
+*-local.*
