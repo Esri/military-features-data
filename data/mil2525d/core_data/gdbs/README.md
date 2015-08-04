@@ -62,14 +62,14 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | y | Y | Location | Latitude in degrees. |
 | y2 | Y1 | Location | Latitude in degrees 2. |
 | speed | Z | Speed | |
-| specialheadquarters | AA | Special C2 Headquarters | Not in Datamodel |
+| specialheadquarters | AA | Special C2 Headquarters | |
 | platformtype | AD | Platform Type | |
 | equipmentteardowntime | AE | Equipment Teardown Time | |
 | commonidentifier | AF | Common Identifier | |
 | distance | AM | Distance | |
-| distance1 | AM1 | Distance 2 | |
+| distance2 | AM1 | Distance 2 | |
 | azimuth | AN | Azimuth | |
 | targetdesignator | AP | Target Designator |
-| guardedunit | AQ | Guarded Unit | Not in Datamodel |
-| specialdesignator | AR | Special Designator | Not in Datamodel |
+| guardedunit | AQ | Guarded Unit | |
+| specialdesignator | AR | Special Designator | |
 | country | AS | Country Code | |
