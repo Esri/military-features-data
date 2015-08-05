@@ -26,8 +26,9 @@
 * Check the SVG source folder that the workaround has been applied
     * Open a command prompt
     * `cd {local-path-to*}\joint-military-symbology-xml\svg\MIL_STD_2525D_Symbols\Frames`
-    * `findstr /s /c:"stroke-dasharray" *.svg > stroke-dash-array-check.txt`
-    * Open the resulting file `stroke-dash-array-check.txt` in a text editor and verify that *most* of the `stroke-dasharray` values show `stroke-dasharray="75,45"`
+    * `findstr /s /c:"stroke-dasharray=\"75,45\"" *.svg > stroke-dash-array-check.txt`
+    * Open the resulting file `stroke-dash-array-check.txt` in a text editor and verify that there are entries (currently several hundred) that show the `stroke-dasharray` workaround values: `stroke-dasharray="75,45"`
+        * These values are not present in the source data, so there existence will verify that the replacement was made
         * If you would like to see the values replaced, see the [replacement script](./PowerShellReplaceMultiple.ps1)
 
 `*` Note: Replace `{local-path-to}` with the fully qualified path, ex: `C:\Github\....`
