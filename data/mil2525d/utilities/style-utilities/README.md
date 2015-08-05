@@ -59,6 +59,9 @@
     * Note the local location of the `joint-military-symbology-xml\svg\MIL_STD_2525D_Symbols` folder:
     * `{Svg_Images_Home}` = ____________ 
         * Ex: `{Svg_Images_Home}` = `C:\Github\joint-military-symbology-xml\svg\MIL_STD_2525D_Symbols`
+* **WORKAROUND** Convert the dash patterns of some of the source SVG frames
+    * There is currently a workaround required on the source SVG files with respect to some of the dash patterns used in the frames
+    * See [svg-dash-workaround](./svg-dash-workaround) for the details and steps of this workaround
 * Convert the .svg files to .emf 
     * See [image-conversion-utilities](./image-conversion-utilities) for the details of this process
     * Note the location of these converted images:

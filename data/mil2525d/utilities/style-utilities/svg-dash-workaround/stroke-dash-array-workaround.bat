@@ -9,7 +9,7 @@
 :: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 :: (1) Source SVG Root Folder 
-:: SET svg_source_folder=C:\{TODO_EDIT_PATH_TO_SVGs}
+SET svg_source_folder=C:\{TODO_EDIT_PATH_TO_SVGs}
 :: Ex: 
 :: SET svg_source_folder=C:\Github\joint-military-symbology-xml\svg\MIL_STD_2525D_Symbols
 
@@ -27,6 +27,7 @@ powershell -Command "Write-Host "PowerShell Installed""
 if exist %svg_frames_source_folder% goto prereqs_exists_ok
 
 echo Required Source Folder does not exist: %svg_frames_source_folder%
+pause
 goto :EOF
 
 :prereqs_exists_ok
