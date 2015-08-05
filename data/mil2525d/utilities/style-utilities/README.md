@@ -47,7 +47,7 @@
         * Examples of incompatible Json entries include:
             * CIMRGBColor Objects - `"CIMRGBColor","values":[0,0,0,100]` - "CIMRGBColor" color object versus simplified RGBA: `"color":[0,0,0,255]` and last/alpha value of "100" (CIMRGBColor full opaque) vs. "255" (RGBA full opaque)
             * Curve objects - `"curveRings"`
-            * To determine if your .stylx contains incompatible features, you can use SQLite to perform a query for incompatible content: `select * from ITEMS where Content like '%curveRings%'` 
+            * To determine if your .stylx contains incompatible features, you can use SQLite to perform a query for incompatible content: `select * from ITEMS where (Content like '%CIMRGBColor%') or (Content like '%curveRings%')` 
     * Be aware that setting this flag/key could affect the editing of non-ArcGIS Runtime .stylx(s), so if you intend to edit other Pro .stylx(s), you may wish to remove/disable this setting when done this process. 
 
 ## General Instructions 
@@ -59,6 +59,9 @@
     * Note the local location of the `joint-military-symbology-xml\svg\MIL_STD_2525D_Symbols` folder:
     * `{Svg_Images_Home}` = ____________ 
         * Ex: `{Svg_Images_Home}` = `C:\Github\joint-military-symbology-xml\svg\MIL_STD_2525D_Symbols`
+* **WORKAROUND** Convert the dash patterns of some of the source SVG frames
+    * There is currently a workaround required on the source SVG files with respect to some of the dash patterns used in the frames
+    * See [svg-dash-workaround](./svg-dash-workaround) for the details and steps of this workaround
 * Convert the .svg files to .emf 
     * See [image-conversion-utilities](./image-conversion-utilities) for the details of this process
     * Note the location of these converted images:
