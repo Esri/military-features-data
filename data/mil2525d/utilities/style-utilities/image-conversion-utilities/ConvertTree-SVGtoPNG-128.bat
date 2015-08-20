@@ -6,7 +6,7 @@
 :: This was needed to handle a set of source svgs with a complex folder structure that
 :: needed to be maintained
 
-:: This script converts SVG files to EMF/PNG.  Run as admin
+:: This script converts SVG files to EMF/PNG.  
 :: For Inkscape help, see http://inkscape.org/doc/inkscape-man.html
 :: For an alternative to Inkscape that works just as well, see http://code.google.com/p/svg2emf/
 
