@@ -29,7 +29,7 @@ To use these files:
 
 * In Pro
     * If simply viewing the style, select "Add Style to project"
-        * **IMPORTANT: THIS FILE SHOULD NEVER BE MANUALLY UPDATED/EDITED IN PRO, IF UPDATING ANYTHING, USE THE OTHER INTENDED VERSION BELOW**
+        * **IMPORTANT: THIS FILE SHOULD NEVER BE MANUALLY UPDATED/EDITED IN PRO, IF UPDATING ANYTHING, USE THE OTHER INTENDED "TEMPLATE" VERSION BELOW**
 	    * This version of the file is [created using this creation/conversion process](../../utilities/style-utilities)
     * If using with the Dictionary Renderer, you will need to update the resource:
         * Copy [mil2525d.stylx](./mil2525d.stylx) to {Pro Install Location}\ArcGIS\Pro\Resources\Dictionaries\mil2525d	
@@ -52,7 +52,7 @@ Additional Usage Notes:
 * When editing these files, ensure that the CIM version used by ArcGIS Pro is compatible with the product you are targeting.
 * These files are intended to be viewed and edited in ArcGIS Pro but may be viewed with a SQLite viewer also. 
 
-## Version Information](#version-information)
+## Version Information
 
 The following version data is captured in the stylx "meta" table.
 
