@@ -14,14 +14,14 @@ This folder contains:
     * This auto-generated file is then merged with the .stylx below that is edited/maintained in Pro
     * **This version is intended for end-users**
 * [mil2525d-lines-areas-labels-base-template.stylx](./mil2525d-lines-areas-labels-base-template.stylx) - A separate version of this .stylx that has only the Label Placement Definitions, Point, Line, Polygon, and Text Symbols that are manually created and maintained in ArcGIS Pro
-	* **This version is intended only for use by the Product Engineers of this repo/data**
+    * **This version is intended only for use by the Product Engineers or maintainers of this repo/data**
 
 To use:
 
 [mil2525d.stylx](./mil2525d.stylx)
 
 * In Pro, Add Style to project
-	* **IMPORTANT: THIS FILE SHOULD NEVER BE MANUALLY UPDATED/EDITED IN PRO, IF UPDATING ANYTHING, USE THE OTHER INTENDED VERSION BELOW**
+    * **IMPORTANT: THIS FILE SHOULD NEVER BE MANUALLY UPDATED/EDITED IN PRO, IF UPDATING ANYTHING, USE THE OTHER INTENDED VERSION BELOW**
 * In Runtime 
     * Place the file `mil2525d.stylx` in the folder: `{Runtime Install}\resources\symbols\mil2525d`
     * Requires Versions 10.2.4 or later
@@ -33,3 +33,5 @@ To use:
 
 * In Pro, Add Style to project
 * You may edit/correct the symbols and associated meta data in this file in Pro, update this repo with this file as needed (**for repo Product Engineers or others making edits in Pro only**)
+* Before you edit this file in Pro, please read the [Runtime Compatibility Warning section of the style-utilities README.md](../../utilities/style-utilities/README.md#important-warning-on-runtime-compatibility-before-you-begin)
+* Once you have completed making any desired edits/changes, you will need to merge this file using the steps/process outlined in [merge-stylx-utilities](../../utilities/style-utilities/merge-stylx-utilities)

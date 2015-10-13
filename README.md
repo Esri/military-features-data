@@ -32,7 +32,7 @@ The ArcGIS Defense and Intelligence Military Features Data repository is a set o
     * If using the Style and Layer Files
 * ArcGIS Runtime 10.2 (or later)
     * If using the Symbol Dictionary Files
-* ArcGIS Professional or ArcGIS Runtime 10.2.4+
+* ArcGIS Pro 1.1 or ArcGIS Runtime 10.3+
     * If using the Stylx Files
 
 ## Instructions
