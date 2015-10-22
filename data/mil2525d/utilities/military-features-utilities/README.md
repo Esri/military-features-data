@@ -26,26 +26,26 @@
 
 The utility creates a new File Geodatabase (GDB) in a specified folder, replacing any existing geodatabase of the same name in that folder.  The version of the newly created geodatabase can also be specified.
 
-The structure of the geodatabase is determined by the contents of the CSV files found in the [tooldata](./template-gdb-toolbox/tooldata) folder.  These files are copies of those exported from JMSML.  The original, most recent, versions can always be found [here](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas).
+The structure of the geodatabase is determined by the contents of the CSV files found in a  folder selected at run-time.  The most recent version of these CSV files can be found [here](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas).
 
-A Versions table is added to the newly created geodatabase.  The contents of that Versions table is based on the CSV file [here](./template-gdb-toolbox/tooldata/Versions.csv).  The "Version" information for `automated_creation_date` and `last_modification_date` are populated with the current date when the tool is run.
+A Versions table is added to the newly created geodatabase.  The contents of that Versions table is based on the Versions.csv file found in the input folder, [here for example](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas/Versions.csv).  The "Version" information for `automated_creation_date` and `last_modification_date` are populated with the current date when the tool is run.
 
-Each feature class created in the geodatabase is populated with the field specifications found in the corresponding field schema CSV files, also found in the [tooldata](./template-gdb-toolbox/tooldata) folder.
+Each feature class created in the geodatabase is populated with the field specifications found in the corresponding field schema CSV files, also found [here](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas).
 
 #### Steps
 
 * Obtain the latest set of Military Features source data and utilities
 	* Clone/download this repository to your local machine.
 * Obtain the latest set of `military_feature_schemas` source CSV files
-	* Clone/download the Joint Military Symbology repository.
-	* You may also just download the files from the [tooldata](./template-gdb-toolbox/tooldata) folder in this repository.
+	* Clone/download the [Joint Military Symbology XML (JMSML) repository](https://github.com/Esri/joint-military-symbology-xml).
 * Run ArcGIS Pro
 * Navigate to the local location of the [template-gdb-toolbox GeoProcessing Toolbox](./template-gdb-toolbox).
 * Run the *Create Military Features Geodatasbase Template* tool, found in the `GeodatabaseTemplate` toolbox.
-	* As the `Folder` parameter, specify a destination folder for the newly created file geodatabase.  The name used to create the geodatabase, together with its entire dataset structure, is specified in the [Schemas.csv](./template-gdb-toolbox/tooldata/Schemas.csv) file.  Any existing geodatabase in this folder, with the same name, will be overwritten.
-	* As the `Version` parameter, select from the list of possible geodatabase versions.  The current version of ArcGIS Pro is the default.
-	* * IMPORTANT: The *Create File Geodatabase* operation requires an exclusive schema lock on the geodatabase - therefore:
-        * You should **not** have this geodatabase open elsewhere (for example, added to the current map) while performing this operation.
+	* For the `Schemas Folder` parameter, specify a folder containing the aforementioned schema CSV files.  These are normally found in your local JMSML samples folder, the clone you made of [this](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas).
+	* For the `Folder` parameter, specify a destination folder for the newly created file geodatabase.  The name used to create the geodatabase, together with its entire dataset structure, is specified in the `Schemas.csv` file found in the schemas folder.  Any existing geodatabase in the output folder, with the same name, will be overwritten.
+	* For the `Version` parameter, select from the list of possible geodatabase versions.  The current version of ArcGIS Pro is the default.
+	* IMPORTANT: The *Create File Geodatabase* operation requires an exclusive schema lock on the geodatabase - therefore:
+        * You should **not** have this geodatabase open elsewhere (for example, added to the current map), since you will be replacing it in that case, while performing this operation.
         * You must have full editing privileges (Update, Delete, etc.) to the folder and geodatabase you are creating/replacing in that folder.
     * When the tool runs successfully, open the geodatabase in design mode and verify that the expected feature dataset and feature classes have been created and that the feature classes have the fields expected.
     * Compare what is created with an en existing military features file [geodatabase](https://github.com/Esri/military-features-data/tree/master/data/mil2525d/core_data/gdbs).
@@ -56,9 +56,9 @@ Each feature class created in the geodatabase is populated with the field specif
 
 The utility reads the field specifications stored in a CSV file (identified by schema name) and adds those fields to the specified feature class.  Note, the specified feature class must be empty before this tool is run.
 
-The details for the fields to be added to the target feature class are derived from data exported from JMSML and stored in CSV files in the [tooldata](./template-gdb-toolbox/tooldata) folder.
+The details for the fields to be added to the target feature class are derived from data exported from JMSML and stored in CSV files from [this](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas) folder.
 
-The *Create Military Features Geodatabase Template* tool executes the *Add Military Feature Fields* tool in its operation.  The *Add Military Feature Fields* tool has been provided separately so a user can add the same set of fields to a feature class in an already existing geodatabase (file or SDE) feature class.
+The *Create Military Features Geodatabase Template* tool executes the *Add Military Feature Fields* tool in its operation.  The *Add Military Feature Fields* tool has been provided separately so a user can add the same set of fields to an already existing geodatabase (file or SDE) feature class.
 
 **Again, use of this tool is optional.  Running the *Create Military Features Geodatabase Template* tool, described above, runs this tool behind the scenes to create a complete military features geodatabase.  Only use the *Add Military Feature Fields* tool separately when you want to add military feature fields to an existing empty feature class.**
 
@@ -67,14 +67,14 @@ The *Create Military Features Geodatabase Template* tool executes the *Add Milit
 * Obtain the latest set of Military Features source data and utilities
 	* Clone/download this repository to your local machine.
 * Obtain the latest set of `military_feature_schemas` source CSV files
-	* Clone/download the Joint Military Symbology repository.
-	* You may also just download the files from the [tooldata](./template-gdb-toolbox/tooldata) folder in this repository.
+	* Clone/download the [Joint Military Symbology XML (JMSML) repository](https://github.com/Esri/joint-military-symbology-xml).
 * Run ArcGIS Pro
 * Navigate to the local location of the [template-gdb-toolbox GeoProcessing Toolbox](./template-gdb-toolbox).
 * Run the *Add Military Feature Fields* tool, found in the `GeodatabaseTemplate` toolbox.
-	* As the `Feature Class` parameter, specify an existing feature class in a geodatabase of your choice.
-	* As the `Schema` parameter, specify one of the names of a JMSML schema.  The name of a given schema corresponds with the name of a `Fields_*.csv` file found in the [tooldata](./template-gdb-toolbox/tooldata) folder and the name of the corresponding feature class created in a military features file geodatabase (see *Create Military Features Geodatabase Template* above).
-	* * IMPORTANT: The *Add Field* operation requires an exclusive schema lock on the feature class - therefore:
+	* For the `Schemas Folder` parameter, specify a folder containing the aforementioned schema CSV files.  These are normally found in your local JMSML samples folder, the clone you made of [this](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas).
+	* For the `Feature Class` parameter, specify an existing feature class in a geodatabase of your choice, a feature class without military feature fields in it.
+	* For the `Schema` parameter, specify one of the names of a JMSML schema.  The name of a given schema corresponds with the name of a `Fields_*.csv` file found in the Schemas folder and the name of the corresponding feature class created in a military features file geodatabase (see *Create Military Features Geodatabase Template* above).
+	* IMPORTANT: The *Add Field* operation requires an exclusive schema lock on the feature class - therefore:
         * You should **not** have this feature class open elsewhere (for example, added to the current map) while performing this operation.
         * You must have full editing privileges (Update, Delete, etc.) to the geodatabase and feature class you are modifying with this operation.
     * When the tool runs successfully, examine the specified feature class in design mode and verify that the expected fields have been created.

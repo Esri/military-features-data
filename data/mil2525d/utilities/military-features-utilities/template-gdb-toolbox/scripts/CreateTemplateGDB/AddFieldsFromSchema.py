@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------------------
-# Copyright 2013-2015 Esri
+# Copyright 2015 Esri
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -50,21 +50,12 @@ def castValue(valueType, originalValue):
         
     return castedValue
     
-def addFieldsFromSchema(featureClass="GET_PARAMETER", schema="GET_PARAMETER"):
+def addFieldsFromSchema(schemasFolder, featureClass, schema):
     
     # Adds the fields defined in a field schema CSV file to the specified feature class
     
     try:
-        arcpy.AddMessage("Starting: AddFieldsFromSchema")
-        
-        currentPath = os.path.dirname(__file__)
-        defaultDataPath = os.path.normpath(os.path.join(currentPath, r'../../tooldata/'))
-    
-        if featureClass == "GET_PARAMETER":
-            featureClass = arcpy.GetParameterAsText(0)
-            
-        if(schema == "GET_PARAMETER"):
-            schema = arcpy.GetParameterAsText(1)
+        arcpy.AddMessage("Starting: AddFieldsFromSchema") 
             
         # Make sure the feature class exists
         
@@ -72,7 +63,7 @@ def addFieldsFromSchema(featureClass="GET_PARAMETER", schema="GET_PARAMETER"):
             
             # Make sure the specfied field schema CSV file exists
             
-            fieldSchemaFile = os.path.join(defaultDataPath, "Fields_" + schema + ".csv")
+            fieldSchemaFile = os.path.join(schemasFolder, "Fields_" + schema + ".csv")
             if os.path.exists(fieldSchemaFile):
                 with open(fieldSchemaFile, 'r') as csvFile:
                     reader = csv.reader(csvFile, dialect='excel')
@@ -116,5 +107,9 @@ def addFieldsFromSchema(featureClass="GET_PARAMETER", schema="GET_PARAMETER"):
         arcpy.AddMessage("Success! - Stopping: AddFieldsFromSchema")
 
 if __name__ == '__main__':
-    addFieldsFromSchema()
+    schemasFolder = arcpy.GetParameterAsText(0)
+    featureClass = arcpy.GetParameterAsText(1)
+    schema = arcpy.GetParameterAsText(2)
+    
+    addFieldsFromSchema(schemasFolder, featureClass, schema)
         

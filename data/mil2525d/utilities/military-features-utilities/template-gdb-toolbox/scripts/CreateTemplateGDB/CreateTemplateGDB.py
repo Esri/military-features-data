@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------------------
-# Copyright 2013-2015 Esri
+# Copyright 2015 Esri
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -43,7 +43,7 @@ def geometryTypeLookup(jmsmlGeometryType):
                 }
     return switcher.get(jmsmlGeometryType, "NONE")
 
-def createVersionsTable(versionFile, geodatabase):
+def createVersionsTable(schemasFolder, versionFile, geodatabase):
     
     # Creates a version table using the contents of the specified CSV file
     # and today's date.  Inserts the table into the specified geodatabase
@@ -51,13 +51,10 @@ def createVersionsTable(versionFile, geodatabase):
     try:
         arcpy.AddMessage("Starting: CreateVersionsTable")
         
-        currentPath = os.path.dirname(__file__)
-        defaultDataPath = os.path.normpath(os.path.join(currentPath, r'../../tooldata/'))
-        
         if arcpy.Exists(versionFile):
             # Set the current date as the creation date
             
-            outFile = os.path.join(defaultDataPath, "temp.csv")
+            outFile = os.path.join(schemasFolder, "temp.csv")
             csvOut = open(outFile, "w")
             writer = csv.writer(csvOut, delimiter=',', lineterminator='\n')
             
@@ -96,30 +93,21 @@ def createVersionsTable(versionFile, geodatabase):
     finally:
         arcpy.AddMessage("Success! - Stopping: CreateVersionsTable")
             
-def createTemplateGDB(workspace="GET_PARAMETER", version="GET_PARAMETER"):
+def createTemplateGDB(schemasFolder, destinationFolder, version):
     
     # Creates the specified file geodatabase of the specified version
     
     try:
         arcpy.AddMessage("Starting: CreateEmptyGDB")
         
-        currentPath = os.path.dirname(__file__)
-        defaultDataPath = os.path.normpath(os.path.join(currentPath, r'../../tooldata/'))
-        
-        # Create a new file gdb in supplied folder  
+        # Create a new file gdb in supplied folder, using supplied schema specification  
                
-        if workspace == "GET_PARAMETER":
-            destinationFolder = arcpy.GetParameterAsText(0)
-            
-        if version == "GET_PARAMETER":   
-            version = arcpy.GetParameterAsText(1)
-        
         # Schema details are read from CSV files created by JMSML
         
         # Open the schemas CSV file which contains the basic structure of the gdb
         # we are going to create
         
-        schemaFile = os.path.join(defaultDataPath, "Schemas.csv")
+        schemaFile = os.path.join(schemasFolder, "Schemas.csv")
         
         with open(schemaFile, 'r') as csvFile:
             reader = csv.reader(csvFile, dialect='excel')
@@ -146,7 +134,7 @@ def createTemplateGDB(workspace="GET_PARAMETER", version="GET_PARAMETER"):
                 
                 # Create a Versions table from the contents of a CSV file
                 
-                createVersionsTable(os.path.join(defaultDataPath, "Versions.csv"), gdbPath)
+                createVersionsTable(schemasFolder, os.path.join(schemasFolder, "Versions.csv"), gdbPath)
                         
                 # Read the next line of data.  It should be a dataset and its metadata
                 
@@ -187,7 +175,7 @@ def createTemplateGDB(workspace="GET_PARAMETER", version="GET_PARAMETER"):
                                 featureClass = os.path.join(out_path, fcName)
                                 arcpy.AlterAliasName(featureClass, alias)
                                 
-                                AddFieldsFromSchema.addFieldsFromSchema(featureClass, fcName)
+                                AddFieldsFromSchema.addFieldsFromSchema(schemasFolder, featureClass, fcName)
                         
         
     except Exception as err: 
@@ -195,7 +183,11 @@ def createTemplateGDB(workspace="GET_PARAMETER", version="GET_PARAMETER"):
         
     finally:
         arcpy.AddMessage("Success! - Stopping: CreateEmptyGDB")
-        
+    
 if __name__ == '__main__':
-    createTemplateGDB()
+    schemasFolder = arcpy.GetParameterAsText(0)
+    destinationFolder = arcpy.GetParameterAsText(1)
+    version = arcpy.GetParameterAsText(2)
+    
+    createTemplateGDB(schemasFolder, destinationFolder, version)
     
