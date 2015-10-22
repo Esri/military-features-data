@@ -22,7 +22,7 @@ To Run:
    being careful to use forward slashes (`/`) rather than backslashes (`\`)
    and save the file 
 1. Run sqlite3.exe
-2. .load "{FULL-PATH-TO-MERGE-FOLDER-NO-BACKSLASHES}/SqliteUpdateTemplateStylxTags.sql"
+2. .read "{FULL-PATH-TO-MERGE-FOLDER-NO-BACKSLASHES}/SqliteUpdateTemplateStylxTags.sql"
 -or-
 sqlite3.exe < "{PATH_TO_LOCAL_MIL_FEATURES_REPO}\style-utilities\merge-stylx-utilities\SqliteUpdateTemplateStylxTags.sql"
 */
