@@ -102,6 +102,10 @@ Importing the domain data:
     * Clone/download the  [Joint Military Symbology](https://github.com/Esri/joint-military-symbology-xml) repository.
     * You may also just download the files from the [`name_domains_values folder`](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/name_domains_values) in this repository
     * Note: although there are addition sample CSV files in this folder (ex. `*_Sample.csv`), the tools ignore these files using a file filter
+* **REQUIRED WORKAROUND**
+    * There is currently an issue with one of the [source csv files - Coded_Domain_Land_Unit_Entities.csv](https://github.com/Esri/joint-military-symbology-xml/blob/master/samples/name_domains_values/Coded_Domain_Land_Unit_Entities.csv#L193) - there are some **string** entries in this file (containing "XXXX"), but the imported domain codes are expected to be integers
+    * These entries, currently the last four lines of Coded_Domain_Land_Unit_Entities.csv, will need to be manually edited/deleted in NotePad or other **text editor** (you should not use MS Excel because this may alter the format of the csv and data)
+    * See https://github.com/Esri/joint-military-symbology-xml/issues/201 for the full description of this issue and workaround
 * Run ArcGIS Pro
 * Navigate to the local location of the  [update-domain-toolbox GeoProcessing Toolbox](./update-domain-toolbox)
     * The toolbox should look similar to this
