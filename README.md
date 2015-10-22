@@ -46,7 +46,7 @@ The ArcGIS Defense and Intelligence Military Features Data repository is a set o
 * Download the repository
 * Determine the version of the military symbology standard you are using:
     * [US MIL-STD-2525D "Delta" - mil2525d](./data/mil2525d)
-	* [US MIL-STD-2525C "Charlie" - mil2525c](./data/mil2525c)
+    * [US MIL-STD-2525C "Charlie" - mil2525c](./data/mil2525c)
     * [NATO APP-6(B) - app6b](./data/app6b)
 * If using the source data with ArcGIS Desktop...
     * Update the local ArcGIS Military Style Files to the latest versions from the repository.
@@ -76,7 +76,7 @@ The ArcGIS Defense and Intelligence Military Features Data repository is a set o
 
 ## Resources
 
-* The [Official Military Standard Documents](http://www.assistdocs.com/search/document_details.cfm?ident_number=114934)
+* The [Official Military Standard Documents](http://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114934)
 * [ArcGIS Solutions](http://solutions.arcgis.com/)
 * [ArcGIS Military Features Help Documentation](http://resources.arcgis.com/en/help/main/10.1/index.html#//000n0000000p000000)
 * Military Features Blog Posts 
