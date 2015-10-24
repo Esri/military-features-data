@@ -43,7 +43,7 @@ def geometryTypeLookup(jmsmlGeometryType):
                 }
     return switcher.get(jmsmlGeometryType, "NONE")
 
-def createVersionsTable(schemasFolder, versionFile, geodatabase):
+def createVersionsTable(schemasFolder, geodatabase):
     
     # Creates a version table using the contents of the specified CSV file
     # and today's date.  Inserts the table into the specified geodatabase
@@ -51,30 +51,32 @@ def createVersionsTable(schemasFolder, versionFile, geodatabase):
     try:
         arcpy.AddMessage("Starting: CreateVersionsTable")
         
+        currentPath = os.path.dirname(__file__) 
+        versionFile = os.path.normpath(os.path.join(currentPath, "../../../../style-utilities/merge-stylx-utilities/versions.csv"))
+        
         if arcpy.Exists(versionFile):
             # Set the current date as the creation date
             
             outFile = os.path.join(schemasFolder, "temp.csv")
             csvOut = open(outFile, "w")
+            
             writer = csv.writer(csvOut, delimiter=',', lineterminator='\n')
+            
+            # Write headers
+            
+            writer.writerow(["Item", "Version"])
             
             with open(versionFile, "r") as csvIn:
                 reader = csv.reader(csvIn, delimiter=',', lineterminator='\n')
                 
-                for line in reader:
-                    if line[0] == "automated_creation_date" or line[0] == "last_modification_date":
-                        outString = time.strftime("%x")
-                    else:
-                        outString = line[1]
-                        
-                    writer.writerow([line[0], outString])
-                    
-                csvOut.close()         
-                    
-            # Now delete the original versions file and replace it with the new
-            
-            os.remove(versionFile)
-            os.rename(outFile, versionFile)
+                for line in reader:    
+                    writer.writerow([line[0], line[1]])
+                
+            outString = time.strftime("%x")    
+            writer.writerow(["automated_creation_date", outString])
+            writer.writerow(["last_modification_date", outString])
+                
+            csvOut.close()         
             
             # Now create the Versions table in the gdb
             
@@ -86,19 +88,21 @@ def createVersionsTable(schemasFolder, versionFile, geodatabase):
             arcpy.AddField_management(table, "Item", "TEXT", field_length=50)
             arcpy.AddField_management(table, "Version", "TEXT", field_length=50)
             
-            arcpy.CopyRows_management(versionFile, table)
+            arcpy.CopyRows_management(outFile, table)
+            
+            os.remove(outFile)
     except Exception as err: 
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
         
     finally:
-        arcpy.AddMessage("Success! - Stopping: CreateVersionsTable")
+        arcpy.AddMessage("Success! - Completed: CreateVersionsTable")
             
 def createTemplateGDB(schemasFolder, destinationFolder, version):
     
     # Creates the specified file geodatabase of the specified version
     
     try:
-        arcpy.AddMessage("Starting: CreateEmptyGDB")
+        arcpy.AddMessage("Starting: CreateTemplateGDB")
         
         # Create a new file gdb in supplied folder, using supplied schema specification  
                
@@ -134,7 +138,7 @@ def createTemplateGDB(schemasFolder, destinationFolder, version):
                 
                 # Create a Versions table from the contents of a CSV file
                 
-                createVersionsTable(schemasFolder, os.path.join(schemasFolder, "Versions.csv"), gdbPath)
+                createVersionsTable(schemasFolder, gdbPath)
                         
                 # Read the next line of data.  It should be a dataset and its metadata
                 
@@ -182,7 +186,7 @@ def createTemplateGDB(schemasFolder, destinationFolder, version):
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
         
     finally:
-        arcpy.AddMessage("Success! - Stopping: CreateEmptyGDB")
+        arcpy.AddMessage("Success! - Completed: CreateTemplateGDB")
     
 if __name__ == '__main__':
     schemasFolder = arcpy.GetParameterAsText(0)

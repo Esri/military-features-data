@@ -104,7 +104,7 @@ def addFieldsFromSchema(schemasFolder, featureClass, schema):
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
         
     finally:
-        arcpy.AddMessage("Success! - Stopping: AddFieldsFromSchema")
+        arcpy.AddMessage("Success! - Completed: AddFieldsFromSchema")
 
 if __name__ == '__main__':
     schemasFolder = arcpy.GetParameterAsText(0)
