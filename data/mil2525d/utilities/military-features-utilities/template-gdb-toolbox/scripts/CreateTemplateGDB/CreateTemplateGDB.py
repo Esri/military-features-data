@@ -91,6 +91,9 @@ def createVersionsTable(schemasFolder, geodatabase):
             arcpy.CopyRows_management(outFile, table)
             
             os.remove(outFile)
+        else:
+            arcpy.AddError(versionFile + " does not exist.")
+            
     except Exception as err: 
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
         

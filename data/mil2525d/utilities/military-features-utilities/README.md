@@ -43,7 +43,7 @@ Each feature class created in the geodatabase is populated with the field specif
 * Run the *Create Military Features Geodatasbase Template* tool, found in the `GeodatabaseTemplate` toolbox.
 	* For the `Schemas Folder` parameter, specify a folder containing the aforementioned schema CSV files.  These are normally found in your local JMSML samples folder, the clone you made of [this](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas).
 	* For the `Geodatabase Destination Folder` parameter, specify a destination folder for the newly created file geodatabase.  The name used to create the geodatabase, together with its entire dataset structure, is specified in the `Schemas.csv` file found in the schemas folder.  Any existing geodatabase in the output folder, with the same name, will be overwritten.
-	* For the `Version` parameter, select from the list of possible geodatabase versions.  ArcGIS 10.0 is the default version.
+	* For the `Version` parameter, select from the list of possible geodatabase versions.  The default of `CURRENT` means ArcGIS Desktop 10.1+, including ArcGIS Pro.
 	* IMPORTANT: The *Create File Geodatabase* operation requires an exclusive schema lock on the geodatabase - therefore:
         * You should **not** have this geodatabase open elsewhere (for example, added to the current map), since you will be replacing it in that case, while performing this operation.
         * You must have full editing privileges (Update, Delete, etc.) to the folder and geodatabase you are creating/replacing in that folder.
