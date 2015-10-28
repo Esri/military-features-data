@@ -26,6 +26,7 @@
 
 import arcpy, os, sys, traceback
 import AddFieldsFromSchema
+import UpdateDomains
 import csv as csv
 import time
 
@@ -142,6 +143,11 @@ def createTemplateGDB(schemasFolder, destinationFolder, version):
                 # Create a Versions table from the contents of a CSV file
                 
                 createVersionsTable(schemasFolder, gdbPath)
+                
+                # Create all the domains
+                
+                domainPath = os.path.normpath(os.path.join(schemasFolder, "../name_domains_values"))
+                UpdateDomains.updateDomains(domainPath, gdbPath)
                         
                 # Read the next line of data.  It should be a dataset and its metadata
                 
