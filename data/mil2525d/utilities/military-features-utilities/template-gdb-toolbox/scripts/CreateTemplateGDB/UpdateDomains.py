@@ -48,9 +48,12 @@ def updateDomains(domainsFolder, targetGDB):
 
     except Exception as err: 
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
+    
+    else:
+        arcpy.AddMessage("Success! - Completed: UpdateDomains")
         
     finally:
-        arcpy.AddMessage("Success! - Completed: UpdateDomains")
+        arcpy.AddMessage("Exiting: UpdateDomains")
 
 if __name__ == '__main__':
     domainsFolder = arcpy.GetParameterAsText(0)

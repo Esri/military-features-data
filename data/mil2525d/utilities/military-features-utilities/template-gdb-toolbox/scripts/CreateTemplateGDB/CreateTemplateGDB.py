@@ -98,8 +98,11 @@ def createVersionsTable(schemasFolder, geodatabase):
     except Exception as err: 
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
         
-    finally:
+    else:
         arcpy.AddMessage("Success! - Completed: CreateVersionsTable")
+        
+    finally:
+        arcpy.AddMessage("Exiting: CreateVersionsTable")
             
 def createTemplateGDB(schemasFolder, destinationFolder, version):
     
@@ -194,8 +197,11 @@ def createTemplateGDB(schemasFolder, destinationFolder, version):
     except Exception as err: 
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
         
-    finally:
+    else:
         arcpy.AddMessage("Success! - Completed: CreateTemplateGDB")
+        
+    finally:
+        arcpy.AddMessage("Exiting: CreateTemplateGDB")
     
 if __name__ == '__main__':
     schemasFolder = arcpy.GetParameterAsText(0)
