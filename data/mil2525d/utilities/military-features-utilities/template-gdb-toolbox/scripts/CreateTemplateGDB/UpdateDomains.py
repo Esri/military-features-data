@@ -20,31 +20,67 @@
 # Requirements: ArcGIS Desktop
 # ----------------------------------------------------------------------------------
 import arcpy, os, sys, traceback
+import csv
 import glob
+
+import Utility
 
 from arcpy import env
 from os import path
 
+def findNameAndDescription(fname, replaceType):
+    
+    # Find and return the domain's name and description from its filename
+    
+    theFile = os.path.basename(fname)
+    domainFileName, fileExt = os.path.splitext(theFile)
+    domainName = domainFileName.replace(replaceType, " ").strip()
+    domainDescription = domainName.replace('_',' ')
+            
+    return (domainName, domainDescription)
+
+    
 def updateDomains(domainsFolder, targetGDB):
     try:
         arcpy.AddMessage("Starting: UpdateDomains")
         
+        # Update all coded (list) domains
+        
         path = os.path.normpath(os.path.join(domainsFolder, "Coded_Domain_*.csv"))
+        
         for fname in glob.glob(path):
             
-            # Iterate over each coded domain CSV file in the domain
-            # folder and determine the name and description of each domain
+            # Find the domain's name and description and then add it to the gdb
             
-            theFile = os.path.basename(fname)
-            domainFileName, fileExt = os.path.splitext(theFile)
-            domainName = domainFileName.replace("Coded_Domain_", " ").strip()
-            domainDescription = domainName.replace('_',' ')
-            
-            # Now update a domain in the target gdb using the information
-            # gathered
+            domainName, domainDescription = findNameAndDescription(fname, "Coded_Domain_")
             
             arcpy.AddMessage("Updating domain " + domainName + "...")
             arcpy.TableToDomain_management(fname, "Value", "Name", targetGDB, domainName, domainDescription, "REPLACE")
+            
+        # Update all range domains
+        
+        path = os.path.normpath(os.path.join(domainsFolder, "Range_Domain_*.csv"))
+        
+        for fname in glob.glob(path):
+            
+            # Find the domain's name and description and then add it to the gdb
+            
+            domainName, domainDescription = findNameAndDescription(fname, "Range_Domain_")
+                      
+            arcpy.AddMessage("Updating domain " + domainName + "...")
+            
+            # Set the range domain's min and max values
+            
+            with open(fname, 'r') as csvFile:
+                reader = csv.reader(csvFile, dialect='excel')
+        
+                # Skip the header, use the second line
+                header = next(reader)
+                line = next(reader)
+                
+                arcpy.CreateDomain_management(targetGDB, domainName, domainDescription, Utility.fieldTypeLookup(line[0]), "RANGE")
+                arcpy.SetValueForRangeDomain_management(targetGDB, domainName, int(line[1]), int(line[2]))
+
 
     except Exception as err: 
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
