@@ -26,6 +26,7 @@
 
 import arcpy, os, sys, traceback
 import AddFieldsFromSchema
+import UpdateDomains
 import csv as csv
 import time
 
@@ -97,8 +98,11 @@ def createVersionsTable(schemasFolder, geodatabase):
     except Exception as err: 
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
         
-    finally:
+    else:
         arcpy.AddMessage("Success! - Completed: CreateVersionsTable")
+        
+    finally:
+        arcpy.AddMessage("Exiting: CreateVersionsTable")
             
 def createTemplateGDB(schemasFolder, destinationFolder, version):
     
@@ -142,6 +146,11 @@ def createTemplateGDB(schemasFolder, destinationFolder, version):
                 # Create a Versions table from the contents of a CSV file
                 
                 createVersionsTable(schemasFolder, gdbPath)
+                
+                # Create all the domains
+                
+                domainPath = os.path.normpath(os.path.join(schemasFolder, "../name_domains_values"))
+                UpdateDomains.updateDomains(domainPath, gdbPath)
                         
                 # Read the next line of data.  It should be a dataset and its metadata
                 
@@ -188,8 +197,11 @@ def createTemplateGDB(schemasFolder, destinationFolder, version):
     except Exception as err: 
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
         
-    finally:
+    else:
         arcpy.AddMessage("Success! - Completed: CreateTemplateGDB")
+        
+    finally:
+        arcpy.AddMessage("Exiting: CreateTemplateGDB")
     
 if __name__ == '__main__':
     schemasFolder = arcpy.GetParameterAsText(0)
