@@ -85,13 +85,15 @@ def addFieldsFromSchema(schemasFolder, featureClass, schema):
                                                       field_type=fieldType, \
                                                       field_length=length, \
                                                       field_alias=line[3], \
-                                                      field_is_nullable=line[4])
+                                                      field_is_nullable=line[4], \
+                                                      field_domain=line[5])
                         else:
                             arcpy.AddField_management(featureClass, \
                                                       field_name=line[0], \
                                                       field_type=fieldType, \
                                                       field_alias=line[3], \
-                                                      field_is_nullable=line[4])
+                                                      field_is_nullable=line[4], \
+                                                      field_domain=line[5])
                         
                         # Set the default value for the field
                         
@@ -102,9 +104,12 @@ def addFieldsFromSchema(schemasFolder, featureClass, schema):
                                      
     except Exception as err: 
         arcpy.AddError(traceback.format_exception_only(type(err), err)[0].rstrip())
-        
-    finally:
+    
+    else:
         arcpy.AddMessage("Success! - Completed: AddFieldsFromSchema")
+            
+    finally:
+        arcpy.AddMessage("Exiting: AddFieldsFromSchema")
 
 if __name__ == '__main__':
     schemasFolder = arcpy.GetParameterAsText(0)
