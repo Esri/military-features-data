@@ -4,7 +4,7 @@
 
 * Merges:
     * A version of the .stylx that is edited and maintained in ArcGIS Pro
-    * See: [mil2525d-lines-areas-labels-base-template.stylx](https://github.com/ArcGIS/military-features-pro-data/blob/master/data/core_data/stylxfiles/mil2525d-lines-areas-labels-base-template.stylx)
+    * See: [mil2525d-lines-areas-labels-base-template.stylx](../../../core_data/stylxfiles/mil2525d-lines-areas-labels-base-template.stylx)
 * -with-
     * A version of the .stylx file with the SVG/EMF marker/points-only icons. This version is normally automatically generated from SVG icon marker symbols and meta-data-tagged source data from the [joint-military-symbology-xml repository](https://github.com/Esri/joint-military-symbology-xml)
     * For more information on this data/process/version, see :

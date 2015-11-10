@@ -74,8 +74,7 @@
     * Close ArcMap
     * Once you have verified/validated the output style files, you may want to rename them
     * Note: names *without spaces* were used during the conversion process so you may wish to change these names at this time (if you updating the .styles in this repo)
-* Create a Pro .stylx file for the ["All Icons" style file - "Military 2525Delta All.style"](../../core_data/stylefiles/Military%202525Delta%20All.style)
-    * **Rename** the style file created that contains with all the icons `Military 2525Delta All Icons.style` to `mil2525d-points-only.style`
+* Create a Pro .stylx file for the ["mil2525d-points-only.style"](https://github.com/Esri/military-features-data/blob/v.next/data/mil2525d/core_data/stylefiles/mil2525d-points-only.style)
     * Open ArcGIS Pro and import the file `mil2525d-points-only.style` 
         * Project | Styles | Import Style - *(Note this operation may take several minutes to complete)*
     * Verify/validate that the file imported correctly and the icons look as expected
