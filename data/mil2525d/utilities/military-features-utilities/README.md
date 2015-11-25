@@ -8,7 +8,7 @@
 	* In template-gdb-toolbox: 
 	    * Create Military Feature Geodatabase Template - creates a new geodatabase from source CSV(.csv) files.  Executes the following two tools while doing so.
 	    * Import or Update Military Feature Domains - processes domain CSV(.csv) files found in a folder and imports and/or updates same in a target geodatabase.
-	    * Add Military Feature Fields - adds the fields specified in a given schema to a given feature class.  The field specifications for the specified schema are defined in a CSV(.csv) file.
+	    * Add Military Feature Fields - adds the fields specified in a given schema to a given feature class.  The field specifications for the specified schema are defined in a CSV(.csv) file.  This also updates subtypes when encountered.
 	* In export-domain-toolbox:
 	    * Export GDB Domains to Folder - exports the geodatabase domains to CSV(.csv) files.
 
@@ -59,9 +59,11 @@ Domains are also imported into the newly created geodatabase.  Those domains are
 
 #### Overview
 
-The utility reads the field specifications stored in a CSV file (identified by schema name) and adds those fields to the specified feature class.  Note, the specified feature class must be empty before this tool is run.
+The utility reads the field specifications, and in some cases subtype specifications, stored in CSV files (identified by schema name) and adds those fields and subtypes to the specified feature class.  Note, the specified feature class must be empty before this tool is run.
 
-The details for the fields to be added to the target feature class are derived from data exported from JMSML and stored in CSV files from [this](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas) folder.
+The details for the fields and subtypes to be added to the target feature class are derived from data exported from JMSML and stored in CSV files from [this](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas) folder.
+
+Subtypes are added to the geodatabase when the feature class using those subtypes is created.  Fields that have their domains and/or defaults set in respect of these subtypes are also handled.
 
 The *Create Military Features Geodatabase Template* tool executes the *Add Military Feature Fields* tool in its operation.  The *Add Military Feature Fields* tool has been provided separately so a user can add the same set of fields to an already existing geodatabase (file or SDE) feature class.
 
