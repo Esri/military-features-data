@@ -8,7 +8,7 @@
 	* In template-gdb-toolbox: 
 	    * Create Military Feature Geodatabase Template - creates a new geodatabase from source CSV(.csv) files.  Executes the following two tools while doing so.
 	    * Import or Update Military Feature Domains - processes domain CSV(.csv) files found in a folder and imports and/or updates same in a target geodatabase.
-	    * Add Military Feature Fields - adds the fields specified in a given schema to a given feature class.  The field specifications for the specified schema are defined in a CSV(.csv) file.
+	    * Add Military Feature Fields - adds the fields specified in a given schema to a given feature class.  The field specifications for the specified schema are defined in a CSV(.csv) file.  This also updates subtypes when encountered.
 	* In export-domain-toolbox:
 	    * Export GDB Domains to Folder - exports the geodatabase domains to CSV(.csv) files.
 
@@ -54,14 +54,19 @@ Domains are also imported into the newly created geodatabase.  Those domains are
         * You must have full editing privileges (Update, Delete, etc.) to the folder and geodatabase you are creating/replacing in that folder.
     * When the tool runs successfully, open the geodatabase in design mode and verify that the expected feature dataset, feature classes, and domains have been created and that the feature classes have the fields expected.
     * Compare what is created with an en existing military features file [geodatabase](https://github.com/Esri/military-features-data/tree/master/data/mil2525d/core_data/gdbs).
-
+* IMPORTANT: Complete a few additional manual steps (these have not yet been automated)
+    * Export the metadata from an existing Military Features GDB and import it into this one (using Import/Export Metadata GP tools)
+	* Enable Editor Tracking for desired layers/fields (ex. "Created By" "Creation Time") using the Enable Editor Tracking GP Tool
+	
 ### Add Military Feature Fields
 
 #### Overview
 
-The utility reads the field specifications stored in a CSV file (identified by schema name) and adds those fields to the specified feature class.  Note, the specified feature class must be empty before this tool is run.
+The utility reads the field specifications, and in some cases subtype specifications, stored in CSV files (identified by schema name) and adds those fields and subtypes to the specified feature class.  Note, the specified feature class must be empty before this tool is run.
 
-The details for the fields to be added to the target feature class are derived from data exported from JMSML and stored in CSV files from [this](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas) folder.
+The details for the fields and subtypes to be added to the target feature class are derived from data exported from JMSML and stored in CSV files from [this](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/military_feature_schemas) folder.
+
+Subtypes are added to the geodatabase when the feature class using those subtypes is created.  Fields that have their domains and/or defaults set in respect of these subtypes are also handled.
 
 The *Create Military Features Geodatabase Template* tool executes the *Add Military Feature Fields* tool in its operation.  The *Add Military Feature Fields* tool has been provided separately so a user can add the same set of fields to an already existing geodatabase (file or SDE) feature class.
 
@@ -127,18 +132,22 @@ Importing the domain data:
 
 Verifying the domain data updates (*Recommended/Optional*):
 
-* After running the *Importing the domain data* steps above...
+* After running the any of the steps above, you may wish to compare the output to an existing GDB
 * Run ArcGIS Pro.
-* Navigate to the local location of the  [export-domain-toolbox GeoProcessing Toolbox](./export-domain-toolbox).
+* Navigate to the local location of the  [GeoDatabase Template GeoProcessing Toolbox](./template-gdb-toolbox).
+* Run any of the tools under "Validation Tools" (e.g. Export Domain/Fields/Subtypes) against:
+    * the "Before" and "After" versions of the GDB
+	* -or- the source data CSVs
+* For example...
 * Run the *Export GDB Domains to Folder* GP Tool.
     * As the `Input Workspace` select the Military Features template geodatabase updated while performing the *Importing the domain data* steps above.
     * As the `Output Folder` select an empty folder.
-    * This tool will export all Geodatabase domains to this folder.
+    * This tool will export all geodatabase domains to this folder.
     
 	![Image of Export Domains](./screenshots/ScreenShot2.JPG)
 
 * When the tool runs successfully, open the `Output Folder` and verify that the folder contains one CSV file for each domain stored in the `Input Workspace`.
-* Using a Diff Utility (such as [WinMerge](http://winmerge.org/)) compare the folder of exported domains to the folder containing the original/source set of `name_domains_values` source CSV files to verify that the exported CSVs match the inported CSVs.
+* Using a Diff Utility (such as [WinMerge](http://winmerge.org/)) compare the folder of exported domains to the folder containing the original/source set of `name_domains_values` source CSV files to verify that the exported CSVs match the imported CSVs.
     * Note: a Diff Utility may notice some slight differences, for example
         * Domains included in the Geodatabase that are not included in the source data.
         * Leading zeroes in the source data imports that are not reflected in the export, for example.
