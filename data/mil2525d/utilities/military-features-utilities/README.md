@@ -54,7 +54,10 @@ Domains are also imported into the newly created geodatabase.  Those domains are
         * You must have full editing privileges (Update, Delete, etc.) to the folder and geodatabase you are creating/replacing in that folder.
     * When the tool runs successfully, open the geodatabase in design mode and verify that the expected feature dataset, feature classes, and domains have been created and that the feature classes have the fields expected.
     * Compare what is created with an en existing military features file [geodatabase](https://github.com/Esri/military-features-data/tree/master/data/mil2525d/core_data/gdbs).
-
+* IMPORTANT: Complete a few additional manual steps (these have not yet been automated)
+    * Export the metadata from an existing Military Features GDB and import it into this one (using Import/Export Metadata GP tools)
+	* Enable Editor Tracking for desired layers/fields (ex. "Created By" "Creation Time") using the Enable Editor Tracking GP Tool
+	
 ### Add Military Feature Fields
 
 #### Overview
@@ -129,18 +132,22 @@ Importing the domain data:
 
 Verifying the domain data updates (*Recommended/Optional*):
 
-* After running the *Importing the domain data* steps above...
+* After running the any of the steps above, you may wish to compare the output to an existing GDB
 * Run ArcGIS Pro.
-* Navigate to the local location of the  [export-domain-toolbox GeoProcessing Toolbox](./export-domain-toolbox).
+* Navigate to the local location of the  [GeoDatabase Template GeoProcessing Toolbox](./template-gdb-toolbox).
+* Run any of the tools under "Validation Tools" (e.g. Export Domain/Fields/Subtypes) against:
+    * the "Before" and "After" versions of the GDB
+	* -or- the source data CSVs
+* For example...
 * Run the *Export GDB Domains to Folder* GP Tool.
     * As the `Input Workspace` select the Military Features template geodatabase updated while performing the *Importing the domain data* steps above.
     * As the `Output Folder` select an empty folder.
-    * This tool will export all Geodatabase domains to this folder.
+    * This tool will export all geodatabase domains to this folder.
     
 	![Image of Export Domains](./screenshots/ScreenShot2.JPG)
 
 * When the tool runs successfully, open the `Output Folder` and verify that the folder contains one CSV file for each domain stored in the `Input Workspace`.
-* Using a Diff Utility (such as [WinMerge](http://winmerge.org/)) compare the folder of exported domains to the folder containing the original/source set of `name_domains_values` source CSV files to verify that the exported CSVs match the inported CSVs.
+* Using a Diff Utility (such as [WinMerge](http://winmerge.org/)) compare the folder of exported domains to the folder containing the original/source set of `name_domains_values` source CSV files to verify that the exported CSVs match the imported CSVs.
     * Note: a Diff Utility may notice some slight differences, for example
         * Domains included in the Geodatabase that are not included in the source data.
         * Leading zeroes in the source data imports that are not reflected in the export, for example.
