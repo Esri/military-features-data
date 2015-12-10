@@ -153,7 +153,12 @@ def addFieldsFromSchema(schemasFolder, featureClass, schema):
                             if bool(line[8]):
                                 arcpy.AssignDomainToField_management(featureClass, line[0], line[5], line[8] + ": " + subTypes[line[8]])
                             else:
-                                arcpy.AssignDomainToField_management(featureClass, line[0], line[5])
+                                if len(subTypes) > 0:
+                                    subTypeItems = subTypes.items()
+                                    for subTypeItem in subTypeItems:
+                                        arcpy.AssignDomainToField_management(featureClass, line[0], line[5], subTypeItem[0] + ": " + subTypeItem[1])
+                                else:
+                                    arcpy.AssignDomainToField_management(featureClass, line[0], line[5])
                             
                         # Set the default value for the field
                         
