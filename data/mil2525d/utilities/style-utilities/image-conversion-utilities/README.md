@@ -12,8 +12,8 @@
 * IMPORTANT: No spaces in any of the paths (path to Inkscape, path to SVGs, etc.)
     * Because of the Windows batch file constraints (mainly needing to replace text in variables in a DOS batch file), there can't be any spaces in the paths
     * So, for instance, **don't** install your converter to **"Program Files"** or put the files to convert in **"My Documents"**
-* Need to install a third party .svg converter utility
-    * A utility such as Inkscape to perform the actual conversion of each file
+* Need to install a third party .svg converter utility, **we recommend Inkscape version 048.5.R10040.**
+    * While several other .svg converters are available, it is HIGHLY recommended to use the specific version of Inkscape mentioned, as it is the only version verified to not distort the colors/fonts/dash pattern during this process. 
 
 ## Instructions 
 
