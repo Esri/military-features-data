@@ -38,6 +38,8 @@ UPDATE ITEMS SET CONTENT = REPLACE(CONTENT, ',"layers":[]', '') WHERE (CONTENT L
 UPDATE ITEMS SET CONTENT = REPLACE(CONTENT, ',"symbolLayerDrawing":[]', '') WHERE (CONTENT LIKE '%,"symbolLayerDrawing":[]%');
 UPDATE ITEMS SET CONTENT = REPLACE(CONTENT, ',"colorSubstitutions":[]', '') WHERE (CONTENT LIKE '%,"colorSubstitutions":[]%');
 UPDATE ITEMS SET CONTENT = REPLACE(CONTENT, ',"tintColor":[]', '') WHERE (CONTENT LIKE '%,"tintColor":[]%');
+UPDATE ITEMS SET CONTENT = REPLACE(CONTENT, ',"dashTemplate":[]', '') WHERE (CONTENT LIKE '%,"dashTemplate":[]%');
+UPDATE ITEMS SET CONTENT = REPLACE(CONTENT, ',"symbolLayers":[]', '') WHERE (CONTENT LIKE '%,"symbolLayers":[]%');
 
 /* clean up */
 .print "VACUUM..."
