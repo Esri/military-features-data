@@ -1,0 +1,8 @@
+*-old*
+*.old*
+*-local
+*.backup
+*.sav*
+*-sav*
+*.gdb/
+*.ldb
