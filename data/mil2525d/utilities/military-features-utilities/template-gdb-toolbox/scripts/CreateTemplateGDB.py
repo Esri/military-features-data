@@ -53,7 +53,7 @@ def createVersionsTable(schemasFolder, geodatabase):
         arcpy.AddMessage("Starting: CreateVersionsTable")
         
         currentPath = os.path.dirname(__file__) 
-        versionFile = os.path.normpath(os.path.join(currentPath, "../../../../style-utilities/merge-stylx-utilities/versions.csv"))
+        versionFile = os.path.normpath(os.path.join(currentPath, "../../../style-utilities/merge-stylx-utilities/versions.csv"))
         
         if arcpy.Exists(versionFile):
             # Set the current date as the creation date
