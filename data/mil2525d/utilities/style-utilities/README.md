@@ -90,7 +90,7 @@
         * To verify that all symbol keys were created correctly by the merge process above, perform the following:
         * Use the SQLite editor of your choice to perform a query for missing/unmapped keys: 
         * `select * from ITEMS WHERE Key REGEXP '(^[A-Za-z]+)'`
-        * Note: This query tests for alphabetic keys - all mil2525d keys should be numeric - this query should not return any rows
+        * Note: This query tests for keys that start with an alphabetic character - all of the imported mil2525d keys should start with a numeric character - this query should not return any rows from the mil2525d icon source data (it may return some alphabetic rows that existed in the style prior to the merge so you may want to also do this query before making changes to compare the before vs. after)
     *  Verify/validate the final `mil2525d.stylx` file created in ArcGIS Pro 
         * This file should now contain points, lines, polygon, text, and label placement symbols
         * View | Project View | Styles | mil2525d 
