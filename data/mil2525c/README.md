@@ -21,8 +21,9 @@ This folder contains the Military Features Data for the **MIL-STD-2525C** ("Char
 * ArcGIS Runtime
     * [dictionary](./dictionary) - Military Features symbol dictionary
     * [messagetypes](./messagetypes) - Message Processor files
-* ArcGIS Professional
+* ArcGIS Pro
     * [stylxfiles](./stylxfiles)
+	* [Dictionary Renderer](./dictionaryrenderer)
 * Other support data
 
 # Using Military Features in ArcGIS Runtime

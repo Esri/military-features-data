@@ -1,5 +1,9 @@
 :: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 :: IMPORTANT/TODO: you must set/correct paths below: "TODO_"
+:: The expected workflow is to
+:: 1. Edit this file and save as "AutomatedCopyandMerge-local.bat"
+:: 2. Edit a version of "SqliteMergeStylx.sql" in this folder and save as "SqliteMergeStylx-local.sql"
+:: (The reason for the "-local" file naming/change is .gitignore is set to ignore that file pattern as a change)
 :: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 :: INPUTS/SETTINGS:
@@ -20,8 +24,8 @@ SET SQLITE_PATH_AND_EXE=C:\{TODO_EDIT_THIS_PATH}\sqlite3.exe
 SET LOCAL_MIL_FEATURES_REPO_2525D=..\..\..
 
 :: (4) Name of the stylx file that has only the Point/SVG symbols
-:: IMPORTANT: the script assumes this file will be in the same folder: 
-:: ...style-utilities\merge-stylx-utilities
+:: IMPORTANT: the script currently assumes this file will be in the same folder: 
+:: ...style-utilities\merge-stylx-utilities (but you can add a path to this here if you want to)
 SET POINTS_ONLY_STYLX=mil2525d-points-only.stylx
 
 :: it is the default, but just in case, this enables the needed feature "goto :eof" ("exit/return")
@@ -58,10 +62,15 @@ goto :pauseit
 
 :prereqs_points_only_stylx_exists_ok
 
+:: Prerequisites have been verified, now copy all of the dependent files into the current folder
+
+copy "%LOCAL_JMSXML_REPO_CLONE%\samples\imagefile_name_category_tags\Military-All-Icons.csv . 
+
 copy "%LOCAL_MIL_FEATURES_REPO_2525D%\core_data\stylxfiles\mil2525d-lines-areas-labels-base-template.stylx" mil2525d.stylx
 
 copy %POINTS_ONLY_STYLX% mil2525d-points-to-add-keys-labels.stylx
 
+:: TODO: (Possibly) you may also want to rename this "SqliteMergeStylx-local.sql" (if that is the version of the file you edited)
 "%SQLITE_PATH_AND_EXE%" < "%LOCAL_MIL_FEATURES_REPO_2525D%\utilities\style-utilities\merge-stylx-utilities\SqliteMergeStylx.sql"
 
 echo ******* IMPORTANT: Now verify the output and check for any errors *******
