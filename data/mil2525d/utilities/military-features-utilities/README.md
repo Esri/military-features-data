@@ -56,7 +56,8 @@ A Versions table is added to the newly created geodatabase.  The contents of tha
 * IMPORTANT: Complete a few additional manual steps (these have not yet been fully automated)
     * Export the metadata from an existing Military Features GDB and import it into this one (using Import/Export Metadata GP tools)
 	* Enable Editor Tracking for desired layers/fields (ex. "Created By" "Creation Time") using the Enable Editor Tracking GP Tool
-	* A Toolbox, `Military Overlay Supplemental Tools_10.3.tbx`, has been included. Note this toolbox and these tools only run on ArcGIS Desktop 10
+	* A Toolbox, `Military Overlay Supplemental Tools_10.3.tbx`, has been included in this folder to assist with these steps. 
+        * NOTE/IMPORTANT: this toolbox and these tools only run on ArcGIS Desktop 10 (import/export metadata tools)
 	
 ### Add Military Feature Fields
 
