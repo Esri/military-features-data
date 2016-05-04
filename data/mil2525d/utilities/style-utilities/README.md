@@ -45,11 +45,12 @@
         * Converts all colors to use RGB instead of the Pro color model
         * Vectorizes the fonts/character markers (Runtime does not install fonts)
         * Densifies curves (instead of using Bezier curves or circular arcs) 
-        * Examples of incompatible Json entries include:
+        * Examples of Json entries incompatible with Runtime include:
             * CIMRGBColor Objects - `"CIMRGBColor","values":[0,0,0,100]` - "CIMRGBColor" color object versus simplified RGBA: `"color":[0,0,0,255]` and last/alpha value of "100" (CIMRGBColor full opaque) vs. "255" (RGBA full opaque)
             * Curve objects - `"curveRings"`
-            * To determine if your .stylx contains incompatible features, you can use SQLite to perform a query for incompatible content: `select * from ITEMS where (Content like '%CIMRGBColor%') or (Content like '%curveRings%')` 
-            * To determine if your .stylx contains NULL entries which may also impact compatibility with Runtime: `select * from ITEMS WHERE (CONTENT LIKE '%[]%')`
+            * Text strings (rather than line paths) - `"textString"`
+         * To determine if your .stylx contains incompatible features, you can use SQLite to perform this query for incompatible content: `select * from ITEMS where (Content like '%CIMRGBColor%') or (Content like '%curveRings%') or (CONTENT LIKE '%textString%')` 
+         * To determine if your .stylx contains NULL entries which may also impact compatibility with Runtime: `select * from ITEMS WHERE (CONTENT LIKE '%[]%')`
     * Be aware that setting this flag/key could affect the editing of non-ArcGIS Runtime .stylx(s), so if you intend to edit other Pro .stylx(s), you may wish to remove/disable this setting when done this process. 
 
 ## General Instructions 
