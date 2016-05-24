@@ -43,6 +43,8 @@ The purpose of these steps is to make repeatable the process of creating test da
 	* The input and output join fields will both be OID
 	* The join table will be the corresponding appendix .csv.
 	* Run to excecute tool and check to make sure that all of the .csv fields were properly joined to the fishnet points.
-15. Symbolize the points using the dictionary renderer
+15. Use the Copy Features tool to create a new feature class from the join output. This will ensure that the attributes are editable in the future. 
+	* Right click the feature layer and select "Data, Export Features."
+16. Symbolize the points using the dictionary renderer
 	* Under the symbology pane for the fishnet feature layer, select your desired dictionary renderer and ensure the fields are properly matched up.
 
