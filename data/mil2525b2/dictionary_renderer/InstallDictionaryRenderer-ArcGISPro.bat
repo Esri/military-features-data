@@ -14,7 +14,10 @@ goto :EOF
 
 SET DictionaryRenderer=mil2525b2
 IF NOT EXIST %DictionaryRenderer% goto folder_error
-xcopy /v /y /s %DictionaryRenderer% "%PRO_DIR%\Resources\Dictionaries"
+
+REM Copy to Pro Install
+mkdir "%PRO_DIR%\Resources\Dictionaries\%DictionaryRenderer%"
+xcopy /v /y /s %DictionaryRenderer% "%PRO_DIR%\Resources\Dictionaries\%DictionaryRenderer%"
 
 echo off
 echo ********************************
