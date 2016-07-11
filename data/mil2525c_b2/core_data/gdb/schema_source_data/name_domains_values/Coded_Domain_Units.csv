@@ -1,0 +1,604 @@
+Name,Value
+Command and Control : Civil Affairs,S-F-GC----
+Command and Control : Military Information Support (MISO),S-F-GP----
+Command and Control : Signal,S-G-UUS---
+Command and Control : Signal : Capability : Area,S-G-UUSA--
+Command and Control : Signal : Capability : Communications Contingency Package,S-G-UUSC--
+Command and Control : Signal : LCCP,S-G-UUSCL-
+Command and Control : Signal : Capability : Operations,S-G-UUSO--
+Command and Control : Signal : Capability : Forward,S-G-UUSF--
+Command and Control : Signal : Capability : Mobile Subscriber Equipment,S-G-UUSM--
+Command and Control : Signal : Capability : Large Extension Node,S-G-UUSML-
+Command and Control : Signal : Capability : Node Center,S-G-UUSMN-
+Command and Control : Signal : Small Extension Node,S-G-UUSMS-
+Command and Control : Signal : Capability : Support 1,S-G-UUSS--
+Command and Control : Signal : Telephone Switch,S-G-UUSW--
+Command and Control : Signal : Radio,S-G-UUSR--
+Command and Control : Signal : Radio Relay : Original,S-G-UUSRW-
+Command and Control : Signal : Teletype,S-G-UUSRT-
+Command and Control : Signal : Tactical Satellite,S-G-UUSRS-
+Movement and Maneuver : Amphibious : Capability : Landing Support,S-G-UUP---
+Movement and Maneuver : Antitank/Antiarmor,S-G-UCAA--
+Movement and Maneuver : Antitank/Antiarmor,S-G-UCAAD-
+Movement and Maneuver : Antitank/Antiarmor : Capability : Light,S-G-UCAAL-
+Movement and Maneuver : Antitank/Antiarmor : Mobility : Airborne,S-G-UCAAM-
+Movement and Maneuver : Antitank/Antiarmor : Mobility : Air Mobile/Air Assault (US Only),S-G-UCAAS-
+Movement and Maneuver : Antitank/Antiarmor : Capability : Mountain,S-G-UCAAU-
+Movement and Maneuver : Antitank/Antiarmor : Mobility : Arctic,S-G-UCAAC-
+Movement and Maneuver : Antitank/Antiarmor : Armored,S-G-UCAAA-
+Movement and Maneuver : Antitank/Antiarmor : Armored,S-G-UCAAAT
+Movement and Maneuver : Antitank/Antiarmor : Armored : Mobility : Air Mobile/Air Assault (US Only),S-G-UCAAAS
+Movement and Maneuver : Antitank/Antiarmor : Armored : Mobility : Wheeled,S-G-UCAAAW
+Movement and Maneuver : Antitank/Antiarmor : Motorized,S-G-UCAAO-
+Movement and Maneuver : Antitank/Antiarmor : Motorized : Mobility : Air Mobile/Air Assault (US Only),S-G-UCAAOS
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked,S-G-UCAT--
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked,S-G-UCA---
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Capability : Light,S-G-UCATL-
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Capability : Medium,S-G-UCATM-
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Capability : Heavy,S-G-UCATH-
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Mobility : Airborne,S-G-UCATA-
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Capability : Recovery (Maintenance),S-G-UCATR-
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Reconnaissance/Cavalry/Scout,S-G-UCRVA-
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Reconnaissance/Cavalry/Scout : Capability : Light,S-G-UCRRL-
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Amphibious,S-G-UCATW-
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Mobility : Wheeled,S-G-UCAW--
+Movement and Maneuver : Combat : Armor : Wheeled : Airborne,S-G-UCAWA-
+Movement and Maneuver : Combat : Armor : Wheeled : Light,S-G-UCAWL-
+Movement and Maneuver : Combat : Armor : Wheeled : Medium,S-G-UCAWM-
+Movement and Maneuver : Combat : Armor : Wheeled : Heavy,S-G-UCAWH-
+Movement and Maneuver : Combat : Armor : Wheeled : Recovery,S-G-UCAWR-
+Movement and Maneuver : Combat : Armor : Wheeled : Amphibious Recovery,S-G-UCAWWR
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Amphibious : Mobility : Wheeled,S-G-UCAWW-
+Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Amphibious : Capability : Recovery (Maintenance),S-G-UCATWR
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing,S-G-UCV---
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Attack 1,S-G-UCVRA-
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Mobility : Air Mobile/Air Assault (US Only),S-G-UCVUR-
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Command and Control,S-G-UCVRUC
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Mine Countermeasure,S-G-UCVRM-
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Search and Rescue,S-G-UCVS--
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Security,S-G-UCSA--
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Special Operations Forces (SOF),S-F-A-----
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : SOF,S-F-AH----
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Special Operations Forces (SOF) : Capability : Attack 2,S-F-AHA---
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Special Operations Forces (SOF) : Capability : Utility 2,S-F-AHU---
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Special Operations Forces (SOF) : Capability : Combat Search and Rescue,S-F-AHH---
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Special Operations Forces (SOF) : Capability : Light,S-F-AHUL--
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Special Operations Forces (SOF) : Capability : Medium,S-F-AHUM--
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Special Operations Forces (SOF) : Capability : Heavy,S-F-AHUH--
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Utility 1,S-G-UCVRU-
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Utility 1 : Capability : Light,S-G-UCVRUL
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Utility 1 : Capability : Medium,S-G-UCVRUM
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Utility 1 : Capability : Heavy,S-G-UCVRUH
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Antisubmarine Warfare,S-G-UCVRW-
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Capability : Medevac,S-G-UCVRUE
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Reconnaissance,S-G-UCRVO-
+Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Scout,S-G-UCVRS-
+Movement and Maneuver : Aviation Composite : Original,S-G-UCVC--
+Movement and Maneuver : Aviation Fixed Wing,S-G-UCVF--
+Movement and Maneuver : Aviation Fixed Wing : Capability : Attack 1,S-G-UCVFA-
+Movement and Maneuver : Aviation Fixed Wing : Mobility : Air Mobile/Air Assault (US Only),S-G-UCVUF-
+Movement and Maneuver : Aviation Fixed Wing : Capability : Special Operations Forces (SOF),S-F-AF----
+Movement and Maneuver : Aviation Fixed Wing : Capability : Special Operations Forces (SOF) : Capability : Attack 2,S-F-AFA---
+Movement and Maneuver : Aviation Fixed Wing : Capability : Special Operations Forces (SOF) : Capability : Refuel,S-F-AFK---
+Movement and Maneuver : Aviation Fixed Wing : Capability : Special Operations Forces (SOF) : Capability : Utility 2,S-F-AFU---
+Movement and Maneuver : Aviation Fixed Wing : Capability : Special Operations Forces (SOF) : Capability : Light,S-F-AFUL--
+Movement and Maneuver : Aviation Fixed Wing : Capability : Special Operations Forces (SOF) : Capability : Medium,S-F-AFUM--
+Movement and Maneuver : Aviation Fixed Wing : Capability : Special Operations Forces (SOF) : Capability : Heavy,S-F-AFUH--
+Movement and Maneuver : Aviation Fixed Wing : Capability : Special Operations Forces (SOF) : Mobility : Vertical or Short Take-Off and Landing (VTOL/VSTOL),S-F-AV----
+Movement and Maneuver : Aviation Fixed Wing : Capability : Utility 1,S-G-UCVFU-
+Movement and Maneuver : Aviation Fixed Wing : Mobility : Vertical or Short Take-Off and Landing (VTOL/VSTOL),S-G-UCVV--
+Movement and Maneuver : Aviation Fixed Wing : Reconnaissance : Original,S-G-UCVFR-
+Movement and Maneuver : Combat,S-G-UC----
+Movement and Maneuver : Infantry,S-G-UCI---
+Movement and Maneuver : Infantry : Capability : Signals Intelligence : Mobility : Airborne,S-F-GR----
+Movement and Maneuver : Infantry : Capability : Light,S-G-UCIL--
+Movement and Maneuver : Infantry : Capability : Mountain,S-G-UCIO--
+Movement and Maneuver : Infantry : Mobility : Airborne,S-G-UCIA--
+Movement and Maneuver : Infantry : Mobility : Air Mobile/Air Assault (US Only),S-G-UCIS--
+Movement and Maneuver : Infantry : Mobility : Arctic,S-G-UCIC--
+Movement and Maneuver : Infantry : Capability : Naval,S-G-UCIN--
+Movement and Maneuver : Infantry : Armored/Mechanized/Tracked,S-G-UCIZ--
+Movement and Maneuver : Infantry : Motorized,S-G-UCIM--
+Movement and Maneuver : Reconnaissance/Cavalry/Scout,S-G-UCR---
+Movement and Maneuver : Reconnaissance/Cavalry/Scout,S-G-UCRVG-
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Mobility : Arctic,S-G-UCRC--
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Mobility : Air Mobile/Air Assault (US Only),S-G-UCRS--
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Mobility : Airborne,S-G-UCRA--
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Capability : Mountain,S-G-UCRO--
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Capability : Light,S-G-UCRL--
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Capability : Long Range,S-G-UCRX--
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Capability : Pack Animal,S-G-UCRH--
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Marine,S-G-UCRR--
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Marine : Capability : Division,S-G-UCRRD-
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Marine : Capability : Force,S-G-UCRRF-
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Motorized,S-G-UCRVM-
+Movement and Maneuver : Reconnaissance/Cavalry/Scout : Cavalry,S-G-UCRV--
+Movement and Maneuver : Sea Air Land (SEAL),S-F-NS----
+Movement and Maneuver : Special Forces,S-F-GS----
+Movement and Maneuver : SOF,S-F-------
+Movement and Maneuver : SOF : Capability : Attack 2,S-F-B-----
+Movement and Maneuver : SOF : Fixed Wing MISO,S-F-GPA---
+Movement and Maneuver : SOF : Ground,S-F-G-----
+Movement and Maneuver : SOF : Special Boat,S-F-NB----
+Movement and Maneuver : SOF : Special SSNR,S-F-NN----
+Movement and Maneuver : SOF : Underwater Demolition Team,S-F-NU----
+Movement and Maneuver : Unmanned Aerial Systems,S-G-UCVU--
+Fires : Air Defense,S-G-UCD---
+Fires : Air Defense : Composite,S-G-UCDC--
+Fires : Air Defense : Capability : Short Range,S-G-UCDS--
+Fires : Air Defense : Capability : Target Acquisition,S-G-UCDT--
+Fires : Air Defense : Main Gun System : Original,S-G-UCDG--
+Fires : Air Defense : Missile,S-G-UCDM--
+Fires : Air Defense : Missile : Capability : Ground Station Module,S-G-UCDH--
+Fires : Air Defense : Missile : Capability : Light,S-G-UCDML-
+Fires : Air Defense : Missile : Capability : Medium,S-G-UCDMM-
+Fires : Air Defense : Missile : Capability : Heavy,S-G-UCDMH-
+Fires : Air Defense : Theater/Echelons Above Corps Support : Capability : Missile,S-G-UCDO--
+Fires : Air/Land Naval Gunfire Liaison,S-G-UCFTA-
+Fires : Field Artillery,S-G-UCF---
+Fires : Field Artillery : Howitzer/Gun,S-G-UCFH--
+Fires : Field Artillery : Mobility : Airborne,S-G-UCFHA-
+Fires : Field Artillery : Mobility : Air Mobile/Air Assault (US Only),S-G-UCFHS-
+Fires : Field Artillery : Mobility : Arctic,S-G-UCFHC-
+Fires : Field Artillery : Capability : Mountain,S-G-UCFHO-
+Fires : Field Artillery : Capability : Light,S-G-UCFHL-
+Fires : Field Artillery : Capability : Medium,S-G-UCFHM-
+Fires : Field Artillery : Capability : Heavy,S-G-UCFHH-
+Fires : Field Artillery : Capability : Multiple Rocket Launcher,S-G-UCFRM-
+Fires : Field Artillery : Capability : Radar,S-G-UCFTR-
+Fires : Field Artillery : Capability : Single Rocket Launcher,S-G-UCFRS-
+Fires : Field Artillery : Capability : Single Rocket Launcher : Mobility : Wheeled,S-G-UCFRSR
+Fires : Field Artillery : Capability : Single Rocket Launcher : Mobility : Towed,S-G-UCFRST
+Fires : Field Artillery : Capability : Sound Ranging,S-G-UCFTS-
+Fires : Field Artillery : Capability : Target Acquisition,S-G-UCFT--
+Fires : Field Artillery : Capability : Target Acquisition : Capability : Optical (Flash),S-G-UCFTF-
+Fires : Field Artillery : Self-propelled,S-G-UCFHE-
+Fires : Field Artillery : Self-propelled : Capability : Single Rocket Launcher,S-G-UCFRSS
+Fires : Field Artillery : Self-propelled : Capability : Multiple Rocket Launcher,S-G-UCFRMS
+Fires : Field Artillery : Target Acquisition,S-G-UCFTCM
+Fires : Field Artillery Observer : Original,S-G-UCFTC-
+Fires : Field Artillery : Observer : Dismounted,S-G-UCFTCD
+Fires : Meteorological,S-G-UCFO--
+Fires : Meteorological : Mobility : Air Mobile/Air Assault (US Only),S-G-UCFOS-
+Fires : Meteorological : Mobility : Airborne,S-G-UCFOA-
+Fires : Meteorological : Capability : Light,S-G-UCFOL-
+Fires : Meteorological : Capability : Mountain,S-G-UCFOO-
+Fires : Missile : Original,S-G-UCM---
+Fires : Missile : Capability : Strategic,S-G-UCMS--
+Fires : Missile : Capability : Tactical,S-G-UCMT--
+Fires : Mortar,S-G-UCFM--
+Fires : Mortar : Mobility : Arctic,S-G-UCFMTC
+Fires : Mortar : Armored/Mechanized/Tracked,S-G-UCFMS-
+Fires : Mortar : Self-Propelled Wheeled,S-G-UCFMW-
+Fires : Mortar : Towed,S-G-UCFMT-
+Fires : Mortar : Towed : Mobility : Air Mobile/Air Assault (US Only),S-G-UCFMTS
+Fires : Mortar : Towed : Mobility : Airborne,S-G-UCFMTA
+Fires : Mortar : Towed : Capability : Mountain,S-G-UCFMTO
+Fires : Survey : Original,S-G-UCFS--
+Fires : Survey : Mobility : Air Mobile/Air Assault (US Only),S-G-UCFSS-
+Fires : Survey : Mobility : Airborne,S-G-UCFSA-
+Fires : Survey : Capability : Light,S-G-UCFSL-
+Fires : Survey : Capability : Mountain,S-G-UCFSO-
+Protection : CBRN Defense,S-G-UUA---
+Protection : CBRN Defense : Capability : Chemical,S-G-UUAC--
+Protection : CBRN Defense : Capability : Smoke,S-G-UUACS-
+Protection : CBRN Defense : Capability : Nuclear,S-G-UUAN--
+Protection : CBRN Defense : Capability : Biological,S-G-UUAB--
+Protection : CBRN Defense : Capability : Decontamination 1,S-G-UUAD--
+Protection : CBRN Defense : Capability : Smoke : Capability : Decontamination 2,S-G-UUACC-
+Protection : CBRN Defense : Mechanized : Capability : Smoke,S-G-UUACSA
+Protection : CBRN Defense : Mechanized : Capability : Smoke : Capability : Decontamination 2,S-G-UUACCK
+Protection : CBRN Defense : Motorized : Capability : Smoke,S-G-UUACSM
+Protection : CBRN Defense : Motorized : Capability : Smoke : Capability : Decontamination 2,S-G-UUACCM
+Protection : CBRN Defense : Reconnaissance : Capability : Chemical,S-G-UUACR-
+Protection : CBRN Defense : Surveillance Armored : Wheeled,S-G-UUACRS
+Protection : CBRN Defense : Reconnaissance Armored : Mobility : Wheeled,S-G-UUACRW
+Protection : CBRN Defense : Reconnaissance Equipped : Capability : Biological,S-G-UUABR-
+Protection : Combat Support (Maneuver Enhancement) : Original,S-G-UU----
+Protection : Criminal Investigation Division,S-G-UULD--
+Protection : Engineer,S-G-UCE---
+Protection : Engineer : Mobility : Air Mobile/Air Assault (US Only),S-G-UCECS-
+Protection : Engineer : Mobility : Airborne,S-G-UCECA-
+Protection : Engineer : Mobility : Arctic,S-G-UCECC-
+Protection : Engineer : Capability : Combat,S-G-UCEC--
+Protection : Engineer : Capability : Combat : Capability : Light,S-G-UCECL-
+Protection : Engineer : Capability : Combat : Capability : Medium,S-G-UCECM-
+Protection : Engineer : Capability : Combat : Capability : Heavy,S-G-UCECH-
+Protection : Engineer : Capability : Combat : Capability : Mountain,S-G-UCECO-
+Protection : Engineer : Capability : Construction,S-G-UCEN--
+Protection : Engineer : Capability : Naval,S-G-UCENN-
+Protection : Engineer : Mechanized,S-G-UCECT-
+Protection : Engineer : Motorized,S-G-UCECW-
+Protection : Engineer : Reconnaissance,S-G-UCECR-
+Protection : Explosive Ordnance Disposal (EOD),S-G-UUE---
+Protection : Military Police,S-G-UULM--
+Protection : Security,S-G-UCS---
+Protection : Security,S-G-UCSG--
+Protection : Security : Mobility : Riverine,S-G-UCSW--
+Protection : Security : Dismounted,S-G-UCSGD-
+Protection : Security : Mobility : Railroad,S-G-UCSR--
+Protection : Security : Mechanized,S-G-UCSGA-
+Protection : Security : Mechanized : Mobility : Wheeled,S-G-UCSM--
+Protection : Security : Motorized,S-G-UCSGM-
+Protection : Law Enforcement,S-G-UUL---
+Protection : Security Police (Air),S-G-UULF--
+Protection : Shore Patrol,S-G-UULS--
+Intelligence : Counterintelligence,S-G-UUMC--
+Intelligence : Electronic Ranging : Original,S-G-UUSX--
+Protection : Information Warfare,S-G-UUI---
+Intelligence : Electronic Warfare,S-G-UUMSE-
+Intelligence : Electronic Warfare : Armored : Wheeled,S-G-UUMSEA
+Intelligence : Electronic Warfare : Corps Support,S-G-UUMSEC
+Intelligence : Electronic Warfare : Theater/Echelons Above Corps Support,S-G-UUMSET
+Intelligence : Electronic Warfare : Direction Finding,S-G-UUMSED
+Intelligence : Electronic Warfare : Intercept,S-G-UUMSEI
+Intelligence : Electronic Warfare : Jamming : Original,S-G-UUMSEJ
+Intelligence : Interrogation,S-G-UUMQ--
+Intelligence : Joint Intelligence Center,S-G-UUMJ--
+Intelligence : Military Intelligence,S-G-UUM---
+Intelligence : Military Intelligence,S-G-UUMR--
+Intelligence : Military Intelligence : Mobility : Air Mobile/Air Assault (US Only),S-G-UUMA--
+Intelligence : Military Intelligence : Capability : Operations,S-G-UUMO--
+Intelligence : Military Intelligence : Capability : Signals Intelligence,S-G-UUMS--
+Intelligence : Military Intelligence : Capability : Radar,S-G-UUMRG-
+Intelligence : Military Intelligence : Capability : Sensor,S-G-UUMRS-
+Intelligence : Military Intelligence : Capability : Sensor Control Module (SCM),S-G-UUMRSS
+Intelligence : Military Intelligence : Capability : Ground Station Module,S-G-UUMRX-
+Intelligence : Military Intelligence : Capability : Meteorological,S-G-UUMMO-
+Intelligence : Military Intelligence : Capability : Tactical Exploitation,S-G-UUMT--
+Sustainment : Administrative,S-G-USA---
+Sustainment : Administrative : Corps Support,S-G-USAC--
+Sustainment : Administrative : Theater/Echelons Above Corps Support,S-G-USAT--
+Sustainment : Airport of Debarkation/Airport of Embarkation,S-G-USTA--
+Sustainment : Airport of Debarkation/Airport of Embarkation : Corps Support,S-G-USTAC-
+Sustainment : Airport of Debarkation/Airport of Embarkation : Theater/Echelons Above Corps Support,S-G-USTAT-
+Sustainment : Combat Service Support,S-G-US----
+Sustainment : Finance,S-G-USAF--
+Sustainment : Finance : Corps Support,S-G-USAFC-
+Sustainment : Finance : Theater/Echelons Above Corps Support,S-G-USAFT-
+Sustainment : Judge Advocate General,S-G-USAJ--
+Sustainment : Judge Advocate General : Corps Support,S-G-USAJC-
+Sustainment : Judge Advocate General : Theater/Echelons Above Corps Support,S-G-USAJT-
+Sustainment : Labor,S-G-USAL--
+Sustainment : Labor : Corps Support,S-G-USALC-
+Sustainment : Labor : Theater/Echelons Above Corps Support,S-G-USALT-
+Sustainment : Laundry/Bath : Original,S-G-USSL--
+Sustainment : Laundry/Bath : Corps Support : Original,S-G-USSLC-
+Sustainment : Laundry/Bath : Theater/Echelons Above Corps Support : Original,S-G-USSLT-
+Sustainment : Maintenance,S-G-USX---
+Sustainment : Maintenance : Capability : Heavy,S-G-USXH--
+Sustainment : Maintenance : Capability : Electro-Optical,S-G-USXE--
+Sustainment : Maintenance : Capability : Missile,S-G-USXOM-
+Sustainment : Maintenance : Corps Support,S-G-USXC--
+Sustainment : Maintenance : Theater/Echelons Above Corps Support,S-G-USXT--
+Sustainment : Maintenance : Corps Support : Capability : Heavy,S-G-USXHC-
+Sustainment : Maintenance : Recovery,S-G-USXR--
+Sustainment : Maintenance : Recovery : Corps,S-G-USXRC-
+Sustainment : Maintenance : Recovery : Theater,S-G-USXRT-
+Sustainment : Maintenance : Theater/Echelons Above Corps Support : Capability : Heavy,S-G-USXHT-
+Sustainment : Maintenance : Corps Support : Capability : Electro-Optical,S-G-USXEC-
+Sustainment : Maintenance : Theater/Echelons Above Corps Support : Capability : Electro-Optical,S-G-USXET-
+Sustainment : Maintenance : Corps Support : Capability : Missile,S-G-USXOMC
+Sustainment : Maintenance : Theater/Echelons Above Corps Support : Capability : Missile,S-G-USXOMT
+Sustainment : Medical,S-G-USM---
+Sustainment : Medical : Capability : Dental,S-G-USMD--
+Sustainment : Medical : Capability : Psychological,S-G-USMP--
+Sustainment : Medical : Capability : Veterinary,S-G-USMV--
+Sustainment : Medical : Corps Support,S-G-USMC--
+Sustainment : Medical : Theater/Echelons Above Corps Support,S-G-USMT--
+Sustainment : Medical Treatment Facility : Corps Support : Capability : Dental,S-G-USMDC-
+Sustainment : Medical Treatment Facility : Theater/Echelons Above Corps Support : Capability : Dental,S-G-USMDT-
+Sustainment : Medical Treatment Facility : Corps Support : Capability : Psychological,S-G-USMPC-
+Sustainment : Medical Treatment Facility : Theater/Echelons Above Corps Support : Capability : Psychological,S-G-USMPT-
+Sustainment : Medical Treatment Facility : Corps Support : Capability : Veterinary,S-G-USMVC-
+Sustainment : Medical Treatment Facility : Theater/Echelons Above Corps Support : Capability : Veterinary,S-G-USMVT-
+Sustainment : Medical Treatment Facility,S-G-USMM--
+Sustainment : Medical Treatment Facility : Corps Support,S-G-USMMC-
+Sustainment : Medical Treatment Facility : Theater/Echelons Above Corps Support,S-G-USMMT-
+Sustainment : Morale Welfare and Recreation,S-G-USAW--
+Sustainment : Morale Welfare and Recreation : Corps Support,S-G-USAWC-
+Sustainment : Morale Welfare and Recreation : Theater/Echelons Above Corps Support,S-G-USAWT-
+Sustainment : Mortuary Affairs/Graves Registration,S-G-USAM--
+Sustainment : Mortuary Affairs/Graves Registration : Corps Support,S-G-USAMC-
+Sustainment : Mortuary Affairs/Graves Registration : Theater/Echelons Above Corps Support,S-G-USAMT-
+Sustainment : Ordnance : Original,S-G-USXO--
+Sustainment : Ordnance : Corps Support : Original,S-G-USXOC-
+Sustainment : Ordnance : Theater/Echelons Above Corps Support : Original,S-G-USXOT-
+Sustainment : Personnel Services,S-G-USAS--
+Sustainment : Personnel Services : Corps Support,S-G-USASC-
+Sustainment : Personnel Services : Theater/Echelons Above Corps Support,S-G-USAST-
+Sustainment : Postal,S-G-USAO--
+Sustainment : Postal : Corps Support,S-G-USAOC-
+Sustainment : Postal : Theater/Echelons Above Corps Support,S-G-USAOT-
+Sustainment : Public Affairs/Public Information,S-G-USAP--
+Sustainment : Public Affairs/Public Information : Corps Support,S-G-USAPC-
+Sustainment : Public Affairs/Public Information : Theater/Echelons Above Corps Support,S-G-USAPT-
+Sustainment : Quartermaster : Original,S-G-USAQ--
+Sustainment : Quartermaster : Corps Support : Original,S-G-USAQC-
+Sustainment : Quartermaster : Theater/Echelons Above Corps Support : Original,S-G-USAQT-
+Sustainment : Railhead,S-G-USTR--
+Sustainment : Railhead : Corps Support,S-G-USTRC-
+Sustainment : Railhead : Theater/Echelons Above Corps Support,S-G-USTRT-
+Sustainment : Religious Support,S-G-USAR--
+Sustainment : Religious Support : Corps Support,S-G-USARC-
+Sustainment : Religious Support : Theater/Echelons Above Corps Support,S-G-USART-
+Sustainment : Replacement Holding Unit,S-G-USAX--
+Sustainment : Replacement Holding Unit : Corps Support,S-G-USAXC-
+Sustainment : Replacement Holding Unit : Theater/Echelons Above Corps Support,S-G-USAXT-
+Sustainment : Sea Port of Debarkation/Sea Port of Embarkation,S-G-USTS--
+Sustainment : Sea Port of Debarkation/Sea Port of Embarkation : Corps Support,S-G-USTSC-
+Sustainment : Sea Port of Debarkation/Sea Port of Embarkation : Theater/Echelons Above Corps Support,S-G-USTST-
+Sustainment : Supply,S-G-USS---
+Sustainment : Supply : Corps Support,S-G-USSC--
+Sustainment : Supply : Theater/Echelons Above Corps Support,S-G-USST--
+Sustainment : Joint Information Bureau,S-G-USAPM-
+Sustainment : Joint Information Bureau : Corps Support,S-G-USAPMC
+Sustainment : Joint Information Bureau : Theater/Echelons Above Corps Support,S-G-USAPMT
+Sustainment : Transportation,S-G-UST---
+Sustainment : Transportation : Capability : Missile,S-G-USTI--
+Sustainment : Transportation : Capability : Movement Control Center,S-G-USTM--
+Sustainment : Transportation : Corps Support,S-G-USTC--
+Sustainment : Transportation : Theater/Echelons Above Corps Support,S-G-USTT--
+Sustainment : Transportation : Corps Support : Capability : Missile,S-G-USTIC-
+Sustainment : Transportation : Theater/Echelons Above Corps Support : Capability : Missile,S-G-USTIT-
+Sustainment : Transportation : Corps Support : Capability : Movement Control Center,S-G-USTMC-
+Sustainment : Transportation : Theater/Echelons Above Corps Support : Capability : Movement Control Center,S-G-USTMT-
+Sustainment : US Supply Class I,S-G-USS1--
+Sustainment : US Supply Class I : Corps Support,S-G-USS1C-
+Sustainment : US Supply Class I : Theater/Echelons Above Corps Support,S-G-USS1T-
+Sustainment : US Supply Class II : Original,S-G-USS2--
+Sustainment : US Supply Class II : Corps Support : Original,S-G-USS2C-
+Sustainment : US Supply Class II : Theater/Echelons Above Corps Support : Original,S-G-USS2T-
+Sustainment : US Supply Class III,S-G-USS3--
+Sustainment : US Supply Class III : Capability : Aviation,S-G-USS3A-
+Sustainment : US Supply Class III : Aviation : Corps,S-G-USS3AC
+Sustainment : US Supply Class III : Aviation : Theater,S-G-USS3AT
+Sustainment : US Supply Class III : Corps Support,S-G-USS3C-
+Sustainment : US Supply Class III : Theater/Echelons Above Corps Support,S-G-USS3T-
+Sustainment : US Supply Class IV,S-G-USS4--
+Sustainment : US Supply Class IV : Corps Support,S-G-USS4C-
+Sustainment : US Supply Class IV : Theater/Echelons Above Corps Support,S-G-USS4T-
+Sustainment : US Supply Class V,S-G-USS5--
+Sustainment : US Supply Class V : Corps Support,S-G-USS5C-
+Sustainment : US Supply Class V : Theater/Echelons Above Corps Support,S-G-USS5T-
+Sustainment : US Supply Class VI,S-G-USS6--
+Sustainment : US Supply Class VI : Corps Support,S-G-USS6C-
+Sustainment : US Supply Class VI : Theater/Echelons Above Corps Support,S-G-USS6T-
+Sustainment : US Supply Class VII,S-G-USS7--
+Sustainment : US Supply Class VII : Corps Support,S-G-USS7C-
+Sustainment : US Supply Class VII : Theater/Echelons Above Corps Support,S-G-USS7T-
+Sustainment : US Supply Class VIII,S-G-USS8--
+Sustainment : US Supply Class VIII : Corps Support,S-G-USS8C-
+Sustainment : US Supply Class VIII : Theater/Echelons Above Corps Support,S-G-USS8T-
+Sustainment : US Supply Class IX,S-G-USS9--
+Sustainment : US Supply Class IX : Corps Support,S-G-USS9C-
+Sustainment : US Supply Class IX : Theater/Echelons Above Corps Support,S-G-USS9T-
+Sustainment : US Supply Class X,S-G-USSX--
+Sustainment : US Supply Class X : Corps Support,S-G-USSXC-
+Sustainment : US Supply Class X : Theater/Echelons Above Corps Support,S-G-USSXT-
+Sustainment : Water : Original,S-G-USSW--
+Sustainment : Water : Corps Support : Original,S-G-USSWC-
+Sustainment : Water : Theater/Echelons Above Corps Support : Original,S-G-USSWT-
+Sustainment : Water Purification : Original,S-G-USSWP-
+Sustainment : Water Purification : Corps Support : Original,S-G-USSWPC
+Sustainment : Water Purification : Theater/Echelons Above Corps Support : Original,S-G-USSWPT
+Sustainment : Broadcast,S-G-USAPB-
+Sustainment : Broadcast : Corps Support,S-G-USAPBC
+Sustainment : Broadcast : Theater/Echelons Above Corps Support,S-G-USAPBT
+Naval : Naval : Capability : Special Operations Forces (SOF),S-F-N-----
+Law Enforcement (Land Units) : Police,S-G-UULC--
+Movement and Maneuver : Infantry : Infantry Fighting Vehicle,S-G-UCII--
+Movement and Maneuver : Antitank/Antiarmor : Mobility : Air Mobile/Air Assault (US Only) : Mobility : Wheeled,S-G-UCAWS-
+Fires : Field Artillery : Self-propelled : Capability : Multiple Rocket Launcher : Mobility : Wheeled,S-G-UCFRMR
+Fires : Field Artillery : Target Acquisition : Capability : Multiple Rocket Launcher : Mobility : Towed,S-G-UCFRMT
+Command and Control : Tactical Satellite : Original,S-G-UCDSC-
+Fires : Air Defense : Short Range : Stinger,S-G-UCDSS-
+Fires : Air Defense : Short Range : Vulcan,S-G-UCDSV-
+Fires : Air Defense : Missile : Avenger,S-G-UCDMLA
+Fires : Air Defense : Missile : Hawk,S-G-UCDHH-
+Fires : Air Defense : Missile : Patriot,S-G-UCDHP-
+Movement and Maneuver : Aviation Rotary Wing,S-G-UCVR--
+Fires : Field Artillery : Howitzer/Gun : Amphibious,S-G-UCFHX-
+Fires : Field Artillery : Rocket,S-G-UCFR--
+Fires : Field Artillery : Mortar : Amphibious,S-G-UCFML-
+Weapon/Weapon System : Rifle,S-G-EWR---
+Weapon/Weapon System : Rifle : Single Shot Rifle,S-G-EWRR--
+Weapon/Weapon System : Rifle : Semiautomatic Rifle,S-G-EWRL--
+Weapon/Weapon System : Rifle : Automatic Rifle,S-G-EWRH--
+Weapon/Weapon System : Grenade Launcher,S-G-EWZ---
+Weapon/Weapon System : Grenade Launcher : Light,S-G-EWZL--
+Weapon/Weapon System : Grenade Launcher : Medium,S-G-EWZM--
+Weapon/Weapon System : Grenade Launcher : Heavy,S-G-EWZH--
+Weapon/Weapon System : Flame Thrower,S-G-EXF---
+Weapon/Weapon System : Air Defense Gun,S-G-EWA---
+Weapon/Weapon System : Air Defense Gun : Light,S-G-EWAL--
+Weapon/Weapon System : Air Defense Gun : Medium,S-G-EWAM--
+Weapon/Weapon System : Air Defense Gun : Heavy,S-G-EWAH--
+Weapon/Weapon System : Antitank Gun,S-G-EWG---
+Weapon/Weapon System : Antitank Gun : Light,S-G-EWGL--
+Weapon/Weapon System : Antitank Gun : Medium,S-G-EWGM--
+Weapon/Weapon System : Antitank Gun : Heavy,S-G-EWGH--
+Weapon/Weapon System : Direct Fire Gun,S-G-EWD---
+Weapon/Weapon System : Direct Fire Gun : Light,S-G-EWDL--
+Weapon/Weapon System : Direct Fire Gun : Self Propelled : Light,S-G-EWDLS-
+Weapon/Weapon System : Direct Fire Gun : Medium,S-G-EWDM--
+Weapon/Weapon System : Direct Fire Gun : Self Propelled : Medium,S-G-EWDMS-
+Weapon/Weapon System : Direct Fire Gun : Heavy,S-G-EWDH--
+Weapon/Weapon System : Direct Fire Gun : Self Propelled : Heavy,S-G-EWDHS-
+Weapon/Weapon System : Recoilless Gun,S-G-EWGR--
+Weapon/Weapon System : Howitzer,S-G-EWH---
+Weapon/Weapon System : Howitzer : Light,S-G-EWHL--
+Weapon/Weapon System : Howitzer : Self Propelled : Light,S-G-EWHLS-
+Weapon/Weapon System : Howitzer : Medium,S-G-EWHM--
+Weapon/Weapon System : Howitzer : Self Propelled : Medium,S-G-EWHMS-
+Weapon/Weapon System : Howitzer : Heavy,S-G-EWHH--
+Weapon/Weapon System : Howitzer : Self Propelled : Heavy,S-G-EWHHS-
+Weapon/Weapon System : Missile Launcher,S-G-EWM---
+Weapon/Weapon System : Air Defense Missile Launcher : Original,S-G-EWMA--
+Weapon/Weapon System : Air Defense Missile Launcher : Theater,S-G-EWMAT-
+Weapon/Weapon System : Air Defense Missile Launcher : Theater : TLAR,S-G-EWMATR
+Weapon/Weapon System : Air Defense Missile Launcher : Theater : TELAR,S-G-EWMATE
+Weapon/Weapon System : Air Defense Missile Launcher : Light,S-G-EWMAS-
+Weapon/Weapon System : Air Defense Missile Launcher : Light Transporter-Launcher and Radar (TLAR),S-G-EWMASR
+Weapon/Weapon System : Air Defense Missile Launcher : Light Tactical Landing Approach Radar (TELAR),S-G-EWMASE
+Weapon/Weapon System : Air Defense Missile Launcher : Medium,S-G-EWMAI-
+Weapon/Weapon System : Air Defense Missile Launcher : Medium TLAR,S-G-EWMAIR
+Weapon/Weapon System : Air Defense Missile Launcher : Medium TELAR Air Defense Missile Launcher,S-G-EWMAIE
+Weapon/Weapon System : Air Defense Missile Launcher : Heavy,S-G-EWMAL-
+Weapon/Weapon System : Air Defense Missile Launcher : Heavy TLAR,S-G-EWMALR
+Weapon/Weapon System : Air Defense Missile Launcher : Heavy TELAR,S-G-EWMALE
+Weapon/Weapon System : Antitank Missile Launcher,S-G-EWMT--
+Weapon/Weapon System : Antitank Missile Launcher : Light,S-G-EWMTL-
+Weapon/Weapon System : Antitank Missile Launcher : Medium,S-G-EWMTM-
+Weapon/Weapon System : Antitank Missile Launcher : Heavy,S-G-EWMTH-
+Weapon/Weapon System : Surface-to-Surface Missile Launcher,S-G-EWMS--
+Weapon/Weapon System : Surface-to-Surface Missile Launcher : Light,S-G-EWMSS-
+Weapon/Weapon System : Surface-to-Surface Missile Launcher : Medium,S-G-EWMSI-
+Weapon/Weapon System : Surface-to-Surface Missile Launcher : Heavy,S-G-EWMSL-
+Weapon/Weapon System : Mortar,S-G-EWO---
+Weapon/Weapon System : Mortar : Light,S-G-EWOL--
+Weapon/Weapon System : Mortar : Medium,S-G-EWOM--
+Weapon/Weapon System : Mortar : Heavy,S-G-EWOH--
+Weapon/Weapon System : Single Rocket Launcher,S-G-EWS---
+Weapon/Weapon System : Single Rocket Launcher : Light,S-G-EWSL--
+Weapon/Weapon System : Single Rocket Launcher : Medium,S-G-EWSM--
+Weapon/Weapon System : Single Rocket Launcher : Heavy,S-G-EWSH--
+Weapon/Weapon System : Multiple Rocket Launcher,S-G-EWX---
+Weapon/Weapon System : Multiple Rocket Launcher : Light,S-G-EWXL--
+Weapon/Weapon System : Multiple Rocket Launcher : Medium,S-G-EWXM--
+Weapon/Weapon System : Multiple Rocket Launcher : Heavy,S-G-EWXH--
+Weapon/Weapon System : Antitank Rocket Launcher,S-G-EWT---
+Weapon/Weapon System : Antitank Rocket Launcher : Light,S-G-EWTL--
+Weapon/Weapon System : Antitank Rocket Launcher : Medium,S-G-EWTM--
+Weapon/Weapon System : Antitank Rocket Launcher : Heavy,S-G-EWTH--
+Vehicle,S-G-EV----
+Vehicle : Armored Vehicle,S-G-EVA---
+Vehicle : Armored Vehicle : Armored Fighting Vehicle,S-G-EVAI--
+Vehicle : Armored Vehicle : Armored Fighting Vehicle C2 : Original,S-G-EVAC--
+Vehicle : Armored Vehicle : Armored Personnel Carrier,S-G-EVAA--
+Vehicle : Armored Vehicle : Armored Personnel Carrier Ambulance,S-G-EVUAA-
+Vehicle : Armored Vehicle : Armored Personnel Carrier-Recovery,S-G-EVAAR-
+Vehicle : Armored Vehicle : Combat Service Support Vehicle,S-G-EVAS--
+Vehicle : Armored Vehicle : Light Wheeled Armored Vehicle,S-G-EVAL--
+Vehicle : Tank,S-G-EVAT--
+Vehicle : Tank : Light,S-G-EVATL-
+Vehicle : Tank : Medium,S-G-EVATM-
+Vehicle : Tank : Heavy,S-G-EVATH-
+Vehicle : Tank Recovery Vehicle : Light,S-G-EVATLR
+Vehicle : Tank Recovery Vehicle : Medium,S-G-EVATMR
+Vehicle : Tank Recovery Vehicle : Heavy,S-G-EVATHR
+Engineer Equipment,S-G-EVE---
+Engineer Equipment : Bridge : Original,S-G-EVEB--
+Engineer Equipment : Earthmover,S-G-EVEE--
+Engineer Equipment : Mine Clearing Equipment,S-G-EVEA--
+Engineer Equipment : Mine Clearing Equipment : Trailer Mounted,S-G-EVEAT-
+Engineer Equipment : Mine Clearing Equipment : Mine Clearing Equipment on Tank Chassis,S-G-EVEAA-
+Engineer Equipment : Mine Laying Equipment : Armored Carrier with Volcano,S-G-EVEMV-
+Engineer Equipment : Mine Laying Equipment : Truck Mounted with Volcano,S-G-EVEML-
+Engineer Equipment : Dozer,S-G-EVED--
+Engineer Equipment : Dozer : Dozer-Armored,S-G-EVEDA-
+Engineer Equipment : Armored Assault,S-G-EVES--
+Engineer Equipment : Armored Engineer Recon Vehicle (AERV),S-G-EVER--
+Engineer Equipment : Backhoe,S-G-EVEH--
+Engineer Equipment : Construction Vehicle,S-G-EVEC--
+Engineer Equipment : Ferry Transporter,S-G-EVEF--
+Utility Vehicles : Utility Vehicle,S-G-EVU---
+Utility Vehicles : Medical Evacuation,S-G-EVUA--
+Utility Vehicles : Bus,S-G-EVUB--
+Utility Vehicles : Semi-Trailer and Truck,S-G-EVUS--
+Utility Vehicles : Semi-Trailer and Truck : Light,S-G-EVUSL-
+Utility Vehicles : Semi-Trailer and Truck : Medium,S-G-EVUSM-
+Utility Vehicles : Semi-Trailer and Truck : Heavy,S-G-EVUSH-
+Utility Vehicles : Limited Cross Country Truck,S-G-EVUL--
+Utility Vehicles : Cross Country Truck,S-G-EVUX--
+Utility Vehicles : Amphibious Utility Wheeled Vehicle,S-G-EVUR--
+Utility Vehicles : Tow Truck,S-G-EVUT--
+Utility Vehicles : Tow Truck : Light,S-G-EVUTL-
+Utility Vehicles : Tow Truck : Heavy,S-G-EVUTH-
+Train : Locomotive,S-G-EVT---
+Civilian Vehicle,S-G-EVC---
+Civilian Vehicle : Automobile,S-G-EVCA--
+Civilian Vehicle : Automobile : Compact,S-G-EVCAL-
+Civilian Vehicle : Automobile : Midsize,S-G-EVCAM-
+Civilian Vehicle : Automobile : Sedan,S-G-EVCAH-
+Civilian Vehicle : Open-Bed Truck,S-G-EVCO--
+Civilian Vehicle : Open-Bed Truck : Pickup,S-G-EVCOL-
+Civilian Vehicle : Open-Bed Truck : Small,S-G-EVCOM-
+Civilian Vehicle : Open-Bed Truck : Large,S-G-EVCOH-
+Civilian Vehicle : Multiple Passenger Vehicle,S-G-EVCM--
+Civilian Vehicle : Multiple Passenger Vehicle : Van,S-G-EVCML-
+Civilian Vehicle : Multiple Passenger Vehicle : Small Bus,S-G-EVCMM-
+Civilian Vehicle : Multiple Passenger Vehicle : Large Bus,S-G-EVCMH-
+Civilian Vehicle : Utility Vehicle,S-G-EVCU--
+Civilian Vehicle : Utility Vehicle : Sport Utility Vehicle (SUV),S-G-EVCUL-
+Civilian Vehicle : Utility Vehicle : Small Box Truck,S-G-EVCUM-
+Civilian Vehicle : Utility Vehicle : Large Box Truck,S-G-EVCUH-
+Civilian Vehicle : Jeep Type Vehicle,S-G-EVCJ--
+Civilian Vehicle : Jeep Type Vehicle : Small/Light,S-G-EVCJL-
+Civilian Vehicle : Jeep Type Vehicle : Medium,S-G-EVCJM-
+Civilian Vehicle : Jeep Type Vehicle : Large/Heavy,S-G-EVCJH-
+Civilian Vehicle : Tractor Trailer with Box,S-G-EVCT--
+Civilian Vehicle : Tractor Trailer with Box : Small/Light,S-G-EVCTL-
+Civilian Vehicle : Tractor Trailer with Box : Medium,S-G-EVCTM-
+Civilian Vehicle : Tractor Trailer with Box : Large/Heavy,S-G-EVCTH-
+Civilian Vehicle : Tractor Trailer with Flatbed,S-G-EVCF--
+Civilian Vehicle : Tractor Trailer with Flatbed : Small/Light : Original,S-G-EVCFL-
+Civilian Vehicle : Tractor Trailer with Flatbed : Medium,S-G-EVCFM-
+Civilian Vehicle : Tractor Trailer with Flatbed : Large/Heavy,S-G-EVCFH-
+Pack Animals,S-G-EVM---
+Missile Support,S-G-EVS---
+Missile Support : Transloader,S-G-EVST--
+Missile Support : Transporter,S-G-EVSR--
+Missile Support : Crane/Loading Device,S-G-EVSC--
+Missile Support : Propellant Transporter,S-G-EVSP--
+Missile Support : Warhead Transporter,S-G-EVSW--
+Other Equipment : CBRN Equipment,S-G-EXN---
+Other Equipment : Laser,S-G-EXL---
+Land Mines : Land Mine : Original,S-G-EXM---
+Land Mines : Antipersonnel Land Mine (APL),S-G-EXMC--
+Land Mines : Improvised Explosives Device (IED),S-G-EXI---
+Land Mines : Less than lethal,S-G-EXML--
+Sensors : Sensor,S-G-ES----
+Sensors : Sensor Emplaced,S-G-ESE---
+Sensors : Radar,S-G-ESR---
+Engineer Equipment : Mine Laying Equipment : Original,S-G-EVEM--
+Installation : Aircraft Production/Assembly,S-G-IMA---
+Installation : Ammunition and Explosives/Assembly,S-G-IME---
+Installation : Armament Production,S-G-IMG---
+Installation : Chemical-Biological-Radiological and Nuclear (CBRN),S-G-IRN---
+Installation : Chemical-Biological-Radiological and Nuclear (CBRN) : CBRN Type : Biological,S-G-IRNB--
+Installation : Chemical-Biological-Radiological and Nuclear (CBRN) : CBRN Type : Chemical,S-G-IRNC--
+Installation : Chemical-Biological-Radiological and Nuclear (CBRN) : CBRN Type : Nuclear,S-G-IRNN--
+Installation : Processing Facility,S-G-IP----
+Installation : Processing Facility : Decontamination,S-G-IPD---
+Installation : Chemical-Biological-Radiological and Nuclear (CBRN) : No Category Listed : Biological,S-G-IMC---
+Installation : Engineering Equipment Production,S-G-IMN---
+Installation : Engineering Equipment Production : Bridge,S-G-IMNB--
+Installation : Equipment Manufacture,S-G-IE----
+Installation : Utility,S-G-IU----
+Installation : Utility : Research,S-G-IUR---
+Installation : Utility : TELECOM,S-G-IUT---
+Installation : Government Leadership,S-G-IG----
+Installation : Raw Material,S-G-IR----
+Installation : Mine,S-G-IRM---
+Installation : Missile and Space System Production,S-G-IMM---
+Installation : Nuclear (Non CBRN Defense),S-G-IMF---
+Installation : Nuclear (Non CBRN Defense) : No Category Listed : Atomic Energy Reactor,S-G-IMFA--
+Installation : Nuclear (Non CBRN Defense) : No Category Listed : Nuclear Material Production,S-G-IMFP--
+Installation : Nuclear (Non CBRN Defense) : No Category Listed : Nuclear Material Storage,S-G-IMFS--
+Installation : Nuclear (Non CBRN Defense) : No Category Listed : Weapons Grade,S-G-IMFPW-
+Infrastructure : Energy Facility,S-G-IUE---
+Infrastructure : Energy Facility : Electric Power : CBRN Type : Nuclear,S-G-IUEN--
+Infrastructure : Energy Facility : Electric Power : Dam,S-G-IUED--
+Infrastructure : Energy Facility : Electric Power : Fossil Fuel,S-G-IUEF--
+Infrastructure : Energy Facility : Petroleum/Gas/Oil,S-G-IRP---
+Infrastructure : Medical : Medical,S-G-IX----
+Infrastructure : Medical : Medical Treatment Facility (Hospital),S-G-IXH---
+Infrastructure : Military : Military Base,S-G-IB----
+Infrastructure : Transportation,S-G-IT----
+Infrastructure : Transportation : Airport/Air Base,S-G-IBA---
+Infrastructure : Transportation : Maintenance Facility,S-G-IMV---
+Infrastructure : Transportation : Sea Port/Naval Base : Original,S-G-IBN---
+Infrastructure : Transportation : Ship Yard : Original,S-G-IMS---
+Infrastructure : Water Supply : Water,S-G-IUP---
+Command and Control : Special C2 Headquarters Component,S-G-UH----
