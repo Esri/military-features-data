@@ -92,7 +92,9 @@ if __name__ == '__main__':
     choose_standard = arcpy.GetParameterAsText(2)  #Valid values are B2 or C
 
     if All_ID_Mapping_Original_csv == '':
-        All_ID_Mapping_Original_csv = '../Tooldata/All_ID_Mapping_Latest.csv'
+        currentPath = os.path.dirname(__file__)
+        All_ID_Mapping_Original_csv = os.path.normpath(os.path.join(currentPath, "../../../../../../data/mil2525c_b2/core_data/gdb/schema_source_data/domains_input/All_ID_Mapping_Original.csv"))
+        print str(All_ID_Mapping_Original_csv)
 
     if out_domain_location == '':
         out_domain_location = '../Output/'
