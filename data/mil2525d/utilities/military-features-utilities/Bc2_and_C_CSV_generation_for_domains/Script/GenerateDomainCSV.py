@@ -20,7 +20,7 @@
 # ----------------------------------------------------------------------------------
 
 # Import arcpy module
-import arcpy, os, sys, traceback
+import arcpy, os, traceback
 import csv as csv
 
 
@@ -30,11 +30,6 @@ All_ID_Mapping_Original_Copy = "in_memory\\All_ID_Mapping_Original_Copy"
 All_ID_Mapping_Sel_10_char = "in_memory\\All_ID_Mapping_Sel_10_char"
 CharlieName = ""
 
-### FOR TESTING ###choose_standard = "C"   # permissible values are B2 or C
-### FOR TESTING ###filter_codes_table = "C:\\AutomateProcess\\Input\\Filter_Codes.csv"
-### FOR TESTING ###All_ID_Mapping_Original_csv = "C:\\AutomateProcess\\Input\\All_ID_Mapping_Original.csv"
-### FOR TESTING ###out_domain_location = "C:\\AutomateProcess\\Output\\"
-
 def load_table_in_memory():
     # Copy Rows
     arcpy.env.workspace = "in_memory"
@@ -42,10 +37,8 @@ def load_table_in_memory():
 
     # Table Select
     if choose_standard == "B2":
-        print "Excluding C tagged items."
         arcpy.TableSelect_analysis(All_ID_Mapping_Original_Copy, All_ID_Mapping_Sel_10_char, "(CHAR_LENGTH ( \"LegacyKey\" ) = 10) AND (\"Standard\" <> 'C') OR \"Standard\" IS Null")
     else:
-        print "Excluding B2 tagged items."
         arcpy.TableSelect_analysis(All_ID_Mapping_Original_Copy, All_ID_Mapping_Sel_10_char, "(CHAR_LENGTH ( \"LegacyKey\" ) = 10) AND (\"Standard\" <> 'B2') OR \"Standard\" IS Null")
 
     # Load filter_codes_table to in_memory workspace
@@ -88,13 +81,25 @@ def write_matching_rows_to_csv(CharlieName, the_query):
         if row[1] not in checkDupList:
             writer.writerow([row[0], row[1]])
             checkDupList.append(row[1])
+        else:
+            arcpy.AddWarning("Duplicate value: " + str(row[1]) + " in All_ID_Mapping table!")
     csvOut.close()
 
 if __name__ == '__main__':
-    filter_codes_table = arcpy.GetParameterAsText(0)
-    All_ID_Mapping_Original_csv = arcpy.GetParameterAsText(1)
-    out_domain_location = arcpy.GetParameterAsText(2)
-    choose_standard = arcpy.GetParameterAsText(3)  #Valid values are B2 or C
+    filter_codes_table = '../Tooldata/Filter_Codes.csv'
+    All_ID_Mapping_Original_csv = arcpy.GetParameterAsText(0)
+    out_domain_location = arcpy.GetParameterAsText(1)
+    choose_standard = arcpy.GetParameterAsText(2)  #Valid values are B2 or C
+
+    if All_ID_Mapping_Original_csv == '':
+        All_ID_Mapping_Original_csv = '../Tooldata/All_ID_Mapping_Original.csv'
+
+    if out_domain_location == '':
+        out_domain_location = '../Output/'
+
+    if choose_standard == '':
+        choose_standard = 'C'
+
 
     try:
         load_table_in_memory()
