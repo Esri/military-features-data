@@ -74,3 +74,5 @@ NMLO-General : Non-Mine Mine-Like Object-Moored,S-U-WMMO--
 NMLO-General : Non-Mine Mine-Like Object-Floating,S-U-WMFO--
 Environmental Report Location,S-U-E-----
 Dive Report Location,S-U-V-----
+Military : Submarine : Station,S-U-SS----
+Military : Submarine : Station : ASW : Submarine,S-U-SSA---

@@ -11,6 +11,7 @@
 	    * Add Military Feature Fields - adds the fields specified in a given schema to a given feature class.  The field specifications for the specified schema are defined in a CSV(.csv) file.  This also updates subtypes when encountered.
 	* In export-domain-toolbox:
 	    * Export GDB Domains to Folder - exports the geodatabase domains to CSV(.csv) files.
+	* In Bc2_and_C_CSV_generation_for_domains folder, AutomateDomainCreation.tbx - a tool for extracting Bc2 or C entities from the master "All_ID_Mapping_Original.csv" file to domain CSVs.
 
 ## Sections
 
@@ -98,6 +99,17 @@ A Geoprocessing (GP) Tool is then run on the source data to add or replace the G
 As a final (optional) validation step, once the domain data is imported into the GDB, the separate `Export GDB Domains to Folder` tool can be used to manually export the domains and compare them to the original source data.
 
 #### Steps
+
+Generating Bc2 or C coded value domain CSV files:
+* The All_ID_Mapping_Original.csv contains mappings for entities from Bc2 and/or C to D. To extract a set of CSVs for Bc2 or C coded value domains:
+* Run the Generate Domain CSVs tool, found in the Bc2_and_C_CSV_generation_for_domains folder, AutomateDomainCreation.tbx - a tool for extracting Bc2 or C entities from the master "All_ID_Mapping_Original.csv" file to domain CSVs.
+	* Set the Input codes table to `Filter_Codes.csv`.
+	* Set the `Input All ID Mapping table` to `All_ID_Mapping_Original.csv`.
+	* Set the `Output CSV location` to the `Output` folder.
+	* Select the Standard - Bc2 or C for which you want domain CSVs.
+	* Run the tool. 
+The output folder will be populated with updated CSV files for Bc2 or C.
+	*Copy the resulting CSV files to the appropriate Bc2 or C folder's domain folder (`name_domains_values`) found in ../../core_data/gdbs.
 
 Importing the domain data:
 

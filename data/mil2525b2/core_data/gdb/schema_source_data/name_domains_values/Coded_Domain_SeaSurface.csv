@@ -67,3 +67,8 @@ Civilian (Sea Surface) : Leisure Craft- Motorized : Rigid-Hull Inflatable Boat,S
 Civilian (Sea Surface) : Leisure Craft- Motorized : Speedboat,S-S-XAS---
 Civilian (Sea Surface) : Jet Ski,S-S-XP----
 Own Ship : Original,S-S-O-----
+Military Combatant : Station,S-S-S-----
+Military Combatant : Station : Picket,S-S-SP----
+Military Combatant : Station : ASW : Ship,S-S-SA----
+Military Noncombatant : Station,S-S-NN----
+Military Noncombatant : Station : Rescue,S-S-NNR---
