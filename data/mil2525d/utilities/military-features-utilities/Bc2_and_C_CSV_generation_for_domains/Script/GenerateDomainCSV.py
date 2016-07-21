@@ -25,9 +25,9 @@ import csv as csv
 
 
 # variables:
-filter_codes_table_Copy = "in_memory\\filter_codes_table_Copy"
-All_ID_Mapping_Original_Copy = "in_memory\\All_ID_Mapping_Original_Copy"
-All_ID_Mapping_Sel_10_char = "in_memory\\All_ID_Mapping_Sel_10_char"
+filter_codes_table_Copy = "in_memory/filter_codes_table_Copy"
+All_ID_Mapping_Original_Copy = "in_memory/All_ID_Mapping_Original_Copy"
+All_ID_Mapping_Sel_10_char = "in_memory/All_ID_Mapping_Sel_10_char"
 CharlieName = ""
 
 def load_table_in_memory():
@@ -92,7 +92,7 @@ if __name__ == '__main__':
     choose_standard = arcpy.GetParameterAsText(2)  #Valid values are B2 or C
 
     if All_ID_Mapping_Original_csv == '':
-        All_ID_Mapping_Original_csv = '../Tooldata/All_ID_Mapping_Original.csv'
+        All_ID_Mapping_Original_csv = '../Tooldata/All_ID_Mapping_Latest.csv'
 
     if out_domain_location == '':
         out_domain_location = '../Output/'
