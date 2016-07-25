@@ -19,6 +19,8 @@ import csv
 #import arcpy
 import arcpy
 
+import os
+
 #filtergeom = 'POINT'
 #filterappendix = 'A'
 inputFileName = arcpy.GetParameterAsText(0)
@@ -42,15 +44,16 @@ for key in outputFileDict:
     print(key, outputFileDict[key], filterappendix, filtergeom)
 
     if outputfolder == "" or outputfolder is None:
-        outputfolder = "C:\\Users\\dani8200\\Documents\\MilitarySymbology\\Test Datasets\\PythonforTestDatasets\\Cresults"
+        currentPath = os.path.dirname(__file__)
+        outputfolder = os.path.normpath(os.path.join(currentPath,"../results"))
     if inputFileName =="" or outputfolder is None:
-        inputFileName = outputfolder + "Mil2525C.csv"
+        inputFileName = os.path.normpath(os.path.join(currentPath,"../../truth_data/Mil2525C.csv"))
 
     inputfile = open(inputFileName, "r")
     reader = csv.reader(inputfile)
 
     filterOutputFileName = key
-    outputFileName = outputfolder + "\\" + filterOutputFileName
+    outputFileName = os.path.join(outputfolder, filterOutputFileName)
     outputfile = open(outputFileName, 'w')
     writer = csv.writer(outputfile)
 
