@@ -14,4 +14,4 @@ The script and model in this folder automates the workflow for creating comprehe
 * Choose the output geodatabase and run the model.
 * To ensure that you've created a comprehensive test dataset, make sure the symbology settings are pointing to the correct dictionary. 
 
-__Note__ These scripts currently only work for __Point__ features.
+__Note__: These scripts currently only work for __Point__ features.
