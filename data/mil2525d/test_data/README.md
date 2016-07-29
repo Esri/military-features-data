@@ -20,7 +20,7 @@ See the Component Sections for more information:
 
 
 	
-## Stepts to create a Comprehensive Test Dataset (Manual)
+## Steps to create a Comprehensive Test Dataset (Manual)
 
 This is the manual workflow for test dataset creation for MIL-STD-2525 Projects (This workflow is the same for D, C, BC2 and App6 symbol sets).
 
