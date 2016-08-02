@@ -1,4 +1,4 @@
-# military-features-data / data / mil2525d / sample_data
+# military-features-data / data / mil2525d / test_data
 ==========================
 
 # Purpose 
@@ -14,10 +14,15 @@ See the Component Sections for more information:
 * Projects - ArcGIS Professional Stand-alone Project Files (.ppkx)
 	* See [projects](./projects)
 	* Note: ArcGIS Professional required
-	
-## Stepts to create a Comprehensive Test Dataset
 
-The purpose of these steps is to make repeatable the process of creating test datasets for MIL-STD-2525 Projects (This workflow is the same for D, C, BC2 and App6 symbol sets).
+## Scripts and Models for Creating Comprehensive Test Datasets
+* This [link](https://github.com/Esri/military-features-data/tree/v.next/data/mil2525c_b2/test_data/Complete_test_scripts) will take you to the location of a script and a model that automates the manual process outlined below. 
+
+
+	
+## Stepts to create a Comprehensive Test Dataset (Manual)
+
+This is the manual workflow for test dataset creation for MIL-STD-2525 Projects (This workflow is the same for D, C, BC2 and App6 symbol sets).
 
 1. Open Microsoft Excel.
 2. Open a Master Excel file, containing information about all of the symbols in a particular version of the standard.
