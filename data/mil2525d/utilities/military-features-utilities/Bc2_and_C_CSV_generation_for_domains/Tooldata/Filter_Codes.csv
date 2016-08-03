@@ -1,0 +1,16 @@
+CharlieName,Filter1,Filter2,FilterGeom
+Air,S-A-,,
+Space,S-P,,
+Units,S-G-,S-F-,
+LandEquipment,S-G-E,,
+Installations,S-G-I,,
+ControlMeasuresPoints,G-,,Point
+ControlMeasuresLines,G-,,Line
+ControlMeasuresAreas,G-,,Area
+SeaSurface,S-S-,,
+SeaSubsurface,S-U-,,
+Activities,O-,E-,
+METOCPoints,W,,Point
+METOCLines,W,,Line
+METOCAreas,W,,Area
+SIGINT,I-,,

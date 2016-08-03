@@ -145,7 +145,6 @@ Infrastructure : Water Supply : Surface Water Intake,E-F-MH----
 Infrastructure : Water Supply : Wastewater Treatment Facility,E-F-MI----
 Incident : Criminal Activity Incident,E-I-B-----
 Incident : Criminal Activity Incident : Arrest,O-O-A-----
-Incident : Criminal Activity Incident : Arson,O-V-A-----
 Incident : Criminal Activity Incident : Attempted Criminal Activity : Crime : Kidnapping (Activities),O-O-KA----
 Incident : Criminal Activity Incident : Attempted Criminal Activity : Crime : Rape (Activities),O-R-A-----
 Incident : Criminal Activity Incident : Drive-by Shooting,O-V-D-----
@@ -266,4 +265,5 @@ Operation : Emergency Medical Operation,E-O-AA----
 Operation : Emergency Operation : Team,E-O-BJ----
 Operation : Fire Fighting Operation,E-O-C-----
 Weather Symbols : Inversion,E-N-BF----
+Incident : Criminal Activity Incident : Arson (2525B),O-V-A-----
 Civilian (Land Civilian) : Individual : IED Suicide Bomber,O-P-F-----

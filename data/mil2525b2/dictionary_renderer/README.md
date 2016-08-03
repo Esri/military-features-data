@@ -19,7 +19,8 @@ To add a new Dictionary Renderer to ArcGIS Pro (only mil2525d is installed with 
 * Ensure ArcGIS Pro is not running 
 * Copy the folder for the desired standard version included in this folder to the ArcGIS Pro `Resources\Dictionaries` installation location.
     * A [script is provided](./InstallDictionaryRenderer-ArcGISPro.bat) to copy/deploy this folder (requires Pro to be installed at default location)
-    * Example: Copy the `mil2525b2` folder and contents from this folder into `{ProInstallLocation`*`}\ArcGIS\Pro\Resources\Dictionaries`
-        * `*` Pro is normally installed to (1) `C:\Program Files\ArcGIS\Pro` (All Users) -or- `%LOCALAPPDATA%\Programs\ArcGIS\Pro` (Single User)
+        * This script may need to be "Run As Administrator" if ArcGIS Pro is installed under `C:\Program Files`
+    * To manually copy, copy the `mil2525b2` folder and contents from this folder into `{ProInstallLocation`*`}\ArcGIS\Pro\Resources\Dictionaries`
+        * `*` Pro is normally installed to (1) `C:\Program Files\ArcGIS\Pro` (All Users) -or- (2) `%LOCALAPPDATA%\Programs\ArcGIS\Pro` (Single User)
 * Run ArcGIS Pro, select the Dictionary Renderer on the Symbology Tab and ensure the new standard is available
     * See the [ArcGIS Pro Help Page](https://pro.arcgis.com/en/pro-app/help/mapping/symbols-and-styles/dictionary-renderer.htm) for more information
