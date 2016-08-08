@@ -1,0 +1,1 @@
+*This toolbox contains a model that will add a blank spatial index to a layer package. This model should be run before packaging the (schema only) Military Overlay Layer Packages.*
