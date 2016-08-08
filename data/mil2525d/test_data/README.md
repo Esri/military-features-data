@@ -16,7 +16,7 @@ See the Component Sections for more information:
 	* Note: ArcGIS Professional required
 
 ## Scripts and Models for Creating Comprehensive Test Datasets
-* This [link](./mil2525c_b2/test_data/Complete_test_scripts) will take you to the location of a script and a model that automates the manual process outlined below. 
+* This [link](../../mil2525c_b2) will take you to the location of a script and a model that automates the manual process outlined below. 
 
 
 	
