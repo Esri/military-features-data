@@ -1,0 +1,22 @@
+OID,Name,Symbol Entity,Symbol Set,Identity
+1,Unspecified,0,35,3
+2,Military (Sea Subsurface),110000,35,3
+3,Military (Sea Subsurface) : Submarine,110100,35,3
+4,Military (Sea Subsurface) : Submarine : Submarine-Surfaced,110101,35,3
+5,Military (Sea Subsurface) : Submarine : Submarine-Snorkeling,110102,35,3
+6,Military (Sea Subsurface) : Submarine : Submarine-Bottomed,110103,35,3
+7,Military (Sea Subsurface) : Other Submersible,110200,35,3
+8,Military (Sea Subsurface) : Nonsubmarine,110300,35,3
+9,Military (Sea Subsurface) : Autonomous Underwater Vehicle (AUV),110400,35,3
+10,Military (Sea Subsurface) : Diver,110500,35,3
+11,Civilian (Sea Subsurface),120000,35,3
+12,Civilian (Sea Subsurface) : Submersible,120100,35,3
+13,Civilian (Sea Subsurface) : Autonomous Underwater Vehicle (AUV),120200,35,3
+14,Civilian (Sea Subsurface) : Diver,120300,35,3
+15,Weapon (Sea Subsurface),130000,35,3
+16,Weapon (Sea Subsurface) : Torpedo,130100,35,3
+17,Weapon (Sea Subsurface) : Improvised Explosive Device (IED),130200,35,3
+18,Weapon (Sea Subsurface) : Decoy,130300,35,3
+19,Echo Tracker Classifier (ETC) / Possible Contact (POSCON),140000,35,3
+20,Fused Track (Sea Subsurface),150000,35,3
+21,Manual Track (Sea Subsurface),160000,35,3
