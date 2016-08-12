@@ -1,28 +1,18 @@
 # military-features-data Test Applications
 
-These test applications are provided to help verify/validate the Military Features Data repository and its interactions with ArcGIS Runtime. 
+These test applications are provided to help verify/validate the Military Features Data repository on the ArcGIS platform. 
 
 ## Features
 
-* Uses the ArcGIS Runtime to export one or more images of a symbol using the name or symbol identification code (SIDC) 
+* Applications to export one or more images of a symbol using the Symbol Identification Code (SIDC) 
 * A full-featured validation/test application that may be used to verify all of the Military Feature images against a validated set of images
 
 ## Instructions / Applications Provided / Requirements
 
-Test applications provided include:
+Test applications/platforms include:
 
-* [ValidateSymbolsQt](./ValidateSymbolsQt) 
-    * Automated image comparison/validation/test application
-    * ArcGIS Runtime for Qt
-    * [Readme](./ValidateSymbolsQt/README.md)
-* [TestExportSymbolsAll](./TestExportSymbolsAll)
-    *  Exports all dictionary symbols.
-    *  ArcGIS Runtime for Java
-    *  [Readme](./TestExportSymbolsAll/README.md)
-* [TestExportSymbol](./TestExportSymbol)
-    *  Exports a single dictionary symbol (simple test).
-    *  ArcGIS Runtime for Java
-    * [Readme](./TestExportSymbol/README.md)
+* ArcGIS Runtime Qt 
+    * [test_apps/runtime_sdk/qt](./test_apps/runtime_sdk/qt)
  
 ## Issues
 
@@ -30,7 +20,7 @@ Test applications provided include:
 
 ## Licensing
 
-Copyright 2013-2014 Esri
+Copyright 2013-2016 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

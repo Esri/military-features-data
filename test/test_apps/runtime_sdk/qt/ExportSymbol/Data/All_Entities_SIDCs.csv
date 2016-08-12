@@ -1,0 +1,1931 @@
+Full SIDC,Identity,SymbolSet,Code,GeometryType,Name
+10030000000000000000,03,00,000000,NotValid,Unspecified
+10030100000000000000,03,01,000000,NotValid,Unspecified
+10030100001100000000,03,01,110000,Point,Military (Air)
+10030100001101000000,03,01,110100,Point,Military (Air) : Fixed-Wing
+10030100001101010000,03,01,110101,Point,Military (Air) : Fixed-Wing : Medical Evacuation (MEDEVAC)
+10030100001101020000,03,01,110102,Point,Military (Air) : Fixed-Wing : Attack/Strike
+10030100001101030000,03,01,110103,Point,Military (Air) : Fixed-Wing : Bomber
+10030100001101040000,03,01,110104,Point,Military (Air) : Fixed-Wing : Fighter
+10030100001101050000,03,01,110105,Point,Military (Air) : Fixed-Wing : Fighter/Bomber
+10030100001101070000,03,01,110107,Point,Military (Air) : Fixed-Wing : Cargo
+10030100001101080000,03,01,110108,Point,Military (Air) : Fixed-Wing : Electronic Combat (EC)/Jammer
+10030100001101090000,03,01,110109,Point,Military (Air) : Fixed-Wing : Tanker
+10030100001101100000,03,01,110110,Point,Military (Air) : Fixed-Wing : Patrol
+10030100001101110000,03,01,110111,Point,Military (Air) : Fixed-Wing : Reconnaissance
+10030100001101120000,03,01,110112,Point,Military (Air) : Fixed-Wing : Trainer
+10030100001101130000,03,01,110113,Point,Military (Air) : Fixed-Wing : Utility
+10030100001101140000,03,01,110114,Point,Military (Air) : Fixed-Wing : VSTOL
+10030100001101150000,03,01,110115,Point,Military (Air) : Fixed-Wing : Airborne Command Post (ACP)
+10030100001101160000,03,01,110116,Point,Military (Air) : Fixed-Wing : Airborne Early Warning (AEW)
+10030100001101170000,03,01,110117,Point,Military (Air) : Fixed-Wing : Antisurface Warfare
+10030100001101180000,03,01,110118,Point,Military (Air) : Fixed-Wing : Antisubmarine Warfare
+10030100001101190000,03,01,110119,Point,Military (Air) : Fixed-Wing : Communications
+10030100001101200000,03,01,110120,Point,Military (Air) : Fixed-Wing : Combat Search and Rescue (CSAR)
+10030100001101210000,03,01,110121,Point,Military (Air) : Fixed-Wing : Electronic Support (ES)
+10030100001101220000,03,01,110122,Point,Military (Air) : Fixed-Wing : Government
+10030100001101230000,03,01,110123,Point,Military (Air) : Fixed-Wing : Mine Countermeasures (MCM)
+10030100001101240000,03,01,110124,Point,Military (Air) : Fixed-Wing : Personnel Recovery
+10030100001101250000,03,01,110125,Point,Military (Air) : Fixed-Wing : Search and Rescue
+10030100001101260000,03,01,110126,Point,Military (Air) : Fixed-Wing : Special Operations Forces
+10030100001101270000,03,01,110127,Point,Military (Air) : Fixed-Wing : Ultra Light
+10030100001101280000,03,01,110128,Point,Military (Air) : Fixed-Wing : Photographic Reconnaissance
+10030100001101290000,03,01,110129,Point,Military (Air) : Fixed-Wing : Very Important Person (VIP)
+10030100001101300000,03,01,110130,Point,Military (Air) : Fixed-Wing : Suppression of Enemy Air Defense
+10030100001101310000,03,01,110131,Point,Military (Air) : Fixed-Wing : Passenger
+10030100001101320000,03,01,110132,Point,Military (Air) : Fixed-Wing : Escort
+10030100001101330000,03,01,110133,Point,Military (Air) : Fixed-Wing : Electronic Attack (EA)
+10030100001102000000,03,01,110200,Point,Military (Air) : Rotary-Wing
+10030100001103000000,03,01,110300,Point,Military (Air) : Unmanned Aircraft (UA- UAV- UAS- RPV)
+10030100001104000000,03,01,110400,Point,Military (Air) : Vertical-Takeoff UAV (VT-UAV)
+10030100001105000000,03,01,110500,Point,Military (Air) : Lighter Than Air
+10030100001106000000,03,01,110600,Point,Military (Air) : Airship
+10030100001107000000,03,01,110700,Point,Military (Air) : Tethered Lighter Than Air
+10030100001200000000,03,01,120000,Point,Civilian (Air)
+10030100001201000000,03,01,120100,Point,Civilian (Air) : Fixed Wing
+10030100001202000000,03,01,120200,Point,Civilian (Air) : Rotary Wing
+10030100001203000000,03,01,120300,Point,Civilian (Air) : Unmanned Aircraft (UA- UAV- UAS- RPV)
+10030100001204000000,03,01,120400,Point,Civilian (Air) : Lighter Than Air
+10030100001205000000,03,01,120500,Point,Civilian (Air) : Airship
+10030100001206000000,03,01,120600,Point,Civilian (Air) : Tethered Lighter than Air
+10030100001300000000,03,01,130000,Point,Weapon (Air)
+10030100001301000000,03,01,130100,Point,Weapon (Air) : Bomb
+10030100001302000000,03,01,130200,Point,Weapon (Air) : Decoy
+10030100001400000000,03,01,140000,Point,Manual Track (Air)
+10030200000000000000,03,02,000000,NotValid,Unspecified
+10030200001100000000,03,02,110000,Point,Missile (Air Missile)
+10030500000000000000,03,05,000000,NotValid,Unspecified
+10030500001100000000,03,05,110000,Point,Military (Space)
+10030500001101000000,03,05,110100,Point,Military (Space) : Space Vehicle
+10030500001102000000,03,05,110200,Point,Military (Space) : Re-Entry Vehicle
+10030500001103000000,03,05,110300,Point,Military (Space) : Planet Lander
+10030500001104000000,03,05,110400,Point,Military (Space) : Orbiter Shuttle
+10030500001105000000,03,05,110500,Point,Military (Space) : Capsule
+10030500001106000000,03,05,110600,Point,Military (Space) : Satellite- General
+10030500001107000000,03,05,110700,Point,Military (Space) : Satellite
+10030500001108000000,03,05,110800,Point,Military (Space) : Antisatellite Weapon
+10030500001109000000,03,05,110900,Point,Military (Space) : Astronomical Satellite
+10030500001110000000,03,05,111000,Point,Military (Space) : Biosatellite
+10030500001111000000,03,05,111100,Point,Military (Space) : Communications Satellite
+10030500001112000000,03,05,111200,Point,Military (Space) : Earth Observation Satellite
+10030500001113000000,03,05,111300,Point,Military (Space) : Miniaturized Satellite
+10030500001114000000,03,05,111400,Point,Military (Space) : Navigational Satellite
+10030500001115000000,03,05,111500,Point,Military (Space) : Reconnaissance Satellite
+10030500001116000000,03,05,111600,Point,Military (Space) : Space Station
+10030500001117000000,03,05,111700,Point,Military (Space) : Tethered Satellite
+10030500001118000000,03,05,111800,Point,Military (Space) : Weather Satellite
+10030500001119000000,03,05,111900,Point,Military (Space) : Space Launched Vehicle (SLV)
+10030500001200000000,03,05,120000,Point,Civilian (Space)
+10030500001201000000,03,05,120100,Point,Civilian (Space) : Orbiter Shuttle
+10030500001202000000,03,05,120200,Point,Civilian (Space) : Capsule
+10030500001203000000,03,05,120300,Point,Civilian (Space) : Satellite
+10030500001204000000,03,05,120400,Point,Civilian (Space) : Astronomical Satellite
+10030500001205000000,03,05,120500,Point,Civilian (Space) : Biosatellite
+10030500001206000000,03,05,120600,Point,Civilian (Space) : Communications Satellite
+10030500001207000000,03,05,120700,Point,Civilian (Space) : Earth Observation Satellite
+10030500001208000000,03,05,120800,Point,Civilian (Space) : Miniaturized Satellite
+10030500001209000000,03,05,120900,Point,Civilian (Space) : Navigational Satellite
+10030500001210000000,03,05,121000,Point,Civilian (Space) : Space Station
+10030500001211000000,03,05,121100,Point,Civilian (Space) : Tethered Satellite
+10030500001212000000,03,05,121200,Point,Civilian (Space) : Weather Satellite
+10030500001300000000,03,05,130000,Point,Manual Track (Space)
+10030600000000000000,03,06,000000,NotValid,Unspecified
+10030600001100000000,03,06,110000,Point,Missile (Space Missile)
+10031000000000000000,03,10,000000,NotValid,Unspecified
+10031000001100000000,03,10,110000,Point,Command and Control
+10031000001101000000,03,10,110100,Point,Command and Control : Broadcast Transmitter Antennae
+10031000001102000000,03,10,110200,Point,Command and Control : Civil Affairs
+10031000001103000000,03,10,110300,Point,Command and Control : Civil-Military Cooperation
+10031000001104000000,03,10,110400,Point,Command and Control : Information Operations
+10031000001105000000,03,10,110500,Point,Command and Control : Liaison
+10031000001106000000,03,10,110600,Point,Command and Control : Military Information Support (MISO)
+10031000001106010000,03,10,110601,Point,Command and Control : Military Information Support (MISO) : Broadcast Transmitter Antennae
+10031000001107000000,03,10,110700,Point,Command and Control : Radio
+10031000001108000000,03,10,110800,Point,Command and Control : Radio Relay
+10031000001109000000,03,10,110900,Point,Command and Control : Radio Teletype Center
+10031000001110000000,03,10,111000,Point,Command and Control : Signal
+10031000001110010000,03,10,111001,Point,Command and Control : Signal : Radio
+10031000001110020000,03,10,111002,Point,Command and Control : Signal : Radio Relay
+10031000001110030000,03,10,111003,Point,Command and Control : Signal : Teletype
+10031000001110040000,03,10,111004,Point,Command and Control : Signal : Tactical Satellite
+10031000001110050000,03,10,111005,Point,Command and Control : Signal : Video Imagery (Combat Camera)
+10031000001111000000,03,10,111100,Point,Command and Control : Tactical Satellite
+10031000001112000000,03,10,111200,Point,Command and Control : Video Imagery (Combat Camera)
+10031000001201000000,03,10,120100,Point,Movement and Maneuver : Air Assault with Organic Lift
+10031000001202000000,03,10,120200,Point,Movement and Maneuver : Air Traffic Services/Airfield Operations
+10031000001203000000,03,10,120300,Point,Movement and Maneuver : Amphibious
+10031000001204000000,03,10,120400,Point,Movement and Maneuver : Antitank/Antiarmor
+10031000001204010000,03,10,120401,Point,Movement and Maneuver : Antitank/Antiarmor : Armored
+10031000001204020000,03,10,120402,Point,Movement and Maneuver : Antitank/Antiarmor : Motorized
+10031000001205000000,03,10,120500,Point,Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked
+10031000001205010000,03,10,120501,Point,Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Reconnaissance/Cavalry/Scout
+10031000001205020000,03,10,120502,Point,Movement and Maneuver : Armor/Armored/Mechanized/Self-Propelled/Tracked : Amphibious
+10031000001206000000,03,10,120600,Point,Movement and Maneuver : Army Aviation/Aviation Rotary Wing
+10031000001206010000,03,10,120601,Point,Movement and Maneuver : Army Aviation/Aviation Rotary Wing : Reconnaissance
+10031000001207000000,03,10,120700,Point,Movement and Maneuver : Aviation Composite
+10031000001208000000,03,10,120800,Point,Movement and Maneuver : Aviation Fixed Wing
+10031000001208010000,03,10,120801,Point,Movement and Maneuver : Aviation Fixed Wing : Reconnaissance
+10031000001209000000,03,10,120900,Point,Movement and Maneuver : Combat
+10031000001210000000,03,10,121000,Point,Movement and Maneuver : Combined Arms
+10031000001211000000,03,10,121100,Point,Movement and Maneuver : Infantry
+10031000001211010000,03,10,121101,Point,Movement and Maneuver : Infantry : Amphibious
+10031000001211020000,03,10,121102,Point,Movement and Maneuver : Infantry : Armored/Mechanized/Tracked
+10031000001211030000,03,10,121103,Point,Movement and Maneuver : Infantry : Main Gun System
+10031000001211040000,03,10,121104,Point,Movement and Maneuver : Infantry : Motorized
+10031000001211050000,03,10,121105,Point,Movement and Maneuver : Infantry : Infantry Fighting Vehicle
+10031000001212000000,03,10,121200,Point,Movement and Maneuver : Observer
+10031000001213000000,03,10,121300,Point,Movement and Maneuver : Reconnaissance/Cavalry/Scout
+10031000001213010000,03,10,121301,Point,Movement and Maneuver : Reconnaissance/Cavalry/Scout : Reconnaissance and Surveillance
+10031000001213020000,03,10,121302,Point,Movement and Maneuver : Reconnaissance/Cavalry/Scout : Marine
+10031000001213030000,03,10,121303,Point,Movement and Maneuver : Reconnaissance/Cavalry/Scout : Motorized
+10031000001214000000,03,10,121400,Point,Movement and Maneuver : Sea Air Land (SEAL)
+10031000001215000000,03,10,121500,Point,Movement and Maneuver : Sniper
+10031000001216000000,03,10,121600,Point,Movement and Maneuver : Surveillance
+10031000001217000000,03,10,121700,Point,Movement and Maneuver : Special Forces
+10031000001218000000,03,10,121800,Point,Movement and Maneuver : SOF
+10031000001218010000,03,10,121801,Point,Movement and Maneuver : SOF : Fixed Wing MISO
+10031000001218020000,03,10,121802,Point,Movement and Maneuver : SOF : Ground
+10031000001218030000,03,10,121803,Point,Movement and Maneuver : SOF : Special Boat
+10031000001218040000,03,10,121804,Point,Movement and Maneuver : SOF : Special SSNR
+10031000001218050000,03,10,121805,Point,Movement and Maneuver : SOF : Underwater Demolition Team
+10031000001219000000,03,10,121900,Point,Movement and Maneuver : Unmanned Aerial Systems
+10031000001301000000,03,10,130100,Point,Fires : Air Defense
+10031000001301010000,03,10,130101,Point,Fires : Air Defense : Main Gun System
+10031000001301020000,03,10,130102,Point,Fires : Air Defense : Missile
+10031000001302000000,03,10,130200,Point,Fires : Air/Land Naval Gunfire Liaison
+10031000001303000000,03,10,130300,Point,Fires : Field Artillery
+10031000001303010000,03,10,130301,Point,Fires : Field Artillery : Self-propelled
+10031000001303020000,03,10,130302,Point,Fires : Field Artillery : Target Acquisition
+10031000001304000000,03,10,130400,Point,Fires : Field Artillery Observer
+10031000001305000000,03,10,130500,Point,Fires : Joint Fire Support
+10031000001306000000,03,10,130600,Point,Fires : Meteorological
+10031000001307000000,03,10,130700,Point,Fires : Missile
+10031000001308000000,03,10,130800,Point,Fires : Mortar
+10031000001308010000,03,10,130801,Point,Fires : Mortar : Armored/Mechanized/Tracked
+10031000001308020000,03,10,130802,Point,Fires : Mortar : Self-Propelled Wheeled
+10031000001308030000,03,10,130803,Point,Fires : Mortar : Towed
+10031000001309000000,03,10,130900,Point,Fires : Survey
+10031000001401000000,03,10,140100,Point,Protection : CBRN Defense
+10031000001401010000,03,10,140101,Point,Protection : CBRN Defense : Mechanized
+10031000001401020000,03,10,140102,Point,Protection : CBRN Defense : Motorized
+10031000001401030000,03,10,140103,Point,Protection : CBRN Defense : Reconnaissance
+10031000001401040000,03,10,140104,Point,Protection : CBRN Defense : Reconnaissance Armored
+10031000001401050000,03,10,140105,Point,Protection : CBRN Defense : Reconnaissance Equipped
+10031000001402000000,03,10,140200,Point,Protection : Combat Support (Maneuver Enhancement)
+10031000001403000000,03,10,140300,Point,Protection : Criminal Investigation Division
+10031000001404000000,03,10,140400,Point,Protection : Diving
+10031000001405000000,03,10,140500,Point,Protection : Dog
+10031000001406000000,03,10,140600,Point,Protection : Drilling
+10031000001407000000,03,10,140700,Point,Protection : Engineer
+10031000001407010000,03,10,140701,Point,Protection : Engineer : Mechanized
+10031000001407020000,03,10,140702,Point,Protection : Engineer : Motorized
+10031000001407030000,03,10,140703,Point,Protection : Engineer : Reconnaissance
+10031000001408000000,03,10,140800,Point,Protection : Explosive Ordnance Disposal (EOD)
+10031000001409000000,03,10,140900,Point,Protection : Field Camp Construction
+10031000001410000000,03,10,141000,Point,Protection : Fire Fighting/Fire Protection
+10031000001411000000,03,10,141100,Point,Protection : Geospatial Support/Geospatial Information Support
+10031000001412000000,03,10,141200,Point,Protection : Military Police
+10031000001413000000,03,10,141300,Point,Protection : Mine
+10031000001414000000,03,10,141400,Point,Protection : Mine Clearing
+10031000001415000000,03,10,141500,Point,Protection : Mine Launching
+10031000001416000000,03,10,141600,Point,Protection : Mine Laying
+10031000001417000000,03,10,141700,Point,Protection : Security
+10031000001417010000,03,10,141701,Point,Protection : Security : Mechanized
+10031000001417020000,03,10,141702,Point,Protection : Security : Motorized
+10031000001418000000,03,10,141800,Point,Protection : Search and Rescue
+10031000001419000000,03,10,141900,Point,Protection : Security Police (Air)
+10031000001420000000,03,10,142000,Point,Protection : Shore Patrol
+10031000001421000000,03,10,142100,Point,Protection : Topographic
+10031000001501000000,03,10,150100,Point,Intelligence : Analysis
+10031000001502000000,03,10,150200,Point,Intelligence : Counterintelligence
+10031000001503000000,03,10,150300,Point,Intelligence : Direction Finding
+10031000001504000000,03,10,150400,Point,Intelligence : Electronic Ranging
+10031000001505000000,03,10,150500,Point,Intelligence : Electronic Warfare
+10031000001505010000,03,10,150501,Point,Intelligence : Electronic Warfare : Analysis
+10031000001505020000,03,10,150502,Point,Intelligence : Electronic Warfare : Direction Finding
+10031000001505030000,03,10,150503,Point,Intelligence : Electronic Warfare : Intercept
+10031000001505040000,03,10,150504,Point,Intelligence : Electronic Warfare : Jamming
+10031000001505050000,03,10,150505,Point,Intelligence : Electronic Warfare : Search
+10031000001506000000,03,10,150600,Point,Intelligence : Intercept (Search and Recording)
+10031000001507000000,03,10,150700,Point,Intelligence : Interrogation
+10031000001508000000,03,10,150800,Point,Intelligence : Jamming
+10031000001509000000,03,10,150900,Point,Intelligence : Joint Intelligence Center
+10031000001510000000,03,10,151000,Point,Intelligence : Military Intelligence
+10031000001511000000,03,10,151100,Point,Intelligence : Search
+10031000001512000000,03,10,151200,Point,Intelligence : Sensor
+10031000001600000000,03,10,160000,Point,Sustainment
+10031000001601000000,03,10,160100,Point,Sustainment : Administrative
+10031000001602000000,03,10,160200,Point,Sustainment : All Classes of Supply
+10031000001603000000,03,10,160300,Point,Sustainment : Airport of Debarkation/Airport of Embarkation
+10031000001604000000,03,10,160400,Point,Sustainment : Ammunition
+10031000001605000000,03,10,160500,Point,Sustainment : Band
+10031000001606000000,03,10,160600,Point,Sustainment : Combat Service Support
+10031000001607000000,03,10,160700,Point,Sustainment : Finance
+10031000001608000000,03,10,160800,Point,Sustainment : Judge Advocate General
+10031000001609000000,03,10,160900,Point,Sustainment : Labor
+10031000001610000000,03,10,161000,Point,Sustainment : Laundry/Bath
+10031000001611000000,03,10,161100,Point,Sustainment : Maintenance
+10031000001612000000,03,10,161200,Point,Sustainment : Material
+10031000001613000000,03,10,161300,Point,Sustainment : Medical
+10031000001614000000,03,10,161400,Point,Sustainment : Medical Treatment Facility
+10031000001615000000,03,10,161500,Point,Sustainment : Morale Welfare and Recreation
+10031000001616000000,03,10,161600,Point,Sustainment : Mortuary Affairs/Graves Registration
+10031000001617000000,03,10,161700,Point,Sustainment : Multiple Classes of Supply
+10031000001618000000,03,10,161800,Point,Sustainment : NATO Supply Class I
+10031000001619000000,03,10,161900,Point,Sustainment : NATO Supply Class II
+10031000001620000000,03,10,162000,Point,Sustainment : NATO Supply Class III
+10031000001621000000,03,10,162100,Point,Sustainment : NATO Supply Class IV
+10031000001622000000,03,10,162200,Point,Sustainment : NATO Supply Class V
+10031000001623000000,03,10,162300,Point,Sustainment : Ordnance
+10031000001624000000,03,10,162400,Point,Sustainment : Personnel Services
+10031000001625000000,03,10,162500,Point,Sustainment : Petroleum Oil and Lubricants
+10031000001626000000,03,10,162600,Point,Sustainment : Pipeline
+10031000001627000000,03,10,162700,Point,Sustainment : Postal
+10031000001628000000,03,10,162800,Point,Sustainment : Public Affairs/Public Information
+10031000001629000000,03,10,162900,Point,Sustainment : Quartermaster
+10031000001630000000,03,10,163000,Point,Sustainment : Railhead
+10031000001631000000,03,10,163100,Point,Sustainment : Religious Support
+10031000001632000000,03,10,163200,Point,Sustainment : Replacement Holding Unit
+10031000001633000000,03,10,163300,Point,Sustainment : Sea Port of Debarkation/Sea Port of Embarkation
+10031000001634000000,03,10,163400,Point,Sustainment : Supply
+10031000001635000000,03,10,163500,Point,Sustainment : Joint Information Bureau
+10031000001636000000,03,10,163600,Point,Sustainment : Transportation
+10031000001637000000,03,10,163700,Point,Sustainment : US Supply Class I
+10031000001638000000,03,10,163800,Point,Sustainment : US Supply Class II
+10031000001639000000,03,10,163900,Point,Sustainment : US Supply Class III
+10031000001640000000,03,10,164000,Point,Sustainment : US Supply Class IV
+10031000001641000000,03,10,164100,Point,Sustainment : US Supply Class V
+10031000001642000000,03,10,164200,Point,Sustainment : US Supply Class VI
+10031000001643000000,03,10,164300,Point,Sustainment : US Supply Class VII
+10031000001644000000,03,10,164400,Point,Sustainment : US Supply Class VIII
+10031000001645000000,03,10,164500,Point,Sustainment : US Supply Class IX
+10031000001646000000,03,10,164600,Point,Sustainment : US Supply Class X
+10031000001647000000,03,10,164700,Point,Sustainment : Water
+10031000001648000000,03,10,164800,Point,Sustainment : Water Purification
+10031000001649000000,03,10,164900,Point,Sustainment : Broadcast
+10031000001701000000,03,10,170100,Point,Naval : Naval
+10031000001801000000,03,10,180100,Point,Named Headquarters : Allied Command Europe Rapid Reaction Corps (ARRC)
+10031000001802000000,03,10,180200,Point,Named Headquarters : Allied Command Operations
+10031000001803000000,03,10,180300,Point,Named Headquarters : International Security Assistance Force (ISAF)
+10031000001804000000,03,10,180400,Point,Named Headquarters : Multinational (MN)
+10031000001900000000,03,10,190000,Point,Emergency Operation (Land Units)
+10031000002000000000,03,10,200000,Point,Law Enforcement (Land Units)
+10031000002001000000,03,10,200100,Point,Law Enforcement (Land Units) : ATF DOJ
+10031000002002000000,03,10,200200,Point,Law Enforcement (Land Units) : Border Patrol
+10031000002003000000,03,10,200300,Point,Law Enforcement (Land Units) : Customs Service
+10031000002004000000,03,10,200400,Point,Law Enforcement (Land Units) : DEA
+10031000002005000000,03,10,200500,Point,Law Enforcement (Land Units) : DOJ
+10031000002006000000,03,10,200600,Point,Law Enforcement (Land Units) : FBI
+10031000002007000000,03,10,200700,Point,Law Enforcement (Land Units) : Police
+10031000002008000000,03,10,200800,Point,Law Enforcement (Land Units) : Prison
+10031000002009000000,03,10,200900,Point,Law Enforcement (Land Units) : US Secret Service (USSS)
+10031000002010000000,03,10,201000,Point,Law Enforcement (Land Units) : TSA
+10031000002011000000,03,10,201100,Point,Law Enforcement (Land Units) : Coast Guard
+10031000002012000000,03,10,201200,Point,Law Enforcement (Land Units) : US Marshals Service
+10031000002013000000,03,10,201300,Point,Law Enforcement (Land Units) : Internal Security Force
+10031000001600950000,03,10,160095,Point,Sustainment: Special Entity Subtypes : Headquarters Element (Modifier Test)
+10031000001600960000,03,10,160096,Point,Sustainment: Special Entity Subtypes : Division and Below Support (Modifier Test)
+10031000001600970000,03,10,160097,Point,Sustainment: Special Entity Subtypes : Corps Support (Modifier Test)
+10031000001600980000,03,10,160098,Point,Sustainment: Special Entity Subtypes : Theater/Echelons Above Corps Support (Modifier Test)
+10031100000000000000,03,11,000000,NotValid,Unspecified
+10031100001100000000,03,11,110000,Point,Civilian (Land Civilian)
+10031100001101000000,03,11,110100,Point,Civilian (Land Civilian) : Environmental Protection
+10031100001102000000,03,11,110200,Point,Civilian (Land Civilian) : Government Organization
+10031100001103000000,03,11,110300,Point,Civilian (Land Civilian) : Individual
+10031100001104000000,03,11,110400,Point,Civilian (Land Civilian) : Organization or Group
+10031100001105000000,03,11,110500,Point,Civilian (Land Civilian) : Killing Victim
+10031100001106000000,03,11,110600,Point,Civilian (Land Civilian) : Killing Victims
+10031100001107000000,03,11,110700,Point,Civilian (Land Civilian) : Victim of an Attempted Crime
+10031100001108000000,03,11,110800,Point,Civilian (Land Civilian) : Spy
+10031100001109000000,03,11,110900,Point,Civilian (Land Civilian) : Composite Loss
+10031100001110000000,03,11,111000,Point,Civilian (Land Civilian) : Emergency Medical Operation
+10031500000000000000,03,15,000000,NotValid,Unspecified
+10031500001100000000,03,15,110000,Point,Weapon/Weapon System
+10031500001101000000,03,15,110100,Point,Weapon/Weapon System : Rifle
+10031500001101010000,03,15,110101,Point,Weapon/Weapon System : Rifle : Single Shot Rifle
+10031500001101020000,03,15,110102,Point,Weapon/Weapon System : Rifle : Semiautomatic Rifle
+10031500001101030000,03,15,110103,Point,Weapon/Weapon System : Rifle : Automatic Rifle
+10031500001102000000,03,15,110200,Point,Weapon/Weapon System : Machine Gun
+10031500001102010000,03,15,110201,Point,Weapon/Weapon System : Machine Gun : Light
+10031500001102020000,03,15,110202,Point,Weapon/Weapon System : Machine Gun : Medium
+10031500001102030000,03,15,110203,Point,Weapon/Weapon System : Machine Gun : Heavy
+10031500001103000000,03,15,110300,Point,Weapon/Weapon System : Grenade Launcher
+10031500001103010000,03,15,110301,Point,Weapon/Weapon System : Grenade Launcher : Light
+10031500001103020000,03,15,110302,Point,Weapon/Weapon System : Grenade Launcher : Medium
+10031500001103030000,03,15,110303,Point,Weapon/Weapon System : Grenade Launcher : Heavy
+10031500001104000000,03,15,110400,Point,Weapon/Weapon System : Flame Thrower
+10031500001105000000,03,15,110500,Point,Weapon/Weapon System : Air Defense Gun
+10031500001105010000,03,15,110501,Point,Weapon/Weapon System : Air Defense Gun : Light
+10031500001105020000,03,15,110502,Point,Weapon/Weapon System : Air Defense Gun : Medium
+10031500001105030000,03,15,110503,Point,Weapon/Weapon System : Air Defense Gun : Heavy
+10031500001106000000,03,15,110600,Point,Weapon/Weapon System : Antitank Gun
+10031500001106010000,03,15,110601,Point,Weapon/Weapon System : Antitank Gun : Light
+10031500001106020000,03,15,110602,Point,Weapon/Weapon System : Antitank Gun : Medium
+10031500001106030000,03,15,110603,Point,Weapon/Weapon System : Antitank Gun : Heavy
+10031500001107000000,03,15,110700,Point,Weapon/Weapon System : Direct Fire Gun
+10031500001107010000,03,15,110701,Point,Weapon/Weapon System : Direct Fire Gun : Light
+10031500001107020000,03,15,110702,Point,Weapon/Weapon System : Direct Fire Gun : Medium
+10031500001107030000,03,15,110703,Point,Weapon/Weapon System : Direct Fire Gun : Heavy
+10031500001108000000,03,15,110800,Point,Weapon/Weapon System : Recoilless Gun
+10031500001108010000,03,15,110801,Point,Weapon/Weapon System : Recoilless Gun : Light
+10031500001108020000,03,15,110802,Point,Weapon/Weapon System : Recoilless Gun : Medium
+10031500001108030000,03,15,110803,Point,Weapon/Weapon System : Recoilless Gun : Heavy
+10031500001109000000,03,15,110900,Point,Weapon/Weapon System : Howitzer
+10031500001109010000,03,15,110901,Point,Weapon/Weapon System : Howitzer : Light
+10031500001109020000,03,15,110902,Point,Weapon/Weapon System : Howitzer : Medium
+10031500001109030000,03,15,110903,Point,Weapon/Weapon System : Howitzer : Heavy
+10031500001110000000,03,15,111000,Point,Weapon/Weapon System : Missile Launcher
+10031500001110010000,03,15,111001,Point,Weapon/Weapon System : Missile Launcher : Light
+10031500001110020000,03,15,111002,Point,Weapon/Weapon System : Missile Launcher : Medium
+10031500001110030000,03,15,111003,Point,Weapon/Weapon System : Missile Launcher : Heavy
+10031500001111000000,03,15,111100,Point,Weapon/Weapon System : Air Defense Missile Launcher
+10031500001111010000,03,15,111101,Point,Weapon/Weapon System : Air Defense Missile Launcher : Light
+10031500001111020000,03,15,111102,Point,Weapon/Weapon System : Air Defense Missile Launcher : Light Transporter-Launcher and Radar (TLAR)
+10031500001111030000,03,15,111103,Point,Weapon/Weapon System : Air Defense Missile Launcher : Light Tactical Landing Approach Radar (TELAR)
+10031500001111040000,03,15,111104,Point,Weapon/Weapon System : Air Defense Missile Launcher : Medium
+10031500001111050000,03,15,111105,Point,Weapon/Weapon System : Air Defense Missile Launcher : Medium TLAR
+10031500001111060000,03,15,111106,Point,Weapon/Weapon System : Air Defense Missile Launcher : Medium TELAR Air Defense Missile Launcher
+10031500001111070000,03,15,111107,Point,Weapon/Weapon System : Air Defense Missile Launcher : Heavy
+10031500001111080000,03,15,111108,Point,Weapon/Weapon System : Air Defense Missile Launcher : Heavy TLAR
+10031500001111090000,03,15,111109,Point,Weapon/Weapon System : Air Defense Missile Launcher : Heavy TELAR
+10031500001112000000,03,15,111200,Point,Weapon/Weapon System : Antitank Missile Launcher
+10031500001112010000,03,15,111201,Point,Weapon/Weapon System : Antitank Missile Launcher : Light
+10031500001112020000,03,15,111202,Point,Weapon/Weapon System : Antitank Missile Launcher : Medium
+10031500001112030000,03,15,111203,Point,Weapon/Weapon System : Antitank Missile Launcher : Heavy
+10031500001113000000,03,15,111300,Point,Weapon/Weapon System : Surface-to-Surface Missile Launcher
+10031500001113010000,03,15,111301,Point,Weapon/Weapon System : Surface-to-Surface Missile Launcher : Light
+10031500001113020000,03,15,111302,Point,Weapon/Weapon System : Surface-to-Surface Missile Launcher : Medium
+10031500001113030000,03,15,111303,Point,Weapon/Weapon System : Surface-to-Surface Missile Launcher : Heavy
+10031500001114000000,03,15,111400,Point,Weapon/Weapon System : Mortar
+10031500001114010000,03,15,111401,Point,Weapon/Weapon System : Mortar : Light
+10031500001114020000,03,15,111402,Point,Weapon/Weapon System : Mortar : Medium
+10031500001114030000,03,15,111403,Point,Weapon/Weapon System : Mortar : Heavy
+10031500001115000000,03,15,111500,Point,Weapon/Weapon System : Single Rocket Launcher
+10031500001115010000,03,15,111501,Point,Weapon/Weapon System : Single Rocket Launcher : Light
+10031500001115020000,03,15,111502,Point,Weapon/Weapon System : Single Rocket Launcher : Medium
+10031500001115030000,03,15,111503,Point,Weapon/Weapon System : Single Rocket Launcher : Heavy
+10031500001116000000,03,15,111600,Point,Weapon/Weapon System : Multiple Rocket Launcher
+10031500001116010000,03,15,111601,Point,Weapon/Weapon System : Multiple Rocket Launcher : Light
+10031500001116020000,03,15,111602,Point,Weapon/Weapon System : Multiple Rocket Launcher : Medium
+10031500001116030000,03,15,111603,Point,Weapon/Weapon System : Multiple Rocket Launcher : Heavy
+10031500001117000000,03,15,111700,Point,Weapon/Weapon System : Antitank Rocket Launcher
+10031500001117010000,03,15,111701,Point,Weapon/Weapon System : Antitank Rocket Launcher : Light
+10031500001117020000,03,15,111702,Point,Weapon/Weapon System : Antitank Rocket Launcher : Medium
+10031500001117030000,03,15,111703,Point,Weapon/Weapon System : Antitank Rocket Launcher : Heavy
+10031500001118000000,03,15,111800,Point,Weapon/Weapon System : Nonlethal Weapon
+10031500001119000000,03,15,111900,Point,Weapon/Weapon System : Taser
+10031500001120000000,03,15,112000,Point,Weapon/Weapon System : Water Cannon
+10031500001200000000,03,15,120000,Point,Vehicle
+10031500001201000000,03,15,120100,Point,Vehicle : Armored Vehicle
+10031500001201010000,03,15,120101,Point,Vehicle : Armored Vehicle : Armored Fighting Vehicle
+10031500001201020000,03,15,120102,Point,Vehicle : Armored Vehicle : Armored Fighting Vehicle C2
+10031500001201030000,03,15,120103,Point,Vehicle : Armored Vehicle : Armored Personnel Carrier
+10031500001201040000,03,15,120104,Point,Vehicle : Armored Vehicle : Armored Personnel Carrier Ambulance
+10031500001201050000,03,15,120105,Point,Vehicle : Armored Vehicle : Armored Protected Vehicle
+10031500001201060000,03,15,120106,Point,Vehicle : Armored Vehicle : Armored Protected Vehicle Recovery
+10031500001201070000,03,15,120107,Point,Vehicle : Armored Vehicle : Armored Protected Medical Evacuation
+10031500001201080000,03,15,120108,Point,Vehicle : Armored Vehicle : Armored Personnel Carrier-Recovery
+10031500001201090000,03,15,120109,Point,Vehicle : Armored Vehicle : Combat Service Support Vehicle
+10031500001201100000,03,15,120110,Point,Vehicle : Armored Vehicle : Light Wheeled Armored Vehicle
+10031500001202000000,03,15,120200,Point,Vehicle : Tank
+10031500001202010000,03,15,120201,Point,Vehicle : Tank : Light
+10031500001202020000,03,15,120202,Point,Vehicle : Tank : Medium
+10031500001202030000,03,15,120203,Point,Vehicle : Tank : Heavy
+10031500001203000000,03,15,120300,Point,Vehicle : Tank Recovery Vehicle
+10031500001203010000,03,15,120301,Point,Vehicle : Tank Recovery Vehicle : Light
+10031500001203020000,03,15,120302,Point,Vehicle : Tank Recovery Vehicle : Medium
+10031500001203030000,03,15,120303,Point,Vehicle : Tank Recovery Vehicle : Heavy
+10031500001300000000,03,15,130000,Point,Engineer Equipment
+10031500001301000000,03,15,130100,Point,Engineer Equipment : Bridge
+10031500001302000000,03,15,130200,Point,Engineer Equipment : Bridge Mounted on Utility Vehicle
+10031500001303000000,03,15,130300,Point,Engineer Equipment : Fixed Bridge
+10031500001304000000,03,15,130400,Point,Engineer Equipment : Floating Bridge
+10031500001305000000,03,15,130500,Point,Engineer Equipment : Folding Girder Bridge
+10031500001306000000,03,15,130600,Point,Engineer Equipment : Hollow Deck Bridge
+10031500001307000000,03,15,130700,Point,Engineer Equipment : Drill
+10031500001307010000,03,15,130701,Point,Engineer Equipment : Drill : Drill Mounted on Utility Vehicle
+10031500001308000000,03,15,130800,Point,Engineer Equipment : Earthmover
+10031500001308010000,03,15,130801,Point,Engineer Equipment : Earthmover : Multifunctional Earthmover/Digger
+10031500001309000000,03,15,130900,Point,Engineer Equipment : Mine Clearing Equipment
+10031500001309010000,03,15,130901,Point,Engineer Equipment : Mine Clearing Equipment : Trailer Mounted
+10031500001309020000,03,15,130902,Point,Engineer Equipment : Mine Clearing Equipment : Mine Clearing Equipment on Tank Chassis
+10031500001310000000,03,15,131000,Point,Engineer Equipment : Mine Laying Equipment
+10031500001310010000,03,15,131001,Point,Engineer Equipment : Mine Laying Equipment : Mine Laying Equipment on Utility Vehicle
+10031500001310020000,03,15,131002,Point,Engineer Equipment : Mine Laying Equipment : Armored Carrier with Volcano
+10031500001310030000,03,15,131003,Point,Engineer Equipment : Mine Laying Equipment : Truck Mounted with Volcano
+10031500001311000000,03,15,131100,Point,Engineer Equipment : Dozer
+10031500001311010000,03,15,131101,Point,Engineer Equipment : Dozer : Dozer-Armored
+10031500001312000000,03,15,131200,Point,Engineer Equipment : Armored Assault
+10031500001313000000,03,15,131300,Point,Engineer Equipment : Armored Engineer Recon Vehicle (AERV)
+10031500001314000000,03,15,131400,Point,Engineer Equipment : Backhoe
+10031500001315000000,03,15,131500,Point,Engineer Equipment : Construction Vehicle
+10031500001316000000,03,15,131600,Point,Engineer Equipment : Ferry Transporter
+10031500001401000000,03,15,140100,Point,Utility Vehicles : Utility Vehicle
+10031500001402000000,03,15,140200,Point,Utility Vehicles : Medical
+10031500001403000000,03,15,140300,Point,Utility Vehicles : Medical Evacuation
+10031500001404000000,03,15,140400,Point,Utility Vehicles : Mobile Emergency Physician
+10031500001405000000,03,15,140500,Point,Utility Vehicles : Bus
+10031500001406000000,03,15,140600,Point,Utility Vehicles : Semi-Trailer and Truck
+10031500001406010000,03,15,140601,Point,Utility Vehicles : Semi-Trailer and Truck : Light
+10031500001406020000,03,15,140602,Point,Utility Vehicles : Semi-Trailer and Truck : Medium
+10031500001406030000,03,15,140603,Point,Utility Vehicles : Semi-Trailer and Truck : Heavy
+10031500001407000000,03,15,140700,Point,Utility Vehicles : Limited Cross Country Truck
+10031500001408000000,03,15,140800,Point,Utility Vehicles : Cross Country Truck
+10031500001409000000,03,15,140900,Point,Utility Vehicles : Petroleum-Oil and Lubricant
+10031500001410000000,03,15,141000,Point,Utility Vehicles : Water
+10031500001411000000,03,15,141100,Point,Utility Vehicles : Amphibious Utility Wheeled Vehicle
+10031500001412000000,03,15,141200,Point,Utility Vehicles : Tow Truck
+10031500001412010000,03,15,141201,Point,Utility Vehicles : Tow Truck : Light
+10031500001412020000,03,15,141202,Point,Utility Vehicles : Tow Truck : Heavy
+10031500001501000000,03,15,150100,Point,Train : Locomotive
+10031500001502000000,03,15,150200,Point,Train : Railcar
+10031500001601000000,03,15,160100,Point,Civilian Vehicle : Automobile
+10031500001601010000,03,15,160101,Point,Civilian Vehicle : Automobile : Compact
+10031500001601020000,03,15,160102,Point,Civilian Vehicle : Automobile : Midsize
+10031500001601030000,03,15,160103,Point,Civilian Vehicle : Automobile : Sedan
+10031500001602000000,03,15,160200,Point,Civilian Vehicle : Open-Bed Truck
+10031500001602010000,03,15,160201,Point,Civilian Vehicle : Open-Bed Truck : Pickup
+10031500001602020000,03,15,160202,Point,Civilian Vehicle : Open-Bed Truck : Small
+10031500001602030000,03,15,160203,Point,Civilian Vehicle : Open-Bed Truck : Large
+10031500001603000000,03,15,160300,Point,Civilian Vehicle : Multiple Passenger Vehicle
+10031500001603010000,03,15,160301,Point,Civilian Vehicle : Multiple Passenger Vehicle : Van
+10031500001603020000,03,15,160302,Point,Civilian Vehicle : Multiple Passenger Vehicle : Small Bus
+10031500001603030000,03,15,160303,Point,Civilian Vehicle : Multiple Passenger Vehicle : Large Bus
+10031500001604000000,03,15,160400,Point,Civilian Vehicle : Utility Vehicle
+10031500001604010000,03,15,160401,Point,Civilian Vehicle : Utility Vehicle : Sport Utility Vehicle (SUV)
+10031500001604020000,03,15,160402,Point,Civilian Vehicle : Utility Vehicle : Small Box Truck
+10031500001604030000,03,15,160403,Point,Civilian Vehicle : Utility Vehicle : Large Box Truck
+10031500001605000000,03,15,160500,Point,Civilian Vehicle : Jeep Type Vehicle
+10031500001605010000,03,15,160501,Point,Civilian Vehicle : Jeep Type Vehicle : Small/Light
+10031500001605020000,03,15,160502,Point,Civilian Vehicle : Jeep Type Vehicle : Medium
+10031500001605030000,03,15,160503,Point,Civilian Vehicle : Jeep Type Vehicle : Large/Heavy
+10031500001606000000,03,15,160600,Point,Civilian Vehicle : Tractor Trailer with Box
+10031500001606010000,03,15,160601,Point,Civilian Vehicle : Tractor Trailer with Box : Small/Light
+10031500001606020000,03,15,160602,Point,Civilian Vehicle : Tractor Trailer with Box : Medium
+10031500001606030000,03,15,160603,Point,Civilian Vehicle : Tractor Trailer with Box : Large/Heavy
+10031500001607000000,03,15,160700,Point,Civilian Vehicle : Tractor Trailer with Flatbed
+10031500001607010000,03,15,160701,Point,Civilian Vehicle : Tractor Trailer with Flatbed : Small/Light
+10031500001607020000,03,15,160702,Point,Civilian Vehicle : Tractor Trailer with Flatbed : Medium
+10031500001607030000,03,15,160703,Point,Civilian Vehicle : Tractor Trailer with Flatbed : Large/Heavy
+10031500001608000000,03,15,160800,Point,Civilian Vehicle : Known Insurgent Vehicle
+10031500001609000000,03,15,160900,Point,Civilian Vehicle : Drug Vehicle
+10031500001700000000,03,15,170000,Point,Law Enforcement (Land Equipment)
+10031500001701000000,03,15,170100,Point,Law Enforcement (Land Equipment) : ATF DOJ
+10031500001702000000,03,15,170200,Point,Law Enforcement (Land Equipment) : Border Patrol
+10031500001703000000,03,15,170300,Point,Law Enforcement (Land Equipment) : Customs Service
+10031500001704000000,03,15,170400,Point,Law Enforcement (Land Equipment) : DEA
+10031500001705000000,03,15,170500,Point,Law Enforcement (Land Equipment) : DOJ
+10031500001706000000,03,15,170600,Point,Law Enforcement (Land Equipment) : FBI
+10031500001707000000,03,15,170700,Point,Law Enforcement (Land Equipment) : Police
+10031500001708000000,03,15,170800,Point,Law Enforcement (Land Equipment) : US Secret Service (USSS)
+10031500001709000000,03,15,170900,Point,Law Enforcement (Land Equipment) : TSA
+10031500001710000000,03,15,171000,Point,Law Enforcement (Land Equipment) : Coast Guard
+10031500001711000000,03,15,171100,Point,Law Enforcement (Land Equipment) : US Marshals Service
+10031500001800000000,03,15,180000,Point,Pack Animals
+10031500001900000000,03,15,190000,Point,Missile Support
+10031500001901000000,03,15,190100,Point,Missile Support : Transloader
+10031500001902000000,03,15,190200,Point,Missile Support : Transporter
+10031500001903000000,03,15,190300,Point,Missile Support : Crane/Loading Device
+10031500001904000000,03,15,190400,Point,Missile Support : Propellant Transporter
+10031500001905000000,03,15,190500,Point,Missile Support : Warhead Transporter
+10031500002001000000,03,15,200100,Point,Other Equipment : Antennae
+10031500002002000000,03,15,200200,Point,Other Equipment : Bomb
+10031500002003000000,03,15,200300,Point,Other Equipment : Booby Trap
+10031500002004000000,03,15,200400,Point,Other Equipment : CBRN Equipment
+10031500002005000000,03,15,200500,Point,Other Equipment : Computer System
+10031500002006000000,03,15,200600,Point,Other Equipment : Command Launch Equipment (CLE)
+10031500002007000000,03,15,200700,Point,Other Equipment : Generator Set
+10031500002008000000,03,15,200800,Point,Other Equipment : Ground-based Midcourse Defense (GMD) Fire Control (GFC) Center
+10031500002009000000,03,15,200900,Point,Other Equipment : In-Flight Interceptor Communications System (IFICS) Data Terminal (IDT)
+10031500002010000000,03,15,201000,Point,Other Equipment : Laser
+10031500002011000000,03,15,201100,Point,Other Equipment : Military Information Support Operations (MISO)
+10031500002012000000,03,15,201200,Point,Other Equipment : Sustainment Shipments
+10031500002013000000,03,15,201300,Point,Other Equipment : Tent
+10031500002014000000,03,15,201400,Point,Other Equipment : Unit Deployment Shipments
+10031500002015000000,03,15,201500,Point,Other Equipment : Emergency Medical Operation
+10031500002015010000,03,15,201501,Point,Other Equipment : Emergency Medical Operation : Medical Evacuation Helicopter
+10031500002101000000,03,15,210100,Point,Land Mines : Land Mine
+10031500002102000000,03,15,210200,Point,Land Mines : Antipersonnel Land Mine (APL)
+10031500002103000000,03,15,210300,Point,Land Mines : Antitank Mine
+10031500002104000000,03,15,210400,Point,Land Mines : Improvised Explosives Device (IED)
+10031500002105000000,03,15,210500,Point,Land Mines : Less than lethal
+10031500002201000000,03,15,220100,Point,Sensors : Sensor
+10031500002202000000,03,15,220200,Point,Sensors : Sensor Emplaced
+10031500002203000000,03,15,220300,Point,Sensors : Radar
+10031500002300000000,03,15,230000,Point,Emergency Operation (Land Equipment)
+10031500002301000000,03,15,230100,Point,Emergency Operation (Land Equipment) : Ambulance
+10031500002302000000,03,15,230200,Point,Emergency Operation (Land Equipment) : Fire Fighting/Fire Protection
+10031500002400000000,03,15,240000,Point,Manual Track (Land Equipment)
+10032000000000000000,03,20,000000,NotValid,Unspecified
+10032000001100000000,03,20,110000,Point,Installation
+10032000001101000000,03,20,110100,Point,Installation : Aircraft Production/Assembly
+10032000001102000000,03,20,110200,Point,Installation : Ammunition and Explosives/Assembly
+10032000001103000000,03,20,110300,Point,Installation : Ammunition Cache
+10032000001104000000,03,20,110400,Point,Installation : Armament Production
+10032000001105000000,03,20,110500,Point,Installation : Black List Location
+10032000001106000000,03,20,110600,Point,Installation : Chemical-Biological-Radiological and Nuclear (CBRN)
+10032000001107000000,03,20,110700,Point,Installation : Engineering Equipment Production
+10032000001107010000,03,20,110701,Point,Installation : Engineering Equipment Production : Bridge
+10032000001108000000,03,20,110800,Point,Installation : Equipment Manufacture
+10032000001109000000,03,20,110900,Point,Installation : Government Leadership
+10032000001110000000,03,20,111000,Point,Installation : Gray List Location
+10032000001111000000,03,20,111100,Point,Installation : Mass Grave Site
+10032000001112000000,03,20,111200,Point,Installation : Materiel
+10032000001113000000,03,20,111300,Point,Installation : Mine
+10032000001114000000,03,20,111400,Point,Installation : Missile and Space System Production
+10032000001115000000,03,20,111500,Point,Installation : Nuclear (Non CBRN Defense)
+10032000001116000000,03,20,111600,Point,Installation : Printed Media
+10032000001117000000,03,20,111700,Point,Installation : Safe House
+10032000001118000000,03,20,111800,Point,Installation : White List Location
+10032000001119000000,03,20,111900,Point,Installation : Tented Camp
+10032000001119010000,03,20,111901,Point,Installation : Tented Camp : Displaced Persons / Refugee / Evacuees Camp
+10032000001119020000,03,20,111902,Point,Installation : Tented Camp : Training Camp
+10032000001120000000,03,20,112000,Point,Installation : Warehouse/Storage Facility
+10032000001121000000,03,20,112100,Point,Installation : Law Enforcement
+10032000001121010000,03,20,112101,Point,Installation : Law Enforcement : Bureau of Alcohol-Tobacco-Firearms and Explosives (ATF) (Department of Justice)
+10032000001121020000,03,20,112102,Point,Installation : Law Enforcement : Border Patrol
+10032000001121030000,03,20,112103,Point,Installation : Law Enforcement : Customs Service
+10032000001121040000,03,20,112104,Point,Installation : Law Enforcement : Drug Enforcement Administration (DEA)
+10032000001121050000,03,20,112105,Point,Installation : Law Enforcement : Department of Justice (DOJ)
+10032000001121060000,03,20,112106,Point,Installation : Law Enforcement : Federal Bureau of Investigation (FBI)
+10032000001121070000,03,20,112107,Point,Installation : Law Enforcement : Police
+10032000001121080000,03,20,112108,Point,Installation : Law Enforcement : Prison
+10032000001121090000,03,20,112109,Point,Installation : Law Enforcement : United States Secret Service (USSS)
+10032000001121100000,03,20,112110,Point,Installation : Law Enforcement : Transportation Security Administration (TSA)
+10032000001121110000,03,20,112111,Point,Installation : Law Enforcement : Coast Guard
+10032000001121120000,03,20,112112,Point,Installation : Law Enforcement : US Marshals Service
+10032000001122000000,03,20,112200,Point,Installation : Emergency Operation
+10032000001122010000,03,20,112201,Point,Installation : Emergency Operation : Fire Station
+10032000001122020000,03,20,112202,Point,Installation : Emergency Operation : Emergency Medical Operation
+10032000001201000000,03,20,120100,Point,Infrastructure : Agriculture and Food
+10032000001201010000,03,20,120101,Point,Infrastructure : Agriculture and Food : Agriculture Laboratory
+10032000001201020000,03,20,120102,Point,Infrastructure : Agriculture and Food : Animal Feedlot
+10032000001201030000,03,20,120103,Point,Infrastructure : Agriculture and Food : Commercial Food Distribution Center
+10032000001201040000,03,20,120104,Point,Infrastructure : Agriculture and Food : Farm/Ranch
+10032000001201050000,03,20,120105,Point,Infrastructure : Agriculture and Food : Food Distribution
+10032000001201060000,03,20,120106,Point,Infrastructure : Agriculture and Food : Food Production Center
+10032000001201070000,03,20,120107,Point,Infrastructure : Agriculture and Food : Food Retail
+10032000001201080000,03,20,120108,Point,Infrastructure : Agriculture and Food : Grain Storage
+10032000001202000000,03,20,120200,Point,Infrastructure : Banking- Finance- and Insurance
+10032000001202010000,03,20,120201,Point,Infrastructure : Banking- Finance- and Insurance : ATM
+10032000001202020000,03,20,120202,Point,Infrastructure : Banking- Finance- and Insurance : Bank
+10032000001202030000,03,20,120203,Point,Infrastructure : Banking- Finance- and Insurance : Bullion Storage
+10032000001202040000,03,20,120204,Point,Infrastructure : Banking- Finance- and Insurance : Economic Infrastructure Asset
+10032000001202050000,03,20,120205,Point,Infrastructure : Banking- Finance- and Insurance : Federal Reserve Bank
+10032000001202060000,03,20,120206,Point,Infrastructure : Banking- Finance- and Insurance : Financial Exchange
+10032000001202070000,03,20,120207,Point,Infrastructure : Banking- Finance- and Insurance : Financial Services-Other
+10032000001203000000,03,20,120300,Point,Infrastructure : Commercial
+10032000001203010000,03,20,120301,Point,Infrastructure : Commercial : Chemical Plant
+10032000001203020000,03,20,120302,Point,Infrastructure : Commercial : Firearms Manufacturer
+10032000001203030000,03,20,120303,Point,Infrastructure : Commercial : Firearms Retailer
+10032000001203040000,03,20,120304,Point,Infrastructure : Commercial : Hazardous Material Production
+10032000001203050000,03,20,120305,Point,Infrastructure : Commercial : Hazardous Material Storage
+10032000001203060000,03,20,120306,Point,Infrastructure : Commercial : Industrial Site
+10032000001203070000,03,20,120307,Point,Infrastructure : Commercial : Landfill
+10032000001203080000,03,20,120308,Point,Infrastructure : Commercial : Pharmaceutical Manufacturer
+10032000001203090000,03,20,120309,Point,Infrastructure : Commercial : Contaminated Hazardous Waste Site
+10032000001203100000,03,20,120310,Point,Infrastructure : Commercial : Toxic Release Inventory
+10032000001204000000,03,20,120400,Point,Infrastructure : Educational Facilities
+10032000001204010000,03,20,120401,Point,Infrastructure : Educational Facilities : College/University
+10032000001204020000,03,20,120402,Point,Infrastructure : Educational Facilities : School
+10032000001205000000,03,20,120500,Point,Infrastructure : Energy Facility
+10032000001205010000,03,20,120501,Point,Infrastructure : Energy Facility : Electric Power
+10032000001205020000,03,20,120502,Point,Infrastructure : Energy Facility : Generation Station
+10032000001205030000,03,20,120503,Point,Infrastructure : Energy Facility : Natural Gas Facility
+10032000001205040000,03,20,120504,Point,Infrastructure : Energy Facility : Petroleum Facility
+10032000001205050000,03,20,120505,Point,Infrastructure : Energy Facility : Petroleum/Gas/Oil
+10032000001205060000,03,20,120506,Point,Infrastructure : Energy Facility : Propane Facility
+10032000001206000000,03,20,120600,Point,Infrastructure : Government Site Infrastructure
+10032000001207010000,03,20,120701,Point,Infrastructure : Medical : Medical
+10032000001207020000,03,20,120702,Point,Infrastructure : Medical : Medical Treatment Facility (Hospital)
+10032000001208000000,03,20,120800,Point,Infrastructure : Military
+10032000001208010000,03,20,120801,Point,Infrastructure : Military : Military Armory
+10032000001208020000,03,20,120802,Point,Infrastructure : Military : Military Base
+10032000001209000000,03,20,120900,Point,Infrastructure : Postal Services
+10032000001209010000,03,20,120901,Point,Infrastructure : Postal Services : Postal Distribution Center
+10032000001209020000,03,20,120902,Point,Infrastructure : Postal Services : Post Office
+10032000001210000000,03,20,121000,Point,Infrastructure : Public Venues
+10032000001210010000,03,20,121001,Point,Infrastructure : Public Venues : Enclosed Facility
+10032000001210020000,03,20,121002,Point,Infrastructure : Public Venues : Open Facility
+10032000001210030000,03,20,121003,Point,Infrastructure : Public Venues : Recreational Area
+10032000001210040000,03,20,121004,Point,Infrastructure : Public Venues : Religious Institution
+10032000001211000000,03,20,121100,Point,Infrastructure : Special Needs
+10032000001211010000,03,20,121101,Point,Infrastructure : Special Needs : Adult Day Care
+10032000001211020000,03,20,121102,Point,Infrastructure : Special Needs : Child Day Care
+10032000001211030000,03,20,121103,Point,Infrastructure : Special Needs : Elder Care
+10032000001212000000,03,20,121200,Point,Infrastructure : Telecommunications
+10032000001212010000,03,20,121201,Point,Infrastructure : Telecommunications : Broadcast Transmitter Antennae
+10032000001212020000,03,20,121202,Point,Infrastructure : Telecommunications : Telecommunications
+10032000001212030000,03,20,121203,Point,Infrastructure : Telecommunications : Telecommunications Tower
+10032000001213000000,03,20,121300,Point,Infrastructure : Transportation
+10032000001213010000,03,20,121301,Point,Infrastructure : Transportation : Airport/Air Base
+10032000001213020000,03,20,121302,Point,Infrastructure : Transportation : Air Traffic Control Facility
+10032000001213030000,03,20,121303,Point,Infrastructure : Transportation : Bus Station
+10032000001213040000,03,20,121304,Point,Infrastructure : Transportation : Ferry Terminal
+10032000001213050000,03,20,121305,Point,Infrastructure : Transportation : Helicopter Landing Site
+10032000001213060000,03,20,121306,Point,Infrastructure : Transportation : Maintenance Facility
+10032000001213070000,03,20,121307,Point,Infrastructure : Transportation : Railhead/Railroad Station
+10032000001213080000,03,20,121308,Point,Infrastructure : Transportation : Rest Stop
+10032000001213090000,03,20,121309,Point,Infrastructure : Transportation : Sea Port/Naval Base
+10032000001213100000,03,20,121310,Point,Infrastructure : Transportation : Ship Yard
+10032000001213110000,03,20,121311,Point,Infrastructure : Transportation : Toll Facility
+10032000001213120000,03,20,121312,Point,Infrastructure : Transportation : Traffic Inspection Facility
+10032000001213130000,03,20,121313,Point,Infrastructure : Transportation : Tunnel
+10032000001214000000,03,20,121400,Point,Infrastructure : Water Supply
+10032000001214010000,03,20,121401,Point,Infrastructure : Water Supply : Control Valve
+10032000001214020000,03,20,121402,Point,Infrastructure : Water Supply : Dam
+10032000001214030000,03,20,121403,Point,Infrastructure : Water Supply : Discharge Outfall
+10032000001214040000,03,20,121404,Point,Infrastructure : Water Supply : Ground Water Well
+10032000001214050000,03,20,121405,Point,Infrastructure : Water Supply : Pumping Station
+10032000001214060000,03,20,121406,Point,Infrastructure : Water Supply : Reservoir
+10032000001214070000,03,20,121407,Point,Infrastructure : Water Supply : Storage Tower
+10032000001214080000,03,20,121408,Point,Infrastructure : Water Supply : Surface Water Intake
+10032000001214090000,03,20,121409,Point,Infrastructure : Water Supply : Wastewater Treatment Facility
+10032000001214100000,03,20,121410,Point,Infrastructure : Water Supply : Water
+10032000001214110000,03,20,121411,Point,Infrastructure : Water Supply : Water Treatment
+10032500000000000000,03,25,000000,NotValid,Unspecified
+10032500001101000000,03,25,110100,Line,Command and Control Lines : Boundary
+10032500001102000000,03,25,110200,Line,Command and Control Lines : Light Line
+10032500001201000000,03,25,120100,Area,Command and Control Areas : Area of Operations
+10032500001202000000,03,25,120200,Area,Command and Control Areas : Named Area of Interest
+10032500001203000000,03,25,120300,Area,Command and Control Areas : Targeted Area of Interest
+10032500001204000000,03,25,120400,Area,Command and Control Areas : Airfield Zone
+10032500001301000000,03,25,130100,Point,Command and Control Points : Action Point (General)
+10032500001302000000,03,25,130200,Point,Command and Control Points : Amnesty Point
+10032500001303000000,03,25,130300,Point,Command and Control Points : Checkpoint
+10032500001304000000,03,25,130400,Point,Command and Control Points : Center of Main Effort
+10032500001305000000,03,25,130500,Point,Command and Control Points : Contact Point
+10032500001306000000,03,25,130600,Point,Command and Control Points : Coordinating Point
+10032500001307000000,03,25,130700,Point,Command and Control Points : Decision Point
+10032500001308000000,03,25,130800,Point,Command and Control Points : Distress Call
+10032500001309000000,03,25,130900,Point,Command and Control Points : Entry Control Point
+10032500001310010000,03,25,131001,Point,Command and Control Points : Fly-To-Point : Fly-To-Point (Sonobuoy)
+10032500001310020000,03,25,131002,Point,Command and Control Points : Fly-To-Point : Fly-To-Point (Weapon)
+10032500001310030000,03,25,131003,Point,Command and Control Points : Fly-To-Point : Fly-To-Point (Normal)
+10032500001311000000,03,25,131100,Point,Command and Control Points : Linkup Point
+10032500001312000000,03,25,131200,Point,Command and Control Points : Passage Point
+10032500001313000000,03,25,131300,Point,Command and Control Points : Point of Interest
+10032500001313010000,03,25,131301,Point,Command and Control Points : Point of Interest : Launch Event (Point of Interest)
+10032500001314000000,03,25,131400,Point,Command and Control Points : Rally Point
+10032500001315000000,03,25,131500,Point,Command and Control Points : Release Point
+10032500001316000000,03,25,131600,Point,Command and Control Points : Start Point
+10032500001317000000,03,25,131700,Point,Command and Control Points : Special Point
+10032500001318000000,03,25,131800,Point,Command and Control Points : Waypoint
+10032500001319000000,03,25,131900,Point,Command and Control Points : Airfield
+10032500001401010000,03,25,140101,Line,Maneuver Lines : Forward Line of Troops : Friendly Present
+10032500001401020000,03,25,140102,Line,Maneuver Lines : Forward Line of Troops : Friendly Planned or on Order
+10032500001401030000,03,25,140103,Line,Maneuver Lines : Forward Line of Troops : Enemy Known
+10032500001401040000,03,25,140104,Line,Maneuver Lines : Forward Line of Troops : Enemy Suspected or Templated
+10032500001403000000,03,25,140300,Line,Maneuver Lines : Phase Line
+10032500001404000000,03,25,140400,Line,Maneuver Lines : Forward Edge of the Battle Area
+10032500001404010000,03,25,140401,Line,Maneuver Lines : Forward Edge of the Battle Area : Proposed or On Order
+10032500001405000000,03,25,140500,Line,Maneuver Lines : Principal Direction of Fire
+10032500001406010000,03,25,140601,Line,Maneuver Lines : Direction of Attack : Friendly Aviation
+10032500001406020000,03,25,140602,Line,Maneuver Lines : Direction of Attack : Friendly Direction of Main Attack
+10032500001406030000,03,25,140603,Line,Maneuver Lines : Direction of Attack : Friendly Direction of Supporting Attack
+10032500001406040000,03,25,140604,Line,Maneuver Lines : Direction of Attack : Friendly Planned or On Order
+10032500001406050000,03,25,140605,Line,Maneuver Lines : Direction of Attack : Feint
+10032500001406060000,03,25,140606,Line,Maneuver Lines : Direction of Attack : Enemy Confirmed
+10032500001406070000,03,25,140607,Line,Maneuver Lines : Direction of Attack : Enemy Templated or Suspected
+10032500001407000000,03,25,140700,Line,Maneuver Lines : Final Coordination Line
+10032500001408000000,03,25,140800,Line,Maneuver Lines : Infiltration Lane
+10032500001409000000,03,25,140900,Line,Maneuver Lines : Limit of Advance
+10032500001410000000,03,25,141000,Line,Maneuver Lines : Line of Departure
+10032500001411000000,03,25,141100,Line,Maneuver Lines : Line of Departure/Line of Contact
+10032500001412000000,03,25,141200,Line,Maneuver Lines : Probable Line of Deployment
+10032500001413000000,03,25,141300,Area,Maneuver Lines : Airhead Line
+10032500001414000000,03,25,141400,Line,Maneuver Lines : Bridgehead Line
+10032500001415000000,03,25,141500,Line,Maneuver Lines : Holding Line
+10032500001416000000,03,25,141600,Line,Maneuver Lines : Release Line
+10032500001417000000,03,25,141700,Line,Maneuver Lines : Ambush
+10032500001501010000,03,25,150101,Area,Maneuver Areas : Area : Friendly
+10032500001501020000,03,25,150102,Area,Maneuver Areas : Area : Friendly Planned or On Order
+10032500001501030000,03,25,150103,Area,Maneuver Areas : Area : Enemy Known or Confirmed
+10032500001501040000,03,25,150104,Area,Maneuver Areas : Area : Enemy Suspected
+10032500001502000000,03,25,150200,Area,Maneuver Areas : Assembly Area
+10032500001503000000,03,25,150300,Area,Maneuver Areas : Occupied Assembly Area
+10032500001504000000,03,25,150400,Area,Maneuver Areas : Proposed or On Order Assembly Area
+10032500001505010000,03,25,150501,Area,Maneuver Areas : Action Area : Joint Tactical Action Area (JTAA)
+10032500001505020000,03,25,150502,Area,Maneuver Areas : Action Area : Submarine Action Area (SAA)
+10032500001505030000,03,25,150503,Area,Maneuver Areas : Action Area : Submarine-Generated Action Area (SGAA)
+10032500001506000000,03,25,150600,Area,Maneuver Areas : Drop Zone
+10032500001507000000,03,25,150700,Area,Maneuver Areas : Extraction Zone
+10032500001508000000,03,25,150800,Area,Maneuver Areas : Landing Zone
+10032500001509000000,03,25,150900,Area,Maneuver Areas : Pick-Up Zone
+10032500001510000000,03,25,151000,Area,Maneuver Areas : Fortified Area
+10032500001511000000,03,25,151100,Area,Maneuver Areas : Limited Access Area
+10032500001512000000,03,25,151200,Area,Maneuver Areas : Battle Position
+10032500001512010000,03,25,151201,Area,Maneuver Areas : Battle Position : Battle Position - Planned
+10032500001512020000,03,25,151202,Area,Maneuver Areas : Battle Position : Battle Position - Prepared (P) but not Occupied
+10032500001512030000,03,25,151203,Area,Maneuver Areas : Battle Position : Strong Point
+10032500001512040000,03,25,151204,Line,Maneuver Areas : Battle Position : Contain
+10032500001512050000,03,25,151205,Line,Maneuver Areas : Battle Position : Retain
+10032500001513000000,03,25,151300,Area,Maneuver Areas : Engagement Area (EA)
+10032500001514010000,03,25,151401,Line,Maneuver Areas : Axis of Advance : Friendly Airborne/Aviation
+10032500001514020000,03,25,151402,Line,Maneuver Areas : Axis of Advance : Attack Helicopter
+10032500001514030000,03,25,151403,Line,Maneuver Areas : Axis of Advance : Main Attack
+10032500001514040000,03,25,151404,Line,Maneuver Areas : Axis of Advance : Supporting Attack
+10032500001514050000,03,25,151405,Line,Maneuver Areas : Axis of Advance : Supporting Attack Planned or On Order
+10032500001514060000,03,25,151406,Line,Maneuver Areas : Axis of Advance : Feint
+10032500001514070000,03,25,151407,Line,Maneuver Areas : Axis of Advance : Enemy Confirmed
+10032500001514080000,03,25,151408,Line,Maneuver Areas : Axis of Advance : Enemy Templated or Suspected
+10032500001515000000,03,25,151500,Area,Maneuver Areas : Assault Position
+10032500001516000000,03,25,151600,Area,Maneuver Areas : Attack Position
+10032500001517000000,03,25,151700,Area,Maneuver Areas : Objective
+10032500001518010000,03,25,151801,Area,Maneuver Areas : Encirclement : Friendly
+10032500001518020000,03,25,151802,Area,Maneuver Areas : Encirclement : Enemy
+10032500001519000000,03,25,151900,Area,Maneuver Areas : Penetration Box
+10032500001520000000,03,25,152000,Line,Maneuver Areas : Attack by Fire Position
+10032500001521000000,03,25,152100,Line,Maneuver Areas : Support by Fire
+10032500001522000000,03,25,152200,Line,Maneuver Areas : Search Area/Reconnaissance Area
+10032500001601000000,03,25,160100,Point,Maneuver Points : Observation Post/Outpost (Unspecified)
+10032500001602000000,03,25,160200,Point,Maneuver Points : Observation Post/Outpost (Specified)
+10032500001602010000,03,25,160201,Point,Maneuver Points : Observation Post/Outpost (Specified) : Reconnaissance Outpost
+10032500001602020000,03,25,160202,Point,Maneuver Points : Observation Post/Outpost (Specified) : Forward Observer Outpost
+10032500001602030000,03,25,160203,Point,Maneuver Points : Observation Post/Outpost (Specified) : CBRN Observation Outpost
+10032500001602040000,03,25,160204,Point,Maneuver Points : Observation Post/Outpost (Specified) : Sensor Outpost/Listening Post
+10032500001602050000,03,25,160205,Point,Maneuver Points : Observation Post/Outpost (Specified) : Combat Outpost
+10032500001603000000,03,25,160300,Point,Maneuver Points : Target Reference Point
+10032500001604000000,03,25,160400,Point,Maneuver Points : Point of Departure
+10032500001701000000,03,25,170100,Line,Air Corridors : Air Corridor
+10032500001702000000,03,25,170200,Line,Air Corridors : Low Level Transit Route
+10032500001703000000,03,25,170300,Line,Air Corridors : Minimum-Risk Route
+10032500001704000000,03,25,170400,Line,Air Corridors : Safe Lane
+10032500001705000000,03,25,170500,Line,Air Corridors : Standard Use Army Aircraft Flight Route
+10032500001706000000,03,25,170600,Line,Air Corridors : Transit Corridor
+10032500001707000000,03,25,170700,Line,Air Corridors : Unmanned Aircraft (UA) Route
+10032500001708000000,03,25,170800,Area,Air Corridors : Base Defense Zone
+10032500001709000000,03,25,170900,Area,Air Corridors : High-Density Airspace Control Zone
+10032500001710000000,03,25,171000,Area,Air Corridors : Restricted Operations Zone
+10032500001711000000,03,25,171100,Area,Air Corridors : Air-to-Air Restricted Operating Zone
+10032500001712000000,03,25,171200,Area,Air Corridors : Unmanned Aircraft Restricted Operating Zone
+10032500001713000000,03,25,171300,Area,Air Corridors : Weapon Engagement Zone
+10032500001714000000,03,25,171400,Area,Air Corridors : Fighter Engagement Zone
+10032500001715000000,03,25,171500,Area,Air Corridors : Joint Engagement Zone
+10032500001716000000,03,25,171600,Area,Air Corridors : Missile Engagement Zone
+10032500001717000000,03,25,171700,Area,Air Corridors : Low Altitude Missile Engagement Zone
+10032500001718000000,03,25,171800,Area,Air Corridors : High Altitude Missile Engagement Zone
+10032500001719000000,03,25,171900,Area,Air Corridors : Short Range Air Defense Engagement Zone
+10032500001720000000,03,25,172000,Area,Air Corridors : Weapons Free Zone
+10032500001800000000,03,25,180000,Point,Airspace Control Points
+10032500001801000000,03,25,180100,Point,Airspace Control Points : Air Control Point
+10032500001802000000,03,25,180200,Point,Airspace Control Points : Communications Checkpoint
+10032500001803000000,03,25,180300,Point,Airspace Control Points : Downed Aircrew Pick-Up Point
+10032500001804000000,03,25,180400,Point,Airspace Control Points : Pop-up Point
+10032500001805000000,03,25,180500,Point,Airspace Control Points : Air Control Rendezvous
+10032500001806000000,03,25,180600,Point,Airspace Control Points : TACAN
+10032500001807000000,03,25,180700,Point,Airspace Control Points : CAP Station
+10032500001808000000,03,25,180800,Point,Airspace Control Points : AEW Station
+10032500001809000000,03,25,180900,Point,Airspace Control Points : ASW (Helo and F/W) Station
+10032500001810000000,03,25,181000,Point,Airspace Control Points : Strike Initial Point
+10032500001811000000,03,25,181100,Point,Airspace Control Points : Replemenshment Station
+10032500001812000000,03,25,181200,Point,Airspace Control Points : Tanking
+10032500001813000000,03,25,181300,Point,Airspace Control Points : Antisubmarine Warfare- Rotary Wing
+10032500001814000000,03,25,181400,Point,Airspace Control Points : SUCAP - Fixed Wing
+10032500001815000000,03,25,181500,Point,Airspace Control Points : SUCAP - Rotary Wing
+10032500001816000000,03,25,181600,Point,Airspace Control Points : MIW - Fixed Wing
+10032500001817000000,03,25,181700,Point,Airspace Control Points : MIW - Rotary Wing
+10032500001818000000,03,25,181800,Point,Airspace Control Points : Tomcat
+10032500001819000000,03,25,181900,Point,Airspace Control Points : Rescue
+10032500001820000000,03,25,182000,Point,Airspace Control Points : Unmanned Aerial System (UAS/UA)
+10032500001821000000,03,25,182100,Point,Airspace Control Points : VTUA
+10032500001822000000,03,25,182200,Point,Airspace Control Points : Orbit
+10032500001823000000,03,25,182300,Point,Airspace Control Points : Orbit - Figure Eight
+10032500001824000000,03,25,182400,Point,Airspace Control Points : Orbit - Race Track
+10032500001825000000,03,25,182500,Point,Airspace Control Points : Orbit - Random Closed
+10032500001901000000,03,25,190100,Line,Airspace Control Lines : Identification Friend or Foe Off Line
+10032500001902000000,03,25,190200,Line,Airspace Control Lines : Identification Friend or Foe On Line
+10032500002001010000,03,25,200101,Area,Maritime Areas : Launch Area : Ellipse/Circle
+10032500002002010000,03,25,200201,Area,Maritime Areas : Defended Area : Ellipse/Circle
+10032500002002020000,03,25,200202,Area,Maritime Areas : Defended Area : Rectangle
+10032500002003000000,03,25,200300,Area,Maritime Areas : No Attack (NOTACK) Zone
+10032500002004000000,03,25,200400,Point,Maritime Areas : Ship Area of Interest
+10032500002004010000,03,25,200401,Area,Maritime Areas : Ship Area of Interest : Ellipse/Circle
+10032500002004020000,03,25,200402,Area,Maritime Areas : Ship Area of Interest : Rectangle
+10032500002005000000,03,25,200500,Point,Maritime Areas : Active Maneuver Area
+10032500002006000000,03,25,200600,Point,Maritime Areas : Cued Acquisition Doctrine
+10032500002007000000,03,25,200700,Point,Maritime Areas : Radar Search Doctrine
+10032500002101000000,03,25,210100,Point,Maritime Points : Plan Ship
+10032500002102000000,03,25,210200,Point,Maritime Points : Aim Point
+10032500002103000000,03,25,210300,Point,Maritime Points : Defended Asset
+10032500002104000000,03,25,210400,Point,Maritime Points : Drop Point
+10032500002105000000,03,25,210500,Point,Maritime Points : Entry Point
+10032500002106000000,03,25,210600,Point,Maritime Points : Air Detonation
+10032500002107000000,03,25,210700,Point,Maritime Points : Ground Zero
+10032500002108000000,03,25,210800,Point,Maritime Points : Impact Point
+10032500002109000000,03,25,210900,Point,Maritime Points : Predicted Impact Point
+10032500002110000000,03,25,211000,Point,Maritime Points : Launched Torpedo
+10032500002111000000,03,25,211100,Point,Maritime Points : Missile Detection Point
+10032500002112000000,03,25,211200,Point,Maritime Points : Acoustic Countermeasure (Decoy)
+10032500002113000000,03,25,211300,Point,Maritime Points : Electronic Countermeasures (ECM) Decoy
+10032500002114000000,03,25,211400,Point,Maritime Points : Brief Contact
+10032500002115000000,03,25,211500,Point,Maritime Points : Datum Lost Contact
+10032500002116000000,03,25,211600,Point,Maritime Points : BT Buoy Drop
+10032500002117000000,03,25,211700,Point,Maritime Points : Reported Bottom Sub
+10032500002118000000,03,25,211800,Point,Maritime Points : Moving Haven
+10032500002119000000,03,25,211900,Point,Maritime Points : Screen Center
+10032500002120000000,03,25,212000,Point,Maritime Points : Lost Contact
+10032500002121000000,03,25,212100,Point,Maritime Points : Sinker
+10032500002122000000,03,25,212200,Point,Maritime Points : Trial Track
+10032500002123000000,03,25,212300,Point,Maritime Points : Acoustic Fix
+10032500002124000000,03,25,212400,Point,Maritime Points : Electromagnetic Fix
+10032500002125000000,03,25,212500,Point,Maritime Points : Electromagnetic - Magnetic Anomaly Detection (MAD)
+10032500002126000000,03,25,212600,Point,Maritime Points : Optical Fix
+10032500002127000000,03,25,212700,Point,Maritime Points : Formation
+10032500002128000000,03,25,212800,Point,Maritime Points : Harbor
+10032500002129010000,03,25,212901,Point,Maritime Points : Harbor Entrance Point : A
+10032500002129020000,03,25,212902,Point,Maritime Points : Harbor Entrance Point : Q
+10032500002129030000,03,25,212903,Point,Maritime Points : Harbor Entrance Point : X
+10032500002129040000,03,25,212904,Point,Maritime Points : Harbor Entrance Point : Y
+10032500002130000000,03,25,213000,Point,Maritime Points : Dip Position
+10032500002131000000,03,25,213100,Point,Maritime Points : Search
+10032500002132000000,03,25,213200,Point,Maritime Points : Search Area
+10032500002133000000,03,25,213300,Point,Maritime Points : Search Center
+10032500002134000000,03,25,213400,Point,Maritime Points : Navigational Reference Point (Search)
+10032500002135000000,03,25,213500,Point,Maritime Points : Sonobuoy
+10032500002135010000,03,25,213501,Point,Maritime Points : Sonobuoy : Ambient Noise
+10032500002135020000,03,25,213502,Point,Maritime Points : Sonobuoy : Air Transportable Communication
+10032500002135030000,03,25,213503,Point,Maritime Points : Sonobuoy : Barra
+10032500002135040000,03,25,213504,Point,Maritime Points : Sonobuoy : Bathythermograph Transmitting
+10032500002135050000,03,25,213505,Point,Maritime Points : Sonobuoy : Command Active Multi-Beam (CAMBS)
+10032500002135060000,03,25,213506,Point,Maritime Points : Sonobuoy : Command Active Sonobuoy Directional Command Active Sonobuoy System (CASS)
+10032500002135070000,03,25,213507,Point,Maritime Points : Sonobuoy : Digital Frequency Analysis and Recording (DIFAR)
+10032500002135080000,03,25,213508,Point,Maritime Points : Sonobuoy : Directional Command Active Sonobuoy System (DICASS)
+10032500002135090000,03,25,213509,Point,Maritime Points : Sonobuoy : Expendable Reliable Acoustic Path Sonobuoy (ERAPS)
+10032500002135100000,03,25,213510,Point,Maritime Points : Sonobuoy : Expired
+10032500002135110000,03,25,213511,Point,Maritime Points : Sonobuoy : Kingpin
+10032500002135120000,03,25,213512,Point,Maritime Points : Sonobuoy : Low Frequency Analysis and Recording (LOFAR)
+10032500002135130000,03,25,213513,Point,Maritime Points : Sonobuoy : Pattern Center
+10032500002135140000,03,25,213514,Point,Maritime Points : Sonobuoy : Range Only
+10032500002135150000,03,25,213515,Point,Maritime Points : Sonobuoy : Vertical Line Array Directional Frequency Analysis and Recording (DIFAR)
+10032500002136000000,03,25,213600,Point,Maritime Points : Reference Point
+10032500002137000000,03,25,213700,Point,Maritime Points : Special Point
+10032500002138000000,03,25,213800,Point,Maritime Points : Navigational Reference Point
+10032500002139000000,03,25,213900,Point,Maritime Points : Data Link Reference Point
+10032500002140000000,03,25,214000,Point,Maritime Points : Forward Observer / Spotter Position
+10032500002141000000,03,25,214100,Point,Maritime Points : Vital Area Center
+10032500002142000000,03,25,214200,Point,Maritime Points : Corridor Tab Point
+10032500002143000000,03,25,214300,Point,Maritime Points : Enemy Point
+10032500002144000000,03,25,214400,Point,Maritime Points : Marshall Point
+10032500002145000000,03,25,214500,Point,Maritime Points : Position and Intended Movement (PIM)
+10032500002146000000,03,25,214600,Point,Maritime Points : Pre-Landfall Waypoint
+10032500002147000000,03,25,214700,Point,Maritime Points : Estimated Position (EP)
+10032500002148000000,03,25,214800,Point,Maritime Points : Waypoint
+10032500002149000000,03,25,214900,Point,Maritime Points : General Subsurface Station
+10032500002150000000,03,25,215000,Point,Maritime Points : Submarine Subsurface Station
+10032500002151000000,03,25,215100,Point,Maritime Points : Submarine Antisubmarine Warfare Subsurface Station
+10032500002152000000,03,25,215200,Point,Maritime Points : Unmanned Underwater Vehicle Subsurface Station
+10032500002153000000,03,25,215300,Point,Maritime Points : Antisubmarine Warfare (ASW) Unmanned Underwater Vehicle Subsurface Station
+10032500002154000000,03,25,215400,Point,Maritime Points : Mine Warfare Unmanned Underwater Vehicle Subsurface Station
+10032500002155000000,03,25,215500,Point,Maritime Points : Surface Warfare Unmanned Underwater Vehicle Subsurface Station
+10032500002156000000,03,25,215600,Point,Maritime Points : General Surface Station
+10032500002157000000,03,25,215700,Point,Maritime Points : Antisubmarine Warfare (ASW) Surface Station
+10032500002158000000,03,25,215800,Point,Maritime Points : Mine Warfare Surface Station
+10032500002159000000,03,25,215900,Point,Maritime Points : Non-Combatant Surface Station
+10032500002160000000,03,25,216000,Point,Maritime Points : Picket Surface Station
+10032500002161000000,03,25,216100,Point,Maritime Points : Rendezvous Surface Station
+10032500002162000000,03,25,216200,Point,Maritime Points : Replenishment at Sea Surface Station
+10032500002163000000,03,25,216300,Point,Maritime Points : Rescue Surface Station
+10032500002164000000,03,25,216400,Point,Maritime Points : Surface Warfare Surface Station
+10032500002165000000,03,25,216500,Point,Maritime Points : Unmanned Underwater Vehicle Surface Station
+10032500002166000000,03,25,216600,Point,Maritime Points : Antisubmarine Warfare (ASW) Unmanned Underwater Vehicle Surface Station
+10032500002167000000,03,25,216700,Point,Maritime Points : Mine Warfare Unmanned Underwater Vehicle Surface Station
+10032500002168000000,03,25,216800,Point,Maritime Points : Remote Multi-Mission Vehicle Mine Warfare Unmanned Underwater
+10032500002169000000,03,25,216900,Point,Maritime Points : Surface Warfare Mine Warfare Unmanned Underwater Vehicle
+10032500002170000000,03,25,217000,Point,Maritime Points : Shore Control Station
+10032500002171000000,03,25,217100,Point,Maritime Points : General Route
+10032500002172000000,03,25,217200,Point,Maritime Points : Diversion Route
+10032500002173000000,03,25,217300,Point,Maritime Points : Position and Intended Movement (PIM) Route
+10032500002174000000,03,25,217400,Point,Maritime Points : Picket Route
+10032500002175000000,03,25,217500,Point,Maritime Points : Point R Route
+10032500002176000000,03,25,217600,Point,Maritime Points : Rendezvous Route
+10032500002177000000,03,25,217700,Point,Maritime Points : Waypoint Route
+10032500002178000000,03,25,217800,Point,Maritime Points : Clutter-Stationary or Cease Reporting
+10032500002179000000,03,25,217900,Point,Maritime Points : Tentative or Provisional Track
+10032500002180000000,03,25,218000,Point,Maritime Points : Distressed Vessel
+10032500002181000000,03,25,218100,Point,Maritime Points : Ditched Aircraft/Downed Aircraft
+10032500002182000000,03,25,218200,Point,Maritime Points : Person in Water/Bailout
+10032500002183000000,03,25,218300,Point,Maritime Points : Iceberg
+10032500002184000000,03,25,218400,Line,Maritime Points : Navigational
+10032500002185000000,03,25,218500,Point,Maritime Points : Oil Rig
+10032500002186000000,03,25,218600,Point,Maritime Points : Sea Mine-Like
+10032500002187000000,03,25,218700,Point,Maritime Points : Bottom Return/Non-Mine Like Bottom Object (NOMBO)
+10032500002188000000,03,25,218800,Point,Maritime Points : Bottom Return/Non-Mine Like Bottom Object (NOMBO)/Installation Manmade
+10032500002189000000,03,25,218900,Point,Maritime Points : Marine Life
+10032500002190000000,03,25,219000,Point,Maritime Points : Sea Anomaly (Wake-Current-Knuckle)
+10032500002191000000,03,25,219100,Point,Maritime Points : Bottom Return/Non-MILCO-Wreck-Dangerous
+10032500002192000000,03,25,219200,Point,Maritime Points : Bottom Return/Non-MILCO-Wreck-Non Dangerous
+10032500002201000000,03,25,220100,Line,Maritime Lines : Bearing Line
+10032500002201010000,03,25,220101,Line,Maritime Lines : Bearing Line : Electronic
+10032500002201020000,03,25,220102,Line,Maritime Lines : Bearing Line : Electronic Warfare (EW)
+10032500002201030000,03,25,220103,Line,Maritime Lines : Bearing Line : Acoustic
+10032500002201040000,03,25,220104,Line,Maritime Lines : Bearing Line : Acoustic (Ambiguous)
+10032500002201050000,03,25,220105,Line,Maritime Lines : Bearing Line : Torpedo
+10032500002201060000,03,25,220106,Line,Maritime Lines : Bearing Line : Electro-Optical Intercept
+10032500002201070000,03,25,220107,Line,Maritime Lines : Bearing Line : Jammer
+10032500002201080000,03,25,220108,Line,Maritime Lines : Bearing Line : Radio Direction Finder (RDF)
+10032500002301000000,03,25,230100,Line,Deception : Decoy/Dummy
+10032500002302000000,03,25,230200,Line,Deception : Decoy/Dummy/Feint
+10032500002401010000,03,25,240101,Area,Fires Areas : Airspace Coordination Area : Irregular
+10032500002401020000,03,25,240102,Area,Fires Areas : Airspace Coordination Area : Rectangular
+10032500002401030000,03,25,240103,Area,Fires Areas : Airspace Coordination Area : Circular
+10032500002402010000,03,25,240201,Area,Fires Areas : Free Fire Area : Irregular
+10032500002402020000,03,25,240202,Area,Fires Areas : Free Fire Area : Rectangular
+10032500002402030000,03,25,240203,Area,Fires Areas : Free Fire Area : Circular
+10032500002403010000,03,25,240301,Area,Fires Areas : No Fire Area : Irregular
+10032500002403020000,03,25,240302,Area,Fires Areas : No Fire Area : Rectangular
+10032500002403030000,03,25,240303,Area,Fires Areas : No Fire Area : Circular
+10032500002404010000,03,25,240401,Area,Fires Areas : Restricted Fire Area : Irregular
+10032500002404020000,03,25,240402,Area,Fires Areas : Restricted Fire Area : Rectangular
+10032500002404030000,03,25,240403,Area,Fires Areas : Restricted Fire Area : Circular
+10032500002405010000,03,25,240501,Area,Fires Areas : Position Area For Artillery (PAA) : Rectangular
+10032500002405020000,03,25,240502,Area,Fires Areas : Position Area For Artillery (PAA) : Circular
+10032500002406010000,03,25,240601,Point,Fires Areas : Point Targets : Point or Single Target
+10032500002406020000,03,25,240602,Point,Fires Areas : Point Targets : Nuclear Target
+10032500002406030000,03,25,240603,Point,Fires Areas : Point Targets : Target-Recorded
+10032500002407010000,03,25,240701,Line,Fires Areas : Linear Targets : Linear Target
+10032500002407020000,03,25,240702,Line,Fires Areas : Linear Targets : Linear Smoke Target
+10032500002407030000,03,25,240703,Line,Fires Areas : Linear Targets : Final Protective Fire (FPF)
+10032500002408010000,03,25,240801,Area,Fires Areas : Area Targets : Area Target
+10032500002408020000,03,25,240802,Area,Fires Areas : Area Targets : Rectangular Target
+10032500002408030000,03,25,240803,Area,Fires Areas : Area Targets : Circular Target
+10032500002408040000,03,25,240804,Area,Fires Areas : Area Targets : Rectangular Target - Single Target
+10032500002408050000,03,25,240805,Area,Fires Areas : Area Targets : Series of Targets
+10032500002408060000,03,25,240806,Area,Fires Areas : Area Targets : Smoke Target
+10032500002408070000,03,25,240807,Area,Fires Areas : Area Targets : Smoke Planned or On Order
+10032500002408080000,03,25,240808,Area,Fires Areas : Area Targets : Bomb Area
+10032500002409000000,03,25,240900,Point,Fires Areas : Fire Support Station
+10032500002410010000,03,25,241001,Area,Fires Areas : Fire Support Area : Irregular
+10032500002410020000,03,25,241002,Area,Fires Areas : Fire Support Area : Rectangular
+10032500002410030000,03,25,241003,Area,Fires Areas : Fire Support Area : Circular
+10032500002411010000,03,25,241101,Area,Fires Areas : Artillery Target Intelligence Zone : Irregular
+10032500002411020000,03,25,241102,Area,Fires Areas : Artillery Target Intelligence Zone : Rectangular
+10032500002411030000,03,25,241103,Area,Fires Areas : Artillery Target Intelligence Zone : Circular
+10032500002412010000,03,25,241201,Area,Fires Areas : Call for Fire Zone (CFFZ) : Irregular
+10032500002412020000,03,25,241202,Area,Fires Areas : Call for Fire Zone (CFFZ) : Rectangular
+10032500002412030000,03,25,241203,Area,Fires Areas : Call for Fire Zone (CFFZ) : Circular
+10032500002413010000,03,25,241301,Area,Fires Areas : Censor Zone : Irregular
+10032500002413020000,03,25,241302,Area,Fires Areas : Censor Zone : Rectangular
+10032500002413030000,03,25,241303,Area,Fires Areas : Censor Zone : Circular
+10032500002414010000,03,25,241401,Area,Fires Areas : Critical Friendly Zone : Irregular
+10032500002414020000,03,25,241402,Area,Fires Areas : Critical Friendly Zone : Rectangular
+10032500002414030000,03,25,241403,Area,Fires Areas : Critical Friendly Zone : Circular
+10032500002415010000,03,25,241501,Area,Fires Areas : Dead Space Area : Irregular
+10032500002415020000,03,25,241502,Area,Fires Areas : Dead Space Area : Rectangular
+10032500002415030000,03,25,241503,Area,Fires Areas : Dead Space Area : Circular
+10032500002416010000,03,25,241601,Area,Fires Areas : Sensor Zone : Irregular
+10032500002416020000,03,25,241602,Area,Fires Areas : Sensor Zone : Rectangular
+10032500002416030000,03,25,241603,Area,Fires Areas : Sensor Zone : Circular
+10032500002417010000,03,25,241701,Area,Fires Areas : Target Build-up Area : Irregular
+10032500002417020000,03,25,241702,Area,Fires Areas : Target Build-up Area : Rectangular
+10032500002417030000,03,25,241703,Area,Fires Areas : Target Build-up Area : Circular
+10032500002418010000,03,25,241801,Area,Fires Areas : Target Value Area : Irregular
+10032500002418020000,03,25,241802,Area,Fires Areas : Target Value Area : Rectangular
+10032500002418030000,03,25,241803,Area,Fires Areas : Target Value Area : Circular
+10032500002419010000,03,25,241901,Area,Fires Areas : Zone of Responsibility : Irregular
+10032500002419020000,03,25,241902,Area,Fires Areas : Zone of Responsibility : Rectangular
+10032500002419030000,03,25,241903,Area,Fires Areas : Zone of Responsibility : Circular
+10032500002420000000,03,25,242000,Area,Fires Areas : Terminally Guided Munition Footprint (TGMF)
+10032500002421000000,03,25,242100,Area,Fires Areas : Weapon/Sensor Range fan-Circular
+10032500002422000000,03,25,242200,Area,Fires Areas : Weapon/Sensor Range fan-Sector
+10032500002423010000,03,25,242301,Area,Fires Areas : Kill Box : Irregular-Blue
+10032500002423020000,03,25,242302,Area,Fires Areas : Kill Box : Rectangular-Blue
+10032500002423030000,03,25,242303,Area,Fires Areas : Kill Box : Circular-Blue
+10032500002423040000,03,25,242304,Area,Fires Areas : Kill Box : Irregular-Purple
+10032500002423050000,03,25,242305,Area,Fires Areas : Kill Box : Rectangular-Purple
+10032500002423060000,03,25,242306,Area,Fires Areas : Kill Box : Circular-Purple
+10032500002501000000,03,25,250100,Point,Fires Points : Firing Point
+10032500002502000000,03,25,250200,Point,Fires Points : Hide Point
+10032500002503000000,03,25,250300,Point,Fires Points : Launch Point
+10032500002504000000,03,25,250400,Point,Fires Points : Reload Point
+10032500002505000000,03,25,250500,Point,Fires Points : Survey Control Point
+10032500002601000000,03,25,260100,Line,Fire Lines : Fire Support Coordination Line (FSCL)
+10032500002602000000,03,25,260200,Line,Fire Lines : Coordinated Fire Line (CFL)
+10032500002603000000,03,25,260300,Line,Fire Lines : No Fire Line
+10032500002604000000,03,25,260400,Line,Fire Lines : Battlefield Coordination Line
+10032500002605000000,03,25,260500,Line,Fire Lines : Restrictive Fire Line
+10032500002606000000,03,25,260600,Line,Fire Lines : Munition Flight Path
+10032500002701000000,03,25,270100,Area,Protection Areas : Obstacle Belt
+10032500002702000000,03,25,270200,Area,Protection Areas : Obstacle Zone
+10032500002703000000,03,25,270300,Area,Protection Areas : Obstacle Free Zone
+10032500002704000000,03,25,270400,Area,Protection Areas : Obstacle Restricted Zone
+10032500002705010000,03,25,270501,Line,Protection Areas : Obstacle Effects : Block
+10032500002705020000,03,25,270502,Line,Protection Areas : Obstacle Effects : Disrupt
+10032500002705030000,03,25,270503,Line,Protection Areas : Obstacle Effects : Fix
+10032500002705040000,03,25,270504,Line,Protection Areas : Obstacle Effects : Turn
+10032500002706010000,03,25,270601,Line,Protection Areas : Obstacle Bypass : Easy
+10032500002706020000,03,25,270602,Line,Protection Areas : Obstacle Bypass : Difficult
+10032500002706030000,03,25,270603,Line,Protection Areas : Obstacle Bypass : Impossible
+10032500002707010000,03,25,270701,Area,Protection Areas : Minefield : Completed
+10032500002707020000,03,25,270702,Area,Protection Areas : Minefield : Planned
+10032500002707030000,03,25,270703,Area,Protection Areas : Minefield : Known Enemy
+10032500002707040000,03,25,270704,Area,Protection Areas : Minefield : Suspected or Templated Enemy
+10032500002707050000,03,25,270705,Point,Protection Areas : Minefield : Dummy
+10032500002707060000,03,25,270706,Area,Protection Areas : Minefield : Dummy Minefield- Dymanic
+10032500002707070000,03,25,270707,Area,Protection Areas : Minefield : Dynamic Depiction
+10032500002708000000,03,25,270800,Area,Protection Areas : Mined Area
+10032500002709000000,03,25,270900,Area,Protection Areas : Decoy Mined Area
+10032500002709010000,03,25,270901,Area,Protection Areas : Decoy Mined Area : Fenced
+10032500002710000000,03,25,271000,Area,Protection Areas : Unexploded Explosive Ordnance (UXO) Area
+10032500002711000000,03,25,271100,Line,Protection Areas : Bridge or Gap
+10032500002712010000,03,25,271201,Line,Protection Areas : Roadblocks- Craters and Blown Bridges : Planned
+10032500002712020000,03,25,271202,Line,Protection Areas : Roadblocks- Craters and Blown Bridges : Explosives-State of Readiness 1 (Safe)
+10032500002712030000,03,25,271203,Line,Protection Areas : Roadblocks- Craters and Blown Bridges : Explosives-State of Readiness 2 (armed but passable)
+10032500002712040000,03,25,271204,Line,Protection Areas : Roadblocks- Craters and Blown Bridges : Roadblock Complete (Executed)
+10032500002713000000,03,25,271300,Area,Protection Areas : Assault Crossing
+10032500002714000000,03,25,271400,Line,Protection Areas : Bridge
+10032500002715000000,03,25,271500,Line,Protection Areas : Ford Easy
+10032500002716000000,03,25,271600,Line,Protection Areas : Ford Difficult
+10032500002717000000,03,25,271700,Area,Protection Areas : Biological Contaminated Area
+10032500002717010000,03,25,271701,Area,Protection Areas : Biological Contaminated Area : Toxic Industrial Material
+10032500002718000000,03,25,271800,Area,Protection Areas : Chemical Contaminated Area
+10032500002718010000,03,25,271801,Area,Protection Areas : Chemical Contaminated Area : Toxic Industrial Material
+10032500002719000000,03,25,271900,Area,Protection Areas : Nuclear Contaminated Area
+10032500002720000000,03,25,272000,Area,Protection Areas : Radiological Contaminated Area
+10032500002720010000,03,25,272001,Area,Protection Areas : Radiological Contaminated Area : Toxic Industrial Material
+10032500002721000000,03,25,272100,Area,Protection Areas : Minimum Safe Distance Zone
+10032500002722000000,03,25,272200,Area,Protection Areas : Radiation Dose Rate Contour Lines
+10032500002801000000,03,25,280100,Line,Protection Points : Abatis
+10032500002802000000,03,25,280200,Point,Protection Points : Antipersonnel Mine
+10032500002802010000,03,25,280201,Point,Protection Points : Antipersonnel Mine : With Directional Effects
+10032500002803000000,03,25,280300,Point,Protection Points : Antitank Mine
+10032500002804000000,03,25,280400,Point,Protection Points : Antitank Mine with Anti-handling Device
+10032500002805000000,03,25,280500,Point,Protection Points : Wide Area Antitank Mine
+10032500002806000000,03,25,280600,Point,Protection Points : Unspecified Mine
+10032500002807000000,03,25,280700,Point,Protection Points : Booby Trap
+10032500002808000000,03,25,280800,Point,Protection Points : Engineer Regulating Point
+10032500002809000000,03,25,280900,Point,Protection Points : Shelter
+10032500002810000000,03,25,281000,Point,Protection Points : Shelter Above Ground
+10032500002811000000,03,25,281100,Point,Protection Points : Below Ground Shelter
+10032500002812000000,03,25,281200,Point,Protection Points : Fort
+10032500002813000000,03,25,281300,Point,Protection Points : Chemical Event
+10032500002813010000,03,25,281301,Point,Protection Points : Chemical Event : Toxic Industrial Material
+10032500002814000000,03,25,281400,Point,Protection Points : Biological Event
+10032500002814010000,03,25,281401,Point,Protection Points : Biological Event : Toxic Industrial Material
+10032500002815000000,03,25,281500,Point,Protection Points : Nuclear Event
+10032500002816000000,03,25,281600,Point,Protection Points : Nuclear Fallout Producing Event
+10032500002817000000,03,25,281700,Point,Protection Points : Radiological
+10032500002817010000,03,25,281701,Point,Protection Points : Radiological : Toxic Industrial Material
+10032500002818000000,03,25,281800,Point,Protection Points : Decontamination/Site
+10032500002818010000,03,25,281801,Point,Protection Points : Decontamination/Site : Alternate
+10032500002818020000,03,25,281802,Point,Protection Points : Decontamination/Site : Equipment
+10032500002818030000,03,25,281803,Point,Protection Points : Decontamination/Site : Troop
+10032500002818040000,03,25,281804,Point,Protection Points : Decontamination/Site : Equipment/Troop
+10032500002818050000,03,25,281805,Point,Protection Points : Decontamination/Site : Operational
+10032500002818060000,03,25,281806,Point,Protection Points : Decontamination/Site : Thorough
+10032500002818070000,03,25,281807,Point,Protection Points : Decontamination/Site : Main Equipment
+10032500002818080000,03,25,281808,Point,Protection Points : Decontamination/Site : Forward Troop
+10032500002818090000,03,25,281809,Point,Protection Points : Decontamination/Site : Wounded Personnel
+10032500002819010000,03,25,281901,Point,Protection Points : Tetrahedrons- Dragons Teeth- and Other Similar Obstacles : Fixed and Prefabricated
+10032500002819020000,03,25,281902,Point,Protection Points : Tetrahedrons- Dragons Teeth- and Other Similar Obstacles : Movable
+10032500002819030000,03,25,281903,Point,Protection Points : Tetrahedrons- Dragons Teeth- and Other Similar Obstacles : Movable and Prefabricated
+10032500002820010000,03,25,282001,Point,Protection Points : Vertical Obstructions : Tower-Low
+10032500002820020000,03,25,282002,Point,Protection Points : Vertical Obstructions : Tower-High
+10032500002820030000,03,25,282003,Line,Protection Points : Vertical Obstructions : Overhead Wire
+10032500002901000000,03,25,290100,Line,Protection Lines : Obstacle Line
+10032500002902010000,03,25,290201,Line,Protection Lines : Antitank Obstacles : Under Construction
+10032500002902020000,03,25,290202,Line,Protection Lines : Antitank Obstacles : Completed
+10032500002902030000,03,25,290203,Line,Protection Lines : Antitank Obstacles : Reinforced-with Antitank Mines
+10032500002902040000,03,25,290204,Line,Protection Lines : Antitank Obstacles : Antitank Wall
+10032500002903010000,03,25,290301,Line,Protection Lines : Wire Obstacles : Unspecified Wire
+10032500002903020000,03,25,290302,Line,Protection Lines : Wire Obstacles : Single Fence Wire
+10032500002903030000,03,25,290303,Line,Protection Lines : Wire Obstacles : Double Fence Wire
+10032500002903040000,03,25,290304,Line,Protection Lines : Wire Obstacles : Double Apron Fence
+10032500002903050000,03,25,290305,Line,Protection Lines : Wire Obstacles : Low Wire Fence
+10032500002903060000,03,25,290306,Line,Protection Lines : Wire Obstacles : High Wire Fence
+10032500002903070000,03,25,290307,Line,Protection Lines : Wire Obstacles : Single Concertina
+10032500002903080000,03,25,290308,Line,Protection Lines : Wire Obstacles : Double Strand Concertina
+10032500002903090000,03,25,290309,Line,Protection Lines : Wire Obstacles : Triple Strand Concertina
+10032500002904000000,03,25,290400,Line,Protection Lines : Mine Cluster
+10032500002905000000,03,25,290500,Line,Protection Lines : Trip Wire
+10032500002906000000,03,25,290600,Line,Protection Lines : Lane
+10032500002907000000,03,25,290700,Line,Protection Lines : Ferry
+10032500002908000000,03,25,290800,Line,Protection Lines : Raft Site
+10032500002909000000,03,25,290900,Line,Protection Lines : Fortified Line
+10032500002910000000,03,25,291000,Line,Protection Lines : Fortified Position
+10032500003001000000,03,25,300100,Line,Intelligence Lines : Intelligence Coordination Line
+10032500003101000000,03,25,310100,Area,Sustainment Areas : Detainee Holding Area
+10032500003102000000,03,25,310200,Area,Sustainment Areas : Enemy Prisoner of War Holding Area
+10032500003103000000,03,25,310300,Area,Sustainment Areas : Forward Arming and Refueling Point
+10032500003104000000,03,25,310400,Area,Sustainment Areas : Refugee Holding Area
+10032500003105000000,03,25,310500,Area,Sustainment Areas : Regimental Support Area
+10032500003106000000,03,25,310600,Area,Sustainment Areas : Brigade Support Area
+10032500003107000000,03,25,310700,Area,Sustainment Areas : Division Support Area
+10032500003201000000,03,25,320100,Point,Sustainment Points : Ambulance Exchange Point
+10032500003202000000,03,25,320200,Point,Sustainment Points : Ammunition Supply Point
+10032500003203000000,03,25,320300,Point,Sustainment Points : Ammunition Transfer Point
+10032500003204000000,03,25,320400,Point,Sustainment Points : Cannibalization Point
+10032500003205000000,03,25,320500,Point,Sustainment Points : Casualty Collection Point
+10032500003206000000,03,25,320600,Point,Sustainment Points : Civilian Collection Point
+10032500003207000000,03,25,320700,Point,Sustainment Points : Detainee Collection Point
+10032500003208000000,03,25,320800,Point,Sustainment Points : Enemy Prisoner of War Collection Point
+10032500003209000000,03,25,320900,Point,Sustainment Points : Logistics Release Point
+10032500003210000000,03,25,321000,Point,Sustainment Points : Maintenance Collection Point (MCP)
+10032500003211000000,03,25,321100,Point,Sustainment Points : Medical Evacuation (MEDEVAC) Pick-up Point
+10032500003212000000,03,25,321200,Point,Sustainment Points : Rearm-Refuel and Resupply Point (R3P)
+10032500003213000000,03,25,321300,Point,Sustainment Points : Refuel on the Move (ROM) Point
+10032500003214000000,03,25,321400,Point,Sustainment Points : Traffic Control Post (TCP)
+10032500003215000000,03,25,321500,Point,Sustainment Points : Trailer Transfer Point (TTP)
+10032500003216000000,03,25,321600,Point,Sustainment Points : Unit Maintenance Collection Point (UMCP)
+10032500003217000000,03,25,321700,Point,Sustainment Points : General Supply
+10032500003217010000,03,25,321701,Point,Sustainment Points : General Supply : NATO Class I Supply Point
+10032500003217020000,03,25,321702,Point,Sustainment Points : General Supply : NATO Class II Supply Point
+10032500003217030000,03,25,321703,Point,Sustainment Points : General Supply : NATO Class III Supply Point
+10032500003217040000,03,25,321704,Point,Sustainment Points : General Supply : NATO Class IV Supply Point
+10032500003217050000,03,25,321705,Point,Sustainment Points : General Supply : NATO Class V Supply Point
+10032500003217060000,03,25,321706,Point,Sustainment Points : General Supply : NATO Multiple Class Supply Point
+10032500003217070000,03,25,321707,Point,Sustainment Points : General Supply : US Class I Supply Point
+10032500003217080000,03,25,321708,Point,Sustainment Points : General Supply : US Class II Supply Point
+10032500003217090000,03,25,321709,Point,Sustainment Points : General Supply : US Class III Supply Point
+10032500003217100000,03,25,321710,Point,Sustainment Points : General Supply : US Class IV Supply Point
+10032500003217110000,03,25,321711,Point,Sustainment Points : General Supply : US Class V Supply Point
+10032500003217120000,03,25,321712,Point,Sustainment Points : General Supply : US Class VI Supply Point
+10032500003217130000,03,25,321713,Point,Sustainment Points : General Supply : US Class VII Supply Point
+10032500003217140000,03,25,321714,Point,Sustainment Points : General Supply : US Class VIII Supply Point
+10032500003217150000,03,25,321715,Point,Sustainment Points : General Supply : US Class IX Supply Point
+10032500003217160000,03,25,321716,Point,Sustainment Points : General Supply : US Class X Supply Point
+10032500003218000000,03,25,321800,Point,Sustainment Points : Medical Supply Point
+10032500003301000000,03,25,330100,Line,Sustainment Lines : Moving Convoy
+10032500003302000000,03,25,330200,Line,Sustainment Lines : Halted Convoy
+10032500003303000000,03,25,330300,Line,Sustainment Lines : Main Supply Route
+10032500003303010000,03,25,330301,Line,Sustainment Lines : Main Supply Route : One Way Traffic
+10032500003303020000,03,25,330302,Line,Sustainment Lines : Main Supply Route : Two Way Traffic
+10032500003303030000,03,25,330303,Line,Sustainment Lines : Main Supply Route : Alternating Traffic
+10032500003304000000,03,25,330400,Line,Sustainment Lines : Alternate Supply Route
+10032500003304010000,03,25,330401,Line,Sustainment Lines : Alternate Supply Route : One Way Traffic
+10032500003304020000,03,25,330402,Line,Sustainment Lines : Alternate Supply Route : Two Way Traffic
+10032500003304030000,03,25,330403,Line,Sustainment Lines : Alternate Supply Route : Alternating Traffic
+10032500003401000000,03,25,340100,Line,Mission Tasks : Block
+10032500003402000000,03,25,340200,Line,Mission Tasks : Breach
+10032500003403000000,03,25,340300,Line,Mission Tasks : Bypass
+10032500003404000000,03,25,340400,Line,Mission Tasks : Canalize
+10032500003405000000,03,25,340500,Line,Mission Tasks : Clear
+10032500003406000000,03,25,340600,Line,Mission Tasks : Counterattack
+10032500003407000000,03,25,340700,Line,Mission Tasks : Counterattack by Fire
+10032500003408000000,03,25,340800,Line,Mission Tasks : Delay
+10032500003409000000,03,25,340900,Point,Mission Tasks : Destroy
+10032500003410000000,03,25,341000,Line,Mission Tasks : Disrupt
+10032500003411000000,03,25,341100,Line,Mission Tasks : Fix
+10032500003412000000,03,25,341200,Line,Mission Tasks : Follow and Assume
+10032500003413000000,03,25,341300,Line,Mission Tasks : Follow and Support
+10032500003414000000,03,25,341400,Point,Mission Tasks : Interdict
+10032500003415000000,03,25,341500,Line,Mission Tasks : Isolate
+10032500003416000000,03,25,341600,Point,Mission Tasks : Neutralize
+10032500003417000000,03,25,341700,Line,Mission Tasks : Occupy
+10032500003418000000,03,25,341800,Line,Mission Tasks : Penetrate
+10032500003419000000,03,25,341900,Line,Mission Tasks : Relief in Place (RIP)
+10032500003420000000,03,25,342000,Line,Mission Tasks : Retire/Retirement
+10032500003421000000,03,25,342100,Line,Mission Tasks : Secure
+10032500003422010000,03,25,342201,Line,Mission Tasks : Security : Cover
+10032500003422020000,03,25,342202,Line,Mission Tasks : Security : Guard
+10032500003422030000,03,25,342203,Line,Mission Tasks : Security : Screen
+10032500003423000000,03,25,342300,Line,Mission Tasks : Seize
+10032500003424000000,03,25,342400,Line,Mission Tasks : Withdraw
+10032500003425000000,03,25,342500,Line,Mission Tasks : Withdraw Under Pressure
+10033000000000000000,03,30,000000,NotValid,Unspecified
+10033000001100000000,03,30,110000,Point,Military (Sea Surface)
+10033000001200000000,03,30,120000,Point,Military Combatant
+10033000001201000000,03,30,120100,Point,Military Combatant : Carrier
+10033000001202000000,03,30,120200,Point,Military Combatant : Surface Combatant- Line
+10033000001202010000,03,30,120201,Point,Military Combatant : Surface Combatant- Line : Battleship
+10033000001202020000,03,30,120202,Point,Military Combatant : Surface Combatant- Line : Cruiser
+10033000001202030000,03,30,120203,Point,Military Combatant : Surface Combatant- Line : Destroyer
+10033000001202040000,03,30,120204,Point,Military Combatant : Surface Combatant- Line : Frigate
+10033000001202050000,03,30,120205,Point,Military Combatant : Surface Combatant- Line : Corvette
+10033000001202060000,03,30,120206,Point,Military Combatant : Surface Combatant- Line : Littoral Combatant Ship
+10033000001203000000,03,30,120300,Point,Military Combatant : Amphibious Warfare Ship
+10033000001203010000,03,30,120301,Point,Military Combatant : Amphibious Warfare Ship : Command Ship
+10033000001203020000,03,30,120302,Point,Military Combatant : Amphibious Warfare Ship : Assault- Non-specified
+10033000001203030000,03,30,120303,Point,Military Combatant : Amphibious Warfare Ship : Assault Ship- General
+10033000001203040000,03,30,120304,Point,Military Combatant : Amphibious Warfare Ship : Assault Ship- Multipurpose
+10033000001203050000,03,30,120305,Point,Military Combatant : Amphibious Warfare Ship : Assault Ship- Helicopter
+10033000001203060000,03,30,120306,Point,Military Combatant : Amphibious Warfare Ship : Transport Dock
+10033000001203070000,03,30,120307,Point,Military Combatant : Amphibious Warfare Ship : Landing Ship
+10033000001203080000,03,30,120308,Point,Military Combatant : Amphibious Warfare Ship : Landing Craft
+10033000001204000000,03,30,120400,Point,Military Combatant : Mine Warfare Ship
+10033000001204010000,03,30,120401,Point,Military Combatant : Mine Warfare Ship : Mine Layer
+10033000001204020000,03,30,120402,Point,Military Combatant : Mine Warfare Ship : Mine Sweeper
+10033000001204030000,03,30,120403,Point,Military Combatant : Mine Warfare Ship : Mine Sweeper- Drone
+10033000001204040000,03,30,120404,Point,Military Combatant : Mine Warfare Ship : Mine Hunter
+10033000001204050000,03,30,120405,Point,Military Combatant : Mine Warfare Ship : Mine Countermeasures
+10033000001204060000,03,30,120406,Point,Military Combatant : Mine Warfare Ship : Mine Countermeasures- Support Ship
+10033000001205000000,03,30,120500,Point,Military Combatant : Patrol Boat
+10033000001205010000,03,30,120501,Point,Military Combatant : Patrol Boat : Patrol Craft- Submarine Chaser/Escort- General
+10033000001205020000,03,30,120502,Point,Military Combatant : Patrol Boat : Patrol Ship- General
+10033000001206000000,03,30,120600,Point,Military Combatant : Decoy
+10033000001207000000,03,30,120700,Point,Military Combatant : Unmanned Surface Water Vehicle (USV)
+10033000001208000000,03,30,120800,Point,Military Combatant : Speedboat
+10033000001208010000,03,30,120801,Point,Military Combatant : Speedboat : Rigid-Hull Inflatable Boat
+10033000001209000000,03,30,120900,Point,Military Combatant : Jet Ski
+10033000001210000000,03,30,121000,Point,Military Combatant : Navy Task Organization
+10033000001210010000,03,30,121001,Point,Military Combatant : Navy Task Organization : Navy Task Element
+10033000001210020000,03,30,121002,Point,Military Combatant : Navy Task Organization : Navy Task Force
+10033000001210030000,03,30,121003,Point,Military Combatant : Navy Task Organization : Navy Task Group
+10033000001210040000,03,30,121004,Point,Military Combatant : Navy Task Organization : Navy Task Unit
+10033000001210050000,03,30,121005,Point,Military Combatant : Navy Task Organization : Convoy
+10033000001211000000,03,30,121100,Point,Military Combatant : Sea-Based X-Band (SBX) Radar
+10033000001300000000,03,30,130000,Point,Military Noncombatant
+10033000001301000000,03,30,130100,Point,Military Noncombatant : Auxiliary Ship
+10033000001301010000,03,30,130101,Point,Military Noncombatant : Auxiliary Ship : Ammunition Ship
+10033000001301020000,03,30,130102,Point,Military Noncombatant : Auxiliary Ship : Naval Stores Ship
+10033000001301030000,03,30,130103,Point,Military Noncombatant : Auxiliary Ship : Auxiliary Flag Ship
+10033000001301040000,03,30,130104,Point,Military Noncombatant : Auxiliary Ship : Intelligence Collector
+10033000001301050000,03,30,130105,Point,Military Noncombatant : Auxiliary Ship : Oceanographic Research Ship
+10033000001301060000,03,30,130106,Point,Military Noncombatant : Auxiliary Ship : Survey Ship
+10033000001301070000,03,30,130107,Point,Military Noncombatant : Auxiliary Ship : Hospital Ship
+10033000001301080000,03,30,130108,Point,Military Noncombatant : Auxiliary Ship : Naval Cargo Ship
+10033000001301090000,03,30,130109,Point,Military Noncombatant : Auxiliary Ship : Combat Support Ship- Fast
+10033000001301100000,03,30,130110,Point,Military Noncombatant : Auxiliary Ship : Oiler- Replenishment
+10033000001301110000,03,30,130111,Point,Military Noncombatant : Auxiliary Ship : Repair Ship
+10033000001301120000,03,30,130112,Point,Military Noncombatant : Auxiliary Ship : Submarine Tender
+10033000001301130000,03,30,130113,Point,Military Noncombatant : Auxiliary Ship : Tug- Ocean Going
+10033000001302000000,03,30,130200,Point,Military Noncombatant : Service Craft/Yard
+10033000001302010000,03,30,130201,Point,Military Noncombatant : Service Craft/Yard : Barge- Not Self-Propelled
+10033000001302020000,03,30,130202,Point,Military Noncombatant : Service Craft/Yard : Barge- Self-Propelled
+10033000001302030000,03,30,130203,Point,Military Noncombatant : Service Craft/Yard : Tug- Harbor
+10033000001302040000,03,30,130204,Point,Military Noncombatant : Service Craft/Yard : Launch
+10033000001400000000,03,30,140000,Point,Civilian (Sea Surface)
+10033000001401000000,03,30,140100,Point,Civilian (Sea Surface) : Merchant Ship
+10033000001401010000,03,30,140101,Point,Civilian (Sea Surface) : Merchant Ship : Cargo- General
+10033000001401020000,03,30,140102,Point,Civilian (Sea Surface) : Merchant Ship : Container Ship
+10033000001401030000,03,30,140103,Point,Civilian (Sea Surface) : Merchant Ship : Dredge
+10033000001401040000,03,30,140104,Point,Civilian (Sea Surface) : Merchant Ship : Roll On/Roll Off
+10033000001401050000,03,30,140105,Point,Civilian (Sea Surface) : Merchant Ship : Ferry
+10033000001401060000,03,30,140106,Point,Civilian (Sea Surface) : Merchant Ship : Heavy Lift
+10033000001401070000,03,30,140107,Point,Civilian (Sea Surface) : Merchant Ship : Hovercraft
+10033000001401080000,03,30,140108,Point,Civilian (Sea Surface) : Merchant Ship : Lash Carrier (with Barges)
+10033000001401090000,03,30,140109,Point,Civilian (Sea Surface) : Merchant Ship : Oiler/Tanker
+10033000001401100000,03,30,140110,Point,Civilian (Sea Surface) : Merchant Ship : Passenger
+10033000001401110000,03,30,140111,Point,Civilian (Sea Surface) : Merchant Ship : Tug- Ocean Going
+10033000001401120000,03,30,140112,Point,Civilian (Sea Surface) : Merchant Ship : Tow
+10033000001401130000,03,30,140113,Point,Civilian (Sea Surface) : Merchant Ship : Transport Ship- Hazardous Material
+10033000001401140000,03,30,140114,Point,Civilian (Sea Surface) : Merchant Ship : Junk/Dhow
+10033000001401150000,03,30,140115,Point,Civilian (Sea Surface) : Merchant Ship : Barge- Not Self-Propelled
+10033000001401160000,03,30,140116,Point,Civilian (Sea Surface) : Merchant Ship : Hospital Ship
+10033000001402000000,03,30,140200,Point,Civilian (Sea Surface) : Fishing Vessel
+10033000001402010000,03,30,140201,Point,Civilian (Sea Surface) : Fishing Vessel : Drifter
+10033000001402020000,03,30,140202,Point,Civilian (Sea Surface) : Fishing Vessel : Trawler
+10033000001402030000,03,30,140203,Point,Civilian (Sea Surface) : Fishing Vessel : Dredger
+10033000001403000000,03,30,140300,Point,Civilian (Sea Surface) : Law Enforcement Vessel
+10033000001404000000,03,30,140400,Point,Civilian (Sea Surface) : Leisure Craft- Sailing
+10033000001405000000,03,30,140500,Point,Civilian (Sea Surface) : Leisure Craft- Motorized
+10033000001405010000,03,30,140501,Point,Civilian (Sea Surface) : Leisure Craft- Motorized : Rigid-Hull Inflatable Boat
+10033000001405020000,03,30,140502,Point,Civilian (Sea Surface) : Leisure Craft- Motorized : Speedboat
+10033000001406000000,03,30,140600,Point,Civilian (Sea Surface) : Jet Ski
+10033000001407000000,03,30,140700,Point,Civilian (Sea Surface) : Unmanned Surface Water Vehicle (USV)
+10033000001500000000,03,30,150000,Point,Own Ship
+10033000001600000000,03,30,160000,Point,Fused Track (Sea Surface)
+10033000001700000000,03,30,170000,Point,Manual Track (Sea Surface)
+10033500000000000000,03,35,000000,NotValid,Unspecified
+10033500001100000000,03,35,110000,Point,Military (Sea Subsurface)
+10033500001101000000,03,35,110100,Point,Military (Sea Subsurface) : Submarine
+10033500001101010000,03,35,110101,Point,Military (Sea Subsurface) : Submarine : Submarine-Surfaced
+10033500001101020000,03,35,110102,Point,Military (Sea Subsurface) : Submarine : Submarine-Snorkeling
+10033500001101030000,03,35,110103,Point,Military (Sea Subsurface) : Submarine : Submarine-Bottomed
+10033500001102000000,03,35,110200,Point,Military (Sea Subsurface) : Other Submersible
+10033500001103000000,03,35,110300,Point,Military (Sea Subsurface) : Nonsubmarine
+10033500001104000000,03,35,110400,Point,Military (Sea Subsurface) : Autonomous Underwater Vehicle (AUV)
+10033500001105000000,03,35,110500,Point,Military (Sea Subsurface) : Diver
+10033500001200000000,03,35,120000,Point,Civilian (Sea Subsurface)
+10033500001201000000,03,35,120100,Point,Civilian (Sea Subsurface) : Submersible
+10033500001202000000,03,35,120200,Point,Civilian (Sea Subsurface) : Autonomous Underwater Vehicle (AUV)
+10033500001203000000,03,35,120300,Point,Civilian (Sea Subsurface) : Diver
+10033500001300000000,03,35,130000,Point,Weapon (Sea Subsurface)
+10033500001301000000,03,35,130100,Point,Weapon (Sea Subsurface) : Torpedo
+10033500001302000000,03,35,130200,Point,Weapon (Sea Subsurface) : Improvised Explosive Device (IED)
+10033500001303000000,03,35,130300,Point,Weapon (Sea Subsurface) : Decoy
+10033500001400000000,03,35,140000,Point,Echo Tracker Classifier (ETC) / Possible Contact (POSCON)
+10033500001500000000,03,35,150000,Point,Fused Track (Sea Subsurface)
+10033500001600000000,03,35,160000,Point,Manual Track (Sea Subsurface)
+10033600000000000000,03,36,000000,NotValid,Unspecified
+10033600001100000000,03,36,110000,Point,Sea Mine-General
+10033600001101000000,03,36,110100,Point,Sea Mine-General : Sea Mine-Bottom
+10033600001102000000,03,36,110200,Point,Sea Mine-General : Sea Mine-Moored
+10033600001103000000,03,36,110300,Point,Sea Mine-General : Sea Mine-Floating
+10033600001104000000,03,36,110400,Point,Sea Mine-General : Sea Mine-Rising
+10033600001105000000,03,36,110500,Point,Sea Mine-General : Sea Mine-Other Position
+10033600001108000000,03,36,110800,Point,Sea Mine-General : Exercise Mine-General
+10033600001108010000,03,36,110801,Point,Sea Mine-General : Exercise Mine-General : Exercise Mine-Bottom
+10033600001108020000,03,36,110802,Point,Sea Mine-General : Exercise Mine-General : Exercise Mine-Moored
+10033600001108030000,03,36,110803,Point,Sea Mine-General : Exercise Mine-General : Exercise Mine-Floating
+10033600001108040000,03,36,110804,Point,Sea Mine-General : Exercise Mine-General : Exercise Mine-Rising
+10033600001109000000,03,36,110900,Point,Sea Mine-General : Neutralized
+10033600001109010000,03,36,110901,Point,Sea Mine-General : Neutralized : Neutralized Mine-Bottom
+10033600001109020000,03,36,110902,Point,Sea Mine-General : Neutralized : Neutralized Mine-Moored
+10033600001109030000,03,36,110903,Point,Sea Mine-General : Neutralized : Neutralized Mine-Floating
+10033600001109040000,03,36,110904,Point,Sea Mine-General : Neutralized : Neutralized Mine-Rising
+10033600001109050000,03,36,110905,Point,Sea Mine-General : Neutralized : Neutralized Mine-Other Position
+10033600001200000000,03,36,120000,Point,Unexploded Ordnance
+10033600001300000000,03,36,130000,Point,Sea Mine Decoy
+10033600001301000000,03,36,130100,Point,Sea Mine Decoy : Sea Mine Decoy-Bottom
+10033600001302000000,03,36,130200,Point,Sea Mine Decoy : Sea Mine Decoy-Moored
+10033600001401000000,03,36,140100,Point,MILCO : General
+10033600001401010000,03,36,140101,Point,MILCO : General : General-Confidence-Level 1
+10033600001401020000,03,36,140102,Point,MILCO : General : General-Confidence-Level 2
+10033600001401030000,03,36,140103,Point,MILCO : General : General-Confidence-Level 3
+10033600001401040000,03,36,140104,Point,MILCO : General : General-Confidence-Level 4
+10033600001401050000,03,36,140105,Point,MILCO : General : General-Confidence-Level 5
+10033600001402000000,03,36,140200,Point,MILCO : Bottom
+10033600001402010000,03,36,140201,Point,MILCO : Bottom : Bottom-Confidence-Level 1
+10033600001402020000,03,36,140202,Point,MILCO : Bottom : Bottom-Confidence-Level 2
+10033600001402030000,03,36,140203,Point,MILCO : Bottom : Bottom-Confidence-Level 3
+10033600001402040000,03,36,140204,Point,MILCO : Bottom : Bottom-Confidence-Level 4
+10033600001402050000,03,36,140205,Point,MILCO : Bottom : Bottom-Confidence-Level 5
+10033600001403000000,03,36,140300,Point,MILCO : Moored
+10033600001403010000,03,36,140301,Point,MILCO : Moored : Moored-Confidence-Level 1
+10033600001403020000,03,36,140302,Point,MILCO : Moored : Moored-Confidence-Level 2
+10033600001403030000,03,36,140303,Point,MILCO : Moored : Moored-Confidence-Level 3
+10033600001403040000,03,36,140304,Point,MILCO : Moored : Moored-Confidence-Level 4
+10033600001403050000,03,36,140305,Point,MILCO : Moored : Moored-Confidence-Level 5
+10033600001404000000,03,36,140400,Point,MILCO : Floating
+10033600001404010000,03,36,140401,Point,MILCO : Floating : Floating-Confidence-Level 1
+10033600001404020000,03,36,140402,Point,MILCO : Floating : Floating-Confidence-Level 2
+10033600001404030000,03,36,140403,Point,MILCO : Floating : Floating-Confidence-Level 3
+10033600001404040000,03,36,140404,Point,MILCO : Floating : Floating-Confidence-Level 4
+10033600001404050000,03,36,140405,Point,MILCO : Floating : Floating-Confidence-Level 5
+10033600001500000000,03,36,150000,Point,Mine-Like Echo (MILEC)-General
+10033600001501000000,03,36,150100,Point,Mine-Like Echo (MILEC)-General : Mine-Like Echo-Bottom
+10033600001502000000,03,36,150200,Point,Mine-Like Echo (MILEC)-General : Mine-Like Echo-Moored
+10033600001503000000,03,36,150300,Point,Mine-Like Echo (MILEC)-General : Mine-Like Echo-Floating
+10033600001600000000,03,36,160000,Point,Negative Reacquisition-General
+10033600001601000000,03,36,160100,Point,Negative Reacquisition-General : Negative Reacquisition-Bottom
+10033600001602000000,03,36,160200,Point,Negative Reacquisition-General : Negative Reacquisition-Moored
+10033600001603000000,03,36,160300,Point,Negative Reacquisition-General : Negative Reacquisition-Floating
+10033600001700000000,03,36,170000,Point,Obstructor
+10033600001701000000,03,36,170100,Point,Obstructor : Neutralized Obstructor
+10033600001800000000,03,36,180000,Point,General Mine Anchor
+10033600001900000000,03,36,190000,Point,NMLO-General
+10033600001901000000,03,36,190100,Point,NMLO-General : Non-Mine Mine-Like Object-Bottom
+10033600001902000000,03,36,190200,Point,NMLO-General : Non-Mine Mine-Like Object-Moored
+10033600001903000000,03,36,190300,Point,NMLO-General : Non-Mine Mine-Like Object-Floating
+10033600002000000000,03,36,200000,Point,Environmental Report Location
+10033600002100000000,03,36,210000,Point,Dive Report Location
+10034000000000000000,03,40,000000,NotValid,Unspecified
+10034000001101000000,03,40,110100,Point,Incident : Criminal Activity Incident
+10034000001101010000,03,40,110101,Point,Incident : Criminal Activity Incident : Arrest
+10034000001101020000,03,40,110102,Point,Incident : Criminal Activity Incident : Arson
+10034000001101030000,03,40,110103,Point,Incident : Criminal Activity Incident : Attempted Criminal Activity
+10034000001101040000,03,40,110104,Point,Incident : Criminal Activity Incident : Drive-by Shooting
+10034000001101050000,03,40,110105,Point,Incident : Criminal Activity Incident : Drug Related
+10034000001101060000,03,40,110106,Point,Incident : Criminal Activity Incident : Extortion
+10034000001101070000,03,40,110107,Point,Incident : Criminal Activity Incident : Graffiti
+10034000001101080000,03,40,110108,Point,Incident : Criminal Activity Incident : Killing
+10034000001101090000,03,40,110109,Point,Incident : Criminal Activity Incident : Poisoning
+10034000001101100000,03,40,110110,Point,Incident : Criminal Activity Incident : Civil Rioting
+10034000001101110000,03,40,110111,Point,Incident : Criminal Activity Incident : Booby Trap
+10034000001101120000,03,40,110112,Point,Incident : Criminal Activity Incident : Home Eviction
+10034000001101130000,03,40,110113,Point,Incident : Criminal Activity Incident : Black Marketing
+10034000001101140000,03,40,110114,Point,Incident : Criminal Activity Incident : Vandalism / Loot / Ransack / Plunder
+10034000001101150000,03,40,110115,Point,Incident : Criminal Activity Incident : Jail Break
+10034000001101160000,03,40,110116,Point,Incident : Criminal Activity Incident : Robbery
+10034000001101170000,03,40,110117,Point,Incident : Criminal Activity Incident : Theft
+10034000001101180000,03,40,110118,Point,Incident : Criminal Activity Incident : Burglary
+10034000001101190000,03,40,110119,Point,Incident : Criminal Activity Incident : Smuggling
+10034000001101200000,03,40,110120,Point,Incident : Criminal Activity Incident : Rock Throwing
+10034000001101210000,03,40,110121,Point,Incident : Criminal Activity Incident : Dead Body
+10034000001101220000,03,40,110122,Point,Incident : Criminal Activity Incident : Sabotage
+10034000001101230000,03,40,110123,Point,Incident : Criminal Activity Incident : Suspicious Activity
+10034000001102000000,03,40,110200,Point,Incident : Bomb/Bombing
+10034000001102010000,03,40,110201,Point,Incident : Bomb/Bombing : Bomb Threat
+10034000001103000000,03,40,110300,Point,Incident : IED Event
+10034000001103010000,03,40,110301,Point,Incident : IED Event : IED Explosion
+10034000001103020000,03,40,110302,Point,Incident : IED Event : Premature IED Explosion
+10034000001103030000,03,40,110303,Point,Incident : IED Event : IED Cache
+10034000001103040000,03,40,110304,Point,Incident : IED Event : IED Suicide Bomber
+10034000001104000000,03,40,110400,Point,Incident : Shooting
+10034000001104010000,03,40,110401,Point,Incident : Shooting : Sniping
+10034000001105000000,03,40,110500,Point,Incident : Illegal Drug Operation
+10034000001105010000,03,40,110501,Point,Incident : Illegal Drug Operation : Trafficking
+10034000001105020000,03,40,110502,Point,Incident : Illegal Drug Operation : Illegal Drug Lab
+10034000001106000000,03,40,110600,Point,Incident : Explosion
+10034000001106010000,03,40,110601,Point,Incident : Explosion : Grenade Explosion
+10034000001106020000,03,40,110602,Point,Incident : Explosion : Incendiary Explosion
+10034000001106030000,03,40,110603,Point,Incident : Explosion : Mine Explosion
+10034000001106040000,03,40,110604,Point,Incident : Explosion : Mortar Fire Explosion
+10034000001106050000,03,40,110605,Point,Incident : Explosion : Rocket Explosion
+10034000001106060000,03,40,110606,Point,Incident : Explosion : Bomb Explosion
+10034000001200000000,03,40,120000,Point,Civil Disturbance
+10034000001201000000,03,40,120100,Point,Civil Disturbance : Demonstration
+10034000001301000000,03,40,130100,Point,Operation : Patrolling
+10034000001302000000,03,40,130200,Point,Operation : Military Information Support Operation (MISO)
+10034000001302010000,03,40,130201,Point,Operation : Military Information Support Operation (MISO) : TV and Radio Propaganda
+10034000001303000000,03,40,130300,Point,Operation : Foraging/Searching
+10034000001304010000,03,40,130401,Point,Operation : Recruitment : Willing
+10034000001304020000,03,40,130402,Point,Operation : Recruitment : Coerced/Impressed
+10034000001305000000,03,40,130500,Point,Operation : Mine Laying
+10034000001306000000,03,40,130600,Point,Operation : Spy
+10034000001307000000,03,40,130700,Point,Operation : Warrant Served
+10034000001308000000,03,40,130800,Point,Operation : Exfiltration
+10034000001309000000,03,40,130900,Point,Operation : Infiltration
+10034000001310000000,03,40,131000,Point,Operation : Meeting
+10034000001310010000,03,40,131001,Point,Operation : Meeting : Polling Place/Election
+10034000001311000000,03,40,131100,Point,Operation : Raid on House
+10034000001312000000,03,40,131200,Point,Operation : Emergency Operation
+10034000001312010000,03,40,131201,Point,Operation : Emergency Operation : Emergency Collection Evacuation Point
+10034000001312020000,03,40,131202,Point,Operation : Emergency Operation : Emergency Food Distribution
+10034000001312030000,03,40,131203,Point,Operation : Emergency Operation : Emergency Incident Command Center
+10034000001312040000,03,40,131204,Point,Operation : Emergency Operation : Emergency Operations Center
+10034000001312050000,03,40,131205,Point,Operation : Emergency Operation : Emergency Public Information Center
+10034000001312060000,03,40,131206,Point,Operation : Emergency Operation : Emergency Shelter
+10034000001312070000,03,40,131207,Point,Operation : Emergency Operation : Emergency Staging Area
+10034000001312080000,03,40,131208,Point,Operation : Emergency Operation : Emergency Water Distribution Center
+10034000001313000000,03,40,131300,Point,Operation : Emergency Medical Operation
+10034000001313010000,03,40,131301,Point,Operation : Emergency Medical Operation : EMT Station Location
+10034000001313020000,03,40,131302,Point,Operation : Emergency Medical Operation : Health Department Facility
+10034000001313030000,03,40,131303,Point,Operation : Emergency Medical Operation : Medical Facilities Outpatient
+10034000001313040000,03,40,131304,Point,Operation : Emergency Medical Operation : Morgue
+10034000001313050000,03,40,131305,Point,Operation : Emergency Medical Operation : Pharmacy
+10034000001313060000,03,40,131306,Point,Operation : Emergency Medical Operation : Triage
+10034000001314000000,03,40,131400,Point,Operation : Fire Fighting Operation
+10034000001314010000,03,40,131401,Point,Operation : Fire Fighting Operation : Fire Hydrant
+10034000001314020000,03,40,131402,Point,Operation : Fire Fighting Operation : Fire Station
+10034000001314030000,03,40,131403,Point,Operation : Fire Fighting Operation : Other Water Supply Location
+10034000001315000000,03,40,131500,Point,Operation : Law Enforcement Operation
+10034000001315010000,03,40,131501,Point,Operation : Law Enforcement Operation : ATF
+10034000001315020000,03,40,131502,Point,Operation : Law Enforcement Operation : Border Patrol
+10034000001315030000,03,40,131503,Point,Operation : Law Enforcement Operation : Customs Service
+10034000001315040000,03,40,131504,Point,Operation : Law Enforcement Operation : DEA
+10034000001315050000,03,40,131505,Point,Operation : Law Enforcement Operation : DOJ
+10034000001315060000,03,40,131506,Point,Operation : Law Enforcement Operation : FBI
+10034000001315070000,03,40,131507,Point,Operation : Law Enforcement Operation : Police
+10034000001315080000,03,40,131508,Point,Operation : Law Enforcement Operation : Prison
+10034000001315090000,03,40,131509,Point,Operation : Law Enforcement Operation : USSS
+10034000001315100000,03,40,131510,Point,Operation : Law Enforcement Operation : TSA
+10034000001315110000,03,40,131511,Point,Operation : Law Enforcement Operation : Coast Guard
+10034000001315120000,03,40,131512,Point,Operation : Law Enforcement Operation : US Marshals Service
+10034000001315130000,03,40,131513,Point,Operation : Law Enforcement Operation : Internal Security Force
+10034000001400000000,03,40,140000,Point,Fire Event
+10034000001401000000,03,40,140100,Point,Fire Event : Fire Origin
+10034000001402000000,03,40,140200,Point,Fire Event : Smoke
+10034000001403000000,03,40,140300,Point,Fire Event : Hot Spot
+10034000001404000000,03,40,140400,Point,Fire Event : Non-Residential Fire
+10034000001405000000,03,40,140500,Point,Fire Event : Residential Fire
+10034000001406000000,03,40,140600,Point,Fire Event : School Fire
+10034000001407000000,03,40,140700,Point,Fire Event : Special Needs Fire
+10034000001408000000,03,40,140800,Point,Fire Event : Wild Fire
+10034000001501000000,03,40,150100,Point,Hazard Materials : Incident
+10034000001501010000,03,40,150101,Point,Hazard Materials : Incident : Chemical Agent
+10034000001501020000,03,40,150102,Point,Hazard Materials : Incident : Corrosive Material
+10034000001501030000,03,40,150103,Point,Hazard Materials : Incident : Hazardous when Wet
+10034000001501040000,03,40,150104,Point,Hazard Materials : Incident : Explosive Material
+10034000001501050000,03,40,150105,Point,Hazard Materials : Incident : Flammable Gas
+10034000001501060000,03,40,150106,Point,Hazard Materials : Incident : Flammable Liquid
+10034000001501070000,03,40,150107,Point,Hazard Materials : Incident : Flammable Solid
+10034000001501080000,03,40,150108,Point,Hazard Materials : Incident : Non-Flammable Gas
+10034000001501090000,03,40,150109,Point,Hazard Materials : Incident : Organic Peroxide
+10034000001501100000,03,40,150110,Point,Hazard Materials : Incident : Oxidizer
+10034000001501110000,03,40,150111,Point,Hazard Materials : Incident : Radioactive Material
+10034000001501120000,03,40,150112,Point,Hazard Materials : Incident : Spontaneously Combustible Material
+10034000001501130000,03,40,150113,Point,Hazard Materials : Incident : Toxic Gas
+10034000001501140000,03,40,150114,Point,Hazard Materials : Incident : Toxic Infectious Material
+10034000001501150000,03,40,150115,Point,Hazard Materials : Incident : Unexploded Ordnance
+10034000001600000000,03,40,160000,Point,Transportation Incident
+10034000001601000000,03,40,160100,Point,Transportation Incident : Air
+10034000001602000000,03,40,160200,Point,Transportation Incident : Marine
+10034000001603000000,03,40,160300,Point,Transportation Incident : Rail
+10034000001604000000,03,40,160400,Point,Transportation Incident : Vehicle
+10034000001605000000,03,40,160500,Point,Transportation Incident : Wheeled Vehicle Explosion
+10034000001700000000,03,40,170000,Point,Natural Event
+10034000001701000000,03,40,170100,Point,Natural Event : Geologic
+10034000001701010000,03,40,170101,Point,Natural Event : Geologic : Aftershock
+10034000001701020000,03,40,170102,Point,Natural Event : Geologic : Avalanche
+10034000001701030000,03,40,170103,Point,Natural Event : Geologic : Earthquake Epicenter
+10034000001701040000,03,40,170104,Point,Natural Event : Geologic : Landslide
+10034000001701050000,03,40,170105,Point,Natural Event : Geologic : Subsidence
+10034000001701060000,03,40,170106,Point,Natural Event : Geologic : Volcanic Eruption
+10034000001701070000,03,40,170107,Point,Natural Event : Geologic : Volcanic Threat
+10034000001701080000,03,40,170108,Point,Natural Event : Geologic : Cave Entrance
+10034000001702000000,03,40,170200,Point,Natural Event : Hydro-Meteorological
+10034000001702010000,03,40,170201,Point,Natural Event : Hydro-Meteorological : Drought
+10034000001702020000,03,40,170202,Point,Natural Event : Hydro-Meteorological : Flood
+10034000001702030000,03,40,170203,Point,Natural Event : Hydro-Meteorological : Tsunami
+10034000001703000000,03,40,170300,Point,Natural Event : Infestation
+10034000001703010000,03,40,170301,Point,Natural Event : Infestation : Bird
+10034000001703020000,03,40,170302,Point,Natural Event : Infestation : Insect
+10034000001703030000,03,40,170303,Point,Natural Event : Infestation : Microbial
+10034000001703040000,03,40,170304,Point,Natural Event : Infestation : Reptile
+10034000001703050000,03,40,170305,Point,Natural Event : Infestation : Rodent
+10034000001801000000,03,40,180100,Point,Individual : Religious Leader
+10034000001802000000,03,40,180200,Point,Individual : Speaker
+10034500000000000000,03,45,000000,NotValid,Unspecified
+10034500001101000000,03,45,110100,Point,Pressure Systems : Low Pressure Center
+10034500001101010000,03,45,110101,Point,Pressure Systems : Low Pressure Center : Cyclone Center
+10034500001101020000,03,45,110102,Point,Pressure Systems : Low Pressure Center : Tropopause Low
+10034500001102000000,03,45,110200,Point,Pressure Systems : High Pressure Center
+10034500001102010000,03,45,110201,Point,Pressure Systems : High Pressure Center : Anticyclone Center
+10034500001102020000,03,45,110202,Point,Pressure Systems : High Pressure Center : Tropopause High
+10034500001103010000,03,45,110301,Line,Pressure Systems : Frontal Systems : Cold Front
+10034500001103020000,03,45,110302,Line,Pressure Systems : Frontal Systems : Upper Cold Front
+10034500001103030000,03,45,110303,Line,Pressure Systems : Frontal Systems : Cold Frontogenesis
+10034500001103040000,03,45,110304,Line,Pressure Systems : Frontal Systems : Cold Frontolysis
+10034500001103050000,03,45,110305,Line,Pressure Systems : Frontal Systems : Warm Front
+10034500001103060000,03,45,110306,Line,Pressure Systems : Frontal Systems : Upper Warm Front
+10034500001103070000,03,45,110307,Line,Pressure Systems : Frontal Systems : Warm Frontogenesis
+10034500001103080000,03,45,110308,Line,Pressure Systems : Frontal Systems : Warm Frontolysis
+10034500001103090000,03,45,110309,Line,Pressure Systems : Frontal Systems : Occluded Front
+10034500001103100000,03,45,110310,Line,Pressure Systems : Frontal Systems : Upper Occluded Front
+10034500001103110000,03,45,110311,Line,Pressure Systems : Frontal Systems : Occluded Frontolysis
+10034500001103120000,03,45,110312,Line,Pressure Systems : Frontal Systems : Stationary Front
+10034500001103130000,03,45,110313,Line,Pressure Systems : Frontal Systems : Upper Stationary Front
+10034500001103140000,03,45,110314,Line,Pressure Systems : Frontal Systems : Stationary Frontogenesis
+10034500001103150000,03,45,110315,Line,Pressure Systems : Frontal Systems : Stationary Frontolysis
+10034500001104010000,03,45,110401,Line,Pressure Systems : Lines : Trough Axis
+10034500001104020000,03,45,110402,Line,Pressure Systems : Lines : Upper Trough Axis
+10034500001104030000,03,45,110403,Line,Pressure Systems : Lines : Ridge Axis
+10034500001104040000,03,45,110404,Line,Pressure Systems : Lines : Severe Squall Line
+10034500001104050000,03,45,110405,Line,Pressure Systems : Lines : Instability Line
+10034500001104060000,03,45,110406,Line,Pressure Systems : Lines : Shear Line
+10034500001104070000,03,45,110407,Line,Pressure Systems : Lines : Inter-Tropical Convergence Zone
+10034500001104080000,03,45,110408,Line,Pressure Systems : Lines : Convergence Line
+10034500001104090000,03,45,110409,Line,Pressure Systems : Lines : Inter-Tropical Discontinuity
+10034500001105010000,03,45,110501,Point,Pressure Systems : Pressure Tendency : Rise Then Fall Higher
+10034500001105020000,03,45,110502,Point,Pressure Systems : Pressure Tendency : Rise Then Steady
+10034500001105030000,03,45,110503,Point,Pressure Systems : Pressure Tendency : Rise
+10034500001105040000,03,45,110504,Point,Pressure Systems : Pressure Tendency : Rise Then Rise Higher
+10034500001105050000,03,45,110505,Point,Pressure Systems : Pressure Tendency : Steady
+10034500001105060000,03,45,110506,Point,Pressure Systems : Pressure Tendency : Fall Then Rise Lower
+10034500001105070000,03,45,110507,Point,Pressure Systems : Pressure Tendency : Fall Then Steady
+10034500001105080000,03,45,110508,Point,Pressure Systems : Pressure Tendency : Fall
+10034500001105090000,03,45,110509,Point,Pressure Systems : Pressure Tendency : Rise Then Fall Lower
+10034500001201000000,03,45,120100,Point,Turbulence : Light
+10034500001202000000,03,45,120200,Point,Turbulence : Moderate
+10034500001203000000,03,45,120300,Point,Turbulence : Severe
+10034500001204000000,03,45,120400,Point,Turbulence : Extreme
+10034500001205000000,03,45,120500,Point,Turbulence : Mountain Waves
+10034500001301010000,03,45,130101,Point,Icing : Clear Icing : Light
+10034500001301020000,03,45,130102,Point,Icing : Clear Icing : Moderate
+10034500001301030000,03,45,130103,Point,Icing : Clear Icing : Severe
+10034500001302010000,03,45,130201,Point,Icing : Rime Icing : Light
+10034500001302020000,03,45,130202,Point,Icing : Rime Icing : Moderate
+10034500001302030000,03,45,130203,Point,Icing : Rime Icing : Severe
+10034500001303010000,03,45,130301,Point,Icing : Mixed Icing : Light
+10034500001303020000,03,45,130302,Point,Icing : Mixed Icing : Moderate
+10034500001303030000,03,45,130303,Point,Icing : Mixed Icing : Severe
+10034500001401000000,03,45,140100,Point,Winds : Calm Winds
+10034500001402000000,03,45,140200,Point,Winds : Wind Plot
+10034500001403000000,03,45,140300,Line,Winds : Jet Stream
+10034500001404000000,03,45,140400,Line,Winds : Stream Line
+10034500001501010000,03,45,150101,Point,Cloud Cover : Cloud Coverage : Clear Sky
+10034500001501020000,03,45,150102,Point,Cloud Cover : Cloud Coverage : Few Coverage
+10034500001501030000,03,45,150103,Point,Cloud Cover : Cloud Coverage : Scattered Coverage
+10034500001501040000,03,45,150104,Point,Cloud Cover : Cloud Coverage : Broken Coverage
+10034500001501050000,03,45,150105,Point,Cloud Cover : Cloud Coverage : Overcast Coverage
+10034500001501060000,03,45,150106,Point,Cloud Cover : Cloud Coverage : Sky Totally or Partially Obscured
+10034500001601010000,03,45,160101,Point,Weather Symbols : Rain : Intermittent Light
+10034500001601020000,03,45,160102,Point,Weather Symbols : Rain : Continuous Light
+10034500001601030000,03,45,160103,Point,Weather Symbols : Rain : Intermittent Moderate
+10034500001601040000,03,45,160104,Point,Weather Symbols : Rain : Intermittent Moderate/Continuous Moderate
+10034500001601050000,03,45,160105,Point,Weather Symbols : Rain : Intermittent Heavy
+10034500001601060000,03,45,160106,Point,Weather Symbols : Rain : Intermittent Heavy/Continuous Heavy
+10034500001602010000,03,45,160201,Point,Weather Symbols : Freezing Rain : Light
+10034500001602020000,03,45,160202,Point,Weather Symbols : Freezing Rain : Moderate/Heavy
+10034500001603010000,03,45,160301,Point,Weather Symbols : Rain Showers : Light
+10034500001603020000,03,45,160302,Point,Weather Symbols : Rain Showers : Moderate/Heavy
+10034500001603030000,03,45,160303,Point,Weather Symbols : Rain Showers : Torrential
+10034500001604010000,03,45,160401,Point,Weather Symbols : Drizzle : Intermittent Light
+10034500001604020000,03,45,160402,Point,Weather Symbols : Drizzle : Intermittent Light/Continuous Light
+10034500001604030000,03,45,160403,Point,Weather Symbols : Drizzle : Intermittent Moderate
+10034500001604040000,03,45,160404,Point,Weather Symbols : Drizzle : Intermittent Moderate/Continuous Moderate
+10034500001604050000,03,45,160405,Point,Weather Symbols : Drizzle : Intermittent Heavy
+10034500001604060000,03,45,160406,Point,Weather Symbols : Drizzle : Intermittent Heavy/Continuous Heavy
+10034500001605010000,03,45,160501,Point,Weather Symbols : Freezing Drizzle : Light
+10034500001605020000,03,45,160502,Point,Weather Symbols : Freezing Drizzle : Moderate/Heavy
+10034500001606010000,03,45,160601,Point,Weather Symbols : Rain and Snow Mixed : Rain or Drizzle and Snow - Light
+10034500001606020000,03,45,160602,Point,Weather Symbols : Rain and Snow Mixed : Rain or Drizzle and Snow - Moderate/Heavy
+10034500001606030000,03,45,160603,Point,Weather Symbols : Rain and Snow Mixed : Rain and Snow Showers - Light
+10034500001606040000,03,45,160604,Point,Weather Symbols : Rain and Snow Mixed : Rain and Snow Showers - Moderate/Heavy
+10034500001607010000,03,45,160701,Point,Weather Symbols : Snow : Intermittent Light
+10034500001607020000,03,45,160702,Point,Weather Symbols : Snow : Intermittent Light/Continuous Light
+10034500001607030000,03,45,160703,Point,Weather Symbols : Snow : Intermittent Moderate
+10034500001607040000,03,45,160704,Point,Weather Symbols : Snow : Intermittent Moderate/Continuous Moderate
+10034500001607050000,03,45,160705,Point,Weather Symbols : Snow : Intermittent Heavy
+10034500001607060000,03,45,160706,Point,Weather Symbols : Snow : Intermittent Heavy/Continuous Heavy
+10034500001607070000,03,45,160707,Point,Weather Symbols : Snow : Blowing Snow - Light/Moderate
+10034500001607080000,03,45,160708,Point,Weather Symbols : Snow : Blowing Snow - Heavy
+10034500001608000000,03,45,160800,Point,Weather Symbols : Snow Grains
+10034500001609010000,03,45,160901,Point,Weather Symbols : Snow Showers : Light
+10034500001609020000,03,45,160902,Point,Weather Symbols : Snow Showers : Moderate/Heavy
+10034500001610010000,03,45,161001,Point,Weather Symbols : Hail : Light not Associated with Thunder
+10034500001610020000,03,45,161002,Point,Weather Symbols : Hail : Moderate/Heavy not Associated with Thunder
+10034500001611000000,03,45,161100,Point,Weather Symbols : Ice Crystals (Diamond Dust)
+10034500001612010000,03,45,161201,Point,Weather Symbols : Ice Pellets (Sleet) : Light
+10034500001612020000,03,45,161202,Point,Weather Symbols : Ice Pellets (Sleet) : Moderate
+10034500001612030000,03,45,161203,Point,Weather Symbols : Ice Pellets (Sleet) : Heavy
+10034500001613000000,03,45,161300,Point,Weather Symbols : Inversion
+10034500001614010000,03,45,161401,Point,Weather Symbols : Storms : Thunderstorm - No Precipitation
+10034500001614020000,03,45,161402,Point,Weather Symbols : Storms : Thunderstorm Light to Moderate with Rain/Snow - No Hail
+10034500001614030000,03,45,161403,Point,Weather Symbols : Storms : Thunderstorm Heavy with Rain/Snow - No Hail
+10034500001614040000,03,45,161404,Point,Weather Symbols : Storms : Thunderstorm Light to Moderate - With Hail
+10034500001614050000,03,45,161405,Point,Weather Symbols : Storms : Thunderstorm Heavy - With Hail
+10034500001614060000,03,45,161406,Point,Weather Symbols : Storms : Funnel Cloud (Tornado/Waterspout)
+10034500001614070000,03,45,161407,Point,Weather Symbols : Storms : Squall
+10034500001614080000,03,45,161408,Point,Weather Symbols : Storms : Lightning
+10034500001615010000,03,45,161501,Point,Weather Symbols : Fog : Shallow Patches
+10034500001615020000,03,45,161502,Point,Weather Symbols : Fog : Shallow Continuous
+10034500001615030000,03,45,161503,Point,Weather Symbols : Fog : Patchy
+10034500001615040000,03,45,161504,Point,Weather Symbols : Fog : Sky Visible
+10034500001615050000,03,45,161505,Point,Weather Symbols : Fog : Sky Obscured
+10034500001615060000,03,45,161506,Point,Weather Symbols : Fog : Freezing-Sky Visible
+10034500001615070000,03,45,161507,Point,Weather Symbols : Fog : Freezing-Sky Obscured
+10034500001616000000,03,45,161600,Point,Weather Symbols : Mist
+10034500001617000000,03,45,161700,Point,Weather Symbols : Smoke
+10034500001618000000,03,45,161800,Point,Weather Symbols : Haze
+10034500001619010000,03,45,161901,Point,Weather Symbols : Dust or Sand : Light to Moderate
+10034500001619020000,03,45,161902,Point,Weather Symbols : Dust or Sand : Severe
+10034500001619030000,03,45,161903,Point,Weather Symbols : Dust or Sand : Dust Devil
+10034500001619040000,03,45,161904,Point,Weather Symbols : Dust or Sand : Blowing Dust or Sand
+10034500001620010000,03,45,162001,Point,Weather Symbols : Tropical Storm Systems : Tropical Depression
+10034500001620020000,03,45,162002,Point,Weather Symbols : Tropical Storm Systems : Tropical Storm
+10034500001620030000,03,45,162003,Point,Weather Symbols : Tropical Storm Systems : Hurricane/Typhoon
+10034500001620040000,03,45,162004,Area,Weather Symbols : Tropical Storm Systems : Tropical Storm Wind Areas and Date/Time Labels
+10034500001621000000,03,45,162100,Point,Weather Symbols : Volcanic Eruption
+10034500001621010000,03,45,162101,Point,Weather Symbols : Volcanic Eruption : Volcanic Ash
+10034500001622000000,03,45,162200,Point,Weather Symbols : Tropopause Level
+10034500001623000000,03,45,162300,Point,Weather Symbols : Freezing Level
+10034500001624000000,03,45,162400,Point,Weather Symbols : Precipitation of Unknown Type and Intensity
+10034500001701000000,03,45,170100,Area,Bounded Areas : Instrument Flight Rule (IFR)
+10034500001702000000,03,45,170200,Area,Bounded Areas : Marginal Visual Flight Rule (MVFR)
+10034500001703000000,03,45,170300,Area,Bounded Areas : Turbulence
+10034500001704000000,03,45,170400,Area,Bounded Areas : Icing
+10034500001705000000,03,45,170500,Area,Bounded Areas : Liquid Precipitation - Non-Convective Continuous or Intermittent
+10034500001705010000,03,45,170501,Area,Bounded Areas : Liquid Precipitation - Non-Convective Continuous or Intermittent : Liquid Precipitation - Convective
+10034500001706000000,03,45,170600,Area,Bounded Areas : Freezing /Frozen Precipitation
+10034500001707000000,03,45,170700,Area,Bounded Areas : Thunderstorm
+10034500001708000000,03,45,170800,Area,Bounded Areas : Fog
+10034500001709000000,03,45,170900,Area,Bounded Areas : Dust or Sand
+10034500001710000000,03,45,171000,Area,Bounded Areas : Operator-Defined Freeform
+10034500001801000000,03,45,180100,Line,Isopleths : Isobar - Surface
+10034500001802000000,03,45,180200,Line,Isopleths : Contour - Upper Air
+10034500001803000000,03,45,180300,Line,Isopleths : Isotherm
+10034500001804000000,03,45,180400,Line,Isopleths : Isotach
+10034500001805000000,03,45,180500,Line,Isopleths : Isodrosotherm
+10034500001806000000,03,45,180600,Line,Isopleths : Thickness
+10034500001807000000,03,45,180700,Line,Isopleths : Operator-Defined Freeform
+10034500001901010000,03,45,190101,Point,State of the Ground : Without Snow or Measurable Ice Cover : Surface Dry Without Cracks or Appreciable Dust or Loose Sand
+10034500001901020000,03,45,190102,Point,State of the Ground : Without Snow or Measurable Ice Cover : Surface Moist
+10034500001901030000,03,45,190103,Point,State of the Ground : Without Snow or Measurable Ice Cover : Surface Wet-Standing Water in Small or Large Pools
+10034500001901040000,03,45,190104,Point,State of the Ground : Without Snow or Measurable Ice Cover : Surface Flooded
+10034500001901050000,03,45,190105,Point,State of the Ground : Without Snow or Measurable Ice Cover : Surface Frozen
+10034500001901060000,03,45,190106,Point,State of the Ground : Without Snow or Measurable Ice Cover : Glaze (Thin Ice) on Ground
+10034500001901070000,03,45,190107,Point,State of the Ground : Without Snow or Measurable Ice Cover : Loose Dry Dust or Sand not Covering Ground Completely
+10034500001901080000,03,45,190108,Point,State of the Ground : Without Snow or Measurable Ice Cover : Thin Loose Dry Dust or Sand Covering Ground Completely
+10034500001901090000,03,45,190109,Point,State of the Ground : Without Snow or Measurable Ice Cover : Moderate/Thick Loose Dry Dust or Sand Covering Ground Completely
+10034500001901100000,03,45,190110,Point,State of the Ground : Without Snow or Measurable Ice Cover : Extremely Dry with Cracks
+10034500001902010000,03,45,190201,Point,State of the Ground : With Snow or Measurable Ice Cover : Predominately Ice Covered
+10034500001902020000,03,45,190202,Point,State of the Ground : With Snow or Measurable Ice Cover : Compact or Wet Snow (with or without Ice) Covering Less Than One-Half of Ground
+10034500001902030000,03,45,190203,Point,State of the Ground : With Snow or Measurable Ice Cover : Compact or Wet Snow (with or without Ice) Covering  at Least One-Half of Ground-but Ground not Completely Covered
+10034500001902040000,03,45,190204,Point,State of the Ground : With Snow or Measurable Ice Cover : Even Layer of Compact or Wet Snow Covering Ground Completely
+10034500001902050000,03,45,190205,Point,State of the Ground : With Snow or Measurable Ice Cover : Uneven Layer of Compact or Wet Snow Covering Ground Completely
+10034500001902060000,03,45,190206,Point,State of the Ground : With Snow or Measurable Ice Cover : Loose Dry Snow Covering Less Than One-Half of Ground
+10034500001902070000,03,45,190207,Point,State of the Ground : With Snow or Measurable Ice Cover : Loose Dry Snow Covering at Least One-Half of Ground-but Ground not Completely Covered
+10034500001902080000,03,45,190208,Point,State of the Ground : With Snow or Measurable Ice Cover : Even Layer of Loose Dry Snow Covering Ground Completely
+10034500001902090000,03,45,190209,Point,State of the Ground : With Snow or Measurable Ice Cover : Uneven Layer of Loose Dry Snow Covering Ground Completely
+10034500001902100000,03,45,190210,Point,State of the Ground : With Snow or Measurable Ice Cover : Snow Covering Ground Completely-Deep Drifts
+10034600000000000000,03,46,000000,NotValid,Unspecified
+10034600001101010000,03,46,110101,Point,Ice Systems : Icebergs : Many Icebergs
+10034600001101020000,03,46,110102,Point,Ice Systems : Icebergs : Belts and Strips
+10034600001101030000,03,46,110103,Point,Ice Systems : Icebergs : General
+10034600001101040000,03,46,110104,Point,Ice Systems : Icebergs : Many Icebergs - General
+10034600001101050000,03,46,110105,Point,Ice Systems : Icebergs : Bergy Bit
+10034600001101060000,03,46,110106,Point,Ice Systems : Icebergs : Many Bergy Bits
+10034600001101070000,03,46,110107,Point,Ice Systems : Icebergs : Growler
+10034600001101080000,03,46,110108,Point,Ice Systems : Icebergs : Many Growlers
+10034600001101090000,03,46,110109,Point,Ice Systems : Icebergs : Floeberg
+10034600001101100000,03,46,110110,Point,Ice Systems : Icebergs : Ice Island
+10034600001102010000,03,46,110201,Point,Ice Systems : Ice Concentration : Bergy Water
+10034600001102020000,03,46,110202,Point,Ice Systems : Ice Concentration : Water with Radar Targets
+10034600001102030000,03,46,110203,Point,Ice Systems : Ice Concentration : Ice Free
+10034600001103010000,03,46,110301,Point,Ice Systems : Dynamic Processes : Convergence
+10034600001103020000,03,46,110302,Point,Ice Systems : Dynamic Processes : Divergence
+10034600001103030000,03,46,110303,Point,Ice Systems : Dynamic Processes : Shearing or Shear Zone
+10034600001103040000,03,46,110304,Point,Ice Systems : Dynamic Processes : Ice Drift (Direction)
+10034600001104000000,03,46,110400,Point,Ice Systems : Sea Ice
+10034600001104010000,03,46,110401,Point,Ice Systems : Sea Ice : Ice Thickness (Observed)
+10034600001104020000,03,46,110402,Point,Ice Systems : Sea Ice : Ice Thickness (Estimated)
+10034600001104030000,03,46,110403,Point,Ice Systems : Sea Ice : Melt Puddles or Flooded Ice
+10034600001105010000,03,46,110501,Line,Ice Systems : Limits : Limits of Visual Observation
+10034600001105020000,03,46,110502,Line,Ice Systems : Limits : Limits of Under Cast
+10034600001105030000,03,46,110503,Line,Ice Systems : Limits : Limits of Radar Observation
+10034600001105040000,03,46,110504,Line,Ice Systems : Limits : Observed Ice Edge or Boundary
+10034600001105050000,03,46,110505,Line,Ice Systems : Limits : Estimated Ice Edge or Boundary
+10034600001105060000,03,46,110506,Line,Ice Systems : Limits : Ice Edge or Boundary From Radar
+10034600001106010000,03,46,110601,Line,Ice Systems : Openings in the Ice : Cracks
+10034600001106020000,03,46,110602,Line,Ice Systems : Openings in the Ice : Cracks at a Specific Location
+10034600001106030000,03,46,110603,Line,Ice Systems : Openings in the Ice : Lead
+10034600001106040000,03,46,110604,Line,Ice Systems : Openings in the Ice : Frozen Lead
+10034600001107000000,03,46,110700,Point,Ice Systems : Snow Cover
+10034600001107010000,03,46,110701,Point,Ice Systems : Snow Cover : Sastrugi (with Orientation)
+10034600001108010000,03,46,110801,Point,Ice Systems : Topographical Features : Ridges or Hummocks
+10034600001108020000,03,46,110802,Point,Ice Systems : Topographical Features : Rafting
+10034600001108030000,03,46,110803,Point,Ice Systems : Topographical Features : Jammed Brash Barrier
+10034600001201010000,03,46,120101,Point,Hydrography : Depth : Soundings
+10034600001201020000,03,46,120102,Line,Hydrography : Depth : Depth Curve
+10034600001201030000,03,46,120103,Line,Hydrography : Depth : Depth Contour
+10034600001201040000,03,46,120104,Area,Hydrography : Depth : Depth Area
+10034600001202010000,03,46,120201,Line,Hydrography : Coastal Hydrography : Coastline
+10034600001202020000,03,46,120202,Area,Hydrography : Coastal Hydrography : Island
+10034600001202030000,03,46,120203,Area,Hydrography : Coastal Hydrography : Beach
+10034600001202040000,03,46,120204,Area,Hydrography : Coastal Hydrography : Water
+10034600001202050000,03,46,120205,Line,Hydrography : Coastal Hydrography : Foreshore - Line
+10034600001202060000,03,46,120206,Area,Hydrography : Coastal Hydrography : Foreshore - Area
+10034600001203020000,03,46,120302,Point,Hydrography : Ports and Harbors : Berths (Onshore)
+10034600001203030000,03,46,120303,Point,Hydrography : Ports and Harbors : Berths (Anchor)
+10034600001203040000,03,46,120304,Point,Hydrography : Ports and Harbors : Anchorage - Point
+10034600001203050000,03,46,120305,Line,Hydrography : Ports and Harbors : Anchorage - Line
+10034600001203060000,03,46,120306,Area,Hydrography : Ports and Harbors : Anchorage - Area
+10034600001203070000,03,46,120307,Point,Hydrography : Ports and Harbors : Call in Point
+10034600001203080000,03,46,120308,Line,Hydrography : Ports and Harbors : Pier/Wharf/Quay
+10034600001203090000,03,46,120309,Point,Hydrography : Ports and Harbors : Fishing Harbor - Point
+10034600001203100000,03,46,120310,Point,Hydrography : Ports and Harbors : Fish Weirs - Point
+10034600001203110000,03,46,120311,Point,Hydrography : Ports and Harbors : Fish Stakes - Point
+10034600001203120000,03,46,120312,Area,Hydrography : Ports and Harbors : Fish Traps - Area
+10034600001203140000,03,46,120314,Area,Hydrography : Ports and Harbors : Drydock
+10034600001203150000,03,46,120315,Point,Hydrography : Ports and Harbors : Landing Place
+10034600001203160000,03,46,120316,Point,Hydrography : Ports and Harbors : Offshore Loading Facility - Point
+10034600001203170000,03,46,120317,Line,Hydrography : Ports and Harbors : Offshore Loading Facility - Line
+10034600001203180000,03,46,120318,Area,Hydrography : Ports and Harbors : Offshore Loading Facility - Area
+10034600001203190000,03,46,120319,Line,Hydrography : Ports and Harbors : Ramp - Above Water
+10034600001203200000,03,46,120320,Line,Hydrography : Ports and Harbors : Ramp - Below Water
+10034600001203210000,03,46,120321,Point,Hydrography : Ports and Harbors : Landing Ring
+10034600001203220000,03,46,120322,Point,Hydrography : Ports and Harbors : Ferry Crossing
+10034600001203230000,03,46,120323,Point,Hydrography : Ports and Harbors : Cable Ferry Crossing
+10034600001203240000,03,46,120324,Point,Hydrography : Ports and Harbors : Dolphin
+10034600001203260000,03,46,120326,Line,Hydrography : Ports and Harbors : Breakwater/Groin/Jetty - Above Water
+10034600001203270000,03,46,120327,Line,Hydrography : Ports and Harbors : Breakwater/Groin/Jetty - Below Water
+10034600001203280000,03,46,120328,Line,Hydrography : Ports and Harbors : Seawall
+10034600001204010000,03,46,120401,Point,Hydrography : Aids to Navigation : Beacon
+10034600001204020000,03,46,120402,Point,Hydrography : Aids to Navigation : Buoy Default
+10034600001204030000,03,46,120403,Point,Hydrography : Aids to Navigation : Marker
+10034600001204040000,03,46,120404,Point,Hydrography : Aids to Navigation : Perches/Stakes - Point
+10034600001204050000,03,46,120405,Area,Hydrography : Aids to Navigation : Perches/Stakes - Area
+10034600001204060000,03,46,120406,Point,Hydrography : Aids to Navigation : Light
+10034600001204070000,03,46,120407,Line,Hydrography : Aids to Navigation : Leading Line
+10034600001204080000,03,46,120408,Point,Hydrography : Aids to Navigation : Light Vessel/Light Ship
+10034600001204090000,03,46,120409,Point,Hydrography : Aids to Navigation : Lighthouse
+10034600001205010000,03,46,120501,Point,Hydrography : Dangers/Hazards : Rock Submerged
+10034600001205020000,03,46,120502,Point,Hydrography : Dangers/Hazards : Rock Awashed
+10034600001205030000,03,46,120503,Area,Hydrography : Dangers/Hazards : Underwater Danger/Hazard
+10034600001205040000,03,46,120504,Point,Hydrography : Dangers/Hazards : Foul Ground - Point
+10034600001205050000,03,46,120505,Area,Hydrography : Dangers/Hazards : Foul Ground - Area
+10034600001205060000,03,46,120506,Point,Hydrography : Dangers/Hazards : Kelp/Seaweed - Point
+10034600001205070000,03,46,120507,Area,Hydrography : Dangers/Hazards : Kelp/Seaweed - Area
+10034600001205080000,03,46,120508,Point,Hydrography : Dangers/Hazards : Snags/Stumps
+10034600001205090000,03,46,120509,Point,Hydrography : Dangers/Hazards : Wreck (Uncovers)
+10034600001205100000,03,46,120510,Point,Hydrography : Dangers/Hazards : Wreck (Submerged)
+10034600001205110000,03,46,120511,Line,Hydrography : Dangers/Hazards : Breakers
+10034600001205120000,03,46,120512,Line,Hydrography : Dangers/Hazards : Reef
+10034600001205130000,03,46,120513,Point,Hydrography : Dangers/Hazards : Eddies/Overfalls/Tide Rips
+10034600001205140000,03,46,120514,Area,Hydrography : Dangers/Hazards : Discolored Water
+10034600001206010000,03,46,120601,Point,Hydrography : Bottom Features : Bottom Characteristics - Sand
+10034600001206020000,03,46,120602,Point,Hydrography : Bottom Features : Bottom Characteristics - Mud
+10034600001206030000,03,46,120603,Point,Hydrography : Bottom Features : Bottom Characteristics - Clay
+10034600001206040000,03,46,120604,Point,Hydrography : Bottom Features : Bottom Characteristics - Silt
+10034600001206050000,03,46,120605,Point,Hydrography : Bottom Features : Bottom Characteristics - Stones
+10034600001206060000,03,46,120606,Point,Hydrography : Bottom Features : Bottom Characteristics - Gravel
+10034600001206070000,03,46,120607,Point,Hydrography : Bottom Features : Bottom Characteristics - Pebbles
+10034600001206080000,03,46,120608,Point,Hydrography : Bottom Features : Bottom Characteristics - Cobbles
+10034600001206090000,03,46,120609,Point,Hydrography : Bottom Features : Bottom Characteristics - Rock
+10034600001206100000,03,46,120610,Point,Hydrography : Bottom Features : Bottom Characteristics - Coral
+10034600001206110000,03,46,120611,Point,Hydrography : Bottom Features : Bottom Characteristics - Shell
+10034600001206120000,03,46,120612,Point,Hydrography : Bottom Features : Qualifying Terms - Fine
+10034600001206130000,03,46,120613,Point,Hydrography : Bottom Features : Qualifying Terms - Medium
+10034600001206140000,03,46,120614,Point,Hydrography : Bottom Features : Qualifying Terms - Coarse
+10034600001207010000,03,46,120701,Point,Hydrography : Tide and Current : Water Turbulence
+10034600001207020000,03,46,120702,Line,Hydrography : Tide and Current : Current Flow - Ebb
+10034600001207030000,03,46,120703,Line,Hydrography : Tide and Current : Current Flow - Flood
+10034600001207040000,03,46,120704,Point,Hydrography : Tide and Current : Tide Data Point
+10034600001207050000,03,46,120705,Point,Hydrography : Tide and Current : Tide Gauge
+10034600001301010000,03,46,130101,Area,Oceanography : Bioluminescence : Visual Detection Ratio (VDR) Level 1-2
+10034600001301020000,03,46,130102,Area,Oceanography : Bioluminescence : VDR Level 2-3
+10034600001301030000,03,46,130103,Area,Oceanography : Bioluminescence : VDR Level 3-4
+10034600001301040000,03,46,130104,Area,Oceanography : Bioluminescence : VDR Level 4-5
+10034600001301050000,03,46,130105,Area,Oceanography : Bioluminescence : VDR Level 5-6
+10034600001301060000,03,46,130106,Area,Oceanography : Bioluminescence : VDR Level 6-7
+10034600001301070000,03,46,130107,Area,Oceanography : Bioluminescence : VDR Level 7-8
+10034600001301080000,03,46,130108,Area,Oceanography : Bioluminescence : VDR Level 8-9
+10034600001301090000,03,46,130109,Area,Oceanography : Bioluminescence : VDR Level 9-10
+10034600001302010000,03,46,130201,Area,Oceanography : Beach Slope : Flat
+10034600001302020000,03,46,130202,Area,Oceanography : Beach Slope : Gentle
+10034600001302030000,03,46,130203,Area,Oceanography : Beach Slope : Moderate
+10034600001302040000,03,46,130204,Area,Oceanography : Beach Slope : Steep
+10034600001401010000,03,46,140101,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Solid Rock
+10034600001401020000,03,46,140102,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Clay
+10034600001401030000,03,46,140103,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Very Coarse Sand
+10034600001401040000,03,46,140104,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Coarse Sand
+10034600001401050000,03,46,140105,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Medium Sand
+10034600001401060000,03,46,140106,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Fine Sand
+10034600001401070000,03,46,140107,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Very Fine Sand
+10034600001401080000,03,46,140108,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Very Fine Silt
+10034600001401090000,03,46,140109,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Fine Silt
+10034600001401100000,03,46,140110,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Medium Silt
+10034600001401110000,03,46,140111,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Coarse Silt
+10034600001401120000,03,46,140112,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Boulders
+10034600001401130000,03,46,140113,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Cobbles-Oyster Shells
+10034600001401140000,03,46,140114,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Pebbles-Shells
+10034600001401150000,03,46,140115,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediments - Sand and Shells
+10034600001401160000,03,46,140116,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediment - Land
+10034600001401170000,03,46,140117,Area,Geophysics/Acoustics : MIW : MIW Bottom Sediment - No Data
+10034600001401180000,03,46,140118,Area,Geophysics/Acoustics : MIW : Bottom Roughness - Smooth
+10034600001401190000,03,46,140119,Area,Geophysics/Acoustics : MIW : Bottom Roughness - Moderate
+10034600001401200000,03,46,140120,Area,Geophysics/Acoustics : MIW : Bottom Roughness - Rough
+10034600001401210000,03,46,140121,Area,Geophysics/Acoustics : MIW : Clutter (Bottom) - Low
+10034600001401220000,03,46,140122,Area,Geophysics/Acoustics : MIW : Clutter (Bottom) - Medium
+10034600001401230000,03,46,140123,Area,Geophysics/Acoustics : MIW : Clutter (Bottom) - High
+10034600001401240000,03,46,140124,Area,Geophysics/Acoustics : MIW : Impact Burial - 0%
+10034600001401250000,03,46,140125,Area,Geophysics/Acoustics : MIW : Impact Burial - 0-10%
+10034600001401260000,03,46,140126,Area,Geophysics/Acoustics : MIW : Impact Burial - 10-20%
+10034600001401270000,03,46,140127,Area,Geophysics/Acoustics : MIW : Impact Burial - 20-75%
+10034600001401280000,03,46,140128,Area,Geophysics/Acoustics : MIW : Impact Burial - >75%
+10034600001401290000,03,46,140129,Area,Geophysics/Acoustics : MIW : MIW Bottom Category A
+10034600001401300000,03,46,140130,Area,Geophysics/Acoustics : MIW : MIW Bottom Category B
+10034600001401310000,03,46,140131,Area,Geophysics/Acoustics : MIW : MIW Bottom Category C
+10034600001401320000,03,46,140132,Area,Geophysics/Acoustics : MIW : MIW Bottom Type A1
+10034600001401330000,03,46,140133,Area,Geophysics/Acoustics : MIW : MIW Bottom Type A2
+10034600001401340000,03,46,140134,Area,Geophysics/Acoustics : MIW : MIW Bottom Type A3
+10034600001401350000,03,46,140135,Area,Geophysics/Acoustics : MIW : MIW Bottom Type B1
+10034600001401360000,03,46,140136,Area,Geophysics/Acoustics : MIW : MIW Bottom Type B2
+10034600001401370000,03,46,140137,Area,Geophysics/Acoustics : MIW : MIW Bottom Type B3
+10034600001401380000,03,46,140138,Area,Geophysics/Acoustics : MIW : MIW Bottom Type C1
+10034600001401390000,03,46,140139,Area,Geophysics/Acoustics : MIW : MIW Bottom Type C2
+10034600001401400000,03,46,140140,Area,Geophysics/Acoustics : MIW : MIW Bottom Type C3
+10034600001501000000,03,46,150100,Line,Limits : Maritime Limit Boundary
+10034600001502000000,03,46,150200,Area,Limits : Maritime Area
+10034600001503000000,03,46,150300,Line,Limits : Restricted Area
+10034600001504000000,03,46,150400,Area,Limits : Swept Area
+10034600001505000000,03,46,150500,Area,Limits : Training Area
+10034600001506000000,03,46,150600,Area,Limits : Operator-Defined
+10034600001601000000,03,46,160100,Line,Man-Made Structures : Submarine Cable
+10034600001602000000,03,46,160200,Area,Man-Made Structures : Submerged Crib
+10034600001603000000,03,46,160300,Line,Man-Made Structures : Canal
+10034600001604000000,03,46,160400,Point,Man-Made Structures : Ford
+10034600001605000000,03,46,160500,Point,Man-Made Structures : Lock
+10034600001606000000,03,46,160600,Point,Man-Made Structures : Oil/Gas Rig
+10034600001607000000,03,46,160700,Area,Man-Made Structures : Oil/Gas Rig Field
+10034600001608000000,03,46,160800,Line,Man-Made Structures : Pipelines/Pipe
+10034600001609000000,03,46,160900,Point,Man-Made Structures : Pile/Piling/Post
+10034700000000000000,03,47,000000,NotValid,Unspecified
+10035000000000000000,03,50,000000,NotValid,Unspecified
+10035000001101000000,03,50,110100,Point,Signal Intercept (Space) : Communications
+10035000001102000000,03,50,110200,Point,Signal Intercept (Space) : Jammer
+10035000001103000000,03,50,110300,Point,Signal Intercept (Space) : Radar
+10035100000000000000,03,51,000000,NotValid,Unspecified
+10035100001101000000,03,51,110100,Point,Signal Intercept (Air) : Communications
+10035100001102000000,03,51,110200,Point,Signal Intercept (Air) : Jammer
+10035100001103000000,03,51,110300,Point,Signal Intercept (Air) : Radar
+10035200000000000000,03,52,000000,NotValid,Unspecified
+10035200001101000000,03,52,110100,Point,Signal Intercept (Land) : Communications
+10035200001102000000,03,52,110200,Point,Signal Intercept (Land) : Jammer
+10035200001103000000,03,52,110300,Point,Signal Intercept (Land) : Radar
+10035300000000000000,03,53,000000,NotValid,Unspecified
+10035300001101000000,03,53,110100,Point,Signal Intercept (Sea Surface) : Communications
+10035300001102000000,03,53,110200,Point,Signal Intercept (Sea Surface) : Jammer
+10035300001103000000,03,53,110300,Point,Signal Intercept (Sea Surface) : Radar
+10035400000000000000,03,54,000000,NotValid,Unspecified
+10035400001101000000,03,54,110100,Point,Signal Intercept (Sea Subsurface) : Communications
+10035400001102000000,03,54,110200,Point,Signal Intercept (Sea Subsurface) : Jammer
+10035400001103000000,03,54,110300,Point,Signal Intercept (Sea Subsurface) : Radar
+10036000000000000000,03,60,000000,NotValid,Unspecified
+10036000001101000000,03,60,110100,Point,Botnet : Command and Control (C2)
+10036000001102000000,03,60,110200,Point,Botnet : Herder
+10036000001103000000,03,60,110300,Point,Botnet : Callback Domain
+10036000001104000000,03,60,110400,Point,Botnet : Zombie
+10036000001201000000,03,60,120100,Point,Infection : APT
+10036000001201010000,03,60,120101,Point,Infection : APT : APT with C2
+10036000001201020000,03,60,120102,Point,Infection : APT : APT with Self Propagation
+10036000001201030000,03,60,120103,Point,Infection : APT : APT with C2 and Self Propagation
+10036000001201040000,03,60,120104,Point,Infection : APT : Other
+10036000001202000000,03,60,120200,Point,Infection : NAPT
+10036000001202010000,03,60,120201,Point,Infection : NAPT : NAPT with C2
+10036000001202020000,03,60,120202,Point,Infection : NAPT : NAPT with Self Propagation
+10036000001202030000,03,60,120203,Point,Infection : NAPT : NAPT with C2 and Self Propagation
+10036000001202040000,03,60,120204,Point,Infection : NAPT : Other
+10036000001301000000,03,60,130100,Point,Health and Status : Normal
+10036000001302000000,03,60,130200,Point,Health and Status : Network Outage
+10036000001303000000,03,60,130300,Point,Health and Status : Unknown
+10036000001304000000,03,60,130400,Point,Health and Status : Impaired
+10036000001401000000,03,60,140100,Point,Device Type : Core Router
+10036000001402000000,03,60,140200,Point,Device Type : Router
+10036000001403000000,03,60,140300,Point,Device Type : Cross Domain Solution
+10036000001404000000,03,60,140400,Point,Device Type : Mail Server
+10036000001405000000,03,60,140500,Point,Device Type : Web Server
+10036000001406000000,03,60,140600,Point,Device Type : Domain Server
+10036000001407000000,03,60,140700,Point,Device Type : File Server
+10036000001408000000,03,60,140800,Point,Device Type : Peer-to-Peer Node
+10036000001409000000,03,60,140900,Point,Device Type : Firewall
+10036000001410000000,03,60,141000,Point,Device Type : Switch
+10036000001411000000,03,60,141100,Point,Device Type : Host
+10036000001412000000,03,60,141200,Point,Device Type : Virtual Private Network (VPN)
+10036000001501000000,03,60,150100,Point,Device Domain : Department of Defense (DoD)
+10036000001502000000,03,60,150200,Point,Device Domain : Government
+10036000001503000000,03,60,150300,Point,Device Domain : Contractor
+10036000001504000000,03,60,150400,Point,Device Domain : Supervisory Control and Data Acquisition (SCADA)
+10036000001505000000,03,60,150500,Point,Device Domain : Non-Government
+10036000001601000000,03,60,160100,Point,Effect : Infection
+10036000001602000000,03,60,160200,Point,Effect : Degradation
+10036000001603000000,03,60,160300,Point,Effect : Data Spoofing
+10036000001604000000,03,60,160400,Point,Effect : Data Manipulation
+10036000001605000000,03,60,160500,Point,Effect : Exfiltration
+10036000001606000000,03,60,160600,Point,Effect : Power Outage
+10036000001607000000,03,60,160700,Point,Effect : Network Outage
+10036000001608000000,03,60,160800,Point,Effect : Service Outage
+10036000001609000000,03,60,160900,Point,Effect : Device Outage
