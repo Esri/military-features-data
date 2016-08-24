@@ -55,3 +55,4 @@
     * Click OK, which will start the batch conversion process.
 * Check for any unwanted converted .emf files in your output folder before moving on to `style-file-utilities`. 
 * At this point, you will have to either re-map the svg files to their original directories, or edit the `Military-All-Icons.csv` to collapse the `filePath` column so that the paths reflect the singular output .emf folder. 
+    * For example, you could replace "Appendices\Activities" with "" and do the same for the other appendices. For the Legacy folder, however, this may not work as well due to repeat entries in the .csv. As a result, it would be best to run this process separately for the legacy subdirectories. 
