@@ -1,0 +1,120 @@
+/version 3
+/name [ 20
+	4261746368436f6e76657274535647746f454d46
+]
+/isOpen 0
+/actionCount 2
+/action-1 {
+	/name [ 4
+		4f70656e
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 1
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_openDocument)
+		/localizedName [ 4
+			4f70656e
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (ustring)
+			/value [ 109
+				433a5c55736572735c64616e69383230305c446f63756d656e74735c47697448
+				75625c6a6f696e742d6d696c69746172792d73796d626f6c6f67792d786d6c5c
+				7376675c4d494c5f5354445f32353235445f53796d626f6c735c426f756e6469
+				6e674f637461676f6e2e737667
+			]
+		}
+		/parameter-2 {
+			/key 1668246642
+			/showInPalette -1
+			/type (integer)
+			/value 1
+		}
+	}
+}
+/action-2 {
+	/name [ 11
+		4578706f72746173454d46
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 1
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_exportDocument)
+		/localizedName [ 6
+			4578706f7274
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 7
+		/parameter-1 {
+			/key 1885434477
+			/showInPalette 0
+			/type (raw)
+			/value < 4
+				00000000
+			>
+			/size 4
+		}
+		/parameter-2 {
+			/key 1851878757
+			/showInPalette -1
+			/type (ustring)
+			/value [ 71
+				433a5c55736572735c64616e69383230305c446f63756d656e74735c47697448
+				75625c6a6f696e742d6d696c69746172792d73796d626f6c6f67792d786d6c5c
+				454d4674657374
+			]
+		}
+		/parameter-3 {
+			/key 1718775156
+			/showInPalette -1
+			/type (ustring)
+			/value [ 17
+				456e68616e636564204d65746166696c65
+			]
+		}
+		/parameter-4 {
+			/key 1702392942
+			/showInPalette -1
+			/type (ustring)
+			/value [ 3
+				656d66
+			]
+		}
+		/parameter-5 {
+			/key 1936548194
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-6 {
+			/key 1935764588
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-7 {
+			/key 1936875886
+			/showInPalette -1
+			/type (ustring)
+			/value [ 1
+				31
+			]
+		}
+	}
+}
