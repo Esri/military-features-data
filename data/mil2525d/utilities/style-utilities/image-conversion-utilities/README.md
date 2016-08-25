@@ -48,7 +48,7 @@
 * Open Adobe Illustrator, navigate to the Window pane, and open up Actions.
 * Choose Load Actions from the Actions Panel menu. Navigate to the ExportasEMF action set, and click Open. 
 * Under the `ExportasEMF` action, double click on the destination file path and edit it to ensure that your files will be converted to .emf in the desired location.
-* Click on the `ExportasEMF` action within the action set. Ignore the `Open` action. Then, navigate to the Actions Panel menu on the top right of the pane and choose Batch. This will open up the Batch pane.
+* Click on the `ExportasEMF` action within the action set. Then, navigate to the Actions Panel menu on the top right of the pane and choose Batch. This will open up the Batch pane.
     * Set the source folder to where your .svg files are located.
     * Make sure that the `Include All Subdirectories` check box is checked if your .svg files are stored in subdirectories.
     * Set the destination to `Save and Close.` Optionally, you can specify the output folder by choosing `Override Action 'Export' Commands.` If you choose not to do this, the output will navigate to the destination file path you set under the `ExportasEMF` action.
