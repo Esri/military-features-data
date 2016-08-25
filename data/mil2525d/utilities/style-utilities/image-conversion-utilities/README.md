@@ -48,10 +48,10 @@
 * Open Adobe Illustrator, navigate to the Window pane, and open up Actions.
 * Choose Load Actions from the Actions Panel menu. Navigate to the ExportasEMF action set, and click Open. 
 * Under the `ExportasEMF` action, double click on the destination file path and edit it to ensure that your files will be converted to .emf in the desired location.
-* Click on the `ExportasEMF action` within the action set. Then, navigate to the Actions Panel menu on the top right of the pane and choose Batch. This will open up the Batch pane.
+* Click on the `ExportasEMF` action within the action set. Ignore the `Open` action. Then, navigate to the Actions Panel menu on the top right of the pane and choose Batch. This will open up the Batch pane.
     * Set the source folder to where your .svg files are located.
     * Make sure that the `Include All Subdirectories` check box is checked if your .svg files are stored in subdirectories.
-    * Set the destination to `Save and Close.` You can specify the output folder by choosing `Override Action 'Export' Commands.`
+    * Set the destination to `Save and Close.` Optionally, you can specify the output folder by choosing `Override Action 'Export' Commands.` If you choose not to do this, the output will navigate to the destination file path you set under the `ExportasEMF` action.
     * Click OK, which will start the batch conversion process.
 * Check for any unwanted converted .emf files in your output folder before moving on to `style-file-utilities`. 
 * At this point, you will have to either re-map the svg files to their original directories, or edit the `Military-All-Icons.csv` to collapse the `filePath` column so that the paths reflect the singular output .emf folder. 
