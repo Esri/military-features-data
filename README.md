@@ -1,20 +1,19 @@
 # military-features-data
 
-The ArcGIS Defense and Intelligence Military Features Data repository is a set of data and test applications for use in ArcGIS Desktop and ArcGIS Runtime. This data is used to create features for planning, operations and intelligence domains based on military symbology specifications such as MIL-STD-2525C and APP-6(B).
+The ArcGIS Defense and Intelligence Military Features Data repository is a set of data and test applications for use in ArcGIS Desktop and ArcGIS Runtime. This data is used to create features for planning, operations and intelligence domains based on military symbology specifications such as MIL-STD-2525.
 
 ![Image of Military Features Data](ScreenShot.png)
 
 ## Features
 
 * This is the source data for the ArcGIS Defense and Intelligence military feature templates. This data is used to create features and derived data products using military symbology. 
-* Provides data files that let you create command and control (C2) operational features based on military symbology specifications MIL-STD-2525C/D and APP-6(B) in ArcGIS Desktop
+* Provides data files that let you create command and control (C2) operational features based on military symbology specifications MIL-STD-2525C/D in ArcGIS Desktop
 * Provides project/layer packages that include the database schema and sample data for military features
 * Provides symbology style files for displaying and creating military symbology in ArcGIS Desktop
 * Provides additional derived data products for use in ArcGIS Runtime
 * See each version of the standard for more information:
     * [US MIL-STD-2525D "Delta" - mil2525d](./data/mil2525d)
     * [US MIL-STD-2525C "Charlie" - mil2525c](./data/mil2525c)
-    * [NATO APP-6(B) - app6b](./data/app6b)
     * Important Note: MIL-STD-2525D is the current and actively maintained version. Other older standard versions are provided for legacy purposes.
 
 ## Sections
@@ -43,39 +42,25 @@ The ArcGIS Defense and Intelligence Military Features Data repository is a set o
 
 ### Using the Source Data
 
-* Download the repository
+* Clone/download the repository
 * Determine the version of the military symbology standard you are using:
     * [US MIL-STD-2525D "Delta" - mil2525d](./data/mil2525d)
     * [US MIL-STD-2525C "Charlie" - mil2525c](./data/mil2525c)
-    * [NATO APP-6(B) - app6b](./data/app6b)
-* If using the source data with ArcGIS Runtime or ArcGIS Professional...
+* If using the source data with ArcGIS Runtime Quartz or ArcGIS Pro...
     * If you are using MIL-STD-2525D "Delta" with ArcGIS Pro there is no additional configuration required - this is included with the product
         * You may simply start using one of the included packages, templates, or other test data at
             * [data/mil2525d/overlay_templates](./data/mil2525d/overlay_templates)
             * [data/mil2525d/test_data](./data/mil2525d/test_data)
-    * If you are using an older version of the military standard, you will likely need to update/configure the local ArcGIS files with the versions from this repository.
-    * Navigate to the appropriate folder (based on the standard/version desired) in this repository:
-    * If you would like to use a Dictionary Renderer, navigate to
-        * [data\mil2525c\stylxfiles](./data/mil2525c/dictionaryrenderer)
-        * [data\app6b\stylxfiles](./data/app6b/dictionaryrenderer)
-    * If you would like to use just the .stylx file, navigate to
-        * [data\mil2525c\stylxfiles](./data/mil2525c/stylxfiles)
-        * [data\app6b\stylxfiles](./data/app6b/stylxfiles)
-    * Update/copy the files from each folder into your local resource folder. E.g.
-        * ArcGIS Professional: `Pro\Resources\Dictionaries\{standard}`
-        * ArcGIS Runtime: `arcgisruntimeX.X.X\resources`
-        * Overwrite if necessary (but you may want to create a backup of these files before this step)
 * If using the source data with ArcGIS Desktop(ArcMap)...
     * Update the local ArcGIS Military Style Files to the latest versions from the repository.
         * Navigate to the folders
             *  [military-features-data\data\mil2525d\stylefiles](./data/mil2525d/stylefiles)
             *  [military-features-data\data\mil2525c\stylefiles](./data/mil2525c/stylefiles)
-            *  [military-features-data\data\app6b\stylefiles](./data/app6b/stylefiles)
         * Update/copy all of the .style files from each folder into your ArcGIS Desktop Style folder (overwrite if necessary - it is highly recommended that you create a backup of these files before this step)
         * For example, copy the style files from above location into this Desktop Folder: `{ArcGIS Install Location}\ArcGIS\Desktop10.X\Styles`
     * Create symbology using the ArcGIS Style Manager or open the provided layer packages to create military features
 
-### Running the ArcGIS Runtime Test Applications
+### Test Applications
 
 * There are several sample/test applications provided for the standalone test/verification/validation of this data.
 * For more information, see the instructions in the [test](./test) folder.
@@ -121,5 +106,5 @@ limitations under the License.
 A copy of the license is available in the repository's
 [license.txt](license.txt) file.
 
-[](Esri Tags: ArcGIS Defense Intelligence Military Features 2525 APP6 2525C 2525D APP6B ArcGISSolutions)
+[](Esri Tags: ArcGIS Defense Intelligence Military Features 2525 2525C 2525D ArcGISSolutions)
 [](Esri Language: Java)
