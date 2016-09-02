@@ -39,3 +39,20 @@
     *  Check the output for errors
 *  Check the destination folder for the converted image files
     * IMPORTANT NOTE: MS Paint (which is the default file association) does not support the latest version of EMF so you will need to use an alternative program to view the resulting EMF files (ex. MS Word)
+
+## Alternative Workflow using Adobe Illustrator Actions
+
+* If you have access to Adobe Illustrator (We are using CS6), you can use Actions in Batch Mode to convert your files from .svg to .emf.
+* IMPORTANT: This process will export .emfs to one singular folder, not the origin .svg file directory.
+* To start, download the `BatchConvertSVGtoEMF.aia` action set file contained in this repository.
+* Open Adobe Illustrator, navigate to the Window pane, and open up Actions.
+* Choose Load Actions from the Actions Panel menu. Navigate to the ExportasEMF action set, and click Open. 
+* Under the `ExportasEMF` action, double click on the destination file path and edit it to ensure that your files will be converted to .emf in the desired location.
+* Click on the `ExportasEMF` action within the action set. Then, navigate to the Actions Panel menu on the top right of the pane and choose Batch. This will open up the Batch pane.
+    * Set the source folder to where your .svg files are located.
+    * Make sure that the `Include All Subdirectories` check box is checked if your .svg files are stored in subdirectories.
+    * Set the destination to `Save and Close.` Optionally, you can specify the output folder by choosing `Override Action 'Export' Commands.` If you choose not to do this, the output will navigate to the destination file path you set under the `ExportasEMF` action.
+    * Click OK, which will start the batch conversion process.
+* Check for any unwanted converted .emf files in your output folder before moving on to `style-file-utilities`. 
+* At this point, you will have to either re-map the svg files to their original directories, or edit the `Military-All-Icons.csv` to collapse the `filePath` column so that the paths reflect the singular output .emf folder. 
+    * For example, you could replace "Appendices\Activities" with "" and do the same for the other appendices. For the Legacy folder, however, this may not work as well due to repeat entries in the .csv. As a result, it would be best to run this process separately for the legacy subdirectories. 
