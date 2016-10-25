@@ -1,31 +1,29 @@
+#### Summary of Issue Encountered:
 
-
-###### Summary of Issue Encountered:
-
-
-- [ ] Add a descriptive Title and brief/summary comment
-
-
-- [ ] Describe the product and version where issue was encountered
-
-
-- [ ] Include the military symbology standard and version/change set (ex. -2525D)
+##### Brief summary of issue encountered:
 
 
 
-###### Reproduction Steps and where to obtain test data:
-
-- [ ] Step-by-step description of how to reproduce the issue and the expected results
-
-
-- [ ] Link to any test data required to reproduce the issue (ex. ArcGIS Pro project posted to ArcGISOnline or other file sharing link)
-
-
-- [ ] Screenshot(s) of issue (obtained result vs. expected result)  
+##### Describe the product and version used:
 
 
 
-###### Additional information:
+##### Include the military symbology standard and version/change set (ex. -2525D):
 
-- [ ] Anything else that might be helpful in understanding the issue
+
+
+#### Reproduction Steps and/or Where to Obtain Test Data:
+
+##### Step-by-step description of how to reproduce the issue and the expected results:
+
+1. 
+2. 
+
+
+##### Screenshot(s) of issue (ex: obtained result vs. expected result):
+
+
+
+##### Additional information or sample data:
+
 
