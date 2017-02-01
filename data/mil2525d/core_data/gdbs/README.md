@@ -73,3 +73,13 @@ To view the Label Rules and associations, view the symbol dictionary table "Labe
 | guardedunit | AQ | Guarded Unit | |
 | specialdesignator | AR | Special Designator | |
 | country | AS | Country Code | |
+
+## Other/Special Cases
+
+| Attribute Name | 2525 D Field ID | Field Title | Notes |
+| ------------- | --- | ----------------- | ----- |
+| radius | AM | Distance | For special polygon symbols defined by attributes |
+| length | AM1 | Length | For special polygon symbols defined by attributes |
+| width | AM | Width | For special polygon symbols defined by attributes |
+| orientation | AN | Azimuth/Attitude | For special polygon symbols defined by attributes |
+
