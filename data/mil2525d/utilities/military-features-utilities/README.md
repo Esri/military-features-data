@@ -56,6 +56,7 @@ A Versions table is added to the newly created geodatabase.  The contents of tha
     * Compare what is created with an existing military features [geodatabase](../../core_data/gdbs).
 * IMPORTANT: Complete a few additional manual steps (these have not yet been fully automated)
     * Export the metadata from an existing Military Features GDB and import it into this one (using Import/Export Metadata GP tools)
+		* If desired, you may also import the previously exported version at `core_data\gdb\schema_source_data\metadata` and skip the export step
 	* Enable Editor Tracking for desired layers/fields (ex. "Created By" "Creation Time") using the Enable Editor Tracking GP Tool
 	* A Toolbox, `Military Overlay Supplemental Tools_10.3.tbx`, has been included in this folder to assist with these steps. 
         * NOTE/IMPORTANT: this toolbox and these tools only run on ArcGIS Desktop 10 (import/export metadata tools)
