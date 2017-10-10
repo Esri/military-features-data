@@ -18,7 +18,7 @@
         * A Pro/Runtime stylx file with all of the 2525D Point Icons called `mil2525d-points-only.stylx`
         * This would have been created [by following the steps/readme here](../../utilities)
         * If you don't already have this file, you can create one by (1) importing the 10.X **.style** file with these point icons into ArcGIS Pro and (2) renaming the resulting file to `mil2525d-points-only.stylx` - steps:
-            * Import the file ["Military 2525Delta All.style"](../../../core_data/stylefiles/Military%202525Delta%20All.style) into Pro (Note: this is a 10.X **style** file until you import it into Pro, after which time a **.stylx** file will be created)
+            * Import the file ["mil2525d-points-only.style"](https://github.com/Esri/military-features-data/blob/dev/data/mil2525d/core_data/stylefiles/mil2525d-points-only.style) into Pro (Note: this is a 10.X **style** file until you import it into Pro, after which time a **.stylx** file will be created)
             * Rename `Military 2525Delta All.stylx` to `mil2525d-points-only.stylx`
     *  A version of the .stylx that is edited and maintained in ArcGIS Pro: [mil2525d-lines-areas-labels-base-template.stylx](../../../core_data/stylxfiles/mil2525d-lines-areas-labels-base-template.stylx)
         *  This version has Label Placement definitions, Point, Line, Polygon, and Text Symbols that are manually created and maintained in ArcGIS Pro

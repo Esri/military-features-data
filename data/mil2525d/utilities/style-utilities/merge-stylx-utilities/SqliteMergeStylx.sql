@@ -65,7 +65,7 @@ DROP TABLE NameJoin;
 /* IMPORTANT: Set the labels for the frames - this(the frame symbol) is how the labels will be 
               associated with a symbol                                                                */
 /* TODO: Currently every frame is getting set to the same label set, this will need refined/changed   */
-UPDATE mil2525d_points.ITEMS SET LabelRules = '30;31;32;33;34;35;36' where (CATEGORY == 'Frame');
+UPDATE mil2525d_points.ITEMS SET LabelRules = '21;27;29;30;31;32;33;34;35' where (CATEGORY == 'Frame');
 
 /********************************************************************/
 /* Fix these lowercase Key ones and poorly-named categories         */

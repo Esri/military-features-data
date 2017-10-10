@@ -53,8 +53,20 @@ def exportFields():
 	# Set the workspace for ListFeatureClasses
 	arcpy.env.workspace = gdb
 
+	# List feature classes from this dataset name
 	featureClasses = arcpy.ListFeatureClasses(feature_dataset='MilitaryOverlay')
 
+	# Check for alternate dataset names
+	if len(featureClasses) == 0:
+		featureClasses = arcpy.ListFeatureClasses(feature_dataset='militaryoverlay2525d')
+
+	if len(featureClasses) == 0:
+		featureClasses = arcpy.ListFeatureClasses(feature_dataset='militaryoverlay2525b2')
+
+	# If still no feature classes found, add error
+	if len(featureClasses) == 0:
+		arcpy.AddError("Failed to find Military Overlay dataset")
+	
 	for featureClass in featureClasses : 
 
 		csvFileName = 'Fields_' + str(featureClass) + '.csv'

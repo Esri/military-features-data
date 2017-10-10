@@ -4,5 +4,6 @@ pro_version,1.2.5023
 milstylx_version,1.2.0
 milstd_version,2525D-0
 jmsml_version,1.0.2
-legacy_standard_switch,current
-legacy_standard,mil2525c
+legacy_standard_switch,original
+legacy_standard,mil2525bc2
+fringe,-100;-100;100;100
