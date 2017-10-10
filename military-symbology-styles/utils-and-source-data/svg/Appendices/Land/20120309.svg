@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Version_1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<g id="octagon" display="none">
+	<g id="outFrame" display="inline">
+		<line fill="none" stroke="#0000FF" stroke-width="2" x1="220" y1="309.5" x2="306" y2="273"/>
+		<line fill="none" stroke="#0000FF" stroke-width="2" x1="306" y1="273" x2="390.5" y2="309.5"/>
+		<line fill="none" stroke="#0000FF" stroke-width="2" x1="390.5" y1="309.5" x2="427" y2="396"/>
+		<line fill="none" stroke="#0000FF" stroke-width="2" x1="427" y1="396" x2="390.5" y2="482.5"/>
+		<line fill="none" stroke="#0000FF" stroke-width="2" x1="390.5" y1="482.5" x2="306" y2="516"/>
+		<line fill="none" stroke="#0000FF" stroke-width="2" x1="306" y1="516" x2="220" y2="482.5"/>
+		<line fill="none" stroke="#0000FF" stroke-width="2" x1="220" y1="482.5" x2="183" y2="396"/>
+		<line fill="none" stroke="#0000FF" stroke-width="2" x1="183" y1="396" x2="220" y2="309.5"/>
+	</g>
+	
+		<line id="mod2_1_" display="inline" fill="none" stroke="#0000FF" stroke-width="2" x1="203.966" y1="445.015" x2="406.199" y2="445.295"/>
+	
+		<line id="mod1_1_" display="inline" fill="none" stroke="#0000FF" stroke-width="2" x1="203.966" y1="346.985" x2="406.199" y2="346.705"/>
+</g>
+<g id="main">
+	<g transform="scale(1.2) translate(47.5 30)">
+		<path fill="#FFFFFF" stroke="#000000" stroke-width="3" d="M164.624,311.551c-3.399,0.851-25.261-2.08-26.508,0
+			c-2.935,4.892,16.201,9.47,15.684,15.149c-0.517,5.684-27.992,2.906-28.462,5.962c-0.799,5.191,25.847,4.111,27.897,13.411
+			c2.492,11.305,26.379-0.03,28.598,0.636c9.194,2.76,8.526,12.399,18.673,15.168c10.848,2.959,22.78-9.124,35.387-8.103
+			c2.677,0.218,24.106,5.394,25.63,0.751C272.803,344.75,241.841,336.92,238,331.6c-3.938-5.452,22.993,0.71,23.806-0.419
+			c0.295-0.409-4.103-5.211-12.818-7.014"/>
+		<path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M164.5,312.2l-6.9,0.9l-13-0.6
+			h-6.1c-1,0-1.6,0.2-2.2,0.6c0.9,3.3,17.5,9,17.5,13.6c0,4.8-27.5,2.2-27.5,6.7v0.6c0,5.1,11.7,4.8,16.6,5.7
+			c3.5,0.601,5.9,1,8.3,2.8c2.7,2.1,1.7,6.8,4.6,6.8c5.9,0,11.3-3.6,17.5-3.6h2.7c14.1,0,16.4,15.2,25.6,16.4
+			c11.9,1.501,20.7-9.999,31.7-9.999c3.8,0,9.7,3.9,15.1,4.7c4.7,0.5,14.6-0.4,14.6-4.9c0-7.4-25-13.6-25-20.3v-0.2
+			c0-1.8,1.8-2.799,3.6-2.799h0.6c2.9,0,8.201,0.7,9.701-1.401c-0.7-0.9-5.2-3.599-6.7-3.599l-42.2,0.1l-14.8-0.2l-17.2,0.4
+			c-2.1-1.5-5.532-8.651-5.532-8.651L164.5,312.2z"/>
+		<polyline fill="#FFFFFF" stroke="#000000" stroke-width="3" points="276.833,324.167 171.833,324.167 171.833,246.167 
+			276.833,246.167 		"/>
+		<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="3" cx="171.833" cy="285.167" rx="10" ry="39"/>
+		<path fill="#FFFFFF" stroke="#000000" stroke-width="3" d="M276.833,246.167c5.523,0,10,17.794,10,39.333
+			c0,21.539-4.477,38.666-10,38.666"/>
+	</g>
+	<g transform="scale(85) translate(0.72 0.73) translate(-0.66 -0.54) translate(1.36471 0.658824)">
+		<path fill="#FFFFFF" d="M2.118,3.49v0.107h0.089V3.4C2.196,3.408,2.118,3.479,2.118,3.49z"/>
+		<polygon fill="#FFFFFF" points="2.318,3.292 2.315,3.597 2.422,3.597 2.421,3.189 		"/>
+		<path fill="#FFFFFF" d="M2.547,3.597h0.107V3.298c0-0.011-0.094-0.098-0.107-0.107V3.597z"/>
+		<path fill="#FFFFFF" d="M2.761,3.597H2.85V3.499c0-0.017-0.001-0.002,0.004-0.013L2.761,3.4V3.597z"/>
+		<polygon fill="#FFFFFF" points="2.483,4.076 2.967,3.61 2.002,3.61 		"/>
+		<path d="M2.002,3.61h0.965L2.483,4.076L2.002,3.61z M2.547,3.19C2.56,3.199,2.654,3.287,2.654,3.298v0.299H2.547V3.19z
+			 M2.421,3.189l0.001,0.407H2.315l0.003-0.305L2.421,3.189L2.421,3.189z M2.118,3.49c0-0.011,0.078-0.081,0.089-0.089v0.197H2.118
+			V3.49z M2.761,3.4l0.093,0.086C2.849,3.497,2.851,3.481,2.851,3.499v0.098h-0.09V3.4L2.761,3.4z M2.998,3.605l-0.513-0.5
+			L1.974,3.604l0.511,0.498L2.998,3.605z"/>
+	</g>
+</g>
+</svg>
