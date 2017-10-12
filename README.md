@@ -75,6 +75,19 @@ Each solution has the following ArcGIS requirements:
     * The stand-alone style files used by the Dictionary Renderer included with ArcGIS Pro, Runtime, and Server
     * Data included with the [Military Symbology Styles solution](http://solutions.arcgis.com/defense/help/military-symbology-styles/)
 
+#### Military Standard Support
+
+The following table lists the versions of the standard supported by each solution.
+
+|Product||Standard||
+|---|---|---|---|
+||2525D|2525C|2525Bc2|
+|Pro 1.4+/Server 10.5+|Military Overlay| Military Overlay `*` |Military Overlay|
+|Runtime 100.0+|Military Symbology Styles|Military Symbology Styles|Military Symbology Styles|
+|ArcGIS Desktop/Engine 10.3.1+||Military Features||MyMiscellanea
+
+`*` Note The 2525C Military Overlay is not released with the solution download but is available in this repo
+    
 ## Resources
 
 * [ArcGIS for Defense Solutions Website](http://solutions.arcgis.com/defense)
@@ -106,7 +119,8 @@ Esri welcomes contributions from anyone and everyone. Please see our [guidelines
 This repository reuses software from:
 
 1. [Joint Military Symbology XML](https://github.com/Esri/joint-military-symbology-xml/)
-    1. Governed by the [Apache License, Version 2.0](https://github.com/Esri/joint-military-symbology-xml/blob/master/license.txt)
+    1. SVG image files and derived data
+    2. Governed by the [Apache License, Version 2.0](https://github.com/Esri/joint-military-symbology-xml/blob/master/license.txt)
 
 ## Licensing
 
