@@ -1,6 +1,6 @@
 # military-features-data
 
-An ArcGIS for Defense repository for managing data and tools used in ArcGIS Military Symbology solutions. This data is used to create ArcGIS solutions that require Military Symbology matching detailed specifications such as MIL-STD-2525.
+An ArcGIS for Defense repository for managing data and tools used in ArcGIS Military Symbology solutions. These solutions are used in sketching, planning, monitoring, and publishing Military Symbology using the ArcGIS platform. This data is used to create ArcGIS solutions that require Military Symbology matching detailed specifications such as MIL-STD-2525.
 
 ![Image of Military Features Data](ScreenShot.png)
 
@@ -10,6 +10,7 @@ An ArcGIS for Defense repository for managing data and tools used in ArcGIS Mili
 * [Requirements](#requirements)
 * [Instructions](#instructions)
 * [Resources](#resources)
+    * [ArcGIS Military Symbology Solutions](#supported-solutions-using-this-data)
 * [Issues](#issues)
 * [New to Github?](#new-to-github)
 * [Contributing](#contributing)
@@ -49,8 +50,13 @@ Each solution has the following ArcGIS requirements:
 
 ## Instructions
 
-* Clone/download the repository
-* Determine the Military Symbology solution.
+**IMPORTANT NOTE:** If you just want to download the supported solution, please download the solution directly from the [ArcGIS Military Symbology Solutions site](#supported-solutions-using-this-data). This repo is primarily for editing, recreating, or logging issues with this data.
+
+* Clone/download the repository.
+* Determine the Military Symbology solution [(see below)](#arcgis-military-symbology-solutions).
+* Edit and/or use the solution in the desired product.
+-or-
+* Use the utilities provided in this repo to recreate derived data from source data.
 
 ### ArcGIS Military Symbology Solutions
 
@@ -93,15 +99,19 @@ The following table lists the versions of the standard supported by each solutio
 * [ArcGIS for Defense Solutions Website](http://solutions.arcgis.com/defense)
 * [ArcGIS for Defense Downloads](http://appsforms.esri.com/products/download/#ArcGIS_for_Defense)
 * Learn more about Esri's Solutions [Focused Maps and Apps for Your Organization](http://solutions.arcgis.com/)
-* Solutions used with this data
-    * [Military Features solution](http://solutions.arcgis.com/defense/help/military-features/)
-    * [Military Overlay solution](http://solutions.arcgis.com/defense/help/military-overlay/)
-    * [Military Symbology Styles solution](http://solutions.arcgis.com/defense/help/military-symbology-styles/)
 * The Official Military Standard Documents
     * [MIL-STD-2525D (June, 2014)](http://www.dtic.mil/doctrine/doctrine/other/ms_2525d.pdf)
     * [MIL-STD-2525C (November, 2008)](http://www.dtic.mil/doctrine/doctrine/other/ms_2525c.pdf)
     * MIL-STD-2525B Change 2 (March, 2007) 
 
+### Supported Solutions Using this Data
+
+Further documentation and supported downloads can be obtained from the solution page:
+
+    * [Military Features solution](http://solutions.arcgis.com/defense/help/military-features/)
+    * [Military Overlay solution](http://solutions.arcgis.com/defense/help/military-overlay/)
+    * [Military Symbology Styles solution](http://solutions.arcgis.com/defense/help/military-symbology-styles/)
+    
 ## Issues
 
 * Find a bug or want to request a new feature?  Please let us know by submitting an issue.
