@@ -108,9 +108,9 @@ The following table lists the versions of the standard supported by each solutio
 
 Further documentation and supported downloads can be obtained from the solution page:
 
-    * [Military Features solution](http://solutions.arcgis.com/defense/help/military-features/)
-    * [Military Overlay solution](http://solutions.arcgis.com/defense/help/military-overlay/)
-    * [Military Symbology Styles solution](http://solutions.arcgis.com/defense/help/military-symbology-styles/)
+* [Military Features solution](http://solutions.arcgis.com/defense/help/military-features/)
+* [Military Overlay solution](http://solutions.arcgis.com/defense/help/military-overlay/)
+* [Military Symbology Styles solution](http://solutions.arcgis.com/defense/help/military-symbology-styles/)
     
 ## Issues
 
