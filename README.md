@@ -78,7 +78,7 @@ Each solution has the following ArcGIS requirements:
 #### Military Symbology Styles
 
 * [Military Symbology Styles](./military-symbology-styles)
-    * The stand-alone style files used by the Dictionary Renderer included with ArcGIS Pro, Runtime, and Server
+    * The stand-alone style files used by the Dictionary Renderer included with ArcGIS Pro, Runtime, and Server to render Military Symbols
     * Data included with the [Military Symbology Styles solution](http://solutions.arcgis.com/defense/help/military-symbology-styles/)
 
 #### Military Standard Support

@@ -1,9 +1,9 @@
-# military-features-data / data / mil2525d / utilities / military-features-utilities
+# schema-creation-utilities
 ==========================
 
 ## Purpose
 
-* These utilities are used to create military feature classes, domains, and other feature and test data 
+* These utilities are used to create the Military Overlay schema: the military feature classes, feature class fields, and field domains that make up the schema
 * Individual utilities and steps:
 	* In template-gdb-toolbox: 
 	    * Create Military Feature Geodatabase Template - creates a new geodatabase from source CSV(.csv) files.  Executes the following two tools while doing so.
@@ -20,7 +20,8 @@
 
 ## Requirements
 
-* ArcGIS Professional 1.0+ (Toolbox requires ArcGIS Pro to open/use)
+* ArcGIS Desktop 10.3.1+
+* ArcGIS Pro 1.4+ (Toolbox requires ArcGIS Pro to open/use)
 
 ## Instructions
 
@@ -28,8 +29,8 @@
 
 These tools create feature classes, fields, and domains according to the specifications found in CSV files found in this repository:
 
-1. Feature classes and fields are created from the CSV files found the a schema folder (`military_feature_schemas`) found [here](../../core_data/gdbs) in this repository.
-2. Domains are created from a set of `Coded_Domain` CSV (.csv) files found in the domain folder (`name_domains_values`) found [here](../../core_data/gdbs) in this repository.
+1. Feature classes and fields are created from the CSV files found the a schema folder (`military_feature_schemas`) found [here](./schema-source-files) in this repository.
+2. Domains are created from a set of `Coded_Domain` CSV (.csv) files found in the domain folder (`name_domains_values`) found [here](./schema-source-files) in this repository.
 
 ### Create Military Feature Geodatabase Template
 
@@ -53,10 +54,10 @@ A Versions table is added to the newly created geodatabase.  The contents of tha
         * You should **not** have this geodatabase open elsewhere (for example, added to the current map), since you will be replacing it in that case, while performing this operation.
         * You must have full editing privileges (Update, Delete, etc.) to the folder and geodatabase you are creating/replacing in that folder.
     * When the tool runs successfully, open the geodatabase in design mode and verify that the expected feature dataset, feature classes, and domains have been created and that the feature classes have the fields expected.
-    * Compare what is created with an existing military features [geodatabase](../../core_data/gdbs).
+    * Compare what is created with an existing military features geodatabase ([ex.](../../mil2525d/geodatabase)).
 * IMPORTANT: Complete a few additional manual steps (these have not yet been fully automated)
     * Export the metadata from an existing Military Features GDB and import it into this one (using Import/Export Metadata GP tools)
-		* If desired, you may also import the previously exported version at `core_data\gdb\schema_source_data\metadata` and skip the export step
+		* If desired, you may also import the previously exported version at `schema-source-files\{standard}\metadata` and skip the export step
 	* Enable Editor Tracking for desired layers/fields (ex. "Created By" "Creation Time") using the Enable Editor Tracking GP Tool
 	* A Toolbox, `Military Overlay Supplemental Tools_10.3.tbx`, has been included in this folder to assist with these steps. 
         * NOTE/IMPORTANT: this toolbox and these tools only run on ArcGIS Desktop 10 (import/export metadata tools)
@@ -85,13 +86,13 @@ The *Create Military Features Geodatabase Template* tool executes the *Add Milit
         * You should **not** have this feature class open elsewhere (for example, added to the current map) while performing this operation.
         * You must have full editing privileges (Update, Delete, etc.) to the geodatabase and feature class you are modifying with this operation.
     * When the tool runs successfully, examine the specified feature class in design mode and verify that the expected fields have been created.
-    * Compare what is created with an en existing military features [geodatabase](../../core_data/gdbs).
+    * Compare what is created with an existing military features [geodatabase](../../mil2525d/geodatabase).
 
 ### Import or Update Military Feature Domains
 
 #### Overview
 
-This utility updates the Geodatabase(GDB) domains of a target military features template geodatabase, [like this one](../../core_data/gdbs) with the latest source data/values obtained from a folder containing coded domain files. It is also automatically run within the aforementioned `Create Military Feature Geodatabase Template` tool.
+This utility updates the Geodatabase(GDB) domains of a target military features template geodatabase, [like this one](../../mil2525d/geodatabase) with the latest source data/values obtained from a folder containing coded domain files. It is also automatically run within the aforementioned `Create Military Feature Geodatabase Template` tool.
 
 The source data for this utility is a set of CSV domain specification files from this repository. The domain name is obtained from the CSV file name (with the "Coded_Domain" part removed) and the domain codes and description are obtained from the file contents.
 
@@ -110,7 +111,7 @@ Generating Bc2 or C coded value domain CSV files:
 	* Select the Standard - Bc2 or C for which you want domain CSVs.
 	* Run the tool. 
 The output folder will be populated with updated CSV files for Bc2 or C.
-	*Copy the resulting CSV files to the appropriate Bc2 or C folder's domain folder (`name_domains_values`) found in ../../core_data/gdbs.
+	*Copy the resulting CSV files to the appropriate Bc2 or C folder's domain folder (`name_domains_values`) [found here](./schema-source-files).
 
 Importing the domain data:
 
@@ -124,7 +125,7 @@ Importing the domain data:
 
 * Run the *Import or Update Military Feature Domains* GP Tool
     * As the `Domains Folder` select the `name_domains_values` folder.
-    * As the `Target Geodatabase` select the desired Military Features template geodatabase (usually the one [obtained from here](../../core_data/gdbs)).
+    * As the `Target Geodatabase` select the desired Military Features template geodatabase (usually the one [obtained from here for example](../../mil2525d/geodatabase)).
         * IMPORTANT: The embedded *Table To Domain* operation requires an exclusive schema lock on the geodatabase - therefore:
         * You should **not** have this geodatabase open elsewhere (for example, added to the current map) while performing this operation.
         * You must have full editing privileges (Update, Delete, etc.) to any feature class using this domain (mainly an issue if using SDE).

@@ -1,6 +1,6 @@
 # military-overlay
 
-Military Overlay is a solution for creating and sharing military overlays. It is primarily a datamodel for creating, drawing, and sharing Military Symbols.
+Military Overlay is a solution for creating and sharing military overlays. It is primarily a datamodel for creating, drawing, and sharing Military Symbols. This datamodel is used by the Dictionary Renderer included with ArcGIS Pro, Runtime, and Server to render Military Symbols.
 
 ![Image of Military Overlay](ScreenShot.png)
 
@@ -9,7 +9,8 @@ Military Overlay is a solution for creating and sharing military overlays. It is
 * A solution using a complex attribute renderer (the Dictionary Renderer) included with ArcGIS Pro, Runtime, and Server
 * A datamodel for drawing and labeling symbols using the Dictionary Renderer
 * Data included with the [Military Overlay solution](http://solutions.arcgis.com/defense/help/military-overlay/)
-    
+* [Utilities for creating the Military Overlay datamodel and test data](./utils-source-and-test-data)
+  
 ## Requirements
 
 * ArcGIS Pro 1.4+ 

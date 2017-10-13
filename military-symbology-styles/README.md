@@ -1,6 +1,6 @@
 # military-overlay
 
-* Military Symbology Styles is a solution for creating style files used by the Dictionary Renderer.
+* Military Symbology Styles is a solution for creating style files used by the Dictionary Renderer to render Military Symbols.
 
 ## Features
 
