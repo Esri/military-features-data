@@ -1,4 +1,4 @@
-# military-features-data / data / mil2525d / utilities / style-utilities / image-conversion-utilities
+# image-conversion-utilities
 
 ## Purpose
 
@@ -27,7 +27,9 @@
     *  Open and edit the desired .bat file, find the "IMPORTANT/TODO" section at the top, and edit the paths:
     *  (1) Converter location: full path to .svg converter
     *  (2) Source .svg file Root Folder
+         * The local path to [this SVG folder](../../svg)
     *  (3) Desired Destination Folder
+         * The local path to [this EMF folder](../../emf)
     *  See [sample converter .bat file for more information](./ConvertTree-SVGtoEMF.bat)
 *  Run the desired .bat file
     *  `cd {local-path-to-bat}`

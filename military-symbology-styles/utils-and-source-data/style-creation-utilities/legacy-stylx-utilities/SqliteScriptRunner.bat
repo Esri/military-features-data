@@ -13,7 +13,7 @@ SET SQLITE_PATH_AND_EXE=C:{TODO SET PATH}sqlite3.exe
 :: EXAMPLE: SET SQLITE_PATH_AND_EXE=C:\Installs\Sqlite\sqlite3.exe
 
 :: (2) SQLITE DATABASE to run script against
-SET SQLITE_DATABASE=C:{TODO SET PATH}\mil2525d_to_legacy.stylx
+SET SQLITE_DATABASE=C:{TODO SET PATH}\mil2525c_b2.stylx
 
 :: (3) SQL Script to Run against database
 SET SQLITE_SCRIPT=C:{TODO SET PATH}\Sqlite-local.sql

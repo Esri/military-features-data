@@ -1,4 +1,4 @@
-# military-features-data / data / mil2525d / utilities / style-utilities / style-file-utilities
+# style-file-utilities
 
 ## Purpose
 
@@ -10,10 +10,9 @@
 * A set of .emf files to import into selected styles
     * See [../image-conversion-utilities](../image-conversion-utilities) for one method of creating .emf files
 * A set of Comma-Separated Value (.csv) files containing the specifications for the images to import 
-    * [joint-military-symbology-xml repo icon specification files](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/imagefile_name_category_tags) 
+    * Icon specification file - [Military-All-Icons.csv](../../style-source-files/mil2525d/imagefile_name_category_tags)
     * [Sample .csv specification file here](https://github.com/csmoore/csv2ArcGISStyle/blob/master/sample/myStyleSample.csv)
-* ArcGIS for Desktop 10.1 (or later) **Advanced License**
-    *  ArcGIS for Desktop **Advanced License** is required to create/change cartographic representation rules
+* ArcGIS for Desktop 10.1 (or later)
 * To build the .NET Solution from source in [csv2ArcGISStyle](https://github.com/csmoore/csv2ArcGISStyle) you will also need
     * Visual Studio 2010 or later
     * ArcObjects .NET Engine or Desktop Development Kit (10.1 or later)
@@ -40,7 +39,7 @@
     *  **IMPORTANT: there should be no spaces in any of these names/paths/parameters in this .bat**
 *  Update the .csv's containing the specifications for the images to import in the CsvSourceData folder
     *  The location of these files is at: `{Csv_2_ArcGISStyle_Home}`\CsvSourceData
-    *  You will need to update the files in this folder with the latest versions of the specification files from the [joint-military-symbology-xml repo here](https://github.com/Esri/joint-military-symbology-xml/tree/master/samples/imagefile_name_category_tags) 
+    *  You will need to update the files in this folder with the latest versions of the specification files from  [Military-All-Icons.csv](../../style-source-files/mil2525d/imagefile_name_category_tags)
         *  Obtain the files from the link above and overwrite them in the folder:  `{Csv_2_ArcGISStyle_Home}`\CsvSourceData
     * IMPORTANT: Next, you will need to edit these files to change (i.e. find&replace) the string `{Symbols_Root}` in each specification file/.csv to your local location/full path noted in `{Emf_Images_Home}`
         * Open each file in a text editor (Notepad or Notepad+), find/replace: `{Symbols_Root}` with the full path of `{Emf_Images_Home}`, and save each file.
