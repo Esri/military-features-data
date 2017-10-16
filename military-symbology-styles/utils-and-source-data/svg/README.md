@@ -1,6 +1,6 @@
 ## SVG Files
 
-This folder contains a zip file with all of the SVG files supplied by DISA, for use in implementing MIL-STD-2525.
+This folder contains SVG files supplied by DISA, for use in implementing MIL-STD-2525. This folder is derived from the [Joint Military Symbology XML repository](https://github.com/Esri/joint-military-symbology-xml/) and governed by the [Apache License, Version 2.0](https://github.com/Esri/joint-military-symbology-xml/blob/master/license.txt).
 
 ## Sections
 
