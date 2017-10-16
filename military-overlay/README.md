@@ -24,7 +24,7 @@ Includes:
 
 * Layer packages - defining layers and data for drawing and labeling symbols
 * Geodatabases - geodatabases with datamodel for drawing and labeling symbols
-* For each version of the standard
+* Schema information for each version of the standard
     * [mil2525d](./mil2525d)
     * [mil2525c](./mil2525c)
     * [mil2525b2](./mil2525b2)
