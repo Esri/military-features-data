@@ -1,4 +1,4 @@
-# military-overlay
+# military-symbol-styles
 
 * Military Symbology Styles is a solution for creating style files used by the Dictionary Renderer to render Military Symbols.
 
@@ -32,7 +32,7 @@ Includes:
 
 ## Additional Information
 
-### Manually Editing Styles
+### Manually Editing Styles in Pro
 
 This is done with the file: [mil2525d-lines-areas-labels-base-template.stylx](./utils-and-source-data/style-source-files/mil2525d-lines-areas-labels-base-template.stylx)
 
@@ -70,7 +70,7 @@ The following version data is captured in the stylx "meta" table.
 
 You may view the style file with any SQLite viewer. *Note: some viewers have difficulties showing multi-line text data such as the label drawing rules so you should pick a viewer that supports this if you need to view the label rules.*
 
-### Manually Editing the Style Files
+### Manually Editing Style Files in SQL
 
 While in general we strongly discourage editing the style file, we recognize that special needs and requirements may arise. Please be advised that these edits aren't supported and that use or modification of this data remains governed by the Apache V2 license. 
 
@@ -83,6 +83,6 @@ The control measure line/area symbols that have unique point ordering and/or tra
 
 If you view the table "LnAExceptions" ([see above](#viewing-the-symbol-dictionary-file)) you will see 2 particular columns of interest "Significant8Chars" and "GCT." "Significant8Chars" defines the middle (characters 3-10) part of the symbol ID that is significant for control measure lines/areas. These are the defined exception rules/enumerations in the "GCT" column: `GCT_INDETERMINATE, GCT_ARROW, GCT_ARROWWITHOFFSET, GCT_ARROWWITHTAIL, GCT_CIRCLE, GCT_CIRCULAR, GCT_FREEHANDARROW, GCT_FREEHANDLINE, GCT_FREEHANDREVERSEARROW, GCT_FREEHANDU, GCT_HOOK, GCT_HORNS, GCT_OPENTRIANGLE, GCT_PARALLELLINES, GCT_PARALLELLINESMIDLINE, GCT_PARALLELLINESWITHTICKS, GCT_RECTANGULAR, GCT_RECTANGULAR1PT, GCT_T, GCT_TRIPLEARROW, GCT_TWOLINE, GCT_TWOLINE3OR4PT, GCT_UORTSHAPE`  There are 3 additional enumerations: `GCT_POINT, GCT_POLYLINE, GCT_POLYGON` that indicate no transformation is required. For more infomation on these rules consult the particular symbol in the standard. There is also a [python class here](https://github.com/Esri/military-feature-toolbox/blob/master/toolboxes/scripts/GeometryConverter.py) that implements these transformations if you prefer to see them in code. 
 
-To modify this table (after you re-consult the [warning here](#editing-the-style-files)), in a SQLite viewer/editor of your choice, edit either the "Significant8Chars" column to change the symbol ID, the "GCT" column to change the transformation rule (for instance to "GCT_POLYLINE" to disable a special transformation), or remove the row(s) altogether (ex: `delete from LnAExceptions where 1` = delete all rows, but doesn't remove the table). 
+To modify this table (after you re-consult the [warning here](#manually-editing-style-files-in-sql)), in a SQLite viewer/editor of your choice, edit either the "Significant8Chars" column to change the symbol ID, the "GCT" column to change the transformation rule (for instance to "GCT_POLYLINE" to disable a special transformation), or remove the row(s) altogether (ex: `delete from LnAExceptions where 1` = delete all rows, but doesn't remove the table). 
 
 
