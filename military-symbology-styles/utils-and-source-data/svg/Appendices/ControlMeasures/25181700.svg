@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Version_1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<g id="main">
+	<line fill="none" stroke="#000000" stroke-width="10" x1="205.5" y1="227" x2="205.5" y2="577"/>
+	<line fill="none" stroke="#000000" stroke-width="10" x1="405.5" y1="227" x2="405.5" y2="577"/>
+	<g>
+		<polyline points="305.5,406.5 224.5,361.5 224.5,451.5 305.5,406.5 386.5,361.5 386.5,451.5 305.5,406.5 		"/>
+	</g>
+	<text transform="matrix(1 0 0 1 241.5098 351)" font-family="sans-serif" font-size="60">MIW</text>
+</g>
+<g id="template" transform="translate(0 -140) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1)" display="none">
+	<text transform="matrix(1 0 0 1 253 393)" display="inline" font-family="sans-serif" font-size="24">CENTER</text>
+	<text transform="matrix(1 0 0 1 264 418)" display="inline" font-family="sans-serif" font-size="24">POINT</text>
+	
+		<g transform="translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(200 85) scale(1 0.758621) translate(-200 -85)" display="inline">
+		<line fill="none" stroke="#000000" stroke-width="3" x1="298.5" y1="583.272" x2="298.5" y2="638.273"/>
+		<polygon stroke="#000000" points="298.5,641.272 291.5,626.273 305.5,626.273 		"/>
+	</g>
+</g>
+</svg>
