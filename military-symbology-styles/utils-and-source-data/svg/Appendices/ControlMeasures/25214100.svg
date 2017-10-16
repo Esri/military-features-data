@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Version_1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<g id="main">
+	<line fill="none" stroke="#000000" stroke-width="5" x1="161.5" y1="416.5" x2="443.5" y2="416.5"/>
+	<line fill="none" stroke="#000000" stroke-width="5" x1="161.5" y1="315.5" x2="161.5" y2="514.5"/>
+	<line fill="none" stroke="#000000" stroke-width="5" x1="302.5" y1="317" x2="302.5" y2="516"/>
+	<line fill="none" stroke="#000000" stroke-width="5" x1="443.5" y1="317" x2="443.5" y2="516"/>
+</g>
+<g id="template" display="none">
+	<text transform="matrix(1.1335 0 0 1 327.5 297.0938)" display="inline" font-family="sans-serif" font-size="24">CENTER</text>
+	<text transform="matrix(1.1335 0 0 1 327.5 322.2822)" display="inline" font-family="sans-serif" font-size="24">POINT</text>
+	<g display="inline">
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="5" x1="359.5" y1="330.5" x2="317" y2="398"/>
+			<polygon points="308.361,388.251 307.407,413.162 329.458,401.534 			"/>
+		</g>
+	</g>
+</g>
+</svg>

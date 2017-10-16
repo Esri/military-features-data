@@ -1,0 +1,1 @@
+This folder is a placeholder for generating EMF image files if necessary

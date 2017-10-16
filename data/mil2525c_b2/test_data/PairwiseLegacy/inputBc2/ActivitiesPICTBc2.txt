@@ -1,8 +1,0 @@
-#Units feature class, sea unit#
-affiliation: F,H,N,U,P,S,J,K,A,G,W,D,L,M
-hqtffd: -,A,B,C,D,E,F,G,H
-extendedfunctioncode: OFIP------,OFIPD-----,OFIPF-----,OFIPG-----,OFIPI-----,OFIPR-----,OFIPS-----,OFIPV-----,OFLP------,OFLPB-----,OFLPG-----,OFLPM-----,OFLPW-----,OFOP------,OFOPA-----,OFOPD-----,OFOPE-----,OFOPF-----,OFOPH-----,OFOPHA----,OFOPHT----,OFOPHV----,OFOPK-----,OFOPM-----,OFOPO-----,OFOPP-----,OFOPR-----,OFOPRC----,OFOPRW----,OFOPS-----,OFOPU-----,OFOPY-----,OFOPYH----,OFOPYT----,OFOPYW----,OFVP------,OFVPA-----,OFVPB-----,OFVPD-----,OFVPM-----,OFVPMA----,OFVPMB----,OFVPMC----,OFVPP-----,OFVPS-----,OFVPY-----,OHVPEI----,OHPPF-----
-echelonmobility: A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y
-status: -,P,A,C,D,X,F
-reliability: A,B,C,D,E,F
-combateffectiveness: FO,SO,MO,NO,UNK

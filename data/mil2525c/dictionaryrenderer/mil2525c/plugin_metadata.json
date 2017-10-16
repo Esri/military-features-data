@@ -1,6 +1,0 @@
-{
-  "type"		: "plugin",
-  "displayname"	: "MIL2525C",
-  "filename" 	: "mil2525c",
-  "version" 	: "1.0"
-}
