@@ -4,6 +4,12 @@ An ArcGIS for Defense repository for managing data and tools used in ArcGIS Mili
 
 ![Image of Military Features Data](ScreenShot.png)
 
+### Releasability
+* APP-6:
+  * APP-6(D): Unmarked, denoting that it is approved for public release and unlimited distribution.
+  * Previous Versions: As of promulgation of APP-6(D)(1), the classification markings on all previous editions are invalid and no longer applicable.
+* MIL-STD-2525: Approved for public release, distribution is unlimited.
+
 ## Sections
 
 * [Features](#features)
