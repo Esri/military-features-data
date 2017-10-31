@@ -23,6 +23,8 @@ Includes:
 * Styles for each version of the standard
     * [mil2525d](./mil2525d)
     * [mil2525c_b2](./mil2525c_b2) - a style used to draw both C and B Change 2 versions of the standard
+    * [app6b](./app6b)
+        * Note: requires ArcGIS Runtime 100.1+ or Pro 2.1+
     * These files are generated from source images and icon specification files from this repo
     * This auto-generated file is then merged with the .stylx below that is edited/maintained in Pro
     * **This version is intended for end-users**
