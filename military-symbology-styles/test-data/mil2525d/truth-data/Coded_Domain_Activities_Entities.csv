@@ -1,0 +1,148 @@
+OID,Name,Symbol Entity,Symbol Set,Identity
+1,Unspecified,0,40,3
+2,Incident : Criminal Activity Incident,110100,40,3
+3,Incident : Criminal Activity Incident : Arrest,110101,40,3
+4,Incident : Criminal Activity Incident : Arson,110102,40,3
+5,Incident : Criminal Activity Incident : Attempted Criminal Activity,110103,40,3
+6,Incident : Criminal Activity Incident : Drive-by Shooting,110104,40,3
+7,Incident : Criminal Activity Incident : Drug Related,110105,40,3
+8,Incident : Criminal Activity Incident : Extortion,110106,40,3
+9,Incident : Criminal Activity Incident : Graffiti,110107,40,3
+10,Incident : Criminal Activity Incident : Killing,110108,40,3
+11,Incident : Criminal Activity Incident : Poisoning,110109,40,3
+12,Incident : Criminal Activity Incident : Civil Rioting,110110,40,3
+13,Incident : Criminal Activity Incident : Booby Trap,110111,40,3
+14,Incident : Criminal Activity Incident : Home Eviction,110112,40,3
+15,Incident : Criminal Activity Incident : Black Marketing,110113,40,3
+16,Incident : Criminal Activity Incident : Vandalism / Loot / Ransack / Plunder,110114,40,3
+17,Incident : Criminal Activity Incident : Jail Break,110115,40,3
+18,Incident : Criminal Activity Incident : Robbery,110116,40,3
+19,Incident : Criminal Activity Incident : Theft,110117,40,3
+20,Incident : Criminal Activity Incident : Burglary,110118,40,3
+21,Incident : Criminal Activity Incident : Smuggling,110119,40,3
+22,Incident : Criminal Activity Incident : Rock Throwing,110120,40,3
+23,Incident : Criminal Activity Incident : Dead Body,110121,40,3
+24,Incident : Criminal Activity Incident : Sabotage,110122,40,3
+25,Incident : Criminal Activity Incident : Suspicious Activity,110123,40,3
+26,Incident : Bomb/Bombing,110200,40,3
+27,Incident : Bomb/Bombing : Bomb Threat,110201,40,3
+28,Incident : IED Event,110300,40,3
+29,Incident : IED Event : IED Explosion,110301,40,3
+30,Incident : IED Event : Premature IED Explosion,110302,40,3
+31,Incident : IED Event : IED Cache,110303,40,3
+32,Incident : IED Event : IED Suicide Bomber,110304,40,3
+33,Incident : Shooting,110400,40,3
+34,Incident : Shooting : Sniping,110401,40,3
+35,Incident : Illegal Drug Operation,110500,40,3
+36,Incident : Illegal Drug Operation : Trafficking,110501,40,3
+37,Incident : Illegal Drug Operation : Illegal Drug Lab,110502,40,3
+38,Incident : Explosion,110600,40,3
+39,Incident : Explosion : Grenade Explosion,110601,40,3
+40,Incident : Explosion : Incendiary Explosion,110602,40,3
+41,Incident : Explosion : Mine Explosion,110603,40,3
+42,Incident : Explosion : Mortar Fire Explosion,110604,40,3
+43,Incident : Explosion : Rocket Explosion,110605,40,3
+44,Incident : Explosion : Bomb Explosion,110606,40,3
+45,Civil Disturbance,120000,40,3
+46,Civil Disturbance : Demonstration,120100,40,3
+47,Operation : Patrolling,130100,40,3
+48,Operation : Military Information Support Operation (MISO),130200,40,3
+49,Operation : Military Information Support Operation (MISO) : TV and Radio Propaganda,130201,40,3
+50,Operation : Foraging/Searching,130300,40,3
+51,Operation : Recruitment : Willing,130401,40,3
+52,Operation : Recruitment : Coerced/Impressed,130402,40,3
+53,Operation : Mine Laying,130500,40,3
+54,Operation : Spy,130600,40,3
+55,Operation : Warrant Served,130700,40,3
+56,Operation : Exfiltration,130800,40,3
+57,Operation : Infiltration,130900,40,3
+58,Operation : Meeting,131000,40,3
+59,Operation : Meeting : Polling Place/Election,131001,40,3
+60,Operation : Raid on House,131100,40,3
+61,Operation : Emergency Operation,131200,40,3
+62,Operation : Emergency Operation : Emergency Collection Evacuation Point,131201,40,3
+63,Operation : Emergency Operation : Emergency Food Distribution,131202,40,3
+64,Operation : Emergency Operation : Emergency Incident Command Center,131203,40,3
+65,Operation : Emergency Operation : Emergency Operations Center,131204,40,3
+66,Operation : Emergency Operation : Emergency Public Information Center,131205,40,3
+67,Operation : Emergency Operation : Emergency Shelter,131206,40,3
+68,Operation : Emergency Operation : Emergency Staging Area,131207,40,3
+69,Operation : Emergency Operation : Emergency Water Distribution Center,131208,40,3
+70,Operation : Emergency Medical Operation,131300,40,3
+71,Operation : Emergency Medical Operation : EMT Station Location,131301,40,3
+72,Operation : Emergency Medical Operation : Health Department Facility,131302,40,3
+73,Operation : Emergency Medical Operation : Medical Facilities Outpatient,131303,40,3
+74,Operation : Emergency Medical Operation : Morgue,131304,40,3
+75,Operation : Emergency Medical Operation : Pharmacy,131305,40,3
+76,Operation : Emergency Medical Operation : Triage,131306,40,3
+77,Operation : Fire Fighting Operation,131400,40,3
+78,Operation : Fire Fighting Operation : Fire Hydrant,131401,40,3
+79,Operation : Fire Fighting Operation : Fire Station,131402,40,3
+80,Operation : Fire Fighting Operation : Other Water Supply Location,131403,40,3
+81,Operation : Law Enforcement Operation,131500,40,3
+82,Operation : Law Enforcement Operation : ATF,131501,40,3
+83,Operation : Law Enforcement Operation : Border Patrol,131502,40,3
+84,Operation : Law Enforcement Operation : Customs Service,131503,40,3
+85,Operation : Law Enforcement Operation : DEA,131504,40,3
+86,Operation : Law Enforcement Operation : DOJ,131505,40,3
+87,Operation : Law Enforcement Operation : FBI,131506,40,3
+88,Operation : Law Enforcement Operation : Police,131507,40,3
+89,Operation : Law Enforcement Operation : Prison,131508,40,3
+90,Operation : Law Enforcement Operation : USSS,131509,40,3
+91,Operation : Law Enforcement Operation : TSA,131510,40,3
+92,Operation : Law Enforcement Operation : Coast Guard,131511,40,3
+93,Operation : Law Enforcement Operation : US Marshals Service,131512,40,3
+94,Operation : Law Enforcement Operation : Internal Security Force,131513,40,3
+95,Fire Event,140000,40,3
+96,Fire Event : Fire Origin,140100,40,3
+97,Fire Event : Smoke,140200,40,3
+98,Fire Event : Hot Spot,140300,40,3
+99,Fire Event : Non-Residential Fire,140400,40,3
+100,Fire Event : Residential Fire,140500,40,3
+101,Fire Event : School Fire,140600,40,3
+102,Fire Event : Special Needs Fire,140700,40,3
+103,Fire Event : Wild Fire,140800,40,3
+104,Hazard Materials : Incident,150100,40,3
+105,Hazard Materials : Incident : Chemical Agent,150101,40,3
+106,Hazard Materials : Incident : Corrosive Material,150102,40,3
+107,Hazard Materials : Incident : Hazardous when Wet,150103,40,3
+108,Hazard Materials : Incident : Explosive Material,150104,40,3
+109,Hazard Materials : Incident : Flammable Gas,150105,40,3
+110,Hazard Materials : Incident : Flammable Liquid,150106,40,3
+111,Hazard Materials : Incident : Flammable Solid,150107,40,3
+112,Hazard Materials : Incident : Non-Flammable Gas,150108,40,3
+113,Hazard Materials : Incident : Organic Peroxide,150109,40,3
+114,Hazard Materials : Incident : Oxidizer,150110,40,3
+115,Hazard Materials : Incident : Radioactive Material,150111,40,3
+116,Hazard Materials : Incident : Spontaneously Combustible Material,150112,40,3
+117,Hazard Materials : Incident : Toxic Gas,150113,40,3
+118,Hazard Materials : Incident : Toxic Infectious Material,150114,40,3
+119,Hazard Materials : Incident : Unexploded Ordnance,150115,40,3
+120,Transportation Incident,160000,40,3
+121,Transportation Incident : Air,160100,40,3
+122,Transportation Incident : Marine,160200,40,3
+123,Transportation Incident : Rail,160300,40,3
+124,Transportation Incident : Vehicle,160400,40,3
+125,Transportation Incident : Wheeled Vehicle Explosion,160500,40,3
+126,Natural Event,170000,40,3
+127,Natural Event : Geologic,170100,40,3
+128,Natural Event : Geologic : Aftershock,170101,40,3
+129,Natural Event : Geologic : Avalanche,170102,40,3
+130,Natural Event : Geologic : Earthquake Epicenter,170103,40,3
+131,Natural Event : Geologic : Landslide,170104,40,3
+132,Natural Event : Geologic : Subsidence,170105,40,3
+133,Natural Event : Geologic : Volcanic Eruption,170106,40,3
+134,Natural Event : Geologic : Volcanic Threat,170107,40,3
+135,Natural Event : Geologic : Cave Entrance,170108,40,3
+136,Natural Event : Hydro-Meteorological,170200,40,3
+137,Natural Event : Hydro-Meteorological : Drought,170201,40,3
+138,Natural Event : Hydro-Meteorological : Flood,170202,40,3
+139,Natural Event : Hydro-Meteorological : Tsunami,170203,40,3
+140,Natural Event : Infestation,170300,40,3
+141,Natural Event : Infestation : Bird,170301,40,3
+142,Natural Event : Infestation : Insect,170302,40,3
+143,Natural Event : Infestation : Microbial,170303,40,3
+144,Natural Event : Infestation : Reptile,170304,40,3
+145,Natural Event : Infestation : Rodent,170305,40,3
+146,Individual : Religious Leader,180100,40,3
+147,Individual : Speaker,180200,40,3
