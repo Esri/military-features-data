@@ -1,23 +1,20 @@
-# military-features-data / data / mil2525d / test_data
+# military-overlay / utils-and-source-data / comprehensive-test-generation
 ==========================
 
 # Purpose 
 
-The data in this folder contains sample data demonstrating the military features symbology schema including reference samples and test data using military features.
+The steps in this folder are used to create comprehensive (one symbol of each desired type) test datasets for military symbol data.
 
-## General Instructions 
+# General Instructions 
 
-See the Component Sections for more information:
+## Source Data, Scripts, Models for Creating Comprehensive Test Datasets
 
-* Geodatabases (.gdbs) using Military Feature data
-	* See [gdbs](./gdbs)
-* Projects - ArcGIS Professional Stand-alone Project Files (.ppkx)
-	* See [projects](./projects)
-	* Note: ArcGIS Professional required
-
-## Scripts and Models for Creating Comprehensive Test Datasets
-
-* This [link](../../mil2525c_b2) will take you to the location of a script and a model that automates the manual process outlined below. 
+* The source or "truth data" is tabular data (in a .csv file) containing verified information about symbols from the standard: symbol code, name, etc. This data is located in the repo at:
+    * [mil2525d](../../../military-symbology-styles/test-data/mil2525d/truth-data)
+    * [mil2525c](../../../military-symbology-styles/test-data/mil2525c/truth-data)
+    * [mil2525b2](../../../military-symbology-styles/test-data/mil2525b2/truth-data)
+    * [app6b](../../../military-symbology-styles/test-data/app6b/truth-data)
+* This [link](../pairwise-test-generation/Complete_test_scripts) will take you to the location of a script and a model that automates the manual process outlined below. 
 
 ## Steps to create a Comprehensive Test Dataset (Manual)
 
@@ -51,4 +48,4 @@ This is the manual workflow for test dataset creation for MIL-STD-2525 Projects 
 	* Right click the feature layer and select "Data, Export Features."
 16. Symbolize the points using the dictionary renderer
 	* Under the symbology pane for the fishnet feature layer, select your desired dictionary renderer and ensure the fields are properly matched up.
-
+17. Share/package the resulting dataset.
