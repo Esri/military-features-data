@@ -13,6 +13,7 @@ arc.dir
 *.original
 *.mdb
 *.sav
+*.gdb
 
 #############
 ## Python
