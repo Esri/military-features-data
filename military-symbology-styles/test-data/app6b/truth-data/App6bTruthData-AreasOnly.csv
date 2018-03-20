@@ -51,7 +51,7 @@ OID,Annex,Affiliation,Full SIDC,SIDC By Parts,Hierarchy Code,Name,Geometry,Notes
 50,E,Friend,GFCPBOAFR------,G F C P BO AF R- -- -- -,2.X.2.2.1.9.1,OBSTACLE-RESTRICTED AREA,AREA,
 51,E,Friend,GFCPBOAU-------,G F C P BO AU -- -- -- -,2.X.2.2.1.10,UN-EXPLODED ORDNANCE AREA,AREA,
 52,E,Friend,GFCPBSP--------,G F C P BS P- -- -- -- -,2.X.2.2.3.5,STRONG POINT,AREA,
-53,E,Friend,GFCPBWA--------,G F C P BW A- -- -- -- -,2.X.2.2.4.7,RADIOACTIVE AREA,AREA,
+53,E,Friend,GFCPBWR--------,G F C P BW R- -- -- -- -,2.X.2.2.4.7,RADIOACTIVE AREA,AREA,
 54,E,Friend,GFCPBWC--------,G F C P BW C- -- -- -- -,2.X.2.2.4.8,BIOLOGICALLY CONTAMINATED AREA,AREA,
 55,E,Friend,GFCPBWH--------,G F C P BW H- -- -- -- -,2.X.2.2.4.9,CHEMICALLY CONTAMINATED AREA,AREA,
 56,E,Friend,GFCPBWR--------,G F C P BW R- -- -- -- -,2.X.2.2.4.12,DOSE RATE CONTOUR LINES,AREA,
