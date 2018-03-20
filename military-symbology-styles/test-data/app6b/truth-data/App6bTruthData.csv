@@ -314,7 +314,7 @@ OID,Annex,Affiliation,Full SIDC,SIDC By Parts,Hierarchy Code,Name,Geometry,Notes
 313,D,Friend,SFGPUUSW-------,S F G P UU SW -- -- -- -,1.X.3.1.2.4.8 ,TELEPHONE SWITCH,POINT,
 314,D,Friend,SFGPUUSX-------,S F G P UU SX -- -- -- -,1.X.3.1.2.4.9 ,ELECTRONIC RANGING,POINT,
 315,D,Friend,SFGPUUI--------,S F G P UU I- -- -- -- -,1.X.3.1.2.5 ,INFORMATION WARFARE UNIT,POINT,
-316,D,Friend,SFGPUUL--------,S F G P UU L- -- -- -- -,1.X.3.1.2.6 ,LANDING SUPPORT,POINT,
+316,D,Friend,SFGPUUP--------,S F G P UU P- -- -- -- -,1.X.3.1.2.6 ,LANDING SUPPORT,POINT,
 317,D,Friend,SFGPUUE--------,S F G P UU E- -- -- -- -,1.X.3.1.2.7 ,EXPLOSIVE ORDINANCE DISPOSAL,POINT,
 318,D,Friend,SFGPUUT--------,S F G P UU T- -- -- -- -,1.X.3.1.2.8 ,TOPOGRAPHIC,POINT,
 319,D,Friend,SFGPUU---------,S F G P UU -- -- -- -- -,1.X.3.1.2.9 ,DOG,POINT,
