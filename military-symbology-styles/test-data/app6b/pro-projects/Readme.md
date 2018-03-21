@@ -1,3 +1,6 @@
+This ArcGIS Pro Project Package contains an example of each APP-6(B) symbol type.
+
+
 IMPORTANT NOTE:
 
-As of Pro 2.1, APP-6(B) is not currently supported so this data is drawn using the MIL-STD-2525C renderer. Therefore, not all symbols will draw currently. Once supported, the renderer can be changed to APP-6(B).
+The ArcGIS Pro Project Package requires Pro 2.2+ to open.
