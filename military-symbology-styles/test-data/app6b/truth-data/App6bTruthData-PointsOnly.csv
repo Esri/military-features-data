@@ -1,4 +1,4 @@
-OID,Annex,Affiliation,Full SIDC,SIDC By Parts,Hierarchy Code,Name,Geometry,Notes
+Count,Annex,Affiliation,Full SIDC,SIDC By Parts,Hierarchy Code,Name,Geometry,Notes
 1,D,Friend,SFP------------,S F P - -- -- -- -- -- -,1.X.1 ,SPACE TRACK,POINT,
 2,D,Friend,SFP-S----------,S F P - S- -- -- -- -- -,1.X.1.1 ,SATELLITE,POINT,
 3,D,Friend,SFP-V----------,S F P - V- -- -- -- -- -,1.X.1.2 ,CREWED SPACE VEHICLE,POINT,
@@ -758,7 +758,6 @@ OID,Annex,Affiliation,Full SIDC,SIDC By Parts,Hierarchy Code,Name,Geometry,Notes
 757,E,Friend,GFCPBYCG-------,G F C P BY CG -- -- -- -,2.X.2.2.2.2.8,ENGINEER REGULATING POINT,POINT,
 758,E,Friend,GFCPBSE--------,G F C P BS E- -- -- -- -,2.X.2.2.3.1,EARTHWORK SMALL TRENCH OR FORTIFICATION ,POINT,
 759,E,Friend,GFCPBSF--------,G F C P BS F- -- -- -- -,2.X.2.2.3.2,FORT,POINT,
-760,E,Friend,GFCPBSW--------,G F C P BS W- -- -- -- -,2.X.2.2.3.4,FOXHOLE EMPLACEMENT OR WEAPON SITE ,POINT,
 761,E,Friend,GFCPBSH--------,G F C P BS H- -- -- -- -,2.X.2.2.3.6,SURFACE SHELTER,POINT,
 762,E,Friend,GFCPBSU--------,G F C P BS U- -- -- -- -,2.X.2.2.3.7,UNDERGROUND SHELTER,POINT,
 763,E,Friend,GFCPBWM--------,G F C P BW M- -- -- -- -,2.X.2.2.4.1,MINIMUM SAFE DISTANCE ZONES,POINT,

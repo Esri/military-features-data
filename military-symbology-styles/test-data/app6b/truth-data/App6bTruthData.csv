@@ -1,4 +1,4 @@
-OID,Annex,Affiliation,Full SIDC,SIDC By Parts,Hierarchy Code,Name,Geometry,Notes
+Count,Annex,Affiliation,Full SIDC,SIDC By Parts,Hierarchy Code,Name,Geometry,Notes
 1,D,Friend,SF-------------,S F - - -- -- -- -- -- -,1.X ,WARFIGHTING SYMBOLS,NO_SYMBOL,
 2,D,Friend,SFP------------,S F P - -- -- -- -- -- -,1.X.1 ,SPACE TRACK,POINT,
 3,D,Friend,SFP-S----------,S F P - S- -- -- -- -- -,1.X.1.1 ,SATELLITE,POINT,
@@ -996,7 +996,7 @@ OID,Annex,Affiliation,Full SIDC,SIDC By Parts,Hierarchy Code,Name,Geometry,Notes
 996,E,Friend,GFCPBSE--------,G F C P BS E- -- -- -- -,2.X.2.2.3.1,EARTHWORK SMALL TRENCH OR FORTIFICATION ,POINT,
 997,E,Friend,GFCPBSF--------,G F C P BS F- -- -- -- -,2.X.2.2.3.2,FORT,POINT,
 998,E,Friend,GFCPBSL--------,G F C P BS L- -- -- -- -,2.X.2.2.3.3,FORTIFIED LINE,LINE,
-999,E,Friend,GFCPBSW--------,G F C P BS W- -- -- -- -,2.X.2.2.3.4,FOXHOLE EMPLACEMENT OR WEAPON SITE ,POINT,
+999,E,Friend,GFCPBSW--------,G F C P BS W- -- -- -- -,2.X.2.2.3.4,FOXHOLE EMPLACEMENT OR WEAPON SITE ,LINE,
 1000,E,Friend,GFCPBSP--------,G F C P BS P- -- -- -- -,2.X.2.2.3.5,STRONG POINT,AREA,
 1001,E,Friend,GFCPBSH--------,G F C P BS H- -- -- -- -,2.X.2.2.3.6,SURFACE SHELTER,POINT,
 1002,E,Friend,GFCPBSU--------,G F C P BS U- -- -- -- -,2.X.2.2.3.7,UNDERGROUND SHELTER,POINT,
