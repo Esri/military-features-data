@@ -106,8 +106,8 @@ The following table lists the versions of the standard supported by each solutio
 * [ArcGIS for Defense Downloads](http://appsforms.esri.com/products/download/#ArcGIS_for_Defense)
 * Learn more about Esri's Solutions [Focused Maps and Apps for Your Organization](http://solutions.arcgis.com/)
 * The Official Military Standard Documents
-    * [MIL-STD-2525D (June, 2014)](http://www.dtic.mil/doctrine/doctrine/other/ms_2525d.pdf)
-    * [MIL-STD-2525C (November, 2008)](http://www.dtic.mil/doctrine/doctrine/other/ms_2525c.pdf)
+    * MIL-STD-2525D (June, 2014)
+    * MIL-STD-2525C (November, 2008)
     * MIL-STD-2525B Change 2 (March, 2007) 
 
 ### Supported Solutions Using this Data
