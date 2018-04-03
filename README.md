@@ -4,14 +4,9 @@ An ArcGIS for Defense repository for managing data and tools used in ArcGIS Mili
 
 ![Image of Military Features Data](ScreenShot.png)
 
-### Releasability
-* APP-6:
-  * APP-6(D): Unmarked, denoting that it is approved for public release and unlimited distribution.
-  * Previous Versions: As of promulgation of APP-6(D)(1), the classification markings on all previous editions are invalid and no longer applicable.
-* MIL-STD-2525: Approved for public release, distribution is unlimited.
-
 ## Sections
 
+* [Releasability](#releasability)
 * [Features](#features)
 * [Requirements](#requirements)
 * [Instructions](#instructions)
@@ -22,6 +17,13 @@ An ArcGIS for Defense repository for managing data and tools used in ArcGIS Mili
 * [Contributing](#contributing)
 * [Acknowledgments](#acknowledgments)
 * [Licensing](#licensing)
+
+## Releasability
+
+* MIL-STD-2525: Approved for public release, distribution is unlimited.
+* APP-6:
+  * APP-6(D): Unmarked, denoting that it is approved for public release and unlimited distribution.
+  * Previous Versions: As of promulgation of APP-6(D)(1), the classification markings on all previous editions are invalid and no longer applicable.
 
 ## Features
 
@@ -38,6 +40,9 @@ An ArcGIS for Defense repository for managing data and tools used in ArcGIS Mili
     * MIL-STD-2525D (June, 2014)
     * MIL-STD-2525C (November, 2008)
     * MIL-STD-2525B Change 2 (March, 2007)
+* Support APP-6 Military Symbology:
+    * APP-6(B) (June 2008)
+    * APP-6(D) (Version 1, Study Draft 2, June 2016)
 
 ## Requirements
 
@@ -46,13 +51,12 @@ Each solution has the following ArcGIS requirements:
 * Military Features
     * ArcGIS Desktop 10.3.1+
 * Military Overlay
-    * ArcGIS Pro 1.4+ 
-    * ArcGIS Server 10.5+
-* Military Symbology Styles `*`
-    * ArcGIS Pro 1.4+ 
-    * ArcGIS Runtime 100.0+ 
-    * ArcGIS Server 10.5+
-    * `*` Note: these styles are installed with these products and maintained here
+    * ArcGIS Pro 2.1+ 
+    * ArcGIS Server 10.6+
+* Military Symbology Styles 
+    * ArcGIS Pro 2.1+ 
+    * ArcGIS Runtime 100.2+ 
+    * ArcGIS Server 10.6+
 
 ## Instructions
 
@@ -94,8 +98,8 @@ The following table lists the versions of the standard supported by each solutio
 |Product||Standard||
 |---|---|---|---|
 ||2525D|2525C|2525Bc2|
-|Pro 1.4+/Server 10.5+|Military Overlay| Military Overlay `*` |Military Overlay|
-|Runtime 100.0+|Military Symbology Styles|Military Symbology Styles|Military Symbology Styles|
+|Pro 2.1+/Server 10.6+|Military Overlay| Military Overlay `*` |Military Overlay|
+|Runtime 100.2+|Military Symbology Styles|Military Symbology Styles|Military Symbology Styles|
 |ArcGIS Desktop/Engine 10.3.1+||Military Features||MyMiscellanea
 
 `*` Note The 2525C Military Overlay is not released with the solution download but is available in this repo
@@ -109,6 +113,8 @@ The following table lists the versions of the standard supported by each solutio
     * MIL-STD-2525D (June, 2014)
     * MIL-STD-2525C (November, 2008)
     * MIL-STD-2525B Change 2 (March, 2007) 
+    * APP-6(B) (June 2008)
+    * APP-6(D) (Version 1, Study Draft 2, June 2016)
 
 ### Supported Solutions Using this Data
 
@@ -140,7 +146,7 @@ This repository reuses software from:
 
 ## Licensing
 
-Copyright 2013-2017 Esri
+Copyright 2013-2018 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
