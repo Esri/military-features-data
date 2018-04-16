@@ -1,0 +1,3 @@
+# Ignore so the GDB can be unzipped and inspected here
+ 
+*.gdb
