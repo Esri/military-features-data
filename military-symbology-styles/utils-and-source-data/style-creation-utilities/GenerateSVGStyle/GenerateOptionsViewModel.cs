@@ -401,6 +401,10 @@ namespace GenerateSVGStyle
                 "Merge Complete: \n" + mergedStyleFile +
                 "Number of Symbols Added: " + numSymbolsAdded,
                 "Merge Styles", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+
+            // When done set the style in the UI to the merged style 
+            // so the default is good for the next step/tab:
+            SourceStyleToMerge = mergedStyleFile;
         }
 
         public bool IsExecuteSqlScriptEnabled
@@ -708,111 +712,13 @@ namespace GenerateSVGStyle
                 ArcGIS.Desktop.Framework.Dialogs.MessageBox.Show("Failed to create style, stopped on symbol#: " + numSymbolsAttempted,
                     "Style File Generation FAILURE!", MessageBoxButton.OK, MessageBoxImage.Exclamation);
             }
+        });
 
-            });
-
-            ArcGIS.Desktop.Framework.Dialogs.MessageBox.Show(
-                "Added: " + numSymbolsLoaded + " Symbols out of " + numSymbolsAttempted +
-                " attempted to style: \n" + StylePath,
-                "Style File Generation Complete", MessageBoxButton.OK, MessageBoxImage.Exclamation);    
-        }
-
-        //    private async void GenerateStyleFromFolder(object parameter)
-        //    {
-        //      CloseWindow();
-        //      await QueuedTask.Run(() =>
-        //       {
-        //         try
-        //         {
-        //           if (File.Exists(pathStyle))
-        //             File.Delete(pathStyle);
-
-        //           int num_symbols = 0;
-        //           const int num_symbols_to_add = 15;
-
-        //           StyleHelper.CreateStyle(Project.Current, pathStyle);
-        //           StyleProjectItem style = Project.Current.GetItems<StyleProjectItem>().First(x => x.Path == pathStyle);
-
-        //           IEnumerable<string> svgPaths = Directory.EnumerateFiles(pathCsv, "*.svg", SearchOption.AllDirectories);
-
-        //           foreach (string svgPath in svgPaths)
-        //           {            
-        //             SymbolStyleItem styleItem = new SymbolStyleItem();
-
-        //             CIMMarker svgMarker = 
-        //                   SymbolFactory.Instance.ConstructMarkerFromFile(svgPath);
-
-        //             svgMarker.Size = 64;
-        //             string nameKeyBase = Path.GetFileNameWithoutExtension(svgPath);
-        //             styleItem.Name = nameKeyBase + "_Name";
-        //             styleItem.Key = nameKeyBase + "_Key";
-
-        //             styleItem.Symbol = SymbolFactory.Instance.ConstructPointSymbol(svgMarker);
-
-        //             styleItem.PatchWidth = 64;
-        //             styleItem.PatchHeight = 64;
-
-        //             // set the style item thumbnail - currently not working?
-        //             StyleItem.GeneratePreview(styleItem, 64, 64);
-
-        //             style.AddItem(styleItem);
-
-        //             if (num_symbols_to_add > 0 && ++num_symbols == num_symbols_to_add)
-        //               break;
-        //           }
-        //         }
-        //         catch (Exception ex)
-        //         {
-        //           System.Diagnostics.Trace.WriteLine(ex.Message);
-        //         }
-        //       });
-
-        //return;
-
-        //        await QueuedTask.Run(() =>
-        //        {
-        //            try
-        //            {
-        //                //update point symbols
-        //                StyleProjectItem style = Project.Current.GetItems<StyleProjectItem>().First(x => x.Path == pathStyle);
-        //                var ptSymbols = style.SearchSymbols(StyleItemType.PointSymbol, "");
-
-        //                foreach (SymbolStyleItem s in ptSymbols)
-        //                {
-        //                    CIMPointSymbol symbol = (CIMPointSymbol)s.Symbol;
-
-        //                    if (symbol == null)
-        //                        continue;
-
-        //                    symbol.SetSize(64.0);
-
-        //                    s.Symbol = symbol;
-        //                    style.UpdateItem(s);
-
-        //                    //try
-        //                    //{
-        //                    //    var lyrs = symbol.SymbolLayers;
-
-        //                    //    foreach (CIMVectorMarker x in lyrs)
-        //                    //    {
-        //                    //        if (x.ScaleSymbolsProportionally == false)
-        //                    //            x.ScaleSymbolsProportionally = true;
-        //                    //    }
-        //                    //    symbol.SymbolLayers = lyrs;
-        //                    //    s.Symbol = symbol;
-        //                    //    projectStyleItem.UpdateItem(s);
-        //                    //}
-        //                    //catch (Exception ex2)
-        //                    //{
-        //                    //}
-        //                }
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                System.Diagnostics.Trace.WriteLine(ex.Message);
-        //            }
-        //        });
-        //        }
+        ArcGIS.Desktop.Framework.Dialogs.MessageBox.Show(
+            "Added: " + numSymbolsLoaded + " Symbols out of " + numSymbolsAttempted +
+            " attempted to style: \n" + StylePath,
+            "Style File Generation Complete", MessageBoxButton.OK, MessageBoxImage.Exclamation);    
+    }
 
     internal static string AddinAssemblyLocation()
     {
