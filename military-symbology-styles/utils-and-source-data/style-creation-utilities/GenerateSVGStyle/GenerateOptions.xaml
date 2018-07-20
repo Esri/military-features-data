@@ -1,0 +1,210 @@
+﻿<controls:ProWindow x:Class="GenerateSVGStyle.GenerateOptions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:ArcGIS.Desktop.Framework.Controls;assembly=ArcGIS.Desktop.Framework"
+        xmlns:extensions="clr-namespace:ArcGIS.Desktop.Extensions;assembly=ArcGIS.Desktop.Extensions"                    
+        xmlns:local="clr-namespace:GenerateSVGStyle"
+        mc:Ignorable="d"
+        d:DataContext="{Binding Path=GenerateStyle.GenerateOptionsViewModel}"
+        Title="Generate Styles From Source Data" Height="250" Width="550">
+    <controls:ProWindow.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <extensions:DesignOnlyResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Framework;component\Themes\Default.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </controls:ProWindow.Resources>
+        <TabControl
+        x:Name="tabControl"
+                    Margin="3,3,3,3">
+            <TabItem Header="Generate Style from CSV + SVGs">
+            <DockPanel Margin="3,3,3,3">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="280"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Row="0" Grid.Column="1">
+                        <TextBlock Text="SVG Root Folder (Optional)" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="1">
+                        <TextBlock Text="Icon Specification CSV File" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Grid.Column="1">
+                        <TextBlock Text="Style Output Folder" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="3" Grid.Column="1">
+                        <TextBlock Text="Style Output Filename" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="2" >
+                        <TextBox Text="{Binding SvgRootPath, Mode=TwoWay}" Width="200" Height="25" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="2">
+                        <TextBox Text="{Binding CsvPath, Mode=TwoWay}" Width="200" Height="25" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Grid.Column="2">
+                        <TextBox Text="{Binding StyleFolder, Mode=TwoWay}" Width="200" Height="25" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="3" Grid.Column="2">
+                        <TextBox Text="{Binding StyleFileName, Mode=TwoWay}" Width="200" Height="25" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="3" >
+                        <Button Command="{Binding BrowseSvgFolderCmd}" HorizontalAlignment="Center" Style="{DynamicResource Esri_Button}">
+                            <Image Source="images/GenericOpen16.png"
+                     Stretch="None" Width="16" Height="16" VerticalAlignment="Center" />
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="3" >
+                        <Button Command="{Binding BrowseFileCommand}" HorizontalAlignment="Center" Style="{DynamicResource Esri_Button}">
+                            <Image Source="images/GenericOpen16.png"
+                     Stretch="None" Width="16" Height="16" VerticalAlignment="Center" />
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Grid.Column="3" >
+                        <Button Command="{Binding BrowseStyleFolderCommand}" HorizontalAlignment="Center" Style="{DynamicResource Esri_Button}">
+                            <Image Source="images/GenericOpen16.png"
+                     Stretch="None" Width="16" Height="16" VerticalAlignment="Center" />
+                        </Button>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="4" Grid.Column="2">
+                        <Button Grid.Column="0" Content="Generate Style" 
+                        Style="{DynamicResource Esri_Button}"
+                        Command="{Binding GenerateCommand}"
+                        IsEnabled="{Binding IsGenerateEnabled}" />
+                    </StackPanel>
+
+                </Grid>
+    </DockPanel>
+    </TabItem>
+    <TabItem Header="Merge Styles">
+        <DockPanel Margin="3,3,3,3">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="280"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Row="0" Grid.Column="1">
+                    <TextBlock Text="Style to Merge:" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="2" >
+                    <TextBox Text="{Binding SourceStyleToMerge, Mode=TwoWay}" Width="200" Height="25" />
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="3" >
+                    <Button Command="{Binding BrowseStyle1Command}" HorizontalAlignment="Center" Style="{DynamicResource Esri_Button}">
+                        <Image Source="images/GenericOpen16.png"
+                    Stretch="None" Width="16" Height="16" VerticalAlignment="Center" />
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Margin="12,2,2,10" Grid.Row="1" Grid.Column="2">
+                    <TextBlock Text="To Merge Into Style:" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="2" Grid.Column="1">
+                    <TextBlock Text="Style to Merge Into:" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Grid.Column="2" >
+                    <TextBox Text="{Binding StyleToMergeInto, Mode=TwoWay}" Width="200" Height="25" />
+                </StackPanel>
+                <StackPanel Grid.Row="2" Grid.Column="3" >
+                    <Button Command="{Binding BrowseStyle2Command}" HorizontalAlignment="Center" Style="{DynamicResource Esri_Button}">
+                        <Image Source="images/GenericOpen16.png"
+                    Stretch="None" Width="16" Height="16" VerticalAlignment="Center" />
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Grid.Row="3" Grid.Column="1">
+                    <TextBlock Text="Merged Style Name:" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="3" Grid.Column="2" >
+                    <TextBox Text="{Binding MergedStyleName, Mode=TwoWay}" Width="200" Height="25" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="4" Grid.Column="2">
+                    <Button Content="Merge Styles" 
+                    Style="{DynamicResource Esri_Button}"
+                    Command="{Binding MergeStylesCommand}"
+                    IsEnabled="{Binding IsMergeEnabled}" />
+                </StackPanel>
+            </Grid>
+        </DockPanel>
+    </TabItem>
+    <TabItem Header="Add Label Rules">
+        <DockPanel Margin="3,3,3,3">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="280"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Row="0" Grid.Column="1">
+                    <TextBlock Text="Style:" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="2" >
+                    <TextBox Text="{Binding SourceStyleToMerge, Mode=TwoWay}" Width="200" Height="25" />
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="3" >
+                    <Button Command="{Binding BrowseStyle1Command}" HorizontalAlignment="Center" Style="{DynamicResource Esri_Button}">
+                        <Image Source="images/GenericOpen16.png"
+                    Stretch="None" Width="16" Height="16" VerticalAlignment="Center" />
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Grid.Column="1">
+                    <TextBlock Text="SQLite:" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="2" >
+                        <TextBox Text="{Binding SqliteCommand, Mode=OneTime}" ToolTip="{Binding SqliteCommand, Mode=OneTime}"
+                             Width="200" Height="25" IsReadOnly="True" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="2" Grid.Column="1">
+                    <TextBlock Text="SQLite Script:" Foreground="{DynamicResource Esri_TextControlBrush}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Grid.Column="2" >
+                        <TextBox Text="{Binding SqliteCommandScript, Mode=OneTime}" ToolTip="{Binding SqliteCommandScript, Mode=OneTime}"
+                                 Width="200" Height="25" IsReadOnly="True" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="3" Grid.Column="2">
+                    <Button Content="Execute Script" 
+                    Style="{DynamicResource Esri_Button}"
+                    Command="{Binding ExecuteSqlScriptCommand}"
+                    IsEnabled="{Binding IsExecuteSqlScriptEnabled}" />
+                </StackPanel>
+            </Grid>
+        </DockPanel>
+    </TabItem>            
+    </TabControl>
+</controls:ProWindow>
