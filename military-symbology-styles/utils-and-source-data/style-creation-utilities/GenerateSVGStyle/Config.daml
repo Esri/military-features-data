@@ -1,0 +1,37 @@
+﻿<ArcGIS defaultAssembly="GenerateSVGStyle.dll" defaultNamespace="GenerateSVGStyle" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{0b54db9a-45bc-445b-b275-dd6faca598b6}" version="1.0" desktopVersion="2.1">
+    <Name>GenerateSVGStyle</Name>
+    <Description>GenerateSVGStyle description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>Acme</Author>
+    <Company>Acme</Company>
+    <Date>2/21/2018</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="GenerateSVGStyle_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="GenerateStyle_Tab1" caption="New Tab">
+          <group refID="GenerateStyle_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="GenerateSVGStyle_Group1" caption="" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="GenerateSVGStyle_GenerateButton" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="GenerateSVGStyle_GenerateButton" caption="Generate SVG Style" className="GenerateButton" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>
