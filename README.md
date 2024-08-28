@@ -1,5 +1,7 @@
 # military-features-data
 
+## *This repository is no longer maintained* 
+
 An ArcGIS for Defense repository for managing data and tools used in ArcGIS Military Symbology solutions. These solutions are used in sketching, planning, monitoring, and publishing Military Symbology using the ArcGIS platform. This data is used to create ArcGIS solutions that require Military Symbology matching detailed specifications such as MIL-STD-2525.
 
 ![Image of Military Features Data](ScreenShot.png)
